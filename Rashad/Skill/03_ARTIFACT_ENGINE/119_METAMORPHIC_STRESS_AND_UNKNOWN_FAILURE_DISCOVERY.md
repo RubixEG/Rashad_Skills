@@ -1,0 +1,3 @@
+# Metamorphic Stress & Unknown-Failure Discovery
+
+Required mutation families include: font +8/+10/+15%; line-height +8/+12%; Arabic text +20/+35%; two/three/four-line titles; long source; long URL/API/ISO token; Arabic-Indic and Latin 1/2/3/4/5-digit numbers; icon/badge text growth; alternate font fallback; client logo with transparent padding; image aspect changes; 10/12/16 nodes; branched/cyclic/bidirectional edges; dense tables; extra table row/column; browser DPR 1/2/3; 90/100/110% CSS zoom where supported; late font load; repeated renders; PDF/PPTX projection. Any defect discovered once becomes a permanent fixture.

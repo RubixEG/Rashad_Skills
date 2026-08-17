@@ -1,0 +1,13 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Rashad v7.0.2 RFP Summary 15-Step Execution Evidence State",
+  "type":"object","additionalProperties":true,
+  "required":["schema_version","engagement_id","step_evidence","ingestion_state","role_plan","role_outputs","analytical_page_ids","critical_page_ids","cognitive_packets","council_sessions","page_content_packs","semantic_graphs","visual_search","qa_results","decision","release"],
+  "properties":{
+    "schema_version":{"const":"7.0.2"},"engagement_id":{"type":"string","minLength":3},
+    "step_evidence":{"type":"object"},"ingestion_state":{"type":"object"},"role_plan":{"type":"array"},"role_outputs":{"type":"object"},
+    "analytical_page_ids":{"type":"array","items":{"type":"string"},"uniqueItems":true},"critical_page_ids":{"type":"array","items":{"type":"string"},"uniqueItems":true},
+    "cognitive_packets":{"type":"object"},"council_sessions":{"type":"object"},"page_content_packs":{"type":"object"},"semantic_graphs":{"type":"object"},
+    "visual_search":{"type":"object"},"qa_results":{"type":"object"},"decision":{"type":["object","null"]},"release":{"type":"object"}
+  }
+}

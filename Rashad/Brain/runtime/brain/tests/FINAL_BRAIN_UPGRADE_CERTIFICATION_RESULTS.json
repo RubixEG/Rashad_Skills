@@ -1,0 +1,537 @@
+{
+  "suite": "Rashad Final Brain + Artifact Admission Upgrade",
+  "brain_version": "3.3.0",
+  "status": "PASS",
+  "passed": 29,
+  "total": 29,
+  "tests": [
+    {
+      "name": "internal_concept_without_execution_proof_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCK_RENDER",
+        "reason": "ARTIFACT_PIPELINE_OR_USER_VISIBLE_QA_INCOMPLETE",
+        "derived_classification": "CONTENT_DRAFT",
+        "requested_classification": "INTERNAL_CONCEPT_DRAFT",
+        "artifact_gate": {
+          "status": "BLOCKED",
+          "errors": [
+            "MISSING_BRAIN_SESSION",
+            "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+            "BRAIN_EXECUTION_PROOF_REQUIRED",
+            "ARTIFACT_COUNCIL_EXECUTION_REQUIRED"
+          ]
+        }
+      }
+    },
+    {
+      "name": "internal_concept_draft_admitted_with_execution_proof",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "composer_admission": "ALLOWED",
+        "derived_classification": "INTERNAL_CONCEPT_DRAFT",
+        "requested_classification": "INTERNAL_CONCEPT_DRAFT",
+        "release_claim_allowed": false
+      }
+    },
+    {
+      "name": "partial_qa_state_classified_internal_only",
+      "status": "PASS",
+      "detail": "INTERNAL_CONCEPT_DRAFT"
+    },
+    {
+      "name": "release_candidate_blocked_without_independent_judge",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCK_RENDER",
+        "reason": "ARTIFACT_PIPELINE_OR_USER_VISIBLE_QA_INCOMPLETE",
+        "derived_classification": "INTERNAL_CONCEPT_DRAFT",
+        "requested_classification": "RELEASE_CANDIDATE",
+        "artifact_gate": {
+          "status": "BLOCKED",
+          "errors": [
+            "MISSING_ART_DIRECTION_EXECUTION",
+            "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+            "ART_DIRECTION_EXECUTION_REQUIRED",
+            "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+            "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+            "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+            "PRODUCTION_RENDER_PROOF_REQUIRED",
+            "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+            "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+            "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+            "QA_REPAIR_LOOP_NOT_CLOSED"
+          ]
+        }
+      }
+    },
+    {
+      "name": "direct_composer_bypass_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "duplicate_render_hashes_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "FIVE_DISTINCT_CONCEPT_RENDER_HASHES_REQUIRED",
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED"
+        ]
+      }
+    },
+    {
+      "name": "claim_visual_evidence_binding_required",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED",
+          "CLAIM_TO_VISUAL_EVIDENCE_BINDING_INCOMPLETE"
+        ]
+      }
+    },
+    {
+      "name": "rubix_brand_preflight_required",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "BRAND_PREFLIGHT_NOT_PROVEN",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED"
+        ]
+      }
+    },
+    {
+      "name": "release_candidate_after_independent_proof",
+      "status": "PASS",
+      "detail": "RELEASE_CANDIDATE"
+    },
+    {
+      "name": "released_only_by_release_chair",
+      "status": "PASS",
+      "detail": "RELEASED"
+    },
+    {
+      "name": "firm_rates_missing_blocks_final_price",
+      "status": "PASS",
+      "detail": {
+        "status": "KNOWLEDGE_READINESS_BLOCK",
+        "routed_expertise": [
+          {
+            "knowledge_pack": "KP-FIRM-RATES",
+            "sme": "SME-PRICING",
+            "trigger": "FIRM_RATES",
+            "required_output": "FINAL_PRICE",
+            "knowledge_status": "KNOWLEDGE_REQUIRED",
+            "blocked_outputs": [
+              "FINAL_PRICE",
+              "MARGIN",
+              "LABOR_COST"
+            ]
+          }
+        ],
+        "blockers": [
+          {
+            "knowledge_pack": "KP-FIRM-RATES",
+            "required_output": "FINAL_PRICE",
+            "status": "KNOWLEDGE_REQUIRED"
+          }
+        ],
+        "principle": "EXPERTISE_AVAILABILITY_NE_KNOWLEDGE_READINESS"
+      }
+    },
+    {
+      "name": "sap_expertise_routed_but_knowledge_not_ready",
+      "status": "PASS",
+      "detail": {
+        "status": "KNOWLEDGE_READINESS_BLOCK",
+        "routed_expertise": [
+          {
+            "knowledge_pack": "KP-SAP",
+            "sme": "SME-SAP",
+            "trigger": "SAP",
+            "required_output": "CERTIFIED_SAP_ARCHITECTURE",
+            "knowledge_status": "KNOWLEDGE_REQUIRED",
+            "blocked_outputs": [
+              "CERTIFIED_SAP_ARCHITECTURE"
+            ]
+          }
+        ],
+        "blockers": [
+          {
+            "knowledge_pack": "KP-SAP",
+            "required_output": "CERTIFIED_SAP_ARCHITECTURE",
+            "status": "KNOWLEDGE_REQUIRED"
+          }
+        ],
+        "principle": "EXPERTISE_AVAILABILITY_NE_KNOWLEDGE_READINESS"
+      }
+    },
+    {
+      "name": "brain_strict_mode_stops_before_producer_on_missing_rates",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "reason": "KNOWLEDGE_READINESS_BLOCK",
+        "blockers": [
+          {
+            "knowledge_pack": "KP-FIRM-RATES",
+            "required_output": "FINAL_PRICE",
+            "status": "KNOWLEDGE_REQUIRED"
+          }
+        ]
+      }
+    },
+    {
+      "name": "cfo_simulator_not_pricing_sme",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "actor_a_type": "EXECUTIVE_SIMULATOR",
+        "actor_b_type": "SME",
+        "reason": null
+      }
+    },
+    {
+      "name": "pricing_sme_quantifies",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "actor_id": "SME-PRICING",
+        "actor_type": "SME",
+        "functions": [
+          "QUANTIFY",
+          "COMPARE"
+        ]
+      }
+    },
+    {
+      "name": "governor_veto_is_non_overridable",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "vetoes": [
+          {
+            "violation": "COMPOSER_BYPASS",
+            "governor": "GOV-ARTIFACT-PIPELINE"
+          }
+        ],
+        "override_allowed": false
+      }
+    },
+    {
+      "name": "cost_confidence_capped_by_effort",
+      "status": "PASS",
+      "detail": {
+        "EFFORT": {
+          "declared_confidence": 0.55,
+          "dependency_cap": 1.0,
+          "effective_confidence": 0.55,
+          "depends_on": [],
+          "capped": false
+        },
+        "COST": {
+          "declared_confidence": 0.9,
+          "dependency_cap": 0.55,
+          "effective_confidence": 0.55,
+          "depends_on": [
+            "EFFORT"
+          ],
+          "capped": true
+        },
+        "MARGIN": {
+          "declared_confidence": 0.95,
+          "dependency_cap": 0.55,
+          "effective_confidence": 0.55,
+          "depends_on": [
+            "COST"
+          ],
+          "capped": true
+        }
+      }
+    },
+    {
+      "name": "margin_confidence_capped_by_cost",
+      "status": "PASS",
+      "detail": {
+        "EFFORT": {
+          "declared_confidence": 0.55,
+          "dependency_cap": 1.0,
+          "effective_confidence": 0.55,
+          "depends_on": [],
+          "capped": false
+        },
+        "COST": {
+          "declared_confidence": 0.9,
+          "dependency_cap": 0.55,
+          "effective_confidence": 0.55,
+          "depends_on": [
+            "EFFORT"
+          ],
+          "capped": true
+        },
+        "MARGIN": {
+          "declared_confidence": 0.95,
+          "dependency_cap": 0.55,
+          "effective_confidence": 0.55,
+          "depends_on": [
+            "COST"
+          ],
+          "capped": true
+        }
+      }
+    },
+    {
+      "name": "technical_pipeline_selected",
+      "status": "PASS",
+      "detail": [
+        "TECHNICAL_SOLUTION",
+        "FINANCIAL_COMMERCIAL"
+      ]
+    },
+    {
+      "name": "financial_pipeline_selected",
+      "status": "PASS",
+      "detail": [
+        "TECHNICAL_SOLUTION",
+        "FINANCIAL_COMMERCIAL"
+      ]
+    },
+    {
+      "name": "technical_pipeline_has_tradeoffs_and_acceptance",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "financial_pipeline_has_working_capital_and_sensitivity",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "dynamic_council_bounded",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "council_type": "DYNAMIC_EXECUTABLE_EXPERT_COUNCIL",
+        "purpose": [
+          "FINANCIAL_COMMERCIAL",
+          "TECH_ARCH",
+          "DELIVERY_PEOPLE"
+        ],
+        "actors": [
+          "SME-EVIDENCE",
+          "SIM-GOV-EVALUATOR",
+          "GOV-EVIDENCE",
+          "GOV-KNOWLEDGE-READINESS",
+          "SME-PRICING",
+          "SME-ENTERPRISE-ARCH",
+          "SME-DELIVERY",
+          "SME-COMMERCIAL",
+          "SME-SOLUTION-ARCH",
+          "SME-PMO",
+          "SIM-CFO",
+          "SME-INTEGRATION",
+          "SME-HR-WORKFORCE",
+          "GOV-FINANCIAL-TRUTH"
+        ],
+        "actor_count": 14,
+        "max_actors": 14,
+        "constitutional_councils_replaced": false,
+        "execution_required_for_active_claim": true,
+        "selection_reasons": {
+          "SME-EVIDENCE": [
+            "CORE"
+          ],
+          "SIM-GOV-EVALUATOR": [
+            "CORE"
+          ],
+          "GOV-EVIDENCE": [
+            "CORE",
+            "CRITICAL_GOVERNOR"
+          ],
+          "GOV-KNOWLEDGE-READINESS": [
+            "CORE",
+            "CRITICAL_GOVERNOR"
+          ],
+          "SME-PRICING": [
+            "DOMAIN_LEAD:FINANCIAL_COMMERCIAL"
+          ],
+          "SME-ENTERPRISE-ARCH": [
+            "DOMAIN_LEAD:TECH_ARCH"
+          ],
+          "SME-DELIVERY": [
+            "DOMAIN_LEAD:DELIVERY_PEOPLE"
+          ],
+          "SME-COMMERCIAL": [
+            "DOMAIN:FINANCIAL_COMMERCIAL"
+          ],
+          "SME-SOLUTION-ARCH": [
+            "DOMAIN:TECH_ARCH"
+          ],
+          "SME-PMO": [
+            "DOMAIN:DELIVERY_PEOPLE"
+          ],
+          "SIM-CFO": [
+            "DOMAIN:FINANCIAL_COMMERCIAL"
+          ],
+          "SME-INTEGRATION": [
+            "DOMAIN:TECH_ARCH"
+          ],
+          "SME-HR-WORKFORCE": [
+            "DOMAIN:DELIVERY_PEOPLE"
+          ],
+          "GOV-FINANCIAL-TRUTH": [
+            "DOMAIN:FINANCIAL_COMMERCIAL"
+          ]
+        }
+      }
+    },
+    {
+      "name": "dynamic_council_cross_functional",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "council_type": "DYNAMIC_EXECUTABLE_EXPERT_COUNCIL",
+        "purpose": [
+          "FINANCIAL_COMMERCIAL",
+          "TECH_ARCH",
+          "DELIVERY_PEOPLE"
+        ],
+        "actors": [
+          "SME-EVIDENCE",
+          "SIM-GOV-EVALUATOR",
+          "GOV-EVIDENCE",
+          "GOV-KNOWLEDGE-READINESS",
+          "SME-PRICING",
+          "SME-ENTERPRISE-ARCH",
+          "SME-DELIVERY",
+          "SME-COMMERCIAL",
+          "SME-SOLUTION-ARCH",
+          "SME-PMO",
+          "SIM-CFO",
+          "SME-INTEGRATION",
+          "SME-HR-WORKFORCE",
+          "GOV-FINANCIAL-TRUTH"
+        ],
+        "actor_count": 14,
+        "max_actors": 14,
+        "constitutional_councils_replaced": false,
+        "execution_required_for_active_claim": true,
+        "selection_reasons": {
+          "SME-EVIDENCE": [
+            "CORE"
+          ],
+          "SIM-GOV-EVALUATOR": [
+            "CORE"
+          ],
+          "GOV-EVIDENCE": [
+            "CORE",
+            "CRITICAL_GOVERNOR"
+          ],
+          "GOV-KNOWLEDGE-READINESS": [
+            "CORE",
+            "CRITICAL_GOVERNOR"
+          ],
+          "SME-PRICING": [
+            "DOMAIN_LEAD:FINANCIAL_COMMERCIAL"
+          ],
+          "SME-ENTERPRISE-ARCH": [
+            "DOMAIN_LEAD:TECH_ARCH"
+          ],
+          "SME-DELIVERY": [
+            "DOMAIN_LEAD:DELIVERY_PEOPLE"
+          ],
+          "SME-COMMERCIAL": [
+            "DOMAIN:FINANCIAL_COMMERCIAL"
+          ],
+          "SME-SOLUTION-ARCH": [
+            "DOMAIN:TECH_ARCH"
+          ],
+          "SME-PMO": [
+            "DOMAIN:DELIVERY_PEOPLE"
+          ],
+          "SIM-CFO": [
+            "DOMAIN:FINANCIAL_COMMERCIAL"
+          ],
+          "SME-INTEGRATION": [
+            "DOMAIN:TECH_ARCH"
+          ],
+          "SME-HR-WORKFORCE": [
+            "DOMAIN:DELIVERY_PEOPLE"
+          ],
+          "GOV-FINANCIAL-TRUTH": [
+            "DOMAIN:FINANCIAL_COMMERCIAL"
+          ]
+        }
+      }
+    },
+    {
+      "name": "visual_variety_memory_blocks_immediate_twin",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "fingerprint": "2d64731e636a130ddd71a39076fb41cc108825bc734c88ec57b9ff7429ec92cf",
+        "prior_consecutive_same": 1,
+        "reason": "REPEATED_VISUAL_GRAMMAR",
+        "content_fields_excluded": true
+      }
+    },
+    {
+      "name": "visual_variety_memory_allows_change",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "visual_search_without_live_judge_returns_internal_concept_draft",
+      "status": "PASS",
+      "detail": {
+        "status": "INTERNAL_CONCEPT_DRAFT_READY",
+        "renders": 5,
+        "selection_status": "PROVISIONAL_CONCEPT_NOT_USER_VISIBLE"
+      }
+    },
+    {
+      "name": "visual_search_concept_truthfully_not_user_visible",
+      "status": "PASS",
+      "detail": "PROVISIONAL_CONCEPT_NOT_USER_VISIBLE"
+    },
+    {
+      "name": "firm_model_is_not_hallucinated",
+      "status": "PASS",
+      "detail": "KNOWLEDGE_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "engagement_id": "TEST-REDF",
+  "version_resolved": true,
+  "evidence_ledger_valid": true,
+  "source_instruction_isolation": true,
+  "brand_assets_verified": true,
+  "font_preflight": true,
+  "semantic_signatures_preserved": true,
+  "compliance_chambers_complete": false,
+  "image_last_state_safe": true
+}

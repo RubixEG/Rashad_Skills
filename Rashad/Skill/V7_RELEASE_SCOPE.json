@@ -1,0 +1,29 @@
+{
+  "version": "7.1.0",
+  "baseline": "7.0.2",
+  "protected_baseline": "6.2.2",
+  "in_scope": [
+    "consulting_cognitive_architecture",
+    "canonical_rfp_summary_naming_and_decision_lock",
+    "artifact_intelligence_brain_communication_strategy_search",
+    "visual_concept_layer",
+    "concept_render_vs_production_render_separation",
+    "user_visible_artifact_delivery_gate",
+    "actual_pixel_qa_closed_loop",
+    "deterministic_pptx_product_inspection",
+    "deck_level_partner_quality_gate",
+    "golden_real_rfp_acceptance_contract",
+    "authority_line_by_line_conflict_audit",
+    "legacy_global_claim_quarantine",
+    "stress_quality_and_adversarial_delivery_tests"
+  ],
+  "explicitly_not_claimed_fixed": [
+    "configured_live_provider_credentials_or_successful_live_council_execution",
+    "independent_live_multimodal_judge_results_for_a_real_engagement",
+    "all_external_production_renderer_connectors",
+    "production_pdf_pptx_parity_for_a_real_generated_deck",
+    "external_corporate_evidence_mount",
+    "licensed_font_binary_availability"
+  ],
+  "design_principle": "No proof of Artifact Brain execution + production render + actual-pixel QA + closed repair + exact-file delivery gate = no user-visible artifact delivery."
+}

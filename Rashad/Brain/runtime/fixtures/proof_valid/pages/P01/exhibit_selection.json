@@ -1,0 +1,28 @@
+{
+  "page_id": "P01",
+  "winner": "H1",
+  "rejected": [
+    {
+      "id": "H2",
+      "reason": "lower analytical/visual score"
+    },
+    {
+      "id": "H3",
+      "reason": "lower analytical/visual score"
+    },
+    {
+      "id": "H4",
+      "reason": "lower analytical/visual score"
+    },
+    {
+      "id": "H5",
+      "reason": "lower analytical/visual score"
+    }
+  ],
+  "input_hashes": {
+    "content_pack": "9815e43dd03363095124d16ad4f4fcb038bc5fc5ed07f221f676565c5cf20220",
+    "relationship_graph": "547a747147a21548dd0057863654480e4c305ad6791ae3c37bcbbf9535f00bb1",
+    "artifact_truth": "d2c9a31e1b0fabc2fd1f487d536dbecdb2afc0d3cfc9447c2be5000cb22c1b0f",
+    "evidence_pack": "59ef6ef26951e7ecef725cff1661ba31c5549fbcea096a42c09c7f5a4008e5d0"
+  }
+}

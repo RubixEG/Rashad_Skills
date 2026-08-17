@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M08",
+  "mutation": "long_url_iso_api_token",
+  "expected": "LTR isolation and containment",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "74243a0ec777c68103fc7d1f0862a8aa31af189e5c0b6bdb070bb8f0fb4b6353",
+  "mutated_input_hash": "74243a0ec777c68103fc7d1f0862a8aa31af189e5c0b6bdb070bb8f0fb4b6353",
+  "measured_object_count": 1,
+  "changed": true
+}

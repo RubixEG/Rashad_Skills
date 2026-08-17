@@ -1,0 +1,1095 @@
+{
+  "schema": "RASHAD_ARTIFACT_ENGINE_LOGICAL_ID_INDEX_V7_3",
+  "version": "7.3.0",
+  "identity_rule": "logical_id is canonical; numeric filename prefix is display/order metadata only and may collide",
+  "entries": [
+    {
+      "logical_id": "ART-73C1BA1B2425",
+      "filename": "01_ARTIFACT_SELECTION_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/01_ARTIFACT_SELECTION_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-77B110AD1BF8",
+      "filename": "02_MASTER_ARTIFACT_CATALOG.md",
+      "relative_path": "03_ARTIFACT_ENGINE/02_MASTER_ARTIFACT_CATALOG.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-2244E938ECFE",
+      "filename": "03_COVER_AND_SECTION_OPENER.md",
+      "relative_path": "03_ARTIFACT_ENGINE/03_COVER_AND_SECTION_OPENER.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-DEE8BDF8DC31",
+      "filename": "04_NARRATIVE_RHYTHM.md",
+      "relative_path": "03_ARTIFACT_ENGINE/04_NARRATIVE_RHYTHM.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-42F0B7CA2938",
+      "filename": "05_VISUAL_QUALITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/05_VISUAL_QUALITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-7A2C7FEEC137",
+      "filename": "06_ARABIC_EDITORIAL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/06_ARABIC_EDITORIAL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-643BC9FA8F42",
+      "filename": "07_IMAGE_ICON.md",
+      "relative_path": "03_ARTIFACT_ENGINE/07_IMAGE_ICON.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-30E0DC6BB9E1",
+      "filename": "08_RENDERER_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/08_RENDERER_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-2DC0B8CFA83B",
+      "filename": "09_CHROMIUM_FIXED_CANVAS_RENDERER.md",
+      "relative_path": "03_ARTIFACT_ENGINE/09_CHROMIUM_FIXED_CANVAS_RENDERER.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-D923AED907C4",
+      "filename": "100_CARDS_AS_SUBCOMPONENT_NOT_PAGE_ARCHITECTURE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/100_CARDS_AS_SUBCOMPONENT_NOT_PAGE_ARCHITECTURE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-49431E4FBD33",
+      "filename": "100_GOLDEN_VISUAL_MASTER_TO_SEMANTIC_RECONSTRUCTION_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/100_GOLDEN_VISUAL_MASTER_TO_SEMANTIC_RECONSTRUCTION_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-6155380401A0",
+      "filename": "100_V3_CONSULTING_GRADE_PAGE_CONSTITUTION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/100_V3_CONSULTING_GRADE_PAGE_CONSTITUTION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-7AD77A1CE147",
+      "filename": "101_COMPOSITIONAL_DENSITY_BUDGET.md",
+      "relative_path": "03_ARTIFACT_ENGINE/101_COMPOSITIONAL_DENSITY_BUDGET.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-0C44D53FFFD5",
+      "filename": "101_PRODUCTION_ELEMENT_INSTRUMENTATION_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/101_PRODUCTION_ELEMENT_INSTRUMENTATION_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-DA9BA10A1840",
+      "filename": "101_V3_PAGE_CONTENT_PACK_SCHEMA.md",
+      "relative_path": "03_ARTIFACT_ENGINE/101_V3_PAGE_CONTENT_PACK_SCHEMA.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-EBEA928CC2D8",
+      "filename": "102_DOM_GEOMETRY_OVERFLOW_AND_COLLISION_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/102_DOM_GEOMETRY_OVERFLOW_AND_COLLISION_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-102836EA6E4B",
+      "filename": "102_HTML_CSS_PRODUCTION_STYLE_SYSTEM.md",
+      "relative_path": "03_ARTIFACT_ENGINE/102_HTML_CSS_PRODUCTION_STYLE_SYSTEM.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-C663C276F680",
+      "filename": "102_V3_VISUAL_IMAGINATION_BOARD.md",
+      "relative_path": "03_ARTIFACT_ENGINE/102_V3_VISUAL_IMAGINATION_BOARD.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B99EDD3F7DFA",
+      "filename": "103_COVER_EDITORIAL_HERO_HTML_CSS_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/103_COVER_EDITORIAL_HERO_HTML_CSS_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-FCA8DA1E8D6E",
+      "filename": "103_LAYER_ZINDEX_OCCLUSION_AND_REGION_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/103_LAYER_ZINDEX_OCCLUSION_AND_REGION_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-0697DDE20600",
+      "filename": "103_V3_CARD_DOMINANCE_GATE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/103_V3_CARD_DOMINANCE_GATE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-8F8082C89BF8",
+      "filename": "104_ALIGNMENT_GRID_SPACING_AND_DIVIDER_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/104_ALIGNMENT_GRID_SPACING_AND_DIVIDER_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-717C4D638AD3",
+      "filename": "104_PPTX_PDF_PROJECTION_FROM_HTML_MASTER.md",
+      "relative_path": "03_ARTIFACT_ENGINE/104_PPTX_PDF_PROJECTION_FROM_HTML_MASTER.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-CE0CDEC62857",
+      "filename": "104_V3_COVER_TOPIC_RELEVANCE_GATE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/104_V3_COVER_TOPIC_RELEVANCE_GATE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-319E4850032B",
+      "filename": "105_CONNECTOR_ENDPOINT_ARROWHEAD_AND_LABEL_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/105_CONNECTOR_ENDPOINT_ARROWHEAD_AND_LABEL_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-E8CB852E5FAF",
+      "filename": "105_CONSULTING_VISUAL_GOLDEN_SUITE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/105_CONSULTING_VISUAL_GOLDEN_SUITE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-5C5191042A45",
+      "filename": "105_V3_MWAN_AND_PROPOSAL_CORPUS_ANCHOR_PROTOCOL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/105_V3_MWAN_AND_PROPOSAL_CORPUS_ANCHOR_PROTOCOL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-417C43B35F28",
+      "filename": "106_AUTHORITY_INDEX_AND_LEGACY_PREFIX_COLLISION_RESOLUTION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/106_AUTHORITY_INDEX_AND_LEGACY_PREFIX_COLLISION_RESOLUTION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-BE7E907FF22E",
+      "filename": "106_FONT_GLYPH_TYPOGRAPHY_AND_BIDI_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/106_FONT_GLYPH_TYPOGRAPHY_AND_BIDI_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B34E2846CE92",
+      "filename": "106_V3_STRESS_SAFETY_AND_ARTIFACT_PRESERVATION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/106_V3_STRESS_SAFETY_AND_ARTIFACT_PRESERVATION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-1E0BEC36298B",
+      "filename": "107_VISUAL_REASONING_FUNCTIONAL_EMULATION_PROTOCOL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/107_VISUAL_REASONING_FUNCTIONAL_EMULATION_PROTOCOL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-542F94EA80B5",
+      "filename": "107_WHOLE_PAGE_HARMONY_AND_CARD_DOMINANCE_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/107_WHOLE_PAGE_HARMONY_AND_CARD_DOMINANCE_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-F5F1C843C4A1",
+      "filename": "108_COVER_SEMANTIC_RELEVANCE_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/108_COVER_SEMANTIC_RELEVANCE_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-5677EBECE6C0",
+      "filename": "108_STRESS_MUTATION_AND_DETERMINISTIC_RENDER_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/108_STRESS_MUTATION_AND_DETERMINISTIC_RENDER_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-9F81FB4FDEA2",
+      "filename": "109_CONTENT_ARTIFACT_CO_DESIGN_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/109_CONTENT_ARTIFACT_CO_DESIGN_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-A609F0E737A8",
+      "filename": "109_NON_DESTRUCTIVE_REPAIR_AND_SEMANTIC_HASH_LOCK.md",
+      "relative_path": "03_ARTIFACT_ENGINE/109_NON_DESTRUCTIVE_REPAIR_AND_SEMANTIC_HASH_LOCK.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-5281E13105A8",
+      "filename": "10_ARABIC_PATH_AND_DIAGONAL_SEQUENCE_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/10_ARABIC_PATH_AND_DIAGONAL_SEQUENCE_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-06D6B2DFD0CF",
+      "filename": "110_HEADER_STACK_AND_REFLOW_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/110_HEADER_STACK_AND_REFLOW_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-5B1AC52711A1",
+      "filename": "110_PROPOSAL_CORPUS_REVERSE_ENGINEERING_KNOWLEDGE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/110_PROPOSAL_CORPUS_REVERSE_ENGINEERING_KNOWLEDGE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-70B468EFC049",
+      "filename": "111_HTML_SVG_SEMANTIC_COMPOSER_V2.md",
+      "relative_path": "03_ARTIFACT_ENGINE/111_HTML_SVG_SEMANTIC_COMPOSER_V2.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B50C3CA51531",
+      "filename": "111_RENDERED_LINE_FRAGMENT_AND_GLYPH_COLLISION_QA.md",
+      "relative_path": "03_ARTIFACT_ENGINE/111_RENDERED_LINE_FRAGMENT_AND_GLYPH_COLLISION_QA.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-AF78734F1B0A",
+      "filename": "112_LAYOUT_AWARE_CONNECTOR_AND_LABEL_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/112_LAYOUT_AWARE_CONNECTOR_AND_LABEL_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-DCCB7971A4C8",
+      "filename": "112_OWNER_ANCHOR_BADGE_KPI_CONTAINMENT_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/112_OWNER_ANCHOR_BADGE_KPI_CONTAINMENT_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-18B273FE822B",
+      "filename": "113_EDITORIAL_CONTENT_DENSITY_AND_READABILITY_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/113_EDITORIAL_CONTENT_DENSITY_AND_READABILITY_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-C4114CF3B889",
+      "filename": "113_LAYOUT_PADDING_ALIGNMENT_SPACING_SCALE_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/113_LAYOUT_PADDING_ALIGNMENT_SPACING_SCALE_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-CEEA50938CFA",
+      "filename": "114_LAYER_ZINDEX_OPACITY_TRANSFORM_CLIP_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/114_LAYER_ZINDEX_OPACITY_TRANSFORM_CLIP_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-28EBB3CC4780",
+      "filename": "114_VISUAL_CONCEPT_BENCHMARK_AND_SELECTION_SCORE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/114_VISUAL_CONCEPT_BENCHMARK_AND_SELECTION_SCORE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-049E92D903C2",
+      "filename": "115_NON_DESTRUCTIVE_STRESS_REPAIR_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/115_NON_DESTRUCTIVE_STRESS_REPAIR_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-6E213BF2D106",
+      "filename": "115_TOPOLOGY_TRUTH_CONNECTOR_AND_LABEL_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/115_TOPOLOGY_TRUTH_CONNECTOR_AND_LABEL_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-CAEE0E34E338",
+      "filename": "116_DECK_LEVEL_VISUAL_RHYTHM_AND_REPETITION_CONTROL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/116_DECK_LEVEL_VISUAL_RHYTHM_AND_REPETITION_CONTROL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-C1E9BAA41963",
+      "filename": "116_TABLE_MATRIX_CHART_LEGEND_DENSE_EVIDENCE_QA.md",
+      "relative_path": "03_ARTIFACT_ENGINE/116_TABLE_MATRIX_CHART_LEGEND_DENSE_EVIDENCE_QA.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-0C5C290ECCD0",
+      "filename": "117_CONSULTING_EXHIBIT_TITLE_AND_TAKEAWAY_STANDARD.md",
+      "relative_path": "03_ARTIFACT_ENGINE/117_CONSULTING_EXHIBIT_TITLE_AND_TAKEAWAY_STANDARD.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-E2E2548D8DC4",
+      "filename": "117_IMAGE_LOGO_HERO_ASSET_GEOMETRY_QA.md",
+      "relative_path": "03_ARTIFACT_ENGINE/117_IMAGE_LOGO_HERO_ASSET_GEOMETRY_QA.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-93F5B584962E",
+      "filename": "118_PUBLIC_SECTOR_EVALUATOR_USABILITY_STANDARD.md",
+      "relative_path": "03_ARTIFACT_ENGINE/118_PUBLIC_SECTOR_EVALUATOR_USABILITY_STANDARD.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-2356EA0BC17A",
+      "filename": "118_WHOLE_PAGE_PIXEL_HARMONY_DENSITY_AND_FOCAL_QA.md",
+      "relative_path": "03_ARTIFACT_ENGINE/118_WHOLE_PAGE_PIXEL_HARMONY_DENSITY_AND_FOCAL_QA.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-079089E57924",
+      "filename": "119_METAMORPHIC_STRESS_AND_UNKNOWN_FAILURE_DISCOVERY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/119_METAMORPHIC_STRESS_AND_UNKNOWN_FAILURE_DISCOVERY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-AE694AE9CDB2",
+      "filename": "119_VISUAL_EVIDENCE_PROXIMITY_AND_TRACEABILITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/119_VISUAL_EVIDENCE_PROXIMITY_AND_TRACEABILITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-BE2B4E1E71B7",
+      "filename": "11_LAYOUT_BUDGET_AND_COLLISION_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/11_LAYOUT_BUDGET_AND_COLLISION_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-4BFFD8862A20",
+      "filename": "120_FINAL_CONSULTING_PAGE_RELEASE_SCORECARD.md",
+      "relative_path": "03_ARTIFACT_ENGINE/120_FINAL_CONSULTING_PAGE_RELEASE_SCORECARD.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-2B68850613FF",
+      "filename": "120_SINGLE_HIGH_RES_FINAL_MASTER_AND_EXPORT_PARITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/120_SINGLE_HIGH_RES_FINAL_MASTER_AND_EXPORT_PARITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-49B6D8EA0D42",
+      "filename": "121_PIXEL_PERFECT_RELEASE_BLOCKERS.md",
+      "relative_path": "03_ARTIFACT_ENGINE/121_PIXEL_PERFECT_RELEASE_BLOCKERS.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-94112EAAF3DC",
+      "filename": "122_V5_ARTIFACT_INTELLIGENCE_BRAIN_V2.md",
+      "relative_path": "03_ARTIFACT_ENGINE/122_V5_ARTIFACT_INTELLIGENCE_BRAIN_V2.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-57BE9C9991CA",
+      "filename": "123_V5_SEMANTIC_RELATIONSHIP_GRAPH.md",
+      "relative_path": "03_ARTIFACT_ENGINE/123_V5_SEMANTIC_RELATIONSHIP_GRAPH.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-AEFCAA63F9C6",
+      "filename": "124_V5_ARTIFACT_CONCEPT_COMPETITION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/124_V5_ARTIFACT_CONCEPT_COMPETITION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-3FF75275FE4C",
+      "filename": "125_V5_COMPOSITE_ARTIFACT_PAGE_MODEL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/125_V5_COMPOSITE_ARTIFACT_PAGE_MODEL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-6B0B80F64D56",
+      "filename": "126_V5_ARTIFACT_STRENGTH_SCORING.md",
+      "relative_path": "03_ARTIFACT_ENGINE/126_V5_ARTIFACT_STRENGTH_SCORING.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-7AC1D4272ECD",
+      "filename": "127_V5_ARTIFACT_ANTI_TEMPLATE_AND_REPETITION_DETECTOR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/127_V5_ARTIFACT_ANTI_TEMPLATE_AND_REPETITION_DETECTOR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-4FCFF3AA27A5",
+      "filename": "128_V5_VISUAL_IMAGINATION_BRAIN.md",
+      "relative_path": "03_ARTIFACT_ENGINE/128_V5_VISUAL_IMAGINATION_BRAIN.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-98A20C61D6FA",
+      "filename": "129_V5_ARTIFACT_SYNTHESIS_AND_CUSTOM_TOPOLOGY_PROTOCOL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/129_V5_ARTIFACT_SYNTHESIS_AND_CUSTOM_TOPOLOGY_PROTOCOL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-35DB644D6313",
+      "filename": "12_VISUAL_ASSET_SERVICE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/12_VISUAL_ASSET_SERVICE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-0A7B444852F6",
+      "filename": "130_V5_REFERENCE_RETRIEVAL_BY_ANALYTICAL_INTENT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/130_V5_REFERENCE_RETRIEVAL_BY_ANALYTICAL_INTENT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-F37B7112C00E",
+      "filename": "131_V5_ARTIFACT_COMPLEXITY_BUDGET.md",
+      "relative_path": "03_ARTIFACT_ENGINE/131_V5_ARTIFACT_COMPLEXITY_BUDGET.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-C5FBA09259B0",
+      "filename": "13_ICON_SYSTEM_AND_SVG_PIPELINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/13_ICON_SYSTEM_AND_SVG_PIPELINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-BA2955733BBF",
+      "filename": "140_V6_1_EXECUTION_PROOF_BY_CONSTRUCTION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/140_V6_1_EXECUTION_PROOF_BY_CONSTRUCTION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B1DC6B013460",
+      "filename": "141_V6_1_RENDER_SEARCH_AND_EXHIBIT_DIVERSITY_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/141_V6_1_RENDER_SEARCH_AND_EXHIBIT_DIVERSITY_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-452D28B7C130",
+      "filename": "142_V7_CONSULTING_INTELLIGENCE_BRAIN.md",
+      "relative_path": "03_ARTIFACT_ENGINE/142_V7_CONSULTING_INTELLIGENCE_BRAIN.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B3974F5DD0CC",
+      "filename": "143_V7_GENERATIVE_EXHIBIT_SYNTHESIS_BRAIN.md",
+      "relative_path": "03_ARTIFACT_ENGINE/143_V7_GENERATIVE_EXHIBIT_SYNTHESIS_BRAIN.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-0FFF6E81D7AC",
+      "filename": "144_V7_EXECUTIVE_COMPRESSION_AND_ARTIFACT_SKEPTIC.md",
+      "relative_path": "03_ARTIFACT_ENGINE/144_V7_EXECUTIVE_COMPRESSION_AND_ARTIFACT_SKEPTIC.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-19B0B2A22B2F",
+      "filename": "145_V7_0_2_CONSULTING_ARTIFACT_EXHIBIT_BRAIN_CONSTITUTION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/145_V7_0_2_CONSULTING_ARTIFACT_EXHIBIT_BRAIN_CONSTITUTION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-DCDBDB2BF544",
+      "filename": "145_V7_GOLDEN_REFERENCE_GRAMMAR_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/145_V7_GOLDEN_REFERENCE_GRAMMAR_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-9C991C4A2E67",
+      "filename": "14_IMAGE_GENERATION_DECISION_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/14_IMAGE_GENERATION_DECISION_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-A15FD078CF92",
+      "filename": "15_VISUAL_ASSET_BRIEF_SCHEMA.md",
+      "relative_path": "03_ARTIFACT_ENGINE/15_VISUAL_ASSET_BRIEF_SCHEMA.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-0FA7C784C501",
+      "filename": "16_ARABIC_ORDERED_FLOW_AUTHORITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/16_ARABIC_ORDERED_FLOW_AUTHORITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-A12667C11172",
+      "filename": "17_LAYOUT_COLLISION_ZONE_AUTHORITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/17_LAYOUT_COLLISION_ZONE_AUTHORITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-F8786D16FD8D",
+      "filename": "18_NUMERIC_METRIC_CONTAINMENT_AUTHORITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/18_NUMERIC_METRIC_CONTAINMENT_AUTHORITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-4C80B7C902EE",
+      "filename": "19_ARABIC_GROUPED_ORDER_AUTHORITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/19_ARABIC_GROUPED_ORDER_AUTHORITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-5ABD519F6195",
+      "filename": "20_ARTIFACT_STRENGTH_NON_REGRESSION_AUTHORITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/20_ARTIFACT_STRENGTH_NON_REGRESSION_AUTHORITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-6C6CB55FEBB3",
+      "filename": "21_ARTIFACT_INTENT_AND_FALLBACK_LOCK.md",
+      "relative_path": "03_ARTIFACT_ENGINE/21_ARTIFACT_INTENT_AND_FALLBACK_LOCK.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-2D77BEF44E6C",
+      "filename": "22_ARTIFACT_PRESERVING_LAYOUT_ASSURANCE_AUTHORITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/22_ARTIFACT_PRESERVING_LAYOUT_ASSURANCE_AUTHORITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-BBC4F10FAA2B",
+      "filename": "23_LEGACY_PROPOSAL_VISUAL_INTELLIGENCE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/23_LEGACY_PROPOSAL_VISUAL_INTELLIGENCE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-D6F05A9E7D5E",
+      "filename": "24_ARTIFACT_INTELLIGENCE_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/24_ARTIFACT_INTELLIGENCE_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-29BD7F8BB31C",
+      "filename": "25_INFORMATION_RELATIONSHIP_CLASSIFIER.md",
+      "relative_path": "03_ARTIFACT_ENGINE/25_INFORMATION_RELATIONSHIP_CLASSIFIER.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-571311A55F04",
+      "filename": "26_VISUAL_ARCHETYPE_LIBRARY_V1.md",
+      "relative_path": "03_ARTIFACT_ENGINE/26_VISUAL_ARCHETYPE_LIBRARY_V1.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B87CCE0A8E7F",
+      "filename": "27_VISUAL_BLUEPRINT_SCHEMA.md",
+      "relative_path": "03_ARTIFACT_ENGINE/27_VISUAL_BLUEPRINT_SCHEMA.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-4BC919C48AA4",
+      "filename": "28_IMAGE_IDEATION_INTERFACE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/28_IMAGE_IDEATION_INTERFACE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-28642EDCAFF7",
+      "filename": "29_ARTIFACT_COUNCIL_EXECUTION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/29_ARTIFACT_COUNCIL_EXECUTION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-9CD796AC12F1",
+      "filename": "30_VISUAL_CORPUS_LEARNING_POLICY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/30_VISUAL_CORPUS_LEARNING_POLICY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-A48470B50380",
+      "filename": "31_ARTIFACT_DIVERSITY_AND_RHYTHM.md",
+      "relative_path": "03_ARTIFACT_ENGINE/31_ARTIFACT_DIVERSITY_AND_RHYTHM.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-30EAF077E961",
+      "filename": "32_GEOMETRY_HANDOFF_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/32_GEOMETRY_HANDOFF_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-C9AAEC5C0F5E",
+      "filename": "33_ARTIFACT_ENGINE_ACCEPTANCE_TESTS.md",
+      "relative_path": "03_ARTIFACT_ENGINE/33_ARTIFACT_ENGINE_ACCEPTANCE_TESTS.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-22D468BB183E",
+      "filename": "34_HISTORICAL_PROPOSAL_NARRATIVE_INTELLIGENCE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/34_HISTORICAL_PROPOSAL_NARRATIVE_INTELLIGENCE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-EFD700B1337B",
+      "filename": "35_HISTORICAL_PROPOSAL_ARCHETYPE_EXTENSION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/35_HISTORICAL_PROPOSAL_ARCHETYPE_EXTENSION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B10FAA71910B",
+      "filename": "36_HISTORICAL_PROPOSAL_COMPOSITION_INTELLIGENCE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/36_HISTORICAL_PROPOSAL_COMPOSITION_INTELLIGENCE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-3EAB60C63AFD",
+      "filename": "37_LEGACY_PROPOSAL_ANTI_PATTERN_LIBRARY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/37_LEGACY_PROPOSAL_ANTI_PATTERN_LIBRARY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-3157B1B22706",
+      "filename": "38_HISTORICAL_TO_CURRENT_TRANSLATION_GATE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/38_HISTORICAL_TO_CURRENT_TRANSLATION_GATE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B22D0CE4473E",
+      "filename": "39_DETERMINISTIC_ARCHETYPE_SELECTOR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/39_DETERMINISTIC_ARCHETYPE_SELECTOR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-68C80348669F",
+      "filename": "40_CANONICAL_ARTIFACT_VOCABULARY_AND_MAPPING.md",
+      "relative_path": "03_ARTIFACT_ENGINE/40_CANONICAL_ARTIFACT_VOCABULARY_AND_MAPPING.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-E44D8C4B181C",
+      "filename": "43_ARTIFACT_EXECUTION_PROOF_AND_NO_DOWNGRADE_GATE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/43_ARTIFACT_EXECUTION_PROOF_AND_NO_DOWNGRADE_GATE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-8511A9628C96",
+      "filename": "44_SECTION_GOLDEN_BOARD_AND_PARITY_BRIDGE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/44_SECTION_GOLDEN_BOARD_AND_PARITY_BRIDGE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-5028F56CE3B3",
+      "filename": "45_VISUAL_FIDELITY_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/45_VISUAL_FIDELITY_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-A2EBEE5B4612",
+      "filename": "46_RENDERING_FIDELITY_LAYOUT_SAFETY_AND_PRODUCTION_QA.md",
+      "relative_path": "03_ARTIFACT_ENGINE/46_RENDERING_FIDELITY_LAYOUT_SAFETY_AND_PRODUCTION_QA.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-DCCC7DC0C6F5",
+      "filename": "47_ARTIFACT_INTEGRITY_AUDITOR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/47_ARTIFACT_INTEGRITY_AUDITOR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-7E07921302BD",
+      "filename": "48_RENDER_PARITY_AND_OVERFLOW_BLOCKER.md",
+      "relative_path": "03_ARTIFACT_ENGINE/48_RENDER_PARITY_AND_OVERFLOW_BLOCKER.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-1B5AAA6D68E2",
+      "filename": "49_CONSULTING_VISUAL_BENCHMARK_DIRECTOR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/49_CONSULTING_VISUAL_BENCHMARK_DIRECTOR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-5880C8A96D7F",
+      "filename": "50_SAUDI_GOVERNMENT_PROPOSAL_SUITABILITY_DIRECTOR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/50_SAUDI_GOVERNMENT_PROPOSAL_SUITABILITY_DIRECTOR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-51C05D1AB872",
+      "filename": "51_CONSULTING_GRADE_ARTIFACT_STRENGTH_GRADER.md",
+      "relative_path": "03_ARTIFACT_ENGINE/51_CONSULTING_GRADE_ARTIFACT_STRENGTH_GRADER.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-529F3376CCC3",
+      "filename": "52_VISUAL_RESTRAINT_AND_EXECUTIVE_DISCIPLINE_DIRECTOR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/52_VISUAL_RESTRAINT_AND_EXECUTIVE_DISCIPLINE_DIRECTOR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B91CB91A5C89",
+      "filename": "53_REFERENCE_ONLY_VISUAL_CORPUS_INTELLIGENCE_V2.md",
+      "relative_path": "03_ARTIFACT_ENGINE/53_REFERENCE_ONLY_VISUAL_CORPUS_INTELLIGENCE_V2.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-A83FE1DEFC09",
+      "filename": "54_ARTIFACT_FAMILY_LIBRARY_CONSULTING_GRADE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/54_ARTIFACT_FAMILY_LIBRARY_CONSULTING_GRADE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-37C959987559",
+      "filename": "55_MINISTRY_GRADE_PAGE_SCORING_MODEL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/55_MINISTRY_GRADE_PAGE_SCORING_MODEL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-6B95FDB883D5",
+      "filename": "56_VISUAL_ANTI_PATTERNS_AND_REJECTION_LIBRARY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/56_VISUAL_ANTI_PATTERNS_AND_REJECTION_LIBRARY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B7B9B973D880",
+      "filename": "57_VISUAL_DEPTH_LEVELS_AND_DENSITY_CONTROL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/57_VISUAL_DEPTH_LEVELS_AND_DENSITY_CONTROL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-0298D6D7C281",
+      "filename": "58_CONSULTING_VISUAL_BENCHMARK_PATTERN_REGISTRY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/58_CONSULTING_VISUAL_BENCHMARK_PATTERN_REGISTRY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-EE04E1884870",
+      "filename": "59_CANONICAL_PAGE_SPECIFICATION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/59_CANONICAL_PAGE_SPECIFICATION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-51F1D8FD96FC",
+      "filename": "60_CANONICAL_PAGE_SCENE_GRAPH.md",
+      "relative_path": "03_ARTIFACT_ENGINE/60_CANONICAL_PAGE_SCENE_GRAPH.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-47D15F67FD06",
+      "filename": "61_DETERMINISTIC_GEOMETRY_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/61_DETERMINISTIC_GEOMETRY_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-5CED7E6E3732",
+      "filename": "62_TEXT_FIT_AND_FONT_PREFLIGHT_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/62_TEXT_FIT_AND_FONT_PREFLIGHT_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-16727A1CEDEA",
+      "filename": "63_DIRECTIONAL_LAYOUT_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/63_DIRECTIONAL_LAYOUT_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-28FBC839C69C",
+      "filename": "64_RTL_STRUCTURAL_QA_AND_NO_MIRROR_REGISTRY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/64_RTL_STRUCTURAL_QA_AND_NO_MIRROR_REGISTRY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-09E3840A4090",
+      "filename": "65_ASSET_HASH_AND_BRAND_PREFLIGHT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/65_ASSET_HASH_AND_BRAND_PREFLIGHT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-3961C14E760E",
+      "filename": "66_VISUAL_REGRESSION_AND_PARITY_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/66_VISUAL_REGRESSION_AND_PARITY_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-9A270E55F52C",
+      "filename": "67_MACHINE_RENDER_QA_REPORT_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/67_MACHINE_RENDER_QA_REPORT_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-59EB0F4AE769",
+      "filename": "68_GOLDEN_REGRESSION_TEST_SUITE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/68_GOLDEN_REGRESSION_TEST_SUITE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-9DC5EC675964",
+      "filename": "69_BUG_TO_REGRESSION_POLICY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/69_BUG_TO_REGRESSION_POLICY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-9389622CC812",
+      "filename": "70_PRODUCTION_RELEASE_GATE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/70_PRODUCTION_RELEASE_GATE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-E4D7A88B991B",
+      "filename": "71_ARTIFACT_INTELLIGENCE_ENGINE_V2.md",
+      "relative_path": "03_ARTIFACT_ENGINE/71_ARTIFACT_INTELLIGENCE_ENGINE_V2.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-74BD87E9F5D7",
+      "filename": "71_AUTO_REPAIR_AND_PAGE_SPLIT_POLICY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/71_AUTO_REPAIR_AND_PAGE_SPLIT_POLICY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-CCF39B9B4564",
+      "filename": "72_IMAGE_GENERATION_ISOLATION_GATE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/72_IMAGE_GENERATION_ISOLATION_GATE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-73EC68B48AB8",
+      "filename": "72_RUBIX_ARTIFACT_FAMILY_CATALOG.md",
+      "relative_path": "03_ARTIFACT_ENGINE/72_RUBIX_ARTIFACT_FAMILY_CATALOG.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-D5FDDF458E5E",
+      "filename": "73_ARTIFACT_INTELLIGENCE_ENGINE_V3_TRUTH_ONLY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/73_ARTIFACT_INTELLIGENCE_ENGINE_V3_TRUTH_ONLY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-0FCF29126341",
+      "filename": "73_GENERATED_ASSET_ADMISSION_QA.md",
+      "relative_path": "03_ARTIFACT_ENGINE/73_GENERATED_ASSET_ADMISSION_QA.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-03B653708FE5",
+      "filename": "74_CONSULTING_EXHIBIT_SYNTHESIS_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/74_CONSULTING_EXHIBIT_SYNTHESIS_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-2EBD5A9794D8",
+      "filename": "74_CROSS_FORMAT_BIDI_RUN_ORDER_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/74_CROSS_FORMAT_BIDI_RUN_ORDER_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-6AB149331B78",
+      "filename": "75_CONNECTOR_SEMANTICS_AND_ENDPOINT_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/75_CONNECTOR_SEMANTICS_AND_ENDPOINT_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-D950A1E48398",
+      "filename": "75_SPATIAL_SEMANTICS_AND_VISUAL_CARRIER_GRAMMAR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/75_SPATIAL_SEMANTICS_AND_VISUAL_CARRIER_GRAMMAR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-1F985F719F02",
+      "filename": "76_EVIDENCE_PACKING_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/76_EVIDENCE_PACKING_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-DFE458C0EFFB",
+      "filename": "76_OPTICAL_LOGO_MEASUREMENT_ALGORITHM.md",
+      "relative_path": "03_ARTIFACT_ENGINE/76_OPTICAL_LOGO_MEASUREMENT_ALGORITHM.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-8775C84C1080",
+      "filename": "77_GOLDEN_VISUAL_MASTER_GENERATION_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/77_GOLDEN_VISUAL_MASTER_GENERATION_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-4382E03F86AA",
+      "filename": "77_WHOLE_CANVAS_VISUAL_SEARCH_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/77_WHOLE_CANVAS_VISUAL_SEARCH_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-8D1E1D69ADCD",
+      "filename": "78_PAGE_FAMILY_AND_STYLE_ANCHOR_LOCK.md",
+      "relative_path": "03_ARTIFACT_ENGINE/78_PAGE_FAMILY_AND_STYLE_ANCHOR_LOCK.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-32172CA51D4A",
+      "filename": "78_RENDER_IN_LOOP_GEOMETRY_SEARCH_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/78_RENDER_IN_LOOP_GEOMETRY_SEARCH_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-321E2EA04E54",
+      "filename": "79_CONSULTING_EXHIBIT_QUALITY_SCORE_CEQS.md",
+      "relative_path": "03_ARTIFACT_ENGINE/79_CONSULTING_EXHIBIT_QUALITY_SCORE_CEQS.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-56226C52F79A",
+      "filename": "79_NO_CARD_DEFAULT_AND_ARTIFACT_ESCALATION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/79_NO_CARD_DEFAULT_AND_ARTIFACT_ESCALATION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B1A89E3E89EB",
+      "filename": "80_GOLDEN_MASTER_UNDERLAY_FIDELITY_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/80_GOLDEN_MASTER_UNDERLAY_FIDELITY_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-A6C42AEB0079",
+      "filename": "80_REFERENCE_GRAMMAR_RETRIEVAL_AND_ADAPTATION.md",
+      "relative_path": "03_ARTIFACT_ENGINE/80_REFERENCE_GRAMMAR_RETRIEVAL_AND_ADAPTATION.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-03C4390B7245",
+      "filename": "81_EXHIBIT_TO_PRODUCTION_HANDOFF.md",
+      "relative_path": "03_ARTIFACT_ENGINE/81_EXHIBIT_TO_PRODUCTION_HANDOFF.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B60F1C77B7EC",
+      "filename": "81_GOLDEN_VISUAL_MASTER_FULL_PAGE_GENERATION_AUTHORITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/81_GOLDEN_VISUAL_MASTER_FULL_PAGE_GENERATION_AUTHORITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B2ADFA7A38E3",
+      "filename": "81_GVM_SEMANTIC_TOPOLOGY_SIDECAR_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/81_GVM_SEMANTIC_TOPOLOGY_SIDECAR_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-EB4257E6DED7",
+      "filename": "82_CONSULTING_REFERENCE_GRAMMAR_REGISTRY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/82_CONSULTING_REFERENCE_GRAMMAR_REGISTRY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-4CCCBC4926A6",
+      "filename": "82_GOVERNED_MASTER_AND_LOGO_TRANSFORM_INTEGRITY.md",
+      "relative_path": "03_ARTIFACT_ENGINE/82_GOVERNED_MASTER_AND_LOGO_TRANSFORM_INTEGRITY.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-6B63DD46AE34",
+      "filename": "82_MWAN_COVER_AND_VISUAL_DNA_REFERENCE_LOCK.md",
+      "relative_path": "03_ARTIFACT_ENGINE/82_MWAN_COVER_AND_VISUAL_DNA_REFERENCE_LOCK.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-15E793468151",
+      "filename": "83_CROSS_FORMAT_RASTER_PARITY_RUNTIME_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/83_CROSS_FORMAT_RASTER_PARITY_RUNTIME_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-F04FE4CF296F",
+      "filename": "83_DECK_STYLE_ANCHOR_AND_CONTINUITY_BATCH_PROTOCOL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/83_DECK_STYLE_ANCHOR_AND_CONTINUITY_BATCH_PROTOCOL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-2C52F415245A",
+      "filename": "84_CARD_GRAMMAR_CONTROL_AND_ARTIFACT_RICHNESS_LOCK.md",
+      "relative_path": "03_ARTIFACT_ENGINE/84_CARD_GRAMMAR_CONTROL_AND_ARTIFACT_RICHNESS_LOCK.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-257C95C7B9F8",
+      "filename": "85_CONSULTING_VISUAL_ART_DIRECTION_SYSTEM.md",
+      "relative_path": "03_ARTIFACT_ENGINE/85_CONSULTING_VISUAL_ART_DIRECTION_SYSTEM.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-D70B552EBBAC",
+      "filename": "86_REFERENCE_CONDITIONED_GENERATION_PROTOCOL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/86_REFERENCE_CONDITIONED_GENERATION_PROTOCOL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-437B6A1F8ACD",
+      "filename": "87_VISUAL_CONCEPT_COMPETITION_AND_SELECTION_COUNCIL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/87_VISUAL_CONCEPT_COMPETITION_AND_SELECTION_COUNCIL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-0EB1AF56F415",
+      "filename": "88_STRICT_PALETTE_GOVERNOR_AND_COLOR_BUDGET.md",
+      "relative_path": "03_ARTIFACT_ENGINE/88_STRICT_PALETTE_GOVERNOR_AND_COLOR_BUDGET.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-3B7F6B1EA2DB",
+      "filename": "89_DECK_RHYTHM_AND_VISUAL_TEMPO_PROTOCOL.md",
+      "relative_path": "03_ARTIFACT_ENGINE/89_DECK_RHYTHM_AND_VISUAL_TEMPO_PROTOCOL.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-19EAE08D67C1",
+      "filename": "90_COVER_LEFT_EDITORIAL_HERO_LOCK.md",
+      "relative_path": "03_ARTIFACT_ENGINE/90_COVER_LEFT_EDITORIAL_HERO_LOCK.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-36A329F31601",
+      "filename": "91_IMAGE_MODEL_STYLE_VISUAL_REASONING_SIMULATOR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/91_IMAGE_MODEL_STYLE_VISUAL_REASONING_SIMULATOR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-FFEE23CDC3E6",
+      "filename": "92_CONSULTING_COMPOSITION_SEARCH_ENGINE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/92_CONSULTING_COMPOSITION_SEARCH_ENGINE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-DD546547E72A",
+      "filename": "93_ARTIFACT_RICHNESS_AND_INFORMATION_DENSITY_CONTRACT.md",
+      "relative_path": "03_ARTIFACT_ENGINE/93_ARTIFACT_RICHNESS_AND_INFORMATION_DENSITY_CONTRACT.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-230DE426F58F",
+      "filename": "94_HTML_SVG_CSS_COMPOSER_ARCHITECTURE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/94_HTML_SVG_CSS_COMPOSER_ARCHITECTURE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-1F1CC5C6D095",
+      "filename": "95_MWAN_CONSULTING_PATTERN_GRAMMAR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/95_MWAN_CONSULTING_PATTERN_GRAMMAR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-BE3779FDEBBF",
+      "filename": "96_VISUAL_SELF_CRITIQUE_AND_REPAIR_LOOP.md",
+      "relative_path": "03_ARTIFACT_ENGINE/96_VISUAL_SELF_CRITIQUE_AND_REPAIR_LOOP.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-3EB66D153E30",
+      "filename": "97_CONSULTING_VISUAL_FIDELITY_SCORE.md",
+      "relative_path": "03_ARTIFACT_ENGINE/97_CONSULTING_VISUAL_FIDELITY_SCORE.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-7A89EDD368D8",
+      "filename": "98_PAGE_FAMILY_HTML_SVG_COMPONENT_GRAMMAR.md",
+      "relative_path": "03_ARTIFACT_ENGINE/98_PAGE_FAMILY_HTML_SVG_COMPONENT_GRAMMAR.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-D98D4AC6D704",
+      "filename": "99_NO_PREMATURE_GEOMETRY_LOCK.md",
+      "relative_path": "03_ARTIFACT_ENGINE/99_NO_PREMATURE_GEOMETRY_LOCK.md",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-B646EF7D044A",
+      "filename": "ICON_ASSET_INVENTORY.json",
+      "relative_path": "03_ARTIFACT_ENGINE/ICON_ASSET_INVENTORY.json",
+      "numeric_prefix_display_only": true
+    },
+    {
+      "logical_id": "ART-7BD0EF377DAB",
+      "filename": "PREMIUM_ARTIFACT_CATALOG.md",
+      "relative_path": "03_ARTIFACT_ENGINE/PREMIUM_ARTIFACT_CATALOG.md",
+      "numeric_prefix_display_only": true
+    }
+  ],
+  "unique_logical_ids": 181,
+  "file_count": 181
+}

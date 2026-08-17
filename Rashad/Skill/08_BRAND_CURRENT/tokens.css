@@ -1,0 +1,30 @@
+:root {
+  --rubix-canvas-white: #FFFFFF;
+  --rubix-canvas-warm: #FAF9FA;
+  --rubix-canvas-magenta-8: #F8EDF3;
+  --rubix-canvas-purple-8: #F5EEF5;
+  --rubix-canvas-blue-8: #F0F4FA;
+  --rubix-canvas-teal-8: #EBF4F5;
+  --rubix-brand-magenta: #A42365;
+  --rubix-text-primary: #1A1A1A;
+  --rubix-text-secondary: #3D3D3D;
+  --rubix-text-muted: #6F6F73;
+  --rubix-hairline: #E6E2E4;
+  --rubix-purple: #822B83;
+  --rubix-purple-15: #ECDFEC;
+  --rubix-teal: #077381;
+  --rubix-teal-15: #DAEAEC;
+  --rubix-blue: #407ABE;
+  --rubix-blue-15: #E2EBF5;
+  --rubix-orange: #F15A26;
+  --rubix-orange-15: #FDE6DE;
+  --rubix-orange-8: #FEF2EE;
+  --rubix-red: #D32A45;
+  --rubix-red-15: #F8DFE3;
+  --rubix-red-8: #FBEEF0;
+  --rubix-navy: #203B70;
+  --rubix-navy-15: #DEE2EA;
+  --rubix-navy-8: #EDEFF4;
+  --rubix-magenta-15: #F1DEE8;
+}
+/* Usage law remains in RUBIX_ARTIFACT_PALETTE.md; do not activate the full palette decoratively. */

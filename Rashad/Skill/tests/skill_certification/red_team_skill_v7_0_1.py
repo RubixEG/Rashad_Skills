@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+from pathlib import Path
+import json,re,sys,copy
+from jsonschema import Draft202012Validator
+ROOT=Path(__file__).resolve().parents[2]
+att=[]
+def record(name,blocked,evidence): att.append((name,bool(blocked),evidence))
+def text(rel): return (ROOT/rel).read_text(encoding='utf-8')
+def data(rel): return json.loads(text(rel))
+# A startup/version split-brain attack
+blob='\n'.join(text(x) for x in ['00_START_HERE.md','PROJECT_INSTRUCTIONS.md','00_CHAT_MIRROR_KERNEL/00_RASHAD_BOOTSTRAP.md','00_CHAT_MIRROR_KERNEL/24_VERSION_LAYER_RESOLUTION_AND_RETIREMENT_LEDGER.md'])
+record('A01_stale_v622_current_route', 'use only the current v6.2.2' not in blob.lower() and 'unless explicitly exempted' not in blob.lower(), 'current startup mirrors')
+# Candidate exemption
+record('A02_critical_candidate_exemption', 'no page-family exemption may reduce either count' in text('01_ACTIVE_RUNTIME/65_V6_1_PAGE_EXECUTION_DOSSIER_CONTRACT.md').lower() and 'no critical analytical page-family exemption exists' in text('PROJECT_INSTRUCTIONS.md').lower(), 'dossier+project')
+# RFP 24 drift/client derivative
+fp=text('01_ACTIVE_RUNTIME/22_RFP_SUMMARY_FINAL_PRODUCT_CONTRACT.md')
+record('A03_client_derivative_as_role24','## 24. Client-facing derivative' not in fp and '## 24. Management / Bid Decision' in fp,'final product contract')
+# Role depth missing
+rd=text('01_ACTIVE_RUNTIME/40_RFP_SUMMARY_24_ROLE_DEPTH_CONTRACTS.md')
+record('A04_role_depth_missing_analysis_evidence',rd.count('**Required analysis:**')==24 and rd.count('**Evidence:**')==24,'24 role depth sections')
+# Lens identity attack
+lr=data('01_ACTIVE_RUNTIME/council_lens_registry_v7_0_1.json'); auth=set(lr['authorized_runtime_role_ids'])
+record('A05_lens_invents_runtime_role',all(set(x['authorized_runtime_role_ids'])<=auth and x['lens_type']=='ANALYTICAL_LENS_NOT_RUNTIME_ID' for x in lr['lenses']),'lens registry')
+# Cognitive schema attacks
+schema=data('schemas/consulting_cognitive_packet_v7.schema.json'); v=Draft202012Validator(schema)
+base={'page_id':'P24','role_id':'BID_DECISION','management_question':'Should management pursue this opportunity?','evaluator_question':'What conditions affect award confidence?','decision_supported':'Bid decision','answer_first_thesis':'Proceed only if named conditions are closed.','evidence_for':[{'claim':'Evidence exists','source_ref':'SRC-X','locator':'p.2','confidence':0.8}],'evidence_against':[],'assumptions':[{'statement':'Access assumed','impact':'schedule','validation_owner':'PM'}],'counterarguments':['Could be less attractive'],'relationships':[{'source':'A','relation':'DEPENDS_ON','target':'B'}],'executive_implication':'Management must close blockers before commitment.','council_route':[{'lens_id':'CEO_GM','authorized_runtime_role_ids':['ROLE-PARTNER','ROLE-DIRECTOR'],'challenge_question':'Would management take this risk?','independence_required':True},{'lens_id':'CFO','authorized_runtime_role_ids':['ROLE-COMMERCIAL','ROLE-PARTNER'],'challenge_question':'Is commercial exposure understood?','independence_required':True},{'lens_id':'RED_TEAM_CHALLENGER','authorized_runtime_role_ids':['ROLE-REDTEAM'],'challenge_question':'What would make the recommendation wrong?','independence_required':True}]}
+for nm,mut in [('fake_role',('role_id','FAKE_ROLE')),('fake_relation',('relationships',[{'source':'A','relation':'MADE_UP_RELATION','target':'B'}])),('fake_lens',('council_route',[{'lens_id':'FAKE_LENS','authorized_runtime_role_ids':['ROLE-PARTNER'],'challenge_question':'This malicious fake lens should not validate.','independence_required':True}]*3))]:
+ q=copy.deepcopy(base); q[mut[0]]=mut[1]; record('A06_'+nm,bool(list(v.iter_errors(q))),str([e.message for e in v.iter_errors(q)][:2]))
+# Missing evidence locator
+q=copy.deepcopy(base); del q['evidence_for'][0]['locator']; record('A07_missing_evidence_locator',bool(list(v.iter_errors(q))),'schema')
+# QA fake pass / zero measurement: spec must define fail
+qa=data('07_GOVERNANCE_AND_QA/73_V7_VISUAL_AND_EXECUTIVE_FAILURE_TAXONOMY.json')
+zero=[c for c in qa['cases'] if c['minimum_measured_objects']<1 or (c['severity']=='BLOCKING' and c['not_instrumented_result']!='FAIL_NOT_INSTRUMENTED')]
+record('A08_zero_measurement_pass',not zero,f'bad={len(zero)}')
+# QA unspecified detector bypass
+missing=[c['id'] for c in qa['cases'] if not all(c.get(k) for k in ['detector','measurement','threshold','applicability','stress_fixture','test_fixture','evidence_output'])]
+record('A09_unspecified_qa_detector',not missing,f'missing={missing[:5]}')
+# decision auto weighted formula / missing conditions
+bd=data('schemas/rfp_bid_decision_evidence_v7_0_1.schema.json'); bv=Draft202012Validator(bd); dims=bd['properties']['dimensions']['items']['properties']['dimension']['enum']
+d={'decision_id':'DEC-X01','recommendation':'GO_WITH_CONDITIONS','decision_method':'AUTO_WEIGHTED_SCORE','management_approval_required':True,'dimensions':[{'dimension':x,'assessment':'FAVORABLE','confidence':0.9,'rationale':'Evidence appears favorable for this decision dimension.','evidence_refs':[{'source_ref':'SRC-X','locator':'p.1'}]} for x in dims],'conditions':[],'blockers':[],'required_actions':['Approve'],'counter_case':'There is still a plausible counter-case.','evidence_sufficiency':'SUFFICIENT_FOR_RECOMMENDATION'}
+record('A10_auto_formula_bid_decision',bool(list(bv.iter_errors(d))),str([e.message for e in bv.iter_errors(d)][:3]))
+# workflow legacy reactivation
+wf=text('05_WORKFLOW_ENGINE/02_RFP_SUMMARY.md')
+record('A11_legacy_workflow17_reactivation','23_V7_0_1_RFP_SUMMARY_DECISION_WORKFLOW.md' in wf and 'executed through `17_A_TO_Z' not in wf,'workflow router')
+# legacy 3-4 in current workflow
+wf23=text('05_WORKFLOW_ENGINE/23_V7_0_1_RFP_SUMMARY_DECISION_WORKFLOW.md'); current_body=wf23.split('Legacy `17_A_TO_Z',1)[0]; record('A12_current_workflow_old_concept_count','3–4 concept' not in current_body and '3-4 concept' not in current_body and '3–5 concept' not in current_body and '3-5 concept' not in current_body and 'exactly 5' in current_body,'workflow23 current body')
+# Artifact regression card fallback
+art='\n'.join(text(x) for x in ['SKILL.md','00_CHAT_MIRROR_KERNEL/58_V7_GENERATIVE_EXHIBIT_AND_TOTAL_QUALITY_DIRECTOR.md','03_ARTIFACT_ENGINE/143_V7_GENERATIVE_EXHIBIT_SYNTHESIS_BRAIN.md'])
+record('A13_artifact_template_card_regression','Cards are supporting surfaces only' in text('SKILL.md') and 'relationship-first' in art.lower(),'artifact authorities')
+# Producer judge attack
+record('A14_producer_self_certification','Producer-owned estimates have zero release authority' in text('SKILL.md') and 'Producer estimates have zero release authority' in text('07_GOVERNANCE_AND_QA/77_V7_RELEASE_COUNCIL_OF_COUNCILS.md'),'release governance')
+# Language drift
+lang=text('01_ACTIVE_RUNTIME/70_V7_MONOLINGUAL_OUTPUT_AND_NAMING_AUTHORITY.md')
+record('A15_decorative_bilingualism','decorative bilingual' in lang.lower() and 'forbidden' in lang.lower(),'language authority')
+# Criticality downgrade
+crit=text('01_ACTIVE_RUNTIME/68_V6_2_2_PAGE_CRITICALITY_CLASSIFICATION_CONTRACT.md')
+record('A16_producer_criticality_downgrade','producer' in crit.lower() and 'downgrad' in crit.lower(),'criticality authority')
+# Prompt injection startup route
+man=data('ACTIVE_AUTHORITY_MANIFEST.json')
+record('A17_prompt_injection_not_mandatory','01_ACTIVE_RUNTIME/64_V6_DOCUMENT_INSTRUCTION_ISOLATION_AND_PROMPT_INJECTION_FIREWALL.md' in man['global_authorities'],'manifest')
+# Version ledger in manifest
+record('A18_version_ledger_not_bound','00_CHAT_MIRROR_KERNEL/24_VERSION_LAYER_RESOLUTION_AND_RETIREMENT_LEDGER.md' in man['global_authorities'],'manifest')
+# Client derivative separate
+record('A19_client_derivative_product_confusion','separate product' in fp.lower() and 'not a logical rfp summary role' in fp.lower(),'final product')
+# Truthful QA runtime boundary
+record('A20_specification_claimed_implemented','SPECIFIED_NOT_IMPLEMENTED' in text('07_GOVERNANCE_AND_QA/79_V7_0_1_QA_DETECTOR_IMPLEMENTATION_CONTRACT.md'),'qa boundary')
+# summary
+fails=[a for a in att if not a[1]]
+for n,b,e in att: print(('BLOCKED' if b else 'BYPASS'),n,e)
+print(f'SUMMARY {len(att)-len(fails)}/{len(att)} ATTACKS BLOCKED')
+sys.exit(1 if fails else 0)

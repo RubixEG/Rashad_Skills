@@ -1,0 +1,211 @@
+{
+  "qa_brain_version": "1.3.0",
+  "principle": "Independent cognitive review over deterministic QA evidence; QA never owns production RELEASED.",
+  "councils": [
+    {
+      "id": "Q01_MECHANICAL_GEOMETRY",
+      "name": "Mechanical Geometry & Connector Council",
+      "questions": [
+        "Are all visible objects inside safe geometry?",
+        "Does every connector have explicit source/target anchors?",
+        "Are collisions, clipping, overflow, crossings and off-canvas elements detected?"
+      ],
+      "hard_blockers": [
+        "overflow",
+        "clipping",
+        "off_canvas",
+        "floating_connector",
+        "ambiguous_edge",
+        "object_collision",
+        "unreadable_text"
+      ]
+    },
+    {
+      "id": "Q02_EVIDENCE_EPISTEMIC",
+      "name": "Evidence & Epistemic Integrity Council",
+      "questions": [
+        "Is every material claim traceable?",
+        "Are facts, inferences, assumptions and recommendations distinguishable?",
+        "Does the visual contradict any source value?"
+      ],
+      "hard_blockers": [
+        "unsupported_claim",
+        "missing_locator",
+        "source_contradiction",
+        "stale_evidence",
+        "forged_evidence"
+      ]
+    },
+    {
+      "id": "Q03_ARTIFACT_SEMANTICS",
+      "name": "Artifact Semantics & Relationship Council",
+      "questions": [
+        "Does the exhibit encode the semantic graph?",
+        "Are dependencies, ownership, sequence, feedback and decisions visible?",
+        "Is the page more than cards plus arrows?"
+      ],
+      "hard_blockers": [
+        "missing_semantic_relation",
+        "fake_edge",
+        "artifact_truth_failure",
+        "template_substitution"
+      ]
+    },
+    {
+      "id": "Q04_CONSULTING_VISUAL",
+      "name": "Consulting Visual Quality Council",
+      "questions": [
+        "Is the thesis clear in five to ten seconds?",
+        "Is there a focal point and a coherent reading path?",
+        "Is the page synthesized rather than a collection of components?"
+      ],
+      "hard_blockers": [
+        "no_focal_point",
+        "weak_hierarchy",
+        "generic_ai_layout",
+        "card_dominance",
+        "unclear_implication"
+      ]
+    },
+    {
+      "id": "Q05_ARABIC_RTL_TYPOGRAPHY",
+      "name": "Arabic, RTL, BiDi & Typography Council",
+      "questions": [
+        "Is Arabic native and directionally correct?",
+        "Are mixed LTR tokens isolated without semantic inversion?",
+        "Are fonts, shaping, line-height and minimum size valid?"
+      ],
+      "hard_blockers": [
+        "rtl_inversion",
+        "bidi_corruption",
+        "font_fallback",
+        "glyph_clipping",
+        "owner_language_violation"
+      ]
+    },
+    {
+      "id": "Q06_BRAND_PRODUCTION_EXPORT",
+      "name": "Brand, Renderer & Export Council",
+      "questions": [
+        "Are logos and palette authoritative?",
+        "Are render hashes current?",
+        "Do PNG/PDF/PPTX outputs preserve parity?"
+      ],
+      "hard_blockers": [
+        "wrong_logo",
+        "legacy_client_contamination",
+        "render_hash_mismatch",
+        "pdf_parity_fail",
+        "pptx_parity_fail"
+      ]
+    },
+    {
+      "id": "Q07_CROSS_DECK_NARRATIVE",
+      "name": "Cross-Deck Narrative & Variety Council",
+      "questions": [
+        "Is the deck coherent without becoming monotonous?",
+        "Are topology, focal strategy and density sufficiently varied?",
+        "Does the narrative progress toward a management decision?"
+      ],
+      "hard_blockers": [
+        "template_twins",
+        "deck_monotony",
+        "repeated_topology",
+        "narrative_break"
+      ]
+    },
+    {
+      "id": "Q08_ADVERSARIAL_RED_TEAM",
+      "name": "Independent QA Red Team",
+      "questions": [
+        "Can PASS be forged without real measurements?",
+        "Can hidden/off-canvas/zero-opacity defects evade detection?",
+        "Can a producer impersonate a judge or reuse stale proof?"
+      ],
+      "hard_blockers": [
+        "vacuous_pass",
+        "forged_pass",
+        "producer_judge_collision",
+        "stale_proof",
+        "hidden_defect_bypass"
+      ]
+    },
+    {
+      "id": "Q09_META_QA_INTEGRITY",
+      "name": "Meta-QA & Council Integrity Council",
+      "questions": [
+        "Did every required council actually execute?",
+        "Are reviewer actors independent and contexts isolated?",
+        "Did any QA layer claim authority it does not own?"
+      ],
+      "hard_blockers": [
+        "missing_council",
+        "shared_actor",
+        "shared_context",
+        "authority_escalation",
+        "governance_theater"
+      ]
+    },
+    {
+      "id": "Q10_QA_RELEASE_CANDIDATE",
+      "name": "QA Candidate Chair",
+      "questions": [
+        "Is deterministic evidence complete?",
+        "Are all independent council blockers closed?",
+        "Is the result eligible only for QA_CANDIDATE_PASS?"
+      ],
+      "hard_blockers": [
+        "open_p0",
+        "open_p1",
+        "independent_review_missing",
+        "deterministic_qa_fail",
+        "attempted_production_release"
+      ]
+    },
+    {
+      "id": "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+      "name": "Actual Pixel / Product Review Council",
+      "questions": [
+        "Did an independent reviewer inspect the actual rendered pixels rather than only metadata or framework tests?",
+        "Does the rendered page communicate the intended thesis with consulting-grade hierarchy, restraint and visual quality?",
+        "Are render hashes current and bound to the exact pixels being judged?"
+      ],
+      "hard_blockers": [
+        "actual_pixel_review_missing",
+        "stale_render",
+        "generic_composition",
+        "diagram_overuse",
+        "weak_visual_quality",
+        "render_judgment_hash_mismatch"
+      ]
+    },
+    {
+      "id": "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+      "name": "Executive Simplicity & Artifact Skeptic Council",
+      "questions": [
+        "Could the executive understand the answer in five seconds?",
+        "Would a simpler statement, number, table or comparison communicate the same meaning better?",
+        "Could this page be reused for another RFP by changing labels only?"
+      ],
+      "hard_blockers": [
+        "unnecessary_complexity",
+        "artifact_not_needed_but_used",
+        "generic_label_swap",
+        "weak_five_second_comprehension",
+        "diagram_without_information_gain"
+      ]
+    },
+    {
+      "id": "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+      "name": "User-Visible Delivery Integrity & Repair Closure Council",
+      "purpose": "Verify exact production-render/file hashes, no concept-render leakage, all failed visual QA rounds repaired, and exact-file delivery certificate integrity."
+    },
+    {
+      "id": "Q14_GOLDEN_REAL_RFP_ACCEPTANCE",
+      "name": "Golden Real-RFP Acceptance & Regression Council",
+      "purpose": "Prevent synthetic framework tests from substituting for a real end-to-end RFP artifact quality acceptance scenario."
+    }
+  ],
+  "version": "1.3.0",
+  "council_count": 14
+}

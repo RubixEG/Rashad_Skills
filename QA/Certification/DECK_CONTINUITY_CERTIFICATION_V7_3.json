@@ -1,0 +1,134 @@
+{
+  "suite": "Rashad v7.3 Deck Continuity Certification",
+  "status": "PASS",
+  "checks": {
+    "good_sequence_passes": true,
+    "hash_mutation_blocks": true,
+    "link_mutation_blocks": true
+  },
+  "good": {
+    "status": "PASS",
+    "verdict": "DECK_CONTINUITY_PASS",
+    "violations": [],
+    "measurements": [
+      {
+        "page_id": "P02",
+        "comparison": "adjacent_page_style_continuity",
+        "anchor_page_id": "P01",
+        "lightness_delta": 46.5247685185185,
+        "edge_density_delta": 1.1771180555555567,
+        "hist_l1": 2.0235069444444447
+      },
+      {
+        "page_id": "P03",
+        "comparison": "adjacent_page_style_continuity",
+        "anchor_page_id": "P02",
+        "lightness_delta": 45.580364583333335,
+        "edge_density_delta": 0.9239930555555542,
+        "hist_l1": 2.001215277777778
+      },
+      {
+        "page_id": "P04",
+        "comparison": "adjacent_page_style_continuity",
+        "anchor_page_id": "P03",
+        "lightness_delta": 4.047818287037046,
+        "edge_density_delta": 4.088940972222222,
+        "hist_l1": 0.5460416666666668
+      }
+    ],
+    "thresholds": {
+      "lightness_delta_max": 75,
+      "edge_density_delta_max": 45,
+      "hist_l1_max": 1.8
+    },
+    "page_count": 4
+  },
+  "hash_attack": {
+    "status": "FAIL",
+    "verdict": "BLOCKED",
+    "violations": [
+      {
+        "page_id": "P02",
+        "problem": "master hash mismatch",
+        "expected": "0000000000000000000000000000000000000000000000000000000000000000",
+        "actual": "766544100d4190d1faf770447fd25a247dd192ceb90c6e86ba62409b1577b1cd"
+      }
+    ],
+    "measurements": [
+      {
+        "page_id": "P02",
+        "comparison": "adjacent_page_style_continuity",
+        "anchor_page_id": "P01",
+        "lightness_delta": 46.5247685185185,
+        "edge_density_delta": 1.1771180555555567,
+        "hist_l1": 2.0235069444444447
+      },
+      {
+        "page_id": "P03",
+        "comparison": "adjacent_page_style_continuity",
+        "anchor_page_id": "P02",
+        "lightness_delta": 45.580364583333335,
+        "edge_density_delta": 0.9239930555555542,
+        "hist_l1": 2.001215277777778
+      },
+      {
+        "page_id": "P04",
+        "comparison": "adjacent_page_style_continuity",
+        "anchor_page_id": "P03",
+        "lightness_delta": 4.047818287037046,
+        "edge_density_delta": 4.088940972222222,
+        "hist_l1": 0.5460416666666668
+      }
+    ],
+    "thresholds": {
+      "lightness_delta_max": 75,
+      "edge_density_delta_max": 45,
+      "hist_l1_max": 1.8
+    },
+    "page_count": 4
+  },
+  "link_attack": {
+    "status": "FAIL",
+    "verdict": "BLOCKED",
+    "violations": [
+      {
+        "page_id": "P03",
+        "problem": "previous-page continuity link mismatch",
+        "expected": "P02",
+        "actual": "WRONG"
+      }
+    ],
+    "measurements": [
+      {
+        "page_id": "P02",
+        "comparison": "adjacent_page_style_continuity",
+        "anchor_page_id": "P01",
+        "lightness_delta": 46.5247685185185,
+        "edge_density_delta": 1.1771180555555567,
+        "hist_l1": 2.0235069444444447
+      },
+      {
+        "page_id": "P03",
+        "comparison": "adjacent_page_style_continuity",
+        "anchor_page_id": "P02",
+        "lightness_delta": 45.580364583333335,
+        "edge_density_delta": 0.9239930555555542,
+        "hist_l1": 2.001215277777778
+      },
+      {
+        "page_id": "P04",
+        "comparison": "adjacent_page_style_continuity",
+        "anchor_page_id": "P03",
+        "lightness_delta": 4.047818287037046,
+        "edge_density_delta": 4.088940972222222,
+        "hist_l1": 0.5460416666666668
+      }
+    ],
+    "thresholds": {
+      "lightness_delta_max": 75,
+      "edge_density_delta_max": 45,
+      "hist_l1_max": 1.8
+    },
+    "page_count": 4
+  }
+}

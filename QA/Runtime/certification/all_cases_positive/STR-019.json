@@ -1,0 +1,15 @@
+{
+  "case_id": "STR-019",
+  "detector": "METAMORPHIC_STRESS_RUNNER",
+  "taxonomy_sha256": "8b63a1fc1ba409139388f0d182c367529dd5b26611ee65b1c24487da1011c1dd",
+  "input_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "evidence_id": "TEST-STR-019",
+  "owner": "QA_RUNTIME_TEST",
+  "status": "PASS",
+  "measured_object_count": 1,
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "mutation_id": "M19",
+  "mutated_input_hash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "before_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "after_hash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+}

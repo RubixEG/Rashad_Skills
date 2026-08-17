@@ -1,0 +1,8 @@
+playwright
+Pillow
+numpy
+jsonschema
+beautifulsoup4
+lxml
+python-pptx
+reportlab

@@ -1,0 +1,363 @@
+{
+  "suite": "Rashad Artifact Intelligence Brain v3.3 Adversarial Red Team",
+  "status": "PASS",
+  "blocked": 15,
+  "total": 15,
+  "attacks": [
+    {
+      "attack": "GEOMETRY_PRIMITIVES_AS_HYPOTHESES",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_BRAIN_SESSION",
+          "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+          "BRAIN_EXECUTION_PROOF_REQUIRED",
+          "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+          "EVIDENCE_LINEAGE_REQUIRED",
+          "THREE_COMMUNICATION_FAMILIES_REQUIRED",
+          "MINIMAL_NON_DIAGRAM_HYPOTHESIS_REQUIRED",
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED"
+        ]
+      }
+    },
+    {
+      "attack": "POSITIONAL_H1_DEFAULT",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_BRAIN_SESSION",
+          "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+          "BRAIN_EXECUTION_PROOF_REQUIRED",
+          "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+          "EVIDENCE_LINEAGE_REQUIRED",
+          "THREE_COMMUNICATION_FAMILIES_REQUIRED",
+          "MINIMAL_NON_DIAGRAM_HYPOTHESIS_REQUIRED",
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED"
+        ]
+      }
+    },
+    {
+      "attack": "SEARCH_COLLAPSES_TO_DIAGRAM_ONLY",
+      "status": "BLOCKED",
+      "detail": [
+        "DECISION_LED",
+        "SCORECARD_LED",
+        "HYBRID_EXHIBIT",
+        "STATEMENT_LED",
+        "QUESTION_LED"
+      ]
+    },
+    {
+      "attack": "UNNEEDED_SYSTEM_MAP",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "REJECT",
+        "reasons": [
+          "DIAGRAM_WITHOUT_MATERIAL_RELATIONSHIPS",
+          "COMPLEXITY_NOT_EARNED"
+        ],
+        "five_second_test_required": true,
+        "generic_layout_swap_test_required": true,
+        "remove_diagram_test_required": true
+      }
+    },
+    {
+      "attack": "PAGE_DIAGRAM_ONLY_SEARCH",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "blockers": [
+          "AT_LEAST_THREE_COMMUNICATION_FAMILIES_REQUIRED",
+          "DIAGRAM_ONLY_HYPOTHESIS_SEARCH_FORBIDDEN"
+        ],
+        "warnings": [
+          "ACTUAL_PIXEL_VISUAL_QUALITY_REVIEW_NOT_EXECUTED"
+        ],
+        "actual_pixels_seen": false,
+        "visibility": "INTERNAL"
+      }
+    },
+    {
+      "attack": "DECK_100_PERCENT_DIAGRAMS",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "blockers": [
+          "DECK_DIAGRAM_OVERUSE",
+          "FOUR_CONSECUTIVE_SAME_COMMUNICATION_STRATEGY",
+          "INSUFFICIENT_DECK_COMMUNICATION_VARIETY",
+          "POSITIONAL_HYPOTHESIS_WINNER_BIAS",
+          "GENERIC_COMPOSITION_REPETITION"
+        ],
+        "warnings": [
+          "ACTUAL_PIXEL_QA_INCOMPLETE_0_OF_10"
+        ],
+        "page_count": 10,
+        "diagram_ratio": 1.0,
+        "max_same_strategy_run": 10,
+        "actual_pixel_reviews": 0,
+        "visibility": "INTERNAL"
+      }
+    },
+    {
+      "attack": "ALL_PAGES_H1",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "blockers": [
+          "DECK_DIAGRAM_OVERUSE",
+          "FOUR_CONSECUTIVE_SAME_COMMUNICATION_STRATEGY",
+          "INSUFFICIENT_DECK_COMMUNICATION_VARIETY",
+          "POSITIONAL_HYPOTHESIS_WINNER_BIAS",
+          "GENERIC_COMPOSITION_REPETITION"
+        ],
+        "warnings": [
+          "ACTUAL_PIXEL_QA_INCOMPLETE_0_OF_10"
+        ],
+        "page_count": 10,
+        "diagram_ratio": 1.0,
+        "max_same_strategy_run": 10,
+        "actual_pixel_reviews": 0,
+        "visibility": "INTERNAL"
+      }
+    },
+    {
+      "attack": "SAME_COMPOSITION_GRAMMAR",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "blockers": [
+          "DECK_DIAGRAM_OVERUSE",
+          "FOUR_CONSECUTIVE_SAME_COMMUNICATION_STRATEGY",
+          "INSUFFICIENT_DECK_COMMUNICATION_VARIETY",
+          "POSITIONAL_HYPOTHESIS_WINNER_BIAS",
+          "GENERIC_COMPOSITION_REPETITION"
+        ],
+        "warnings": [
+          "ACTUAL_PIXEL_QA_INCOMPLETE_0_OF_10"
+        ],
+        "page_count": 10,
+        "diagram_ratio": 1.0,
+        "max_same_strategy_run": 10,
+        "actual_pixel_reviews": 0,
+        "visibility": "INTERNAL"
+      }
+    },
+    {
+      "attack": "CROSS_PAGE_RENDER_REUSE",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "blockers": [
+          "CROSS_PAGE_RENDER_HASH_REUSE"
+        ],
+        "warnings": [
+          "ACTUAL_PIXEL_QA_INCOMPLETE_0_OF_2"
+        ],
+        "page_count": 2,
+        "diagram_ratio": 0.0,
+        "max_same_strategy_run": 1,
+        "actual_pixel_reviews": 0,
+        "visibility": "INTERNAL"
+      }
+    },
+    {
+      "attack": "FRAMEWORK_QA_MASQUERADES_AS_OUTPUT_QA",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_BRAIN_SESSION",
+          "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+          "BRAIN_EXECUTION_PROOF_REQUIRED",
+          "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+          "EVIDENCE_LINEAGE_REQUIRED",
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "QA_MUST_TARGET_ACTUAL_RENDERED_OUTPUT",
+          "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED"
+        ]
+      }
+    },
+    {
+      "attack": "LOAD_ALL_ARTIFACT_EXPERTS",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "PASS",
+        "stage": "PRE_CONCEPT",
+        "page_features": {
+          "page_fingerprint": "bd0f4c143df2",
+          "text": "simple statement",
+          "number_count": 0,
+          "numbers": [],
+          "decision": false,
+          "compare": false,
+          "timeline": false,
+          "evidence": false,
+          "architecture": false,
+          "financial": false,
+          "people": false,
+          "page_family": "ANALYTICAL",
+          "image_cue": false,
+          "node_count": 1,
+          "edge_count": 0,
+          "relations": [],
+          "has_relationships": false,
+          "system_complexity_earned": false
+        },
+        "active_councils": [
+          "ARGUMENT_COUNCIL",
+          "EVIDENCE_EPISTEMIC_COUNCIL",
+          "COMMUNICATION_STRATEGY_COUNCIL",
+          "SIMPLICITY_COUNCIL",
+          "INFORMATION_DESIGN_COUNCIL",
+          "META_EXPERTISE_ROUTER",
+          "ARTIFACT_RED_TEAM",
+          "ARABIC_RTL_COUNCIL"
+        ],
+        "active_roles": [
+          "AR-SENIOR-PARTNER",
+          "AR-ENGAGEMENT-PARTNER",
+          "AR-PRINCIPAL",
+          "AR-ENGAGEMENT-MANAGER",
+          "AR-STRATEGY-CONSULTANT",
+          "AR-TRANSFORMATION-SME",
+          "AR-OPERATING-MODEL-SME",
+          "AR-VALUE-CREATION-SME",
+          "AR-EVIDENCE-ARCHITECT",
+          "AR-RESEARCH-ANALYST",
+          "AR-SOURCE-INTEGRITY-SME",
+          "AR-QUANTITATIVE-ANALYST",
+          "AR-ASSUMPTION-CHALLENGER",
+          "AR-EPISTEMIC-GOVERNOR",
+          "AR-COMMUNICATION-STRATEGIST",
+          "AR-EXECUTIVE-COMMUNICATION-ARCHITECT",
+          "AR-PROPOSAL-STORYLINER",
+          "AR-NARRATIVE-STRATEGIST"
+        ],
+        "registered_council_count": 20,
+        "registered_role_count": 107,
+        "bounded_activation": true
+      }
+    },
+    {
+      "attack": "LEGACY_RING_HUB_SPINE_VOCABULARY_RETURNS",
+      "status": "BLOCKED",
+      "detail": [
+        "STATEMENT_LED",
+        "PORTFOLIO_LED",
+        "NUMBER_LED",
+        "TABLE_LED",
+        "HYBRID_EXHIBIT"
+      ]
+    },
+    {
+      "attack": "EVIDENCE_METADATA_FORCES_TABLE_BIAS",
+      "status": "BLOCKED",
+      "detail": {
+        "winner": {
+          "status": "PASS",
+          "candidate_id": "H3",
+          "communication_strategy": "STATEMENT_LED",
+          "selection_authority": "PROVISIONAL_PARTNER_HEURISTIC_NOT_INDEPENDENT",
+          "selection_reason": "Highest communication fit, then simplicity. Candidate position/id is not a scoring input.",
+          "independent": false
+        },
+        "hypotheses": [
+          "ARCHITECTURE_LED",
+          "QUESTION_LED",
+          "STATEMENT_LED",
+          "COMPARISON_LED",
+          "HYBRID_EXHIBIT"
+        ]
+      }
+    },
+    {
+      "attack": "GOVERNANCE_SUBSTRING_FALSE_GO_DECISION",
+      "status": "BLOCKED",
+      "detail": {
+        "page_fingerprint": "6b3983c6914b",
+        "text": "an operating system connects strategy, governance, delivery and measurement through feedback.",
+        "number_count": 0,
+        "numbers": [],
+        "decision": false,
+        "compare": false,
+        "timeline": false,
+        "evidence": false,
+        "architecture": false,
+        "financial": false,
+        "people": false,
+        "page_family": "ANALYTICAL",
+        "image_cue": false,
+        "node_count": 2,
+        "edge_count": 4,
+        "relations": [
+          "CONTROLS",
+          "DEPENDS_ON",
+          "ENABLES",
+          "FEEDS_BACK"
+        ],
+        "has_relationships": true,
+        "system_complexity_earned": true
+      }
+    },
+    {
+      "attack": "COMMUNICATION_STRATEGY_UNIVERSE_NOT_COLLAPSED",
+      "status": "BLOCKED",
+      "detail": [
+        "ARCHITECTURE_LED",
+        "BEFORE_AFTER",
+        "CAUSE_EFFECT",
+        "CHART_LED",
+        "COMPARISON_LED",
+        "CONTROL_TOWER_LED",
+        "DECISION_LED",
+        "EVIDENCE_LED",
+        "HYBRID_EXHIBIT",
+        "IMAGE_LED",
+        "JOURNEY_LED",
+        "MAP_LED",
+        "MATRIX_LED",
+        "NUMBER_LED",
+        "PORTFOLIO_LED",
+        "PROCESS_LED",
+        "QUESTION_LED",
+        "SCENARIO_LED",
+        "SCORECARD_LED",
+        "SEQUENCE_LED",
+        "STATEMENT_LED",
+        "SYSTEM_LED",
+        "TABLE_LED",
+        "TRADEOFF_LED"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "page_id": "P01",
+  "status": "PASS",
+  "artifact_truth_score": 100.0,
+  "winner": {
+    "key": [
+      "RING",
+      [
+        "cyclic",
+        "linear"
+      ]
+    ],
+    "dominant": "RING",
+    "primitives": [
+      "RING",
+      "SPINE"
+    ],
+    "covered": [
+      "APPROVES",
+      "FEEDS_BACK",
+      "FLOWS_TO"
+    ],
+    "complexity_band": "AC-2",
+    "max_primitives": 3,
+    "artifact_truth_score": 100.0
+  }
+}

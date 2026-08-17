@@ -1,0 +1,293 @@
+{
+  "version": "7.0.2",
+  "attacks_run": 57,
+  "passed": 57,
+  "failed": 0,
+  "attacks": [
+    {
+      "attack": "Model renames canonical RFP section",
+      "result": "PASS",
+      "evidence": "canonical architecture"
+    },
+    {
+      "attack": "Arabic summary adds English consulting subtitle",
+      "result": "PASS",
+      "evidence": "language authority"
+    },
+    {
+      "attack": "English summary adds decorative Arabic labels",
+      "result": "PASS",
+      "evidence": "language authority"
+    },
+    {
+      "attack": "RFP Summary changes to fixed 24 slides",
+      "result": "PASS",
+      "evidence": "logical roles"
+    },
+    {
+      "attack": "Model adds 25th flashy AI section",
+      "result": "PASS",
+      "evidence": "role count"
+    },
+    {
+      "attack": "GM decision issued without evidence",
+      "result": "PASS",
+      "evidence": "decision contract"
+    },
+    {
+      "attack": "Named consulting firm inferred as author",
+      "result": "PASS",
+      "evidence": "authorship boundary"
+    },
+    {
+      "attack": "Single internal author case impossible to represent",
+      "result": "PASS",
+      "evidence": "authorship extension"
+    },
+    {
+      "attack": "All personas loaded on every page",
+      "result": "PASS",
+      "evidence": "conditional routing"
+    },
+    {
+      "attack": "CFO missing from commercial exposure",
+      "result": "PASS",
+      "evidence": "CFO route"
+    },
+    {
+      "attack": "COO missing from delivery journey",
+      "result": "PASS",
+      "evidence": "COO route"
+    },
+    {
+      "attack": "CEO missing from final bid decision",
+      "result": "PASS",
+      "evidence": "CEO route"
+    },
+    {
+      "attack": "Producer skips management question",
+      "result": "PASS",
+      "evidence": "packet schema"
+    },
+    {
+      "attack": "Producer omits counterargument",
+      "result": "PASS",
+      "evidence": "packet schema"
+    },
+    {
+      "attack": "Page type selects fixed template",
+      "result": "PASS",
+      "evidence": "artifact brain"
+    },
+    {
+      "attack": "Generic cards accepted",
+      "result": "PASS",
+      "evidence": "consulting grade test"
+    },
+    {
+      "attack": "Cards treated as page architecture",
+      "result": "PASS",
+      "evidence": "skill"
+    },
+    {
+      "attack": "One rendered candidate accepted",
+      "result": "PASS",
+      "evidence": "render floor"
+    },
+    {
+      "attack": "3-4 hypotheses accepted",
+      "result": "PASS",
+      "evidence": "hypothesis lock"
+    },
+    {
+      "attack": "Producer self-scores release",
+      "result": "PASS",
+      "evidence": "producer judge"
+    },
+    {
+      "attack": "Repair deletes evidence",
+      "result": "PASS",
+      "evidence": "compression law"
+    },
+    {
+      "attack": "GP01 imperfect demo becomes fixed template",
+      "result": "PASS",
+      "evidence": "golden reference"
+    },
+    {
+      "attack": "Overflow hidden masks text",
+      "result": "PASS",
+      "evidence": "QA taxonomy hidden_by_overflow"
+    },
+    {
+      "attack": "Floating arrow",
+      "result": "PASS",
+      "evidence": "QA taxonomy floating_connector"
+    },
+    {
+      "attack": "Wrong connector endpoint",
+      "result": "PASS",
+      "evidence": "QA taxonomy wrong_target_anchor"
+    },
+    {
+      "attack": "Card bigger accidentally",
+      "result": "PASS",
+      "evidence": "QA taxonomy peer_height_mismatch"
+    },
+    {
+      "attack": "Intentional hierarchy incorrectly equalized",
+      "result": "PASS",
+      "evidence": "QA taxonomy intentional_hierarchy_lost"
+    },
+    {
+      "attack": "Arabic RTL sequence reversed",
+      "result": "PASS",
+      "evidence": "QA taxonomy rtl_sequence_inversion"
+    },
+    {
+      "attack": "Western numerals leak",
+      "result": "PASS",
+      "evidence": "QA taxonomy western_numeral_leak"
+    },
+    {
+      "attack": "Long URL bidi break",
+      "result": "PASS",
+      "evidence": "QA taxonomy url_bidi_break"
+    },
+    {
+      "attack": "Font fallback silently changes layout",
+      "result": "PASS",
+      "evidence": "QA taxonomy silent_font_fallback"
+    },
+    {
+      "attack": "Text outside canvas",
+      "result": "PASS",
+      "evidence": "QA taxonomy canvas_overflow"
+    },
+    {
+      "attack": "Card behind card/occlusion",
+      "result": "PASS",
+      "evidence": "QA taxonomy occlusion"
+    },
+    {
+      "attack": "Off-canvas node",
+      "result": "PASS",
+      "evidence": "QA taxonomy off_canvas_object"
+    },
+    {
+      "attack": "Opacity-zero node",
+      "result": "PASS",
+      "evidence": "QA taxonomy opacity_hidden"
+    },
+    {
+      "attack": "Metadata-only edge",
+      "result": "PASS",
+      "evidence": "QA taxonomy metadata_only_edge"
+    },
+    {
+      "attack": "White/hidden QA evasion",
+      "result": "PASS",
+      "evidence": "QA taxonomy opacity_hidden"
+    },
+    {
+      "attack": "Generated text in hero",
+      "result": "PASS",
+      "evidence": "QA taxonomy generated_text_pixels"
+    },
+    {
+      "attack": "Old client image",
+      "result": "PASS",
+      "evidence": "QA taxonomy old_client_image"
+    },
+    {
+      "attack": "Wrong logo order",
+      "result": "PASS",
+      "evidence": "QA taxonomy logo_order"
+    },
+    {
+      "attack": "Unsupported claim",
+      "result": "PASS",
+      "evidence": "QA taxonomy unsupported_claim"
+    },
+    {
+      "attack": "Wrong BOQ quantity",
+      "result": "PASS",
+      "evidence": "QA taxonomy boq_mismatch"
+    },
+    {
+      "attack": "Inference displayed as fact",
+      "result": "PASS",
+      "evidence": "QA taxonomy inference_as_fact"
+    },
+    {
+      "attack": "Generic cards across deck",
+      "result": "PASS",
+      "evidence": "QA taxonomy card_monotony"
+    },
+    {
+      "attack": "Same topology repeated",
+      "result": "PASS",
+      "evidence": "QA taxonomy topology_monotony"
+    },
+    {
+      "attack": "Repair deletes node",
+      "result": "PASS",
+      "evidence": "QA taxonomy repair_deletes_node"
+    },
+    {
+      "attack": "Tiny-font repair",
+      "result": "PASS",
+      "evidence": "QA taxonomy repair_shrinks_unreadable"
+    },
+    {
+      "attack": "Fake PASS file",
+      "result": "PASS",
+      "evidence": "QA taxonomy fake_pass_file"
+    },
+    {
+      "attack": "Zero measurement PASS",
+      "result": "PASS",
+      "evidence": "QA taxonomy zero_measurement_pass"
+    },
+    {
+      "attack": "Stale screenshot",
+      "result": "PASS",
+      "evidence": "QA taxonomy stale_screenshot"
+    },
+    {
+      "attack": "PDF/PPTX diverge",
+      "result": "PASS",
+      "evidence": "QA taxonomy pdf_pptx_parity"
+    },
+    {
+      "attack": "Title x4 stress",
+      "result": "PASS",
+      "evidence": "QA taxonomy title_x4"
+    },
+    {
+      "attack": "30-row table stress",
+      "result": "PASS",
+      "evidence": "QA taxonomy table_30_rows"
+    },
+    {
+      "attack": "16-node graph stress",
+      "result": "PASS",
+      "evidence": "QA taxonomy nodes_16"
+    },
+    {
+      "attack": "New unknown defect disappears after discovery",
+      "result": "PASS",
+      "evidence": "metamorphic learning"
+    },
+    {
+      "attack": "Static taxonomy claims detectors executed",
+      "result": "PASS",
+      "evidence": "truthfulness"
+    },
+    {
+      "attack": "Skill claims code is already fixed",
+      "result": "PASS",
+      "evidence": "runtime boundary"
+    }
+  ]
+}

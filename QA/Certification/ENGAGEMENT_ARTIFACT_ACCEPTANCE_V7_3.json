@@ -1,0 +1,230 @@
+{
+  "suite": "Rashad v7.3 Actual Engagement Artifact Acceptance",
+  "status": "PASS",
+  "expected": "BLOCKED",
+  "artifact_count": 2,
+  "artifacts": [
+    {
+      "path": "/mnt/data/Rubix_RFP_Summary_PR-IC-2026-037_v10_V721 ChatGpt.pptx",
+      "name": "Rubix_RFP_Summary_PR-IC-2026-037_v10_V721 ChatGpt.pptx",
+      "sha256": "c246a472dafd3b07911afa73848b1d3f9eaba685d7260f403f505b79ea283084",
+      "bytes": 2532510,
+      "acceptance_status": "BLOCKED",
+      "page_count": 24,
+      "format": "PPTX",
+      "blockers": [
+        "DECK_DISTINCT_COMPOSITION_FLOOR_NOT_MET",
+        "PAGE_10::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_10::SAFE_AREA_VIOLATION",
+        "PAGE_11::SAFE_AREA_VIOLATION",
+        "PAGE_12::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_12::SAFE_AREA_VIOLATION",
+        "PAGE_13::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_13::SAFE_AREA_VIOLATION",
+        "PAGE_14::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_14::SAFE_AREA_VIOLATION",
+        "PAGE_15::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_15::SAFE_AREA_VIOLATION",
+        "PAGE_16::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_16::SAFE_AREA_VIOLATION",
+        "PAGE_17::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_17::SAFE_AREA_VIOLATION",
+        "PAGE_18::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_18::SAFE_AREA_VIOLATION",
+        "PAGE_19::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_19::SAFE_AREA_VIOLATION",
+        "PAGE_1::INTERNAL_OR_DEBUG_VOCABULARY:Rashad OS V7.2.1",
+        "PAGE_1::SAFE_AREA_VIOLATION",
+        "PAGE_1::WESTERN_NUMERAL_IN_ARABIC_NATURAL_LANGUAGE:إصدار تنفيذي وفق Rashad OS V7.2.1",
+        "PAGE_20::SAFE_AREA_VIOLATION",
+        "PAGE_21::SAFE_AREA_VIOLATION",
+        "PAGE_22::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_22::SAFE_AREA_VIOLATION",
+        "PAGE_23::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_23::SAFE_AREA_VIOLATION",
+        "PAGE_24::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_24::SAFE_AREA_VIOLATION",
+        "PAGE_2::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_2::SAFE_AREA_VIOLATION",
+        "PAGE_3::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_3::SAFE_AREA_VIOLATION",
+        "PAGE_4::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_4::SAFE_AREA_VIOLATION",
+        "PAGE_5::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_5::SAFE_AREA_VIOLATION",
+        "PAGE_6::SAFE_AREA_VIOLATION",
+        "PAGE_7::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_7::SAFE_AREA_VIOLATION",
+        "PAGE_8::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_8::SAFE_AREA_VIOLATION",
+        "PAGE_9::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_9::SAFE_AREA_VIOLATION"
+      ],
+      "warnings": [],
+      "stats": {
+        "equal_card_pages": 0,
+        "shape_only_pages": 0,
+        "raster_only": false
+      },
+      "diversity": {
+        "distinct_ratio": 0.522,
+        "twin_pairs": [
+          {
+            "a": 3,
+            "b": 7,
+            "distance": 0.0429
+          },
+          {
+            "a": 4,
+            "b": 9,
+            "distance": 0.0648
+          },
+          {
+            "a": 4,
+            "b": 14,
+            "distance": 0.0495
+          },
+          {
+            "a": 4,
+            "b": 18,
+            "distance": 0.1187
+          },
+          {
+            "a": 4,
+            "b": 21,
+            "distance": 0.0354
+          },
+          {
+            "a": 4,
+            "b": 22,
+            "distance": 0.0804
+          },
+          {
+            "a": 5,
+            "b": 10,
+            "distance": 0.0648
+          },
+          {
+            "a": 5,
+            "b": 20,
+            "distance": 0.1133
+          },
+          {
+            "a": 6,
+            "b": 8,
+            "distance": 0.0895
+          },
+          {
+            "a": 6,
+            "b": 11,
+            "distance": 0.1196
+          },
+          {
+            "a": 7,
+            "b": 13,
+            "distance": 0.1121
+          },
+          {
+            "a": 8,
+            "b": 11,
+            "distance": 0.0462
+          },
+          {
+            "a": 8,
+            "b": 16,
+            "distance": 0.0774
+          },
+          {
+            "a": 9,
+            "b": 14,
+            "distance": 0.0493
+          },
+          {
+            "a": 9,
+            "b": 21,
+            "distance": 0.0729
+          },
+          {
+            "a": 9,
+            "b": 22,
+            "distance": 0.1031
+          },
+          {
+            "a": 10,
+            "b": 20,
+            "distance": 0.0938
+          },
+          {
+            "a": 11,
+            "b": 16,
+            "distance": 0.0664
+          },
+          {
+            "a": 14,
+            "b": 21,
+            "distance": 0.0401
+          },
+          {
+            "a": 14,
+            "b": 22,
+            "distance": 0.0709
+          },
+          {
+            "a": 14,
+            "b": 23,
+            "distance": 0.1176
+          },
+          {
+            "a": 15,
+            "b": 23,
+            "distance": 0.112
+          },
+          {
+            "a": 18,
+            "b": 21,
+            "distance": 0.1072
+          },
+          {
+            "a": 21,
+            "b": 22,
+            "distance": 0.087
+          },
+          {
+            "a": 22,
+            "b": 23,
+            "distance": 0.0974
+          }
+        ],
+        "twin_count": 25,
+        "tau": 0.12
+      },
+      "rule": "Engagement acceptance is measured on the actual supplied artifact bytes, never inferred from framework fixtures."
+    },
+    {
+      "path": "/mnt/data/Rubix_RFP_Summary_PR-IC-2026-037_v9 Claude Chat.pptx",
+      "name": "Rubix_RFP_Summary_PR-IC-2026-037_v9 Claude Chat.pptx",
+      "sha256": "e4116c3e497aab4a9b675950118d32bda03419fb16f039117a2fc688beda4988",
+      "bytes": 9062811,
+      "acceptance_status": "BLOCKED",
+      "page_count": 30,
+      "format": "PPTX",
+      "blockers": [
+        "RASTER_ONLY_PROJECTION_WITHOUT_HASH_BOUND_SEMANTIC_MASTER_PROOF"
+      ],
+      "warnings": [],
+      "stats": {
+        "equal_card_pages": 0,
+        "shape_only_pages": 0,
+        "raster_only": true
+      },
+      "diversity": {
+        "distinct_ratio": null,
+        "twin_pairs": [],
+        "twin_count": 0,
+        "tau": 0.12,
+        "status": "NOT_APPLICABLE_TO_RASTER_PROJECTION"
+      },
+      "rule": "Engagement acceptance is measured on the actual supplied artifact bytes, never inferred from framework fixtures."
+    }
+  ]
+}

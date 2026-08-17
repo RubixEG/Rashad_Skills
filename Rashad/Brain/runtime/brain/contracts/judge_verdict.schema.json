@@ -1,0 +1,19 @@
+{
+  "required": [
+    "judge_invocation_id",
+    "independent",
+    "function",
+    "status",
+    "score",
+    "hard_blockers",
+    "evidence_refs",
+    "actual_render_hash",
+    "input_hash"
+  ],
+  "rules": [
+    "independent=true",
+    "no previous_response_id",
+    "function in INDEPENDENT_JUDGE|RELEASE_CHAIR",
+    "producer_actor_id != judge_actor_id"
+  ]
+}

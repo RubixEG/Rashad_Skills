@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rubix/rashad/v6/exhibit-spec.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "engagement_id",
+    "page_id",
+    "visual_thesis",
+    "artifact_truth_score",
+    "hypotheses",
+    "winner",
+    "evidence_packing",
+    "ceqs_floor"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "6.0"
+    },
+    "engagement_id": {
+      "type": "string"
+    },
+    "page_id": {
+      "type": "string"
+    },
+    "visual_thesis": {
+      "type": "string",
+      "minLength": 20
+    },
+    "artifact_truth_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "hypotheses": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "dominant_form",
+          "reading_path",
+          "relation_carriers",
+          "mass_plan"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "dominant_form": {
+            "type": "string"
+          },
+          "reading_path": {
+            "type": "string"
+          },
+          "relation_carriers": {
+            "type": "array",
+            "minItems": 1
+          },
+          "mass_plan": {
+            "type": "object"
+          },
+          "reference_grammar_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "winner": {
+      "type": "string"
+    },
+    "evidence_packing": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "evidence_id",
+          "target",
+          "reason"
+        ],
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ceqs_floor": {
+      "const": 90
+    }
+  }
+}

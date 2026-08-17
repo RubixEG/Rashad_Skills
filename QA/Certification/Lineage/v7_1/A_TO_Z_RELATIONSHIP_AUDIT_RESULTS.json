@@ -1,0 +1,536 @@
+{
+  "suite": "Rashad OS A-to-Z Relationship & Authority Audit",
+  "status": "PASS",
+  "passed": 69,
+  "total": 69,
+  "checks": [
+    {
+      "name": "top_level_exactly_Rashad_QA",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "canonical_skill_version_consistent",
+      "status": "PASS",
+      "detail": [
+        "7.1.0",
+        "7.1.0",
+        "7.1.0",
+        "7.1.0"
+      ]
+    },
+    {
+      "name": "brain_runtime_version_consistent",
+      "status": "PASS",
+      "detail": [
+        "3.2.0",
+        "3.2.0",
+        "3.2.0"
+      ]
+    },
+    {
+      "name": "artifact_brain_version_consistent",
+      "status": "PASS",
+      "detail": [
+        "3.2.0",
+        "3.2.0",
+        "3.2.0"
+      ]
+    },
+    {
+      "name": "qa_brain_version_consistent",
+      "status": "PASS",
+      "detail": [
+        "1.2.0",
+        "1.2.0",
+        "1.2.0",
+        "1.2.0"
+      ]
+    },
+    {
+      "name": "qa_runtime_version_consistent",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all_global_authority_paths_exist",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "artifact_brain_constitution_active",
+      "status": "PASS",
+      "detail": "03_ARTIFACT_ENGINE/145_V7_0_2_CONSULTING_ARTIFACT_EXHIBIT_BRAIN_CONSTITUTION.md"
+    },
+    {
+      "name": "current_authority_graph_uses_v7_aliases",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "active_product_registry_uses_v7_aliases",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "version_retirement_ledger_uses_v7_workflow_alias",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "protected_corpus_hashes_exact",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "protected_prompt_count_388",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "protected_scope_count_96",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "protected_mapping_count_96",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "artifact_brain_20_councils",
+      "status": "PASS",
+      "detail": 20
+    },
+    {
+      "name": "artifact_expert_universe_at_least_100_roles",
+      "status": "PASS",
+      "detail": 107
+    },
+    {
+      "name": "artifact_council_ids_unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "artifact_role_ids_unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all_council_role_references_resolve",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "all_role_home_councils_resolve",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "bounded_runtime_activation",
+      "status": "PASS",
+      "detail": {
+        "mandatory_core_councils": [
+          "ARGUMENT_COUNCIL",
+          "EVIDENCE_EPISTEMIC_COUNCIL",
+          "COMMUNICATION_STRATEGY_COUNCIL",
+          "SIMPLICITY_COUNCIL",
+          "INFORMATION_DESIGN_COUNCIL",
+          "ARTIFACT_RED_TEAM"
+        ],
+        "max_active_councils_per_page": 12,
+        "max_active_roles_per_page": 18,
+        "all_registered_roles_loaded_by_default": false
+      }
+    },
+    {
+      "name": "communication_strategy_count_24",
+      "status": "PASS",
+      "detail": [
+        "ARCHITECTURE_LED",
+        "BEFORE_AFTER",
+        "CAUSE_EFFECT",
+        "CHART_LED",
+        "COMPARISON_LED",
+        "CONTROL_TOWER_LED",
+        "DECISION_LED",
+        "EVIDENCE_LED",
+        "HYBRID_EXHIBIT",
+        "IMAGE_LED",
+        "JOURNEY_LED",
+        "MAP_LED",
+        "MATRIX_LED",
+        "NUMBER_LED",
+        "PORTFOLIO_LED",
+        "PROCESS_LED",
+        "QUESTION_LED",
+        "SCENARIO_LED",
+        "SCORECARD_LED",
+        "SEQUENCE_LED",
+        "STATEMENT_LED",
+        "SYSTEM_LED",
+        "TABLE_LED",
+        "TRADEOFF_LED"
+      ]
+    },
+    {
+      "name": "expert_universe_strategy_count_24",
+      "status": "PASS",
+      "detail": [
+        "ARCHITECTURE_LED",
+        "BEFORE_AFTER",
+        "CAUSE_EFFECT",
+        "CHART_LED",
+        "COMPARISON_LED",
+        "CONTROL_TOWER_LED",
+        "DECISION_LED",
+        "EVIDENCE_LED",
+        "HYBRID_EXHIBIT",
+        "IMAGE_LED",
+        "JOURNEY_LED",
+        "MAP_LED",
+        "MATRIX_LED",
+        "NUMBER_LED",
+        "PORTFOLIO_LED",
+        "PROCESS_LED",
+        "QUESTION_LED",
+        "SCENARIO_LED",
+        "SCORECARD_LED",
+        "SEQUENCE_LED",
+        "STATEMENT_LED",
+        "SYSTEM_LED",
+        "TABLE_LED",
+        "TRADEOFF_LED"
+      ]
+    },
+    {
+      "name": "expert_universe_matches_runtime_strategies",
+      "status": "PASS",
+      "detail": {
+        "missing_from_registry": [],
+        "extra_in_registry": []
+      }
+    },
+    {
+      "name": "geometry_primitives_not_communication_strategies",
+      "status": "PASS",
+      "detail": [
+        "ARCHITECTURE_LED",
+        "BEFORE_AFTER",
+        "CAUSE_EFFECT",
+        "CHART_LED",
+        "COMPARISON_LED",
+        "CONTROL_TOWER_LED",
+        "DECISION_LED",
+        "EVIDENCE_LED",
+        "HYBRID_EXHIBIT",
+        "IMAGE_LED",
+        "JOURNEY_LED",
+        "MAP_LED",
+        "MATRIX_LED",
+        "NUMBER_LED",
+        "PORTFOLIO_LED",
+        "PROCESS_LED",
+        "QUESTION_LED",
+        "SCENARIO_LED",
+        "SCORECARD_LED",
+        "SEQUENCE_LED",
+        "STATEMENT_LED",
+        "SYSTEM_LED",
+        "TABLE_LED",
+        "TRADEOFF_LED"
+      ]
+    },
+    {
+      "name": "constitution_covers_runtime_strategies",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "artifact_not_diagram_law_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "simplest_valid_form_law_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "brain_manifest_path_rfp_summary_execution_runtime",
+      "status": "PASS",
+      "detail": "runtime/rfp_summary_runtime.py"
+    },
+    {
+      "name": "brain_manifest_path_deterministic_search_renderer",
+      "status": "PASS",
+      "detail": "runtime/brain/visual_render.py"
+    },
+    {
+      "name": "brain_manifest_path_presentation_output_guard",
+      "status": "PASS",
+      "detail": "runtime/production_output_guard.py"
+    },
+    {
+      "name": "brain_manifest_path_artifact_gate",
+      "status": "PASS",
+      "detail": "runtime/brain/artifact_gate.py"
+    },
+    {
+      "name": "brain_manifest_path_knowledge_readiness",
+      "status": "PASS",
+      "detail": "runtime/brain/knowledge_readiness.py"
+    },
+    {
+      "name": "brain_manifest_path_knowledge_registry",
+      "status": "PASS",
+      "detail": "config/knowledge_registry.json"
+    },
+    {
+      "name": "brain_manifest_path_actor_ontology",
+      "status": "PASS",
+      "detail": "config/actor_ontology.json"
+    },
+    {
+      "name": "brain_manifest_path_firm_model",
+      "status": "PASS",
+      "detail": "config/firm_model.json"
+    },
+    {
+      "name": "brain_manifest_path_reasoning_pipelines",
+      "status": "PASS",
+      "detail": "config/reasoning_pipelines.json"
+    },
+    {
+      "name": "brain_manifest_path_artifact_expert_universe",
+      "status": "PASS",
+      "detail": "config/artifact_brain_expert_universe_v3.json"
+    },
+    {
+      "name": "brain_manifest_path_artifact_brain_runtime",
+      "status": "PASS",
+      "detail": "runtime/brain/artifact_brain.py"
+    },
+    {
+      "name": "brain_manifest_path_actual_output_qa_runtime",
+      "status": "PASS",
+      "detail": "runtime/brain/actual_output_qa.py"
+    },
+    {
+      "name": "brain_manifest_path_artifact_brain_stress_quality",
+      "status": "PASS",
+      "detail": "runtime/brain/tests/run_artifact_brain_v3_stress_quality.py"
+    },
+    {
+      "name": "visual_search_uses_communication_strategy_brain",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "visual_search_has_no_hardcoded_H1_winner",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "actual_output_qa_has_diagram_overuse_block",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "actual_output_qa_has_position_bias_block",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "actual_output_qa_requires_actual_pixel_review",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "direct_composer_bypass_hard_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "qa_brain_14_councils",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q14_GOLDEN_REAL_RFP_ACCEPTANCE"
+      ]
+    },
+    {
+      "name": "qa_actual_pixel_product_council_present",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q14_GOLDEN_REAL_RFP_ACCEPTANCE"
+      ]
+    },
+    {
+      "name": "qa_artifact_skeptic_council_present",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q14_GOLDEN_REAL_RFP_ACCEPTANCE"
+      ]
+    },
+    {
+      "name": "qa_delivery_integrity_council_present",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q14_GOLDEN_REAL_RFP_ACCEPTANCE"
+      ]
+    },
+    {
+      "name": "qa_golden_rfp_council_present",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q14_GOLDEN_REAL_RFP_ACCEPTANCE"
+      ]
+    },
+    {
+      "name": "qa_route_wires_actual_pixel_council",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "qa_route_wires_artifact_skeptic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "qa_authority_ceiling_consistent",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "rashad_readme_current_brain_v3_2",
+      "status": "PASS",
+      "detail": "# Rashad OS — Canonical Rashad Layer v7.1\n\nThis folder is the single canonical Rashad layer for **Rashad Proposal OS v7.1.0**. The protected v6.2.2 corpus and v7.0.2 decision/naming foundations are inherited without mutation.\n\n## Current layers\n- `Skill/` — v7.1.0 authority set; 388 R-code prompts, 96 scopes, 96 mappings, 24 RFP Summary logical roles, owner Arabic naming laws and Artifact Intelligence delivery law.\n- `Brain/` — Consulting Brain Runtime v3.2.0 with 16 constitutional councils plus"
+    },
+    {
+      "name": "qa_readme_lists_actual_product_reviews",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "brain_integration_doc_current_versions",
+      "status": "PASS",
+      "detail": "# Rashad Consulting Brain Runtime v3.2 — bound to Skill v7.1\n\nThis layer converts v7.1 from a declarative consulting constitution into an executable deliberation contract.\n\n## Core architecture\n`Sources → Grounded Blackboard → Producer → Routed Councils → Adversarial Challenge → Dissent Resolution → Cognitive Packet Lock → Artifact Search → Actual Renders → Independent Judges → Total QA → Meta-Cog"
+    },
+    {
+      "name": "handoff_uses_single_canonical_os",
+      "status": "PASS",
+      "detail": "# Rashad OS v7.1 + Consulting Brain Runtime v3.2 — Canonical Handoff\n\nUse **`Rashad_OS.zip` only** as the canonical package. Do not merge historical patch ZIPs.\n\n## Current layers\n- Skill authority: **v7.1.0**\n- Consulting Brain Runtime: **v3.2.0**\n- Consulting Artifact Intelligence Brain: **v3.2.0**\n- Deterministic QA Runtime: **v4.3**\n- Independent QA Brain: **v1.2.0 / 14 councils**\n- Production release authority: **RASHAD_BRAIN_RELEASE_CHAIR**\n\n## Artifact law\nArtifact means executive communi"
+    },
+    {
+      "name": "skill_current_status_artifact_brain_authority",
+      "status": "PASS",
+      "detail": "V7_1_ARTIFACT_INTELLIGENCE_BRAIN_CURRENT; COMMUNICATION_STRATEGY_TO_VISUAL_CONCEPT_TO_PRODUCTION_RENDER"
+    },
+    {
+      "name": "production_boundaries_truthful",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "final_verifier_includes_artifact_brain_v3_2",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "final_verifier_includes_artifact_brain_v3_2_red_team",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "final_verifier_includes_artifact_brain_v3_2_stress_quality",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "final_verifier_includes_a_to_z_relationship_audit",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "final_verifier_includes_qa_brain",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "final_verifier_includes_v7_1_incident_regression",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "final_verifier_includes_final_red_team",
+      "status": "PASS",
+      "detail": null
+    }
+  ]
+}

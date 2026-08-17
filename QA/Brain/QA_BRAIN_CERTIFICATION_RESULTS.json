@@ -1,0 +1,560 @@
+{
+  "qa_brain": "1.3.0",
+  "status": "PASS",
+  "passed": 17,
+  "total": 17,
+  "tests": [
+    {
+      "name": "route_has_13_councils_for_rendered_output",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE"
+      ]
+    },
+    {
+      "name": "red_team_required",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE"
+      ]
+    },
+    {
+      "name": "meta_qa_required",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE"
+      ]
+    },
+    {
+      "name": "actual_pixel_product_review_required",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE"
+      ]
+    },
+    {
+      "name": "artifact_skeptic_required",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE"
+      ]
+    },
+    {
+      "name": "delivery_integrity_council_required",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE"
+      ]
+    },
+    {
+      "name": "golden_acceptance_council_required",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q14_GOLDEN_REAL_RFP_ACCEPTANCE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE"
+      ]
+    },
+    {
+      "name": "qa_candidate_chair_required",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE"
+      ]
+    },
+    {
+      "name": "no_provider_blocks",
+      "status": "PASS",
+      "detail": {
+        "status": "FAIL",
+        "final_verdict": "BLOCKED",
+        "required_councils": [
+          "Q01_MECHANICAL_GEOMETRY",
+          "Q02_EVIDENCE_EPISTEMIC",
+          "Q03_ARTIFACT_SEMANTICS",
+          "Q04_CONSULTING_VISUAL",
+          "Q05_ARABIC_RTL_TYPOGRAPHY",
+          "Q06_BRAND_PRODUCTION_EXPORT",
+          "Q07_CROSS_DECK_NARRATIVE",
+          "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+          "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+          "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+          "Q08_ADVERSARIAL_RED_TEAM",
+          "Q09_META_QA_INTEGRITY",
+          "Q10_QA_RELEASE_CANDIDATE"
+        ],
+        "executed_councils": [],
+        "invocations": [
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q01_MECHANICAL_GEOMETRY",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q01_MECHANICAL_GEOMETRY-EEE4CE537BFD4FB9",
+            "isolated_context_id": "QA-CTX-Q01_MECHANICAL_GEOMETRY-6E3E0D97674D4B9C",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-9BBF68E3FE0F4528",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q02_EVIDENCE_EPISTEMIC",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q02_EVIDENCE_EPISTEMIC-A430E49EC4764633",
+            "isolated_context_id": "QA-CTX-Q02_EVIDENCE_EPISTEMIC-CDC43A3B0CAC437B",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-93361D8909234E67",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q03_ARTIFACT_SEMANTICS",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q03_ARTIFACT_SEMANTICS-B5573B5B71E6481D",
+            "isolated_context_id": "QA-CTX-Q03_ARTIFACT_SEMANTICS-49F0C184A2784BAA",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-CBE754960B094B37",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q04_CONSULTING_VISUAL",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q04_CONSULTING_VISUAL-58CAE4B355BA4F5E",
+            "isolated_context_id": "QA-CTX-Q04_CONSULTING_VISUAL-E3F7EAC20DF743DB",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-B16471077C9B46CF",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q05_ARABIC_RTL_TYPOGRAPHY",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q05_ARABIC_RTL_TYPOGRAPHY-2F840C00C158466A",
+            "isolated_context_id": "QA-CTX-Q05_ARABIC_RTL_TYPOGRAPHY-63AD8383CB064B56",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-F97A6E54BE7D4EAC",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q06_BRAND_PRODUCTION_EXPORT",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q06_BRAND_PRODUCTION_EXPORT-20B8A9373CEE45AB",
+            "isolated_context_id": "QA-CTX-Q06_BRAND_PRODUCTION_EXPORT-6068080B8B744246",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-ACF96E5D94A74171",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q07_CROSS_DECK_NARRATIVE",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q07_CROSS_DECK_NARRATIVE-21AE904A368D4618",
+            "isolated_context_id": "QA-CTX-Q07_CROSS_DECK_NARRATIVE-6F501D45F70548EF",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-68C4751DB0324F12",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q11_ACTUAL_PIXEL_PRODUCT_REVIEW-39D74801C60A42EE",
+            "isolated_context_id": "QA-CTX-Q11_ACTUAL_PIXEL_PRODUCT_REVIEW-E24D1828EB5D4EC6",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-6A74C5E7367B4D9F",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC-707097893DE64CDC",
+            "isolated_context_id": "QA-CTX-Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC-FFCFAA6A9A4A4A2E",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-5EE38CB6837A4629",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+            "function": "QA_COUNCIL_REVIEW",
+            "actor_id": "QA-ACTOR-Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE-8529DFD03007420C",
+            "isolated_context_id": "QA-CTX-Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE-CF579AB4F25046AE",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-F6FEEB1B3AEF4B57",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q08_ADVERSARIAL_RED_TEAM",
+            "function": "QA_RED_TEAM",
+            "actor_id": "QA-ACTOR-Q08_ADVERSARIAL_RED_TEAM-567FD68C96D1421B",
+            "isolated_context_id": "QA-CTX-Q08_ADVERSARIAL_RED_TEAM-5AA5AD2B28AD4DC4",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-CB27BC63C4324172",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q09_META_QA_INTEGRITY",
+            "function": "QA_META_REVIEW",
+            "actor_id": "QA-ACTOR-Q09_META_QA_INTEGRITY-990BF307F1964755",
+            "isolated_context_id": "QA-CTX-Q09_META_QA_INTEGRITY-452E9F3E6B4C455A",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-865A0AF72E174088",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          },
+          {
+            "status": "NOT_EXECUTED",
+            "reason": "OFFLINE_VALIDATION_MODE_NO_INDEPENDENT_QA",
+            "council_id": "Q10_QA_RELEASE_CANDIDATE",
+            "function": "QA_CANDIDATE_CHAIR",
+            "actor_id": "QA-ACTOR-Q10_QA_RELEASE_CANDIDATE-02A3052761CA4B16",
+            "isolated_context_id": "QA-CTX-Q10_QA_RELEASE_CANDIDATE-BC9AFE30FE0E4881",
+            "input_hash": "37d4a49f79276cf4d749c5a4047a8f882a7acade4a6a930cd7c7479c7c8b2c0e",
+            "invocation_id": "QAINV-8E1B42D5D72D48BE",
+            "execution_mode": "OFFLINE_VALIDATION_MODE"
+          }
+        ],
+        "findings": [],
+        "errors": [
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q01_MECHANICAL_GEOMETRY",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q02_EVIDENCE_EPISTEMIC",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q03_ARTIFACT_SEMANTICS",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q04_CONSULTING_VISUAL",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q05_ARABIC_RTL_TYPOGRAPHY",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q06_BRAND_PRODUCTION_EXPORT",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q07_CROSS_DECK_NARRATIVE",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q08_ADVERSARIAL_RED_TEAM",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q09_META_QA_INTEGRITY",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "QA_COUNCIL_NOT_EXECUTED",
+            "council_id": "Q10_QA_RELEASE_CANDIDATE",
+            "status": "NOT_EXECUTED"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q01_MECHANICAL_GEOMETRY"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q02_EVIDENCE_EPISTEMIC"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q03_ARTIFACT_SEMANTICS"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q04_CONSULTING_VISUAL"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q05_ARABIC_RTL_TYPOGRAPHY"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q06_BRAND_PRODUCTION_EXPORT"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q07_CROSS_DECK_NARRATIVE"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q08_ADVERSARIAL_RED_TEAM"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q09_META_QA_INTEGRITY"
+          },
+          {
+            "kind": "REQUIRED_QA_COUNCIL_MISSING",
+            "council_id": "Q10_QA_RELEASE_CANDIDATE"
+          }
+        ],
+        "production_release_authority": "RASHAD_BRAIN_RELEASE_CHAIR",
+        "qa_authority_ceiling": "QA_CANDIDATE_PASS",
+        "live_provider_status": "PRODUCTION_PROVIDER_OR_NONE",
+        "execution_mode_resolution": {
+          "mode": "OFFLINE_VALIDATION_MODE",
+          "reason": "EXPLICIT_PROVIDER_OBJECT",
+          "provider": "NoExecutionProvider"
+        },
+        "provider_runtime": {
+          "execution_mode": "OFFLINE_VALIDATION_MODE",
+          "provider": "NoExecutionProvider"
+        },
+        "host_native_pending_requests": []
+      }
+    },
+    {
+      "name": "independent_test_provider_passes",
+      "status": "PASS",
+      "detail": {
+        "verdict": "QA_CANDIDATE_PASS",
+        "executed": [
+          "Q01_MECHANICAL_GEOMETRY",
+          "Q02_EVIDENCE_EPISTEMIC",
+          "Q03_ARTIFACT_SEMANTICS",
+          "Q04_CONSULTING_VISUAL",
+          "Q05_ARABIC_RTL_TYPOGRAPHY",
+          "Q06_BRAND_PRODUCTION_EXPORT",
+          "Q07_CROSS_DECK_NARRATIVE",
+          "Q08_ADVERSARIAL_RED_TEAM",
+          "Q09_META_QA_INTEGRITY",
+          "Q10_QA_RELEASE_CANDIDATE",
+          "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+          "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+          "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE"
+        ]
+      }
+    },
+    {
+      "name": "qa_never_releases",
+      "status": "PASS",
+      "detail": "QA_CANDIDATE_PASS"
+    },
+    {
+      "name": "all_councils_independent",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE"
+      ]
+    },
+    {
+      "name": "unique_actors",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "unique_contexts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "red_team_accepts_clean_candidate",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "findings": []
+      }
+    },
+    {
+      "name": "red_team_blocks_qa_release_escalation",
+      "status": "PASS",
+      "detail": {
+        "status": "FAIL",
+        "findings": [
+          {
+            "kind": "QA_AUTHORITY_ESCALATION",
+            "severity": "P0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "deterministic_fail_blocks_brain",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "final_verdict": "BLOCKED",
+        "reason": "DETERMINISTIC_QA_NOT_PASSED",
+        "deterministic_status": "FAIL",
+        "production_release_authority": "RASHAD_BRAIN_RELEASE_CHAIR",
+        "execution_mode_resolution": {
+          "mode": "CERTIFICATION_TEST_MODE",
+          "reason": "EXPLICIT_PROVIDER_OBJECT",
+          "provider": "ScriptedIndependentTestProvider"
+        },
+        "provider_runtime": {
+          "execution_mode": "CERTIFICATION_TEST_MODE",
+          "provider": "ScriptedIndependentTestProvider"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "suite": "Rashad v7.3 Artifact Brain Regression",
+  "status": "PASS",
+  "passed": 8,
+  "total": 8,
+  "rows": [
+    {
+      "name": "IMAGE_LED_reachable_for_cover",
+      "status": "PASS",
+      "detail": [
+        "HYBRID_EXHIBIT",
+        "IMAGE_LED",
+        "STATEMENT_LED",
+        "COMPARISON_LED",
+        "EVIDENCE_LED"
+      ]
+    },
+    {
+      "name": "rich_technical_problem_not_minimal_only",
+      "status": "PASS",
+      "detail": [
+        "STATEMENT_LED",
+        "COMPARISON_LED",
+        "CAUSE_EFFECT",
+        "HYBRID_EXHIBIT",
+        "ARCHITECTURE_LED"
+      ]
+    },
+    {
+      "name": "reference_grammar_retrieval_executes",
+      "status": "PASS",
+      "detail": [
+        {
+          "id": "MWAN-HERO",
+          "families": [
+            "COVER",
+            "SECTION_OPENER"
+          ],
+          "strategies": [
+            "IMAGE_LED"
+          ],
+          "principles": [
+            "full-page high-key institutional visual",
+            "physical left visual scene",
+            "physical right clean title space",
+            "co-brand single baseline",
+            "native authoritative overlays",
+            "restrained magenta accent"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "exhibit_engine_no_KeyError",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "refs": []
+      }
+    },
+    {
+      "name": "SHIFT_FOCAL_POINT_reachable_and_physical",
+      "status": "PASS",
+      "detail": [
+        "SIMPLIFY_HIERARCHY",
+        "STRENGTHEN_EVIDENCE",
+        "SHIFT_FOCAL_POINT",
+        "REDUCE_COGNITIVE_LOAD"
+      ]
+    },
+    {
+      "name": "composition_signature_excludes_content_hash",
+      "status": "PASS",
+      "detail": [
+        "PCS-DFA90C005CA6DE3DCC2A",
+        "PCS-DFA90C005CA6DE3DCC2A"
+      ]
+    },
+    {
+      "name": "diagram_ratio_threshold_parity",
+      "status": "PASS",
+      "detail": {
+        "profile": 0.55,
+        "brain": 0.55,
+        "manifest": 0.55
+      }
+    },
+    {
+      "name": "cobrand_physical_left_order_contract",
+      "status": "PASS",
+      "detail": {
+        "cluster_left": true,
+        "cluster_ltr": true,
+        "rubix_markup": 5003,
+        "client_markup": 5160
+      }
+    }
+  ]
+}

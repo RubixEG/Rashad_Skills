@@ -1,0 +1,408 @@
+{
+  "suite": "Rashad OS v7.2.1 Final Package Adversarial Red Team",
+  "status": "PASS",
+  "blocked": 75,
+  "total": 75,
+  "attacks": [
+    {
+      "attack": "A01_skill_version_split_brain_blocked",
+      "status": "PASS",
+      "detail": [
+        "7.2.1",
+        "7.2.1",
+        "7.2.1",
+        "7.2.1"
+      ]
+    },
+    {
+      "attack": "A02_brain_version_split_brain_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A03_artifact_version_split_brain_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A04_qa_version_current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A05_skill_version_md_current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A06_current_cert_harness_is_v72",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A07_current_redteam_is_v72",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A08_old_v702_harnesses_baseline_only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A09_protected_counts_exact",
+      "status": "PASS",
+      "detail": {
+        "prompts": 388,
+        "scopes": 96,
+        "mappings": 96
+      }
+    },
+    {
+      "attack": "A10_protected_hashes_exact",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "A11_global_authority_hashes_exact",
+      "status": "PASS",
+      "detail": {
+        "version": "7.2.1",
+        "bad": []
+      }
+    },
+    {
+      "attack": "A12_authority_binding_current_exact",
+      "status": "PASS",
+      "detail": {
+        "version": "7.2.1",
+        "bad": []
+      }
+    },
+    {
+      "attack": "A13_manifest_global_authorities_exist",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A14_inherited_artifact_foundations_not_global",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B01_69_executable_brain_actors",
+      "status": "PASS",
+      "detail": 69
+    },
+    {
+      "attack": "B02_all_registered_actors_routable",
+      "status": "PASS",
+      "detail": {
+        "unreachable": [],
+        "unknown": []
+      }
+    },
+    {
+      "attack": "B03_ai_engineering_is_real_actor",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B04_ai_engineering_has_route",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B05_registered_not_execution_law_runtime",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B06_brain_recomputes_expert_execution_proof",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B07_brain_requires_cognitive_lock",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B08_expert_isolated_invocation_proof",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B09_orchestrator_executes_expert_council",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C01_artifact_20_councils",
+      "status": "PASS",
+      "detail": 20
+    },
+    {
+      "attack": "C02_artifact_107_roles",
+      "status": "PASS",
+      "detail": 107
+    },
+    {
+      "attack": "C03_artifact_24_strategy_exact_parity",
+      "status": "PASS",
+      "detail": {
+        "runtime": 24,
+        "registry": 24
+      }
+    },
+    {
+      "attack": "C04_artifact_council_role_references_resolve",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "C05_artifact_councils_execute_isolated_ledgers",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C06_no_council_proof_no_production",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C07_concept_render_never_user_visible",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C08_actual_pixel_QA_required",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C09_repair_loop_required",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C10_exact_file_delivery_hash_binding",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C11_framework_QA_cannot_substitute",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C12_generic_equal_cards_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C13_shape_only_artifact_collapse_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C14_five_communication_strategies_not_geometry",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C15_exact_handoff_runtime_exists",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C16_image_led_logo_only_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C17_handoff_incident_fixture_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q01_qa_14_councils",
+      "status": "PASS",
+      "detail": 14
+    },
+    {
+      "attack": "Q02_actual_pixel_council",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q03_simplicity_artifact_skeptic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q04_delivery_repair_council",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q05_golden_rfp_council",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q06_QA_cannot_emit_RELEASED",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "Q07_release_chair_only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "E01_brain_coherence_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E02_brain_stress_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E03_user_visible_delivery_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E04_golden_redf_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E05_incident_regression_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E06_full_line_conflict_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E07_A_to_Z_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E08_exact_handoff_certification_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E09_real_wrong_handoff_incident_replay_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "P01_final_verify_v721_current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P02_final_verify_directory_inode_lock_file_logged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P03_regression_outputs_clean_each_run",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P04_no_nested_zip_packages",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "P05_no_pyc_cache",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P06_no_current_v71_execution_dependency",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P07_current_docs_v72_v34",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P08_no_pending_v72_finalization_status",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P09_skill_manifest_current_v72",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN01_host_native_law_global",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN02_host_native_qa_law_global",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN03_three_execution_modes_exact",
+      "status": "PASS",
+      "detail": [
+        "HOST_NATIVE_MODE",
+        "API_PROVIDER_MODE",
+        "OFFLINE_VALIDATION_MODE"
+      ]
+    },
+    {
+      "attack": "HN04_brain_host_native_provider_runtime",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN05_qa_host_native_provider_runtime",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN06_host_native_proof_recomputed",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN07_release_preserves_external_independence",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "W01_decision_workflow_current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "W02_artifact_delivery_overlay_bound",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "W03_v72_brain_coherence_laws_global",
+      "status": "PASS",
+      "detail": null
+    }
+  ]
+}

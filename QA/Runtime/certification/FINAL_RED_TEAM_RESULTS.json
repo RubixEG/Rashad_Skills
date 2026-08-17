@@ -1,0 +1,608 @@
+{
+  "suite": "Rashad Unified QA Runtime v4.0 FINAL Red Team",
+  "status": "PASS",
+  "defended": 82,
+  "total": 82,
+  "rows": [
+    {
+      "attack": "CONTROL_DOM_TEXT_GEOMETRY",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_FONT_AND_TEXT_RENDER_METRICS",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_COMPUTED_FONT_SIZE",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_PEER_BBOX_COMPARISON",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_DOM_SCENE_GEOMETRY",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_PEER_PADDING_COMPARISON",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_PEER_GAP_COMPARISON",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_PAIRWISE_VISIBLE_INTERSECTION",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_CANVAS_BBOX_CONTAINMENT",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_VISIBLE_AREA_CHECK",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_COMPUTED_VISIBILITY_OPACITY",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_EDGE_ENDPOINT_DISTANCE",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_SVG_DOM_CONNECTOR_TOPOLOGY",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_PATH_TEXT_INTERSECTION",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_EDGE_VISIBLE_GEOMETRY",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_EDGE_CROSSING_COUNT",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_BIDI_PHYSICAL_ORDER",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_PHYSICAL_SEQUENCE_COORDINATES",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_VISIBLE_TEXT_POLICY_SCAN",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_IMAGE_ASSET_AND_COMPOSITION",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_ASSET_HASH_MATCH",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_BRAND_TOKEN_AND_ASSET",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_CLAIM_EVIDENCE_JOIN",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_EVIDENCE_TRACEABILITY",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_SOURCE_VALUE_EQUALITY",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_HYPOTHESIS_STRUCTURAL_DIVERGENCE",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_PAIRWISE_STRUCTURAL_DIVERGENCE",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_BEFORE_AFTER_FONT_METRICS",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_PROOF_PROVENANCE_GATE",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_MEASUREMENT_COUNT_GATE",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_MASTER_HASH_LINEAGE",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_STATE_AND_PROOF_DEPENDENCY",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "CONTROL_METAMORPHIC_STRESS_RUNNER",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "bare_pass",
+      "defended": true,
+      "expected": "case_id_mismatch",
+      "observed": [
+        "case_id_mismatch",
+        "contract_hash_mismatch",
+        "detector_mismatch",
+        "missing_evidence_id",
+        "missing_input_hash",
+        "missing_measurement_payload",
+        "vacuous_pass",
+        "wrong_provenance_type"
+      ]
+    },
+    {
+      "attack": "wrong_case_id",
+      "defended": true,
+      "expected": "case_id_mismatch",
+      "observed": [
+        "case_id_mismatch"
+      ]
+    },
+    {
+      "attack": "wrong_detector",
+      "defended": true,
+      "expected": "detector_mismatch",
+      "observed": [
+        "detector_mismatch"
+      ]
+    },
+    {
+      "attack": "wrong_contract_hash",
+      "defended": true,
+      "expected": "contract_hash_mismatch",
+      "observed": [
+        "contract_hash_mismatch"
+      ]
+    },
+    {
+      "attack": "missing_input_hash",
+      "defended": true,
+      "expected": "missing_input_hash",
+      "observed": [
+        "missing_input_hash"
+      ]
+    },
+    {
+      "attack": "missing_evidence_id",
+      "defended": true,
+      "expected": "missing_evidence_id",
+      "observed": [
+        "missing_evidence_id"
+      ]
+    },
+    {
+      "attack": "producer_owned",
+      "defended": true,
+      "expected": "producer_owned_evidence",
+      "observed": [
+        "producer_owned_evidence"
+      ]
+    },
+    {
+      "attack": "zero_measurement",
+      "defended": true,
+      "expected": "vacuous_pass",
+      "observed": [
+        "vacuous_pass"
+      ]
+    },
+    {
+      "attack": "wrong_provenance_local",
+      "defended": true,
+      "expected": "wrong_provenance_type",
+      "observed": [
+        "wrong_provenance_type"
+      ]
+    },
+    {
+      "attack": "missing_payload",
+      "defended": true,
+      "expected": "missing_measurement_payload",
+      "observed": [
+        "missing_measurement_payload"
+      ]
+    },
+    {
+      "attack": "SOURCE_VALUE_EQUALITY_missing_claim_id",
+      "defended": true,
+      "expected": "missing_claim_id",
+      "observed": [
+        "missing_claim_id"
+      ]
+    },
+    {
+      "attack": "SOURCE_VALUE_EQUALITY_missing_source_id",
+      "defended": true,
+      "expected": "missing_source_id",
+      "observed": [
+        "missing_source_id"
+      ]
+    },
+    {
+      "attack": "SOURCE_VALUE_EQUALITY_missing_source_sha256",
+      "defended": true,
+      "expected": "missing_source_sha256",
+      "observed": [
+        "missing_source_sha256"
+      ]
+    },
+    {
+      "attack": "SOURCE_VALUE_EQUALITY_missing_locator",
+      "defended": true,
+      "expected": "missing_locator",
+      "observed": [
+        "missing_locator"
+      ]
+    },
+    {
+      "attack": "SOURCE_VALUE_EQUALITY_missing_excerpt",
+      "defended": true,
+      "expected": "missing_excerpt",
+      "observed": [
+        "missing_excerpt"
+      ]
+    },
+    {
+      "attack": "SOURCE_VALUE_EQUALITY_reverse_check_false",
+      "defended": true,
+      "expected": "reverse_check_failed",
+      "observed": [
+        "reverse_check_failed"
+      ]
+    },
+    {
+      "attack": "SOURCE_VALUE_EQUALITY_unsupported_entailment",
+      "defended": true,
+      "expected": "entailment_failed",
+      "observed": [
+        "entailment_failed"
+      ]
+    },
+    {
+      "attack": "SOURCE_VALUE_EQUALITY_value_mismatch",
+      "defended": true,
+      "expected": "source_value_not_equal",
+      "observed": [
+        "source_value_not_equal"
+      ]
+    },
+    {
+      "attack": "EVIDENCE_TRACEABILITY_missing_claim_id",
+      "defended": true,
+      "expected": "missing_claim_id",
+      "observed": [
+        "missing_claim_id"
+      ]
+    },
+    {
+      "attack": "EVIDENCE_TRACEABILITY_missing_source_id",
+      "defended": true,
+      "expected": "missing_source_id",
+      "observed": [
+        "missing_source_id"
+      ]
+    },
+    {
+      "attack": "EVIDENCE_TRACEABILITY_missing_source_sha256",
+      "defended": true,
+      "expected": "missing_source_sha256",
+      "observed": [
+        "missing_source_sha256"
+      ]
+    },
+    {
+      "attack": "EVIDENCE_TRACEABILITY_missing_locator",
+      "defended": true,
+      "expected": "missing_locator",
+      "observed": [
+        "missing_locator"
+      ]
+    },
+    {
+      "attack": "EVIDENCE_TRACEABILITY_missing_excerpt",
+      "defended": true,
+      "expected": "missing_excerpt",
+      "observed": [
+        "missing_excerpt"
+      ]
+    },
+    {
+      "attack": "EVIDENCE_TRACEABILITY_reverse_check_false",
+      "defended": true,
+      "expected": "reverse_check_failed",
+      "observed": [
+        "reverse_check_failed"
+      ]
+    },
+    {
+      "attack": "EVIDENCE_TRACEABILITY_unsupported_entailment",
+      "defended": true,
+      "expected": "entailment_failed",
+      "observed": [
+        "entailment_failed"
+      ]
+    },
+    {
+      "attack": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW_producer",
+      "defended": true,
+      "expected": "judge_not_independent",
+      "observed": [
+        "judge_not_independent",
+        "producer_owned_evidence"
+      ]
+    },
+    {
+      "attack": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW_independent_missing",
+      "defended": true,
+      "expected": "judge_not_independent",
+      "observed": [
+        "judge_not_independent"
+      ]
+    },
+    {
+      "attack": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW_invocation_missing",
+      "defended": true,
+      "expected": "judge_not_independent",
+      "observed": [
+        "judge_not_independent"
+      ]
+    },
+    {
+      "attack": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW_previous_response",
+      "defended": true,
+      "expected": "judge_not_independent",
+      "observed": [
+        "judge_not_independent"
+      ]
+    },
+    {
+      "attack": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW_score_89",
+      "defended": true,
+      "expected": "judge_score_below_90",
+      "observed": [
+        "judge_score_below_90"
+      ]
+    },
+    {
+      "attack": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW_render_hash_missing",
+      "defended": true,
+      "expected": "judge_not_render_grounded",
+      "observed": [
+        "judge_not_render_grounded"
+      ]
+    },
+    {
+      "attack": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE_producer",
+      "defended": true,
+      "expected": "judge_not_independent",
+      "observed": [
+        "judge_not_independent",
+        "producer_owned_evidence"
+      ]
+    },
+    {
+      "attack": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE_independent_missing",
+      "defended": true,
+      "expected": "judge_not_independent",
+      "observed": [
+        "judge_not_independent"
+      ]
+    },
+    {
+      "attack": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE_invocation_missing",
+      "defended": true,
+      "expected": "judge_not_independent",
+      "observed": [
+        "judge_not_independent"
+      ]
+    },
+    {
+      "attack": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE_previous_response",
+      "defended": true,
+      "expected": "judge_not_independent",
+      "observed": [
+        "judge_not_independent"
+      ]
+    },
+    {
+      "attack": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE_score_89",
+      "defended": true,
+      "expected": "judge_score_below_90",
+      "observed": [
+        "judge_score_below_90"
+      ]
+    },
+    {
+      "attack": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE_render_hash_missing",
+      "defended": true,
+      "expected": "judge_not_render_grounded",
+      "observed": [
+        "judge_not_render_grounded"
+      ]
+    },
+    {
+      "attack": "stress_mutation_missing",
+      "defended": true,
+      "expected": "stress_execution_not_proven",
+      "observed": [
+        "stress_execution_not_proven"
+      ]
+    },
+    {
+      "attack": "stress_mutated_hash_missing",
+      "defended": true,
+      "expected": "stress_execution_not_proven",
+      "observed": [
+        "stress_execution_not_proven"
+      ]
+    },
+    {
+      "attack": "stress_before_missing",
+      "defended": true,
+      "expected": "stress_lineage_missing",
+      "observed": [
+        "stress_lineage_missing"
+      ]
+    },
+    {
+      "attack": "stress_after_missing",
+      "defended": true,
+      "expected": "stress_lineage_missing",
+      "observed": [
+        "stress_lineage_missing"
+      ]
+    },
+    {
+      "attack": "stress_wrong_prov",
+      "defended": true,
+      "expected": "wrong_provenance_type",
+      "observed": [
+        "wrong_provenance_type"
+      ]
+    },
+    {
+      "attack": "stress_fake_runner",
+      "defended": true,
+      "expected": "untrusted_stress_provenance",
+      "observed": [
+        {
+          "id": "M01",
+          "kind": "untrusted_stress_provenance"
+        }
+      ]
+    },
+    {
+      "attack": "stress_no_mutation",
+      "defended": true,
+      "expected": "mutation_did_not_change_input",
+      "observed": [
+        {
+          "id": "M02",
+          "kind": "mutation_did_not_change_input"
+        }
+      ]
+    },
+    {
+      "attack": "CONTROL_skill_binding",
+      "defended": true,
+      "expected": "PASS",
+      "observed": []
+    },
+    {
+      "attack": "wrong_skill_version",
+      "defended": true,
+      "expected": "unexpected_skill_version",
+      "observed": [
+        {
+          "kind": "unexpected_skill_version",
+          "observed": "6.1"
+        }
+      ]
+    }
+  ]
+}

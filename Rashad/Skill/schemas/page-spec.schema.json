@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rubix.sa/rashad/v5.2/page-spec.schema.json",
+  "title": "Rashad Page Spec",
+  "description": "Closes audit finding ART-03 (BLOCKER): v5.1 declared a 43-field hash-linked Page Spec but shipped no machine-readable schema, so no two implementations could agree on it and the QA harness could not consume it. This schema is the contract between the Artifact Intelligence Engine, the renderer and the QA harness.",
+  "type": "object",
+  "required": ["page_id","engagement_id","page_mode","page_family","canvas",
+               "complexity_band","graph_ref","composition","content_pack",
+               "qa_expectations","instrumentation_level"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "5.2"},
+    "page_id": {"type": "string", "pattern": "^P[0-9]{2,3}$"},
+    "engagement_id": {"type": "string"},
+    "page_mode": {"enum": ["COVER","DIVIDER","NARRATIVE","ARTIFACT_LED","HYBRID","DENSE_EVIDENCE"]},
+    "page_family": {"enum": ["COVER","ASYMMETRIC_COVER","ANALYTICAL","EVIDENCE","COMMERCIAL",
+                             "GOVERNANCE","TEAM","TIMELINE","RISK","EVALUATION","APPENDIX"]},
+    "canvas": {"type": "object", "required": ["width","height"],
+      "properties": {"width": {"type": "integer"}, "height": {"type": "integer"}},
+      "description": "Authoring canvas. Master export resolution is enforced separately at parity."},
+    "complexity_band": {"enum": ["AC-1","AC-2","AC-3","AC-4","AC-5"]},
+    "graph_ref": {"type": "string", "description": "path or hash of the relationship graph"},
+    "graph_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "composition": {
+      "type": "object",
+      "required": ["expression","primitives","regions","artifact_score_floor"],
+      "properties": {
+        "expression": {"type": "string", "description": "e.g. HUB ⊕ BAND ⊕ GAUGE ⊕ LOOP"},
+        "primitives": {"type": "array", "items": {"enum": ["SPINE","RING","STACK","HUB","LANE",
+          "MATRIX","TREE","FUNNEL","FIELD","LADDER","BAND","RAIL","GAUGE","LOOP","ANCHOR","CARD"]}},
+        "dominant": {"type": "string"},
+        "regions": {
+          "type": "array", "minItems": 1,
+          "items": {"type": "object", "required": ["region_id","area_budget"],
+            "properties": {
+              "region_id": {"enum": ["DOMINANT","SUPPORTING","RAIL","BAND","SOURCE"]},
+              "area_budget": {"type": "number", "minimum": 0.02, "maximum": 0.70},
+              "carries": {"type": "array", "items": {"type": "string"}}}}},
+        "artifact_score_floor": {"type": "number", "minimum": 60, "maximum": 100, "default": 85},
+        "competition": {
+          "type": "object", "required": ["candidates_generated","diversity_index"],
+          "properties": {
+            "candidates_generated": {"type": "integer", "minimum": 3},
+            "diversity_index": {"type": "number", "minimum": 0.45},
+            "rejected": {"type": "array", "items": {"type": "object",
+              "properties": {"expression": {"type": "string"},
+                             "verdict": {"enum": ["ILLEGAL","LOWER_SCORE"]},
+                             "reason": {"type": "string"}}}}}}
+      }
+    },
+    "content_pack": {
+      "type": "object",
+      "required": ["evaluator_question","thesis","evidence","implication","sources"],
+      "properties": {
+        "evaluator_question": {"type": "string", "minLength": 10},
+        "thesis": {"type": "string", "minLength": 20,
+          "description": "A claim, not a topic label. G30 rejects fewer than 4 words."},
+        "evidence": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "interpretation": {"type": "string"},
+        "implication": {"type": "string", "minLength": 10},
+        "decision": {"type": "string"},
+        "sources": {"type": "array", "minItems": 1,
+          "items": {"type": "string", "pattern": "^EV-[0-9]{4,6}$"}},
+        "caveats": {"type": "array", "items": {"type": "string"}},
+        "confidence": {"enum": ["HIGH","MEDIUM","LOW"]}
+      }
+    },
+    "instrumentation_level": {"enum": ["L0","L1","L2","L3"],
+      "description": "L3 required for client-facing release. See 62_PRODUCTION_INSTRUMENTATION_CONTRACT.md"},
+    "direction": {"type": "object",
+      "properties": {"primary": {"enum": ["rtl","ltr"]},
+                     "ltr_islands": {"type": "array", "items": {"type": "string"}},
+                     "numeral_system": {"enum": ["ARABIC_INDIC","EUROPEAN"]}}},
+    "assets": {"type": "array", "items": {"type": "object",
+      "required": ["asset_id","sha256"],
+      "properties": {"asset_id": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+                     "role": {"enum": ["RUBIX_LOGO","CLIENT_LOGO","HERO","ICON","CHART"]}}}},
+    "qa_expectations": {
+      "type": "object",
+      "required": ["expected_nodes","expected_edges","required_gates"],
+      "properties": {
+        "expected_nodes": {"type": "array", "items": {"type": "string"}},
+        "expected_edges": {"type": "array", "items": {"type": "object",
+          "properties": {"id": {"type": "string"}, "source": {"type": "string"},
+                         "target": {"type": "string"}, "relation": {"type": "string"}}}},
+        "required_gates": {"type": "array", "items": {"type": "string"},
+          "description": "Advisory only. v2.6 DERIVES requiredness from page content; this list may add but never subtract."},
+        "expected_counts": {"type": "object", "additionalProperties": {"type": "integer"}},
+        "content_slots_required": {"type": "array",
+          "items": {"enum": ["question","thesis","evidence","interpretation","implication","source"]}}
+      }
+    },
+    "production_route": {"enum": ["NATIVE","HYBRID_GVM_OVERLAY"]},
+    "spec_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "version": "7.2.1",
+  "default_rule": "Apply before every retrieval. ACTIVE_AUTHORITY_MANIFEST.json is the only global authority allowlist. Any non-manifest file self-claiming CURRENT/ACTIVE/LATEST/HIGHEST/ALWAYS-ON/LOAD-FOR-ALL/release authority is globally non-governing. It may be used only as explicitly routed non-conflicting specialist knowledge. Provenance/history is never runtime authority.",
+  "entries": [
+    {
+      "path": "02_IMMUTABLE_AUTHORITIES/Rashad_Prompts_Master_Document.md",
+      "reason": "7.2MB monolith; exact prompt shards are authoritative for retrieval",
+      "scope": "BULK_RETRIEVAL_EXCLUDED"
+    },
+    {
+      "path": "01_ACTIVE_RUNTIME/00_START_HERE.md",
+      "reason": "compatibility redirect; historical body snapshotted",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "01_ACTIVE_RUNTIME/51_A_TO_Z_CONSULTING_RFP_SUMMARY_PRODUCTION_CONSTITUTION.md",
+      "reason": "legacy production constitution; use only non-conflicting specialist detail",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "01_ACTIVE_RUNTIME/52_V4_VISUAL_THINKING_SEMANTIC_RECONSTRUCTION_AND_QA_CONSTITUTION.md",
+      "reason": "legacy V4 production authority; global claim superseded",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "05_WORKFLOW_ENGINE/16_V4_VISUAL_MASTER_SEMANTIC_RECONSTRUCTION_AND_QA_WORKFLOW.md",
+      "reason": "legacy V4 workflow; concept-count clause superseded",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/45_V4_1_RESUMABLE_IMAGE_GENERATION_ORCHESTRATOR.md",
+      "reason": "specialist image sub-step only",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/46_V4_2_IMAGE_LAST_AND_RENDER_THREAT_MODEL_DIRECTOR.md",
+      "reason": "specialist render-threat detail only",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/46_V5_ARTIFACT_INTELLIGENCE_AND_VISUAL_IMAGINATION_DIRECTOR.md",
+      "reason": "specialist legacy upstream artifact detail only",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/47_V5_ARTIFACT_SYNTHESIS_AND_RELEASE_DIRECTOR.md",
+      "reason": "legacy V5 ACTIVE director with 3–5 competition and producer-strength threshold",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "01_ACTIVE_RUNTIME/62_V5_ARTIFACT_INTELLIGENCE_VISUAL_IMAGINATION_CONSTITUTION.md",
+      "reason": "legacy V5 LOAD-FOR-ALL constitution with 3–5 visual board",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "01_ACTIVE_RUNTIME/23_VISUAL_PRODUCTION_POLICY_LATEST.md",
+      "reason": "historical LATEST filename could outrank current production route in naïve retrieval",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "05_WORKFLOW_ENGINE/01_END_TO_END_WORKFLOW.md",
+      "reason": "legacy v2.2 Current Authority title; current orchestration lives in manifest/V6 route",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "05_WORKFLOW_ENGINE/14_CONSULTING_VISUAL_SEARCH_TO_HTML_WORKFLOW.md",
+      "reason": "legacy 3–4 concept and HTML-oriented workflow",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "05_WORKFLOW_ENGINE/17_A_TO_Z_RFP_SUMMARY_PRODUCTION_FLOW.md",
+      "reason": "legacy 3–4 concept workflow",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "05_WORKFLOW_ENGINE/21_V5_ARTIFACT_INTELLIGENCE_VISUAL_IMAGINATION_WORKFLOW.md",
+      "reason": "legacy V5 3–5 artifact/visual concept workflow",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "03_ARTIFACT_ENGINE/71_ARTIFACT_INTELLIGENCE_ENGINE_V2.md",
+      "reason": "legacy v2 synthesis authority with 3–5 composition rule; V3 owns current structural truth",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "03_ARTIFACT_ENGINE/102_V3_VISUAL_IMAGINATION_BOARD.md",
+      "reason": "legacy V3 3–4 composition board",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "03_ARTIFACT_ENGINE/124_V5_ARTIFACT_CONCEPT_COMPETITION.md",
+      "reason": "legacy V5 3–5 concept count",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "03_ARTIFACT_ENGINE/128_V5_VISUAL_IMAGINATION_BRAIN.md",
+      "reason": "legacy V5 3–5 whole-page concept count",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/40_V3_CONSULTING_GRADE_RELEASE_CHAIR.md",
+      "reason": "legacy V3 always-on release chair with superseded universal HTML/SVG assumptions",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "01_ACTIVE_RUNTIME/57_VISUAL_REASONING_FUNCTIONAL_EMULATION_CONTRACT.md",
+      "reason": "legacy 3–4 visual-search authority; current exactly-5 and fidelity route supersede",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/31_VISUAL_CONCEPT_COMPETITION_DIRECTOR.md",
+      "reason": "legacy 3–4 concept competition director",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/40_V4_VISUAL_THINKING_AND_SEMANTIC_RECONSTRUCTION_DIRECTOR.md",
+      "reason": "legacy V4 3–4 visual-thinking director",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "03_ARTIFACT_ENGINE/91_IMAGE_MODEL_STYLE_VISUAL_REASONING_SIMULATOR.md",
+      "reason": "legacy 3–4 concept simulator with universal HTML/SVG re-authoring clause",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "03_ARTIFACT_ENGINE/87_VISUAL_CONCEPT_COMPETITION_AND_SELECTION_COUNCIL.md",
+      "reason": "legacy 3–4 visual concept council",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "07_GOVERNANCE_AND_QA/68_V5_FULL_INTEGRATION_RELEASE_COUNCIL.md",
+      "reason": "legacy V5 complete alternative release chain ending in RELEASE",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "07_GOVERNANCE_AND_QA/66_V5_ARTIFACT_STRENGTH_AND_SYNTHESIS_GATE.md",
+      "reason": "legacy V5 producer-scored Artifact Strength >=85 release gate",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "03_ARTIFACT_ENGINE/126_V5_ARTIFACT_STRENGTH_SCORING.md",
+      "reason": "legacy V5 producer-scored Artifact Strength >=85 model",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/43_V3_HTML_SVG_COMPOSER_RUNTIME_CONTRACT.md",
+      "reason": "legacy V3 universal HTML/SVG production default",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "07_GOVERNANCE_AND_QA/40_RASHAD_VALIDATION_COUNCIL_V2_FULL_ROSTER.md",
+      "reason": "legacy V2 CURRENT council roster with old winner threshold",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/17_V2_6_2_ROOT_CAUSE_FIX_ACTIVE_PROMPT.md",
+      "reason": "legacy v2.6.2 ALWAYS-ON recovery authority; use only non-conflicting specialist diagnostics",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/13_OWNER_DECISION_LEDGER.md",
+      "reason": "contains historical ACTIVE decisions and stale prior canonical references; memory/provenance only, current decisions must be mirrored into current manifest authorities",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "00_CHAT_MIRROR_KERNEL/39_A_TO_Z_CONSULTING_PRODUCTION_DIRECTOR.md",
+      "reason": "legacy v2.6.4.10 always-on production route; current v7.2 route inherits the v7.1 Artifact Delivery Workflow, which supersedes global behavior",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "01_ACTIVE_RUNTIME/22_RFP_SUMMARY_FINAL_PRODUCT_CONTRACT.md",
+      "reason": "legacy user-approved product contract title; current v7.2 route + 24-role registry + inherited v7.1 delivery workflow govern",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "01_ACTIVE_RUNTIME/48_IMAGE_BASED_RFP_SUMMARY_PRODUCT_CONTRACT.md",
+      "reason": "legacy image-first product contract; image-led is one optional communication strategy only",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "05_WORKFLOW_ENGINE/14_GOLDEN_VISUAL_MASTER_PAGE_BY_PAGE_WORKFLOW.md",
+      "reason": "legacy primary visual workflow; current v7.2 route inherits the v7.1 communication-strategy/art-direction/actual-pixel workflow and supersedes global behavior",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "05_WORKFLOW_ENGINE/16_IMAGE_FIRST_GOLDEN_DECK_PRODUCTION_WORKFLOW.md",
+      "reason": "legacy image-first workflow; no longer a default production route",
+      "scope": "GLOBAL_ROUTE_EXCLUDED"
+    },
+    {
+      "path": "10_PROVENANCE/",
+      "reason": "Historical snapshots and lineage may self-claim CURRENT/HIGHEST; provenance is audit-only and never runtime authority unless explicitly requested for historical comparison.",
+      "scope": "RUNTIME_RETRIEVAL_EXCLUDED_UNLESS_EXPLICIT_AUDIT"
+    }
+  ],
+  "status": "CURRENT_V7_2_RETRIEVAL_QUARANTINE_REGISTRY",
+  "global_route_policy": "ACTIVE_AUTHORITY_MANIFEST.json is the sole global allowlist. Provenance, retired authorities and self-claimed CURRENT/HIGHEST files outside the manifest have zero runtime authority.",
+  "v7_1_lineage_only_test_harnesses": [
+    "tests/skill_certification/verify_skill_v7_0_2.py",
+    "tests/skill_certification/red_team_skill_v7_0_2.py"
+  ]
+}

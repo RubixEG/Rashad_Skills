@@ -1,0 +1,48 @@
+{
+  "certification": "Rashad v7.1 Production Incident Closure",
+  "status": "PASS_OFFLINE_CERTIFIED_BASELINE",
+  "skill_version": "7.1.0",
+  "brain_version": "3.2.0",
+  "qa_runtime": "4.3",
+  "qa_brain": "1.2.0",
+  "final_verify": {
+    "status": "PASS",
+    "passed": 25,
+    "total": 25,
+    "execution": "PHASE_ISOLATED_MIXED_SAFE_PARALLELISM"
+  },
+  "full_line_audit": {
+    "files_scanned": 2097,
+    "lines_scanned": 192710,
+    "p0": 0,
+    "p1": 0
+  },
+  "incident_registry": {
+    "incident_count": 12,
+    "regression_tests": 14,
+    "status": "PASS"
+  },
+  "stress_quality": {
+    "page_mutations": 4000,
+    "deck_mutations": 800,
+    "crashes": 0,
+    "unsafe_escapes": 0,
+    "valid_false_failures": 0
+  },
+  "user_visible_delivery_red_team": {
+    "blocked": 26,
+    "total": 26
+  },
+  "skill_red_team": {
+    "blocked": 55,
+    "total": 55
+  },
+  "final_package_red_team": {
+    "passed": 28,
+    "total": 28
+  },
+  "golden_redf_acceptance": "PASS",
+  "bad_redf_shape_only_pattern": "PERMANENTLY_BLOCKED_BY_PRODUCT_INSPECTOR",
+  "live_provider_truth": "NOT_EXECUTED_IN_OFFLINE_CERTIFICATION; REQUIRED_FOR RELEASED",
+  "release_authority": "RASHAD_BRAIN_RELEASE_CHAIR"
+}

@@ -1,0 +1,29 @@
+{
+  "suite": "Rashad v7.3 Stress Contract Parity",
+  "status": "PASS",
+  "core_mutations": 20,
+  "arabic_required_modes": [
+    "ARABIC_INDIC_NUMERALS",
+    "LONG_LATIN_TOKEN",
+    "FIVE_DIGIT_BADGE",
+    "TITLE_THREE_LINES",
+    "FONT_FALLBACK",
+    "NODE_GROWTH"
+  ],
+  "executable_arabic_modes": [
+    "ARABIC_INDIC_NUMERALS",
+    "ARABIC_TEXT_GROWTH_120",
+    "FIVE_DIGIT_BADGE",
+    "FONT_FALLBACK",
+    "FONT_SCALE_108",
+    "FONT_SCALE_110",
+    "LINE_HEIGHT_108",
+    "LOGO_CANVAS_PADDING",
+    "LONG_LATIN_TOKEN",
+    "LONG_SOURCE_LINE",
+    "NODE_GROWTH",
+    "TITLE_THREE_LINES"
+  ],
+  "total_governed_stress_surface": 26,
+  "blockers": []
+}

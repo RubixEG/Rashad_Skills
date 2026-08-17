@@ -1,0 +1,116 @@
+{
+  "version": "6.2",
+  "base_version": "6.1",
+  "scope": "skill_package_only",
+  "protected": {
+    "prompts": {
+      "count": 388,
+      "byte_for_byte_unchanged": true
+    },
+    "scopes": {
+      "count": 96,
+      "byte_for_byte_unchanged": true
+    },
+    "mappings": {
+      "count": 96,
+      "byte_for_byte_unchanged": true
+    },
+    "brand_png_assets": {
+      "count": 8,
+      "byte_for_byte_unchanged": true
+    }
+  },
+  "files_removed": [],
+  "existing_files_changed_count": 18,
+  "existing_files_changed": [
+    "00_CHAT_MIRROR_KERNEL/00_RASHAD_BOOTSTRAP.md",
+    "00_CHAT_MIRROR_KERNEL/02_CURRENT_AUTHORITY_GRAPH.md",
+    "00_CHAT_MIRROR_KERNEL/12_CONTEXT_ROUTER.md",
+    "00_CHAT_MIRROR_KERNEL/14_COMPILED_ALWAYS_ON_CONTEXT.md",
+    "00_CHAT_MIRROR_KERNEL/24_VERSION_LAYER_RESOLUTION_AND_RETIREMENT_LEDGER.md",
+    "00_CHAT_MIRROR_KERNEL/45_V4_1_RESUMABLE_IMAGE_GENERATION_ORCHESTRATOR.md",
+    "00_CHAT_MIRROR_KERNEL/46_V4_2_IMAGE_LAST_AND_RENDER_THREAT_MODEL_DIRECTOR.md",
+    "00_CHAT_MIRROR_KERNEL/46_V5_ARTIFACT_INTELLIGENCE_AND_VISUAL_IMAGINATION_DIRECTOR.md",
+    "00_CHAT_MIRROR_KERNEL/52_V6_1_ACTIVE_AUTHORITY_REGISTRY.md",
+    "00_START_HERE.md",
+    "01_ACTIVE_RUNTIME/00_START_HERE.md",
+    "01_ACTIVE_RUNTIME/51_A_TO_Z_CONSULTING_RFP_SUMMARY_PRODUCTION_CONSTITUTION.md",
+    "01_ACTIVE_RUNTIME/52_V4_VISUAL_THINKING_SEMANTIC_RECONSTRUCTION_AND_QA_CONSTITUTION.md",
+    "03_ARTIFACT_ENGINE/07_IMAGE_ICON.md",
+    "05_WORKFLOW_ENGINE/16_V4_VISUAL_MASTER_SEMANTIC_RECONSTRUCTION_AND_QA_WORKFLOW.md",
+    "09_APPENDIX_EVIDENCE/EXTERNAL_APPENDIX_CONTRACT.md",
+    "PROJECT_INSTRUCTIONS.md",
+    "SKILL.md"
+  ],
+  "startup_route_missing": [],
+  "route_checks": {
+    "SKILL.md": {
+      "contains_v6_2": true,
+      "contains_exactly_5_rule": true,
+      "contains_old_version4_highest_route": false
+    },
+    "00_START_HERE.md": {
+      "contains_v6_2": true,
+      "contains_exactly_5_rule": true,
+      "contains_old_version4_highest_route": false
+    },
+    "PROJECT_INSTRUCTIONS.md": {
+      "contains_v6_2": true,
+      "contains_exactly_5_rule": true,
+      "contains_old_version4_highest_route": false
+    },
+    "00_CHAT_MIRROR_KERNEL/00_RASHAD_BOOTSTRAP.md": {
+      "contains_v6_2": true,
+      "contains_exactly_5_rule": true,
+      "contains_old_version4_highest_route": false
+    },
+    "00_CHAT_MIRROR_KERNEL/02_CURRENT_AUTHORITY_GRAPH.md": {
+      "contains_v6_2": true,
+      "contains_exactly_5_rule": true,
+      "contains_old_version4_highest_route": false
+    },
+    "00_CHAT_MIRROR_KERNEL/12_CONTEXT_ROUTER.md": {
+      "contains_v6_2": true,
+      "contains_exactly_5_rule": true,
+      "contains_old_version4_highest_route": false
+    },
+    "00_CHAT_MIRROR_KERNEL/14_COMPILED_ALWAYS_ON_CONTEXT.md": {
+      "contains_v6_2": true,
+      "contains_exactly_5_rule": true,
+      "contains_old_version4_highest_route": false
+    },
+    "00_CHAT_MIRROR_KERNEL/53_V6_2_ACTIVE_AUTHORITY_REGISTRY.md": {
+      "contains_v6_2": true,
+      "contains_exactly_5_rule": true,
+      "contains_old_version4_highest_route": false
+    },
+    "01_ACTIVE_RUNTIME/66_V6_2_CAPABILITY_MODES_AND_TRUTHFULNESS_CONTRACT.md": {
+      "contains_v6_2": true,
+      "contains_exactly_5_rule": true,
+      "contains_old_version4_highest_route": false
+    }
+  },
+  "duplicate_prefixes": {
+    "00_CHAT_MIRROR_KERNEL": {
+      "24": 2,
+      "43": 2,
+      "40": 3,
+      "46": 2,
+      "25": 2,
+      "42": 3,
+      "41": 3
+    },
+    "01_ACTIVE_RUNTIME": {
+      "62": 2,
+      "64": 2,
+      "48": 2,
+      "ENGAGEMENT": 2,
+      "52": 3,
+      "65": 2
+    }
+  },
+  "font_binary_count": 0,
+  "svg_binary_count": 0,
+  "runtime_code_certification": "NO_GO_PENDING_REMEDIATION",
+  "external_qa_runtime_status": "NOT_REAUDITED"
+}

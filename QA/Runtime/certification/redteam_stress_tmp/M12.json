@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M12",
+  "mutation": "roadmap_phases_8",
+  "expected": "readable phase/gate/dependency structure",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "53796da39286ac80c5ee3e7cea33e8078f1717adee59dceb8421cd5b407aa83a",
+  "mutated_input_hash": "53796da39286ac80c5ee3e7cea33e8078f1717adee59dceb8421cd5b407aa83a",
+  "measured_object_count": 1,
+  "changed": true
+}

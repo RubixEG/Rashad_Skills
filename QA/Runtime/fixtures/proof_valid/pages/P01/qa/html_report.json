@@ -1,0 +1,15 @@
+{
+  "evidence_id": "UQA-TEST",
+  "release_verdict": "HTML_PREEXPORT_PASS",
+  "pages": [
+    {
+      "page_id": "P01",
+      "gates": {
+        "C9_PIXEL": {
+          "status": "PASS",
+          "evidence_id": "PIX-TEST"
+        }
+      }
+    }
+  ]
+}

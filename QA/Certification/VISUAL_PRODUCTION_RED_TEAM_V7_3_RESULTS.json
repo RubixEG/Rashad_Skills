@@ -1,0 +1,108 @@
+{
+  "suite": "Visual Production Red Team v7.3",
+  "status": "PASS",
+  "blocked": 4,
+  "total": 4,
+  "tests": [
+    {
+      "name": "forged_image_proof_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "reason": "HOST_NATIVE_IMAGE_PROOF_INVALID",
+        "request_key": "IMGREQ-C0B9A3CD37737E63F1F5FFE3"
+      }
+    },
+    {
+      "name": "duplicate_composition_set_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "min_pairwise": 0.0,
+        "mean_pairwise": 0.0,
+        "required_min": 0.12,
+        "target_mean": 0.18,
+        "pairs": [
+          {
+            "a": 0,
+            "b": 1,
+            "distance": 0.0
+          },
+          {
+            "a": 0,
+            "b": 2,
+            "distance": 0.0
+          },
+          {
+            "a": 0,
+            "b": 3,
+            "distance": 0.0
+          },
+          {
+            "a": 0,
+            "b": 4,
+            "distance": 0.0
+          },
+          {
+            "a": 1,
+            "b": 2,
+            "distance": 0.0
+          },
+          {
+            "a": 1,
+            "b": 3,
+            "distance": 0.0
+          },
+          {
+            "a": 1,
+            "b": 4,
+            "distance": 0.0
+          },
+          {
+            "a": 2,
+            "b": 3,
+            "distance": 0.0
+          },
+          {
+            "a": 2,
+            "b": 4,
+            "distance": 0.0
+          },
+          {
+            "a": 3,
+            "b": 4,
+            "distance": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "generated_text_logo_digits_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "blockers": [
+          "GENERATED_IMAGE_CONTAINS_TEXT",
+          "GENERATED_IMAGE_LOGO_NOT_PROVEN_ABSENT",
+          "GENERATED_IMAGE_DIGITS_NOT_PROVEN_ABSENT",
+          "IMAGE_ASSET_PROOF_REQUIRED"
+        ],
+        "asset_path": null,
+        "asset_sha256": null,
+        "rule": "Generated visual plates are non-authoritative: text, logos, numerals and official seals are forbidden; native verified overlays own factual content."
+      }
+    },
+    {
+      "name": "unregistered_format_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "format": ".bin",
+        "blockers": [
+          "NO_REGISTERED_INSPECTOR_FOR_FORMAT"
+        ],
+        "warnings": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/page_criticality.schema.json",
+  "title": "Rashad Page Criticality Declaration v6.2.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "page_id",
+    "classification",
+    "basis",
+    "classifier_authority",
+    "timestamp"
+  ],
+  "properties": {
+    "page_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "classification": {
+      "enum": [
+        "CRITICAL_ANALYTICAL",
+        "NON_CRITICAL_NON_ANALYTICAL"
+      ]
+    },
+    "basis": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "classifier_authority": {
+      "const": "01_ACTIVE_RUNTIME/68_V6_2_2_PAGE_CRITICALITY_CLASSIFICATION_CONTRACT.md"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "producer_proposed_classification": {
+      "enum": [
+        "CRITICAL_ANALYTICAL",
+        "NON_CRITICAL_NON_ANALYTICAL"
+      ]
+    },
+    "owner_forced_upgrade": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

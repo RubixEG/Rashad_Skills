@@ -1,0 +1,138 @@
+{
+  "suite": "V7.1 User-Visible Artifact Delivery Red Team",
+  "status": "PASS",
+  "blocked": 26,
+  "total": 26,
+  "attacks": [
+    {
+      "attack": "concept_wireframe_as_user_visible",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "no_pixel_review",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "producer_reviews_own_pixels",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "producer_actor_collision",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "review_wrong_render_hash",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "low_simplicity_hidden_by_high_average",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "generic_label_swap_page",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "decoration_only_artifact",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "fails_five_second_test",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "hard_blocker_averaged_away",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "failed_round_without_repair",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "missing_production_render_identity",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "cross_page_render_hash_reuse",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "diagram_overuse",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "four_same_strategy_run",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "insufficient_deck_strategy_variety",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "no_deck_pixel_review",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "deck_review_wrong_file_hash",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "deck_review_wrong_montage_hash",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "framework_qa_substitution",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "no_artifact_execution_proof",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "no_production_render_proof",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "partial_qa_called_delivery_ready",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "dossier_bound_to_different_pptx",
+      "status": "BLOCKED",
+      "detail": ""
+    },
+    {
+      "attack": "shape_only_template_deck",
+      "status": "BLOCKED",
+      "detail": "['PPTX_STRUCTURAL_MONOTONY', 'PPTX_SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE', 'PPTX_EQUAL_CARD_GRID_OVERUSE']"
+    },
+    {
+      "attack": "strategy_label_lies_about_actual_objects",
+      "status": "BLOCKED",
+      "detail": "['EXPECTED_PAGE_COUNT_MISMATCH', 'SLIDE_1_IMAGE_LED_WITHOUT_IMAGE', 'SLIDE_4_TABLE_LED_WITHOUT_TABLE_OR_GRID_PROOF', 'SLIDE_5_CHART_LED_WITHOUT_CHART', 'PPTX_STRUCTURAL_MONOTONY', 'PPTX_SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE', 'PPTX_EQUAL_CARD_GRID_OVERUSE']"
+    }
+  ]
+}

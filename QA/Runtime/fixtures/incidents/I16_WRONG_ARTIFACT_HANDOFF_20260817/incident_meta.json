@@ -1,0 +1,9 @@
+{
+  "incident_id": "I16",
+  "name": "WRONG_ARTIFACT_HANDOFF_AFTER_QA",
+  "delivered_pptx_sha256": "91333d1fa65bd5e4bc3a793d9e6e4d7de33567cf429a20cf4a13e8816b6671f4",
+  "dossier_expected_sha256": "948cbcad79b39c2eb56f4b6cff0322604e32c2bdf50d67d21e6a588023dbd149",
+  "delivered_slide_count": 14,
+  "dossier_page_count": 24,
+  "classification": "P0_PERMANENT_REGRESSION_FIXTURE"
+}

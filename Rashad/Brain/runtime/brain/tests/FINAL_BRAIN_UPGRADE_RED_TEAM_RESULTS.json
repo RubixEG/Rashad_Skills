@@ -1,0 +1,340 @@
+{
+  "suite": "Rashad Final Brain Upgrade Red Team",
+  "status": "PASS",
+  "blocked": 14,
+  "total": 14,
+  "attacks": [
+    {
+      "attack": "DIRECT_COMPOSER_BYPASS",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCK_RENDER",
+        "reason": "ARTIFACT_PIPELINE_OR_USER_VISIBLE_QA_INCOMPLETE",
+        "derived_classification": "CONTENT_DRAFT",
+        "requested_classification": "USER_VISIBLE_ARTIFACT_DRAFT",
+        "artifact_gate": {
+          "status": "BLOCKED",
+          "errors": [
+            "MISSING_BRAIN_SESSION",
+            "MISSING_PAGE_CONTRACT",
+            "MISSING_COGNITIVE_PACKET",
+            "MISSING_ARTIFACT_INTENT",
+            "MISSING_SEMANTIC_GRAPH",
+            "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+            "BRAIN_EXECUTION_PROOF_REQUIRED",
+            "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+            "EVIDENCE_LINEAGE_REQUIRED",
+            "FIVE_DISTINCT_HYPOTHESES_REQUIRED",
+            "FIVE_DISTINCT_COMMUNICATION_STRATEGIES_REQUIRED",
+            "THREE_COMMUNICATION_FAMILIES_REQUIRED",
+            "MINIMAL_NON_DIAGRAM_HYPOTHESIS_REQUIRED",
+            "FIVE_DISTINCT_CONCEPT_RENDER_HASHES_REQUIRED",
+            "MISSING_SELECTED_MASTER",
+            "MISSING_BRAND_PREFLIGHT",
+            "MISSING_QA_STATE",
+            "MISSING_ART_DIRECTION_EXECUTION",
+            "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+            "ART_DIRECTION_EXECUTION_REQUIRED",
+            "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+            "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+            "PRODUCTION_RENDER_PROOF_REQUIRED",
+            "BRAND_PREFLIGHT_NOT_PROVEN",
+            "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+            "QA_MUST_TARGET_ACTUAL_RENDERED_OUTPUT",
+            "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+            "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+            "QA_REPAIR_LOOP_NOT_CLOSED"
+          ]
+        }
+      }
+    },
+    {
+      "attack": "FIVE_RENDER_HASH_FORGERY",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_BRAIN_SESSION",
+          "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+          "BRAIN_EXECUTION_PROOF_REQUIRED",
+          "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+          "EVIDENCE_LINEAGE_REQUIRED",
+          "FIVE_DISTINCT_CONCEPT_RENDER_HASHES_REQUIRED",
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED"
+        ]
+      }
+    },
+    {
+      "attack": "COSMETIC_HYPOTHESIS_DUPLICATION",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_BRAIN_SESSION",
+          "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+          "BRAIN_EXECUTION_PROOF_REQUIRED",
+          "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+          "EVIDENCE_LINEAGE_REQUIRED",
+          "FIVE_DISTINCT_HYPOTHESES_REQUIRED",
+          "FIVE_DISTINCT_COMMUNICATION_STRATEGIES_REQUIRED",
+          "THREE_COMMUNICATION_FAMILIES_REQUIRED",
+          "MINIMAL_NON_DIAGRAM_HYPOTHESIS_REQUIRED",
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED"
+        ]
+      }
+    },
+    {
+      "attack": "CLAIM_WITHOUT_VISUAL_EVIDENCE_BINDING",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_BRAIN_SESSION",
+          "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+          "BRAIN_EXECUTION_PROOF_REQUIRED",
+          "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+          "EVIDENCE_LINEAGE_REQUIRED",
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED",
+          "CLAIM_TO_VISUAL_EVIDENCE_BINDING_INCOMPLETE"
+        ]
+      }
+    },
+    {
+      "attack": "BRAND_PREFLIGHT_BYPASS",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_BRAIN_SESSION",
+          "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+          "BRAIN_EXECUTION_PROOF_REQUIRED",
+          "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+          "EVIDENCE_LINEAGE_REQUIRED",
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "BRAND_PREFLIGHT_NOT_PROVEN",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED"
+        ]
+      }
+    },
+    {
+      "attack": "UNAUTHORIZED_RELEASE_CHAIR",
+      "status": "BLOCKED",
+      "detail": "CONTENT_DRAFT"
+    },
+    {
+      "attack": "INVENTED_PRICE_WITHOUT_RATE_PACK",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "KNOWLEDGE_READINESS_BLOCK",
+        "routed_expertise": [
+          {
+            "knowledge_pack": "KP-FIRM-RATES",
+            "sme": "SME-PRICING",
+            "trigger": "FIRM_RATES",
+            "required_output": "FINAL_PRICE",
+            "knowledge_status": "KNOWLEDGE_REQUIRED",
+            "blocked_outputs": [
+              "FINAL_PRICE",
+              "MARGIN",
+              "LABOR_COST"
+            ]
+          }
+        ],
+        "blockers": [
+          {
+            "knowledge_pack": "KP-FIRM-RATES",
+            "required_output": "FINAL_PRICE",
+            "status": "KNOWLEDGE_REQUIRED"
+          }
+        ],
+        "principle": "EXPERTISE_AVAILABILITY_NE_KNOWLEDGE_READINESS"
+      }
+    },
+    {
+      "attack": "SME_NAME_IMPERSONATES_KNOWLEDGE",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "KNOWLEDGE_READINESS_BLOCK",
+        "routed_expertise": [
+          {
+            "knowledge_pack": "KP-SAP",
+            "sme": "SME-SAP",
+            "trigger": "SAP",
+            "required_output": "CERTIFIED_SAP_ARCHITECTURE",
+            "knowledge_status": "KNOWLEDGE_REQUIRED",
+            "blocked_outputs": [
+              "CERTIFIED_SAP_ARCHITECTURE"
+            ]
+          }
+        ],
+        "blockers": [
+          {
+            "knowledge_pack": "KP-SAP",
+            "required_output": "CERTIFIED_SAP_ARCHITECTURE",
+            "status": "KNOWLEDGE_REQUIRED"
+          }
+        ],
+        "principle": "EXPERTISE_AVAILABILITY_NE_KNOWLEDGE_READINESS"
+      }
+    },
+    {
+      "attack": "GOVERNOR_VETO_OVERRIDE",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "vetoes": [
+          {
+            "violation": "COMPOSER_BYPASS",
+            "governor": "GOV-ARTIFACT-PIPELINE"
+          }
+        ],
+        "override_allowed": false
+      }
+    },
+    {
+      "attack": "DOWNSTREAM_CONFIDENCE_INFLATION",
+      "status": "BLOCKED",
+      "detail": {
+        "EFFORT": {
+          "declared_confidence": 0.4,
+          "dependency_cap": 1.0,
+          "effective_confidence": 0.4,
+          "depends_on": [],
+          "capped": false
+        },
+        "COST": {
+          "declared_confidence": 0.95,
+          "dependency_cap": 0.4,
+          "effective_confidence": 0.4,
+          "depends_on": [
+            "EFFORT"
+          ],
+          "capped": true
+        },
+        "MARGIN": {
+          "declared_confidence": 0.99,
+          "dependency_cap": 0.4,
+          "effective_confidence": 0.4,
+          "depends_on": [
+            "COST"
+          ],
+          "capped": true
+        }
+      }
+    },
+    {
+      "attack": "DECK_TEMPLATE_TWIN",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "fingerprint": "370d3fe95e3d8da4fea6f5ff279cc76d7d0f5cbb4a1db10ff1fa26e8ca1dcde3",
+        "prior_consecutive_same": 1,
+        "reason": "REPEATED_VISUAL_GRAMMAR",
+        "content_fields_excluded": true
+      }
+    },
+    {
+      "attack": "LIVE_JUDGE_ABSENCE_CANNOT_AUTHORIZE_USER_VISIBLE_DRAFT",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCK_RENDER",
+        "reason": "ARTIFACT_PIPELINE_OR_USER_VISIBLE_QA_INCOMPLETE",
+        "derived_classification": "CONTENT_DRAFT",
+        "requested_classification": "USER_VISIBLE_ARTIFACT_DRAFT",
+        "artifact_gate": {
+          "status": "BLOCKED",
+          "errors": [
+            "MISSING_BRAIN_SESSION",
+            "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+            "BRAIN_EXECUTION_PROOF_REQUIRED",
+            "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+            "EVIDENCE_LINEAGE_REQUIRED",
+            "MISSING_ART_DIRECTION_EXECUTION",
+            "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+            "ART_DIRECTION_EXECUTION_REQUIRED",
+            "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+            "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+            "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+            "PRODUCTION_RENDER_PROOF_REQUIRED",
+            "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+            "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+            "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+            "QA_REPAIR_LOOP_NOT_CLOSED"
+          ]
+        }
+      }
+    },
+    {
+      "attack": "RELEASE_CANDIDATE_WITHOUT_PARITY_PROOF",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCK_RENDER",
+        "reason": "ARTIFACT_PIPELINE_OR_USER_VISIBLE_QA_INCOMPLETE",
+        "derived_classification": "CONTENT_DRAFT",
+        "requested_classification": "RELEASE_CANDIDATE",
+        "artifact_gate": {
+          "status": "BLOCKED",
+          "errors": [
+            "MISSING_BRAIN_SESSION",
+            "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+            "BRAIN_EXECUTION_PROOF_REQUIRED",
+            "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+            "EVIDENCE_LINEAGE_REQUIRED",
+            "MISSING_ART_DIRECTION_EXECUTION",
+            "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+            "ART_DIRECTION_EXECUTION_REQUIRED",
+            "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+            "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+            "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+            "PRODUCTION_RENDER_PROOF_REQUIRED",
+            "QA_REPAIR_LOOP_NOT_CLOSED"
+          ]
+        }
+      }
+    },
+    {
+      "attack": "QA_PASS_ALONE_CANNOT_ESCALATE_RELEASE",
+      "status": "BLOCKED",
+      "detail": "CONTENT_DRAFT"
+    }
+  ]
+}

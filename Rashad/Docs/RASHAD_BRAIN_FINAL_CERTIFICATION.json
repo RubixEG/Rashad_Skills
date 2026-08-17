@@ -1,0 +1,16 @@
+{
+  "skill_v7_0_2": "44/44 PASS",
+  "owner_arabic_language": "PASS",
+  "owner_arabic_red_team": "PASS",
+  "runtime_regression_v3": "PASS",
+  "runtime_regression_v3_1": "PASS",
+  "runtime_certification_v4": "13/13 PASS",
+  "brain_certification": "13/13 PASS",
+  "r_code_reachability": "388/388",
+  "protected_corpus_changed": false,
+  "legacy_production_release": "DISABLED",
+  "qa_release_ceiling": "QA_CANDIDATE_PASS",
+  "production_release_authority": "RASHAD_BRAIN_RELEASE_CHAIR",
+  "live_provider_status": "RUNTIME_PROVIDER_REQUIRED",
+  "renderer_mechanics_status": "PARTIAL_REMEDIATION_PENDING"
+}

@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M19",
+  "mutation": "repair_attempt_delete_node",
+  "expected": "REPAIR_SAFETY_FAIL",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "4d3b52e4b53601ce70b3ce347b58ebbcd5d242d507f9a9830fea6edf6b7000da",
+  "mutated_input_hash": "4d3b52e4b53601ce70b3ce347b58ebbcd5d242d507f9a9830fea6edf6b7000da",
+  "measured_object_count": 1,
+  "changed": true
+}

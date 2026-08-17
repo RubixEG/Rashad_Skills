@@ -1,0 +1,318 @@
+{
+  "suite": "Rashad Artifact Intelligence Brain v3.3 Stress & Quality",
+  "status": "PASS",
+  "seed": 20260816,
+  "page_runs": 2400,
+  "deck_runs": 300,
+  "adversarial_deck_attacks": 5,
+  "crashes": 0,
+  "elapsed_seconds": 0.23,
+  "selected_candidate_id_distribution": {
+    "H3": 512,
+    "H2": 531,
+    "H1": 581,
+    "H4": 405,
+    "H5": 371
+  },
+  "selected_strategy_distribution": {
+    "STATEMENT_LED": 400,
+    "DECISION_LED": 400,
+    "NUMBER_LED": 200,
+    "COMPARISON_LED": 400,
+    "ARCHITECTURE_LED": 200,
+    "JOURNEY_LED": 200,
+    "TABLE_LED": 162,
+    "EVIDENCE_LED": 81,
+    "SYSTEM_LED": 200,
+    "IMAGE_LED": 157
+  },
+  "scenario_winner_distributions": {
+    "statement": {
+      "STATEMENT_LED": 200
+    },
+    "decision": {
+      "DECISION_LED": 200
+    },
+    "quant": {
+      "NUMBER_LED": 200
+    },
+    "conflict": {
+      "COMPARISON_LED": 200
+    },
+    "arch_simple": {
+      "STATEMENT_LED": 200
+    },
+    "arch_complex": {
+      "ARCHITECTURE_LED": 200
+    },
+    "timeline": {
+      "JOURNEY_LED": 200
+    },
+    "people": {
+      "TABLE_LED": 43,
+      "IMAGE_LED": 157
+    },
+    "compare": {
+      "COMPARISON_LED": 200
+    },
+    "evidence": {
+      "EVIDENCE_LED": 81,
+      "TABLE_LED": 119
+    },
+    "gate": {
+      "DECISION_LED": 200
+    },
+    "system": {
+      "SYSTEM_LED": 200
+    }
+  },
+  "passed": 16,
+  "total": 16,
+  "tests": [
+    {
+      "name": "stress_no_crashes",
+      "status": "PASS",
+      "detail": {
+        "page_runs": 2400,
+        "crashes": 0
+      }
+    },
+    {
+      "name": "stress_all_page_searches_valid",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "candidate_position_bias_below_35_percent",
+      "status": "PASS",
+      "detail": {
+        "H3": 512,
+        "H2": 531,
+        "H1": 581,
+        "H4": 405,
+        "H5": 371
+      }
+    },
+    {
+      "name": "selected_strategy_diversity_at_least_8",
+      "status": "PASS",
+      "detail": {
+        "STATEMENT_LED": 400,
+        "DECISION_LED": 400,
+        "NUMBER_LED": 200,
+        "COMPARISON_LED": 400,
+        "ARCHITECTURE_LED": 200,
+        "JOURNEY_LED": 200,
+        "TABLE_LED": 162,
+        "EVIDENCE_LED": 81,
+        "SYSTEM_LED": 200,
+        "IMAGE_LED": 157
+      }
+    },
+    {
+      "name": "no_single_strategy_dominates_over_45_percent",
+      "status": "PASS",
+      "detail": {
+        "STATEMENT_LED": 400,
+        "DECISION_LED": 400,
+        "NUMBER_LED": 200,
+        "COMPARISON_LED": 400,
+        "ARCHITECTURE_LED": 200,
+        "JOURNEY_LED": 200,
+        "TABLE_LED": 162,
+        "EVIDENCE_LED": 81,
+        "SYSTEM_LED": 200,
+        "IMAGE_LED": 157
+      }
+    },
+    {
+      "name": "simple_statement_prefers_statement",
+      "status": "PASS",
+      "detail": {
+        "STATEMENT_LED": 200
+      }
+    },
+    {
+      "name": "quant_prefers_number_led",
+      "status": "PASS",
+      "detail": {
+        "NUMBER_LED": 200
+      }
+    },
+    {
+      "name": "comparison_prefers_comparison",
+      "status": "PASS",
+      "detail": {
+        "COMPARISON_LED": 200
+      }
+    },
+    {
+      "name": "simple_architecture_does_not_force_diagram",
+      "status": "PASS",
+      "detail": {
+        "STATEMENT_LED": 200
+      }
+    },
+    {
+      "name": "complex_architecture_earns_relational_form",
+      "status": "PASS",
+      "detail": {
+        "ARCHITECTURE_LED": 200
+      }
+    },
+    {
+      "name": "system_relationships_select_system",
+      "status": "PASS",
+      "detail": {
+        "SYSTEM_LED": 200
+      }
+    },
+    {
+      "name": "timeline_prefers_sequence_family",
+      "status": "PASS",
+      "detail": {
+        "JOURNEY_LED": 200
+      }
+    },
+    {
+      "name": "runtime_has_24_communication_strategies",
+      "status": "PASS",
+      "detail": [
+        "ARCHITECTURE_LED",
+        "BEFORE_AFTER",
+        "CAUSE_EFFECT",
+        "CHART_LED",
+        "COMPARISON_LED",
+        "CONTROL_TOWER_LED",
+        "DECISION_LED",
+        "EVIDENCE_LED",
+        "HYBRID_EXHIBIT",
+        "IMAGE_LED",
+        "JOURNEY_LED",
+        "MAP_LED",
+        "MATRIX_LED",
+        "NUMBER_LED",
+        "PORTFOLIO_LED",
+        "PROCESS_LED",
+        "QUESTION_LED",
+        "SCENARIO_LED",
+        "SCORECARD_LED",
+        "SEQUENCE_LED",
+        "STATEMENT_LED",
+        "SYSTEM_LED",
+        "TABLE_LED",
+        "TRADEOFF_LED"
+      ]
+    },
+    {
+      "name": "varied_deck_quality_stress_300_pass",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "adversarial_deck_attacks_blocked",
+      "status": "PASS",
+      "detail": [
+        {
+          "name": "diagram_overuse",
+          "blocked": true,
+          "result": {
+            "status": "BLOCKED",
+            "blockers": [
+              "DECK_DIAGRAM_OVERUSE",
+              "FOUR_CONSECUTIVE_SAME_COMMUNICATION_STRATEGY",
+              "INSUFFICIENT_DECK_COMMUNICATION_VARIETY"
+            ],
+            "warnings": [],
+            "page_count": 12,
+            "diagram_ratio": 1.0,
+            "max_same_strategy_run": 12,
+            "actual_pixel_reviews": 12,
+            "visibility": "INTERNAL"
+          }
+        },
+        {
+          "name": "same_strategy_run",
+          "blocked": true,
+          "result": {
+            "status": "BLOCKED",
+            "blockers": [
+              "FOUR_CONSECUTIVE_SAME_COMMUNICATION_STRATEGY",
+              "INSUFFICIENT_DECK_COMMUNICATION_VARIETY"
+            ],
+            "warnings": [],
+            "page_count": 8,
+            "diagram_ratio": 0.0,
+            "max_same_strategy_run": 8,
+            "actual_pixel_reviews": 8,
+            "visibility": "INTERNAL"
+          }
+        },
+        {
+          "name": "position_bias",
+          "blocked": true,
+          "result": {
+            "status": "BLOCKED",
+            "blockers": [
+              "POSITIONAL_HYPOTHESIS_WINNER_BIAS"
+            ],
+            "warnings": [],
+            "page_count": 12,
+            "diagram_ratio": 0.25,
+            "max_same_strategy_run": 1,
+            "actual_pixel_reviews": 12,
+            "visibility": "INTERNAL"
+          }
+        },
+        {
+          "name": "render_reuse",
+          "blocked": true,
+          "result": {
+            "status": "BLOCKED",
+            "blockers": [
+              "CROSS_PAGE_RENDER_HASH_REUSE"
+            ],
+            "warnings": [],
+            "page_count": 6,
+            "diagram_ratio": 0.333,
+            "max_same_strategy_run": 1,
+            "actual_pixel_reviews": 6,
+            "visibility": "INTERNAL"
+          }
+        },
+        {
+          "name": "generic_composition",
+          "blocked": true,
+          "result": {
+            "status": "BLOCKED",
+            "blockers": [
+              "GENERIC_COMPOSITION_REPETITION"
+            ],
+            "warnings": [],
+            "page_count": 8,
+            "diagram_ratio": 0.25,
+            "max_same_strategy_run": 1,
+            "actual_pixel_reviews": 8,
+            "visibility": "INTERNAL"
+          }
+        }
+      ]
+    },
+    {
+      "name": "missing_pixel_review_never_full_pass",
+      "status": "PASS",
+      "detail": {
+        "status": "DRAFT_QA_PARTIAL",
+        "blockers": [],
+        "warnings": [
+          "ACTUAL_PIXEL_QA_INCOMPLETE_0_OF_6"
+        ],
+        "page_count": 6,
+        "diagram_ratio": 0.333,
+        "max_same_strategy_run": 1,
+        "actual_pixel_reviews": 0,
+        "visibility": "INTERNAL"
+      }
+    }
+  ]
+}

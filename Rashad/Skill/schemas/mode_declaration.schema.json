@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rashad v6.2.2 Mode Declaration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "skill_version",
+    "mode",
+    "preflight_status",
+    "preflight_authority",
+    "checks",
+    "declared_by",
+    "timestamp_utc",
+    "authority_manifest_sha256",
+    "release_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "skill_version": {
+      "const": "7.0"
+    },
+    "mode": {
+      "enum": [
+        "FULL_RUNTIME",
+        "ADVISORY"
+      ]
+    },
+    "preflight_status": {
+      "enum": [
+        "PASS",
+        "PARTIAL",
+        "BLOCKED",
+        "NOT_EXECUTED"
+      ]
+    },
+    "preflight_authority": {
+      "const": "01_ACTIVE_RUNTIME/36_CAPABILITY_PREFLIGHT_AND_TOOL_ROUTING.md"
+    },
+    "checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "capability",
+          "status",
+          "evidence_refs"
+        ],
+        "properties": {
+          "capability": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "PASS",
+              "BLOCKED",
+              "NOT_EXECUTED",
+              "NOT_APPLICABLE"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "declared_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "authority_manifest_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "release_status": {
+      "enum": [
+        "RUNTIME_ELIGIBLE_NOT_RELEASED",
+        "ADVISORY_UNVERIFIED"
+      ]
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "mode": {
+            "const": "FULL_RUNTIME"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "preflight_status": {
+            "const": "PASS"
+          },
+          "release_status": {
+            "const": "RUNTIME_ELIGIBLE_NOT_RELEASED"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "mode": {
+            "const": "ADVISORY"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "release_status": {
+            "const": "ADVISORY_UNVERIFIED"
+          }
+        }
+      }
+    }
+  ]
+}

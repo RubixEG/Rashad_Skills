@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "verdict": "PARITY_PASS",
+  "reports": {
+    "pdf": {
+      "evidence_id": "PAR-F5EDF407892A9131",
+      "status": "PASS",
+      "verdict": "PDF_PARITY_PASS",
+      "low_resolution_masters": [],
+      "pages": [
+        {
+          "reference": "_parity_fixture/masters/page_01.png",
+          "candidate": "/tmp/tmp6emj7szn/c/page-1.png",
+          "reference_size": [
+            3840,
+            2160
+          ],
+          "candidate_original_size": [
+            2400,
+            1350
+          ],
+          "mean_abs_diff": 1.2322,
+          "pixel_diff_ratio": 0.010744,
+          "pass": true
+        }
+      ]
+    },
+    "pptx": {
+      "evidence_id": "PAR-E39F694FE8864EF6",
+      "status": "PASS",
+      "verdict": "PPTX_PARITY_PASS",
+      "low_resolution_masters": [],
+      "pages": [
+        {
+          "reference": "_parity_fixture/masters/page_01.png",
+          "candidate": "/tmp/tmpvca0on7s/c/pptx_pdf/page-1.png",
+          "reference_size": [
+            3840,
+            2160
+          ],
+          "candidate_original_size": [
+            2401,
+            1350
+          ],
+          "mean_abs_diff": 0.6515,
+          "pixel_diff_ratio": 0.010122,
+          "pass": true
+        }
+      ]
+    }
+  }
+}

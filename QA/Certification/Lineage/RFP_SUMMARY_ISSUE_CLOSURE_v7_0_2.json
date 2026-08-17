@@ -1,0 +1,78 @@
+{
+  "certification": "Rashad OS v7.0.2 — RFP Summary Issue Closure",
+  "generated_utc": "2026-08-16T13:09:15.236879+00:00",
+  "status": "PASS",
+  "issues": {
+    "ISSUE_01_ACTIVE_AUTHORITY_STALE_ROUTING": {
+      "status": "CLOSED",
+      "proof": [
+        "69_V7_RFP_SUMMARY_CANONICAL_DECISION_ARCHITECTURE uses current workflow alias",
+        "current decision schema alias used in architecture, role registry and depth contract",
+        "startup compiled context no longer routes v7.0.1 workflow"
+      ]
+    },
+    "ISSUE_02_PACK_MODE_NOT_PERSISTED": {
+      "status": "CLOSED",
+      "proof": [
+        "rfp_ingestion_state_v7.schema.json requires source_pack_mode + evidence basis",
+        "runtime re-derives pack mode from manifest/missing material sources and blocks mismatch"
+      ]
+    },
+    "ISSUE_03_MACHINE_REGISTERS_AND_CLARIFICATION_STATE_INCOMPLETE": {
+      "status": "CLOSED",
+      "proof": [
+        "machine ingestion schema requires 11 persistent registers",
+        "ClarificationWindowState + raw clarification evidence are required",
+        "runtime re-derives clarification status and blocks mismatch"
+      ]
+    },
+    "ISSUE_04_COUNCILS_NOT_EXECUTABLE_WITHOUT_LIVE_PROVIDER": {
+      "status": "CLOSED_AT_RUNTIME_WIRING",
+      "production_dependency": "provider configuration/credentials still required",
+      "proof": [
+        "ExternalCallableProvider implemented",
+        "OpenAIResponsesProvider implemented and fails closed when unconfigured",
+        "rashad_brain.py supports --openai-provider",
+        "15-step gate cannot treat missing councils as PASS"
+      ]
+    },
+    "ISSUE_05_VISUAL_SEARCH_NOT_ENTERING_RFP_RUN": {
+      "status": "CLOSED_AT_ORCHESTRATION",
+      "production_dependency": "live independent multimodal judgment + final production renderer still required",
+      "proof": [
+        "current RFP workflow renders all 5 initial hypotheses",
+        "deterministic low-fidelity candidate renderer implemented",
+        "execute_visual_search implements 5 initial → independent critique → Top 2 → 4 refined → final independent selection = 9 compositions",
+        "render hash and judge/render hash binding enforced"
+      ]
+    },
+    "ISSUE_06_ROLE24_DECISION_NOT_MACHINE_VALIDATED": {
+      "status": "CLOSED",
+      "proof": [
+        "Role 24 references current rfp_bid_decision_evidence_v7.schema.json",
+        "Step 14 validates machine decision object",
+        "invalid/counter-case-missing decision is blocked"
+      ]
+    }
+  },
+  "certification_results": {
+    "skill": "64/64 PASS",
+    "skill_red_team": "39/39 ATTACKS BLOCKED",
+    "rashad_brain": "13/13 PASS",
+    "rfp_summary_execution": "18/18 PASS",
+    "rfp_summary_red_team": "9/9 ATTACKS BLOCKED",
+    "qa_deterministic": "13/13 PASS",
+    "qa_regression_v3": "19/19 PASS",
+    "qa_regression_v31": "21/21 PASS",
+    "qa_brain": "13/13 PASS",
+    "stress": "500 runs / 0 crashes / PASS",
+    "final_os_verifier": "13/13 PASS"
+  },
+  "protected_corpus_changed": false,
+  "production_truthfulness": {
+    "live_provider_adapter": "IMPLEMENTED_NOT_CONFIGURED_IN_PACKAGE",
+    "live_independent_judgments": "NOT_PRECERTIFIED_FOR_FUTURE_ENGAGEMENTS",
+    "final_production_renderer": "REMAINING_MECHANICS_REQUIRED",
+    "production_release": "CURRENT_ENGAGEMENT_EVIDENCE_REQUIRED"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rashad v7.0.2 RFP Ingestion Machine State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "engagement_id",
+    "source_manifest",
+    "source_pack_mode",
+    "source_pack_mode_basis",
+    "current_rfp_language",
+    "source_numeral_style",
+    "client_identity",
+    "logo_availability",
+    "missing_annexes",
+    "clarification_evidence",
+    "clarification_window_state",
+    "registers"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "7.0.2"
+    },
+    "engagement_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "source_manifest": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_id",
+          "file_name",
+          "category",
+          "availability"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 3
+          },
+          "file_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "minLength": 2
+          },
+          "availability": {
+            "enum": [
+              "AVAILABLE",
+              "MISSING_SOURCE",
+              "REFERENCE_ONLY"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "authority": {
+            "enum": [
+              "CURRENT_RFP_SOURCE",
+              "REFERENCE_ONLY",
+              "MISSING_SOURCE"
+            ]
+          }
+        }
+      }
+    },
+    "source_pack_mode": {
+      "enum": [
+        "SCOPE_ONLY",
+        "PARTIAL_RFP_PACK",
+        "FULL_RFP_PACK"
+      ]
+    },
+    "source_pack_mode_basis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "detected_categories",
+        "material_missing_sources",
+        "rationale",
+        "stricter_mode_applied"
+      ],
+      "properties": {
+        "detected_categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "material_missing_sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 8
+        },
+        "stricter_mode_applied": {
+          "type": "boolean"
+        }
+      }
+    },
+    "current_rfp_language": {
+      "type": "string",
+      "minLength": 2
+    },
+    "source_numeral_style": {
+      "type": "string",
+      "minLength": 2
+    },
+    "client_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "name"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "VERIFIED",
+            "UNKNOWN",
+            "CONFLICT"
+          ]
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "logo_availability": {
+      "enum": [
+        "AVAILABLE_VERIFIED",
+        "NOT_AVAILABLE",
+        "NOT_INSPECTED",
+        "CONFLICT"
+      ]
+    },
+    "missing_annexes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "reference",
+          "material"
+        ],
+        "properties": {
+          "reference": {
+            "type": "string",
+            "minLength": 1
+          },
+          "material": {
+            "type": "boolean"
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "clarification_window_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "deadline_source_value",
+        "deadline_source_calendar",
+        "deadline_source_refs",
+        "deadline_normalized_gregorian",
+        "addendum_source_refs",
+        "evaluated_at",
+        "derivation_method",
+        "confidence",
+        "conflict",
+        "conflict_notes",
+        "closed_routing"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "OPEN",
+            "CLOSED",
+            "EXTENDED",
+            "UNKNOWN"
+          ]
+        },
+        "deadline_source_value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "deadline_source_calendar": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "deadline_source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "deadline_normalized_gregorian": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "addendum_source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evaluated_at": {
+          "type": "string",
+          "minLength": 10
+        },
+        "derivation_method": {
+          "type": "string",
+          "minLength": 3
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "conflict": {
+          "type": "boolean"
+        },
+        "conflict_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "closed_routing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "registers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_inventory",
+        "requirement_register",
+        "evaluation_criteria_register",
+        "submission_condition_register",
+        "deliverables_register",
+        "contract_obligation_register",
+        "assumption_exclusion_clarification_register",
+        "evidence_ledger",
+        "claim_commitment_register",
+        "contradiction_register",
+        "language_terminology_register"
+      ],
+      "properties": {
+        "document_inventory": {
+          "$ref": "#/$defs/register"
+        },
+        "requirement_register": {
+          "$ref": "#/$defs/register"
+        },
+        "evaluation_criteria_register": {
+          "$ref": "#/$defs/register"
+        },
+        "submission_condition_register": {
+          "$ref": "#/$defs/register"
+        },
+        "deliverables_register": {
+          "$ref": "#/$defs/register"
+        },
+        "contract_obligation_register": {
+          "$ref": "#/$defs/register"
+        },
+        "assumption_exclusion_clarification_register": {
+          "$ref": "#/$defs/register"
+        },
+        "evidence_ledger": {
+          "$ref": "#/$defs/register"
+        },
+        "claim_commitment_register": {
+          "$ref": "#/$defs/register"
+        },
+        "contradiction_register": {
+          "$ref": "#/$defs/register"
+        },
+        "language_terminology_register": {
+          "$ref": "#/$defs/register"
+        }
+      }
+    },
+    "clarification_evidence": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "addenda": {
+          "type": "array"
+        },
+        "pack_deadline": {
+          "type": "object"
+        },
+        "tender_metadata": {
+          "type": "object"
+        },
+        "conflict": {
+          "type": "boolean"
+        },
+        "conflict_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "register": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "source_ref",
+          "locator",
+          "excerpt_pointer",
+          "classification",
+          "owner",
+          "status",
+          "downstream_refs"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "minLength": 2
+          },
+          "source_ref": {
+            "type": "string",
+            "minLength": 2
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "excerpt_pointer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "classification": {
+            "type": "string",
+            "minLength": 2
+          },
+          "owner": {
+            "type": "string",
+            "minLength": 2
+          },
+          "status": {
+            "type": "string",
+            "minLength": 2
+          },
+          "downstream_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

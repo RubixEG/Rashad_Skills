@@ -1,0 +1,61 @@
+{
+  "audit_timestamp_utc": "2026-08-16T11:54:52.099250+00:00",
+  "inputs": [
+    {
+      "name": "Rashad_v7_0_2_FINAL_SKILL_AND_CERTIFICATION_PACK(1).zip",
+      "sha256": "85b4d1d41cdcdbb5944504f3aea84404ae7b4a589350b25432b5458ab2d610cb",
+      "size_bytes": 2166642
+    },
+    {
+      "name": "Rashad_v7_0_2_OWNER_LANGUAGE_CORRECTION_FULL_PACK(1).zip",
+      "sha256": "89ef1f9c56dd94b674432ee211a874c624c2bae08b5598e51917edb72de5c344",
+      "size_bytes": 4213414
+    },
+    {
+      "name": "Rashad_Brain_Runtime_v1_0_on_v7_0_2(1).zip",
+      "sha256": "eeb5e79b57db5129545d432a603507a41936a7b324bbaecea34871a74f07d8ed",
+      "size_bytes": 9487631
+    },
+    {
+      "name": "Rashad_Proposal_OS_v7_0_2_Owner_Language_Executive_Naming_Lock(1).zip",
+      "sha256": "5f83ca7eb02e8d46b5a02f8771be6a9fa0bb0ebde5c76cb1ffc591f74e36af52",
+      "size_bytes": 2680127
+    },
+    {
+      "name": "Rashad_Unified_QA_Runtime_v4_0_FINAL_Total_Quality_Production_Lock(5).zip",
+      "sha256": "c41a6246b69ed986a5d6f43d87e8308bbdfa92ce6d9b8ff641cb99329b91b95e",
+      "size_bytes": 2460677
+    },
+    {
+      "name": "Rashad_v7_0_1_FINAL_SKILL_AND_CERTIFICATION_PACK(5).zip",
+      "sha256": "5e9710dcc40760119720147930beb62a586fa13611fbe36aa1022b5d92b2062f",
+      "size_bytes": 2768603
+    },
+    {
+      "name": "Rashad_v7_0_2_BRAIN_INTEGRATION_FULL_PACK(1).zip",
+      "sha256": "c8eefcfe7293aebea30d4ac446205d29a17ed018bed880d5a0da3bcd92ad192c",
+      "size_bytes": 10501137
+    }
+  ],
+  "skill_lineage": {
+    "v7_0_1_files": 1342,
+    "v7_0_2_files": 1350,
+    "old_only_files": 0,
+    "new_files": 8,
+    "modified_files": 19,
+    "protected_corpus_hash_file_identical_v7_0_1_to_v7_0_2": true,
+    "conclusion": "V7.0.2 is a non-destructive superset of the supplied v7.0.1 source package."
+  },
+  "qa_lineage": {
+    "v4_0_files": 735,
+    "v4_2_final_runtime_files_pre_manifest": 767,
+    "old_only_files": 0,
+    "conclusion": "Final QA runtime retains every supplied v4.0 file path, with additive Brain-aware changes and authority separation."
+  },
+  "protected_counts": {
+    "r_code_prompts": 388,
+    "scopes": 96,
+    "mappings": 96
+  },
+  "protected_corpus_mutated": false
+}

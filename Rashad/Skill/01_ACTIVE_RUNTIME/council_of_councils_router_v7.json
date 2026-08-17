@@ -1,0 +1,654 @@
+{
+  "version": "7.0.2",
+  "status": "CONDITIONAL_COUNCIL_OF_COUNCILS_LENS_ROUTER_V7_0_2",
+  "principle": "Many lenses, small routed context. Do not activate all roles on all pages.",
+  "role_families": {
+    "core_page": [
+      "ENGAGEMENT_PARTNER",
+      "ENGAGEMENT_MANAGER",
+      "EVIDENCE_LEAD",
+      "SAUDI_GOVERNMENT_EVALUATOR",
+      "RED_TEAM_CHALLENGER"
+    ],
+    "executive": [
+      "CEO_GM",
+      "COO",
+      "CFO",
+      "CIO_CTO_CDO",
+      "CISO",
+      "CHRO",
+      "CHIEF_STRATEGY_TRANSFORMATION",
+      "CHIEF_PROCUREMENT_COMMERCIAL",
+      "CHIEF_RISK",
+      "PMO_DELIVERY"
+    ],
+    "consulting": [
+      "SENIOR_PARTNER",
+      "ENGAGEMENT_PARTNER",
+      "PRINCIPAL_DIRECTOR",
+      "ENGAGEMENT_MANAGER",
+      "STRATEGY_CONSULTANT",
+      "OPERATING_MODEL_EXPERT",
+      "TRANSFORMATION_EXPERT",
+      "IMPLEMENTATION_DELIVERY_EXPERT",
+      "GOVERNMENT_TRANSFORMATION_EXPERT"
+    ],
+    "government": [
+      "MINISTRY_EXECUTIVE",
+      "AUTHORITY_FUND_EXECUTIVE",
+      "SAUDI_PROCUREMENT_EVALUATOR",
+      "TECHNICAL_EVALUATOR",
+      "COMMERCIAL_EVALUATOR",
+      "GOVERNMENT_PMO",
+      "LEGAL_CONTRACTS",
+      "CYBERSECURITY",
+      "DATA_PDPL",
+      "LOCAL_CONTENT_SAUDIZATION",
+      "AUDIT_COMPLIANCE",
+      "QUALITY_ACCEPTANCE"
+    ],
+    "visual": [
+      "ARTIFACT_INTELLIGENCE_DIRECTOR",
+      "INFORMATION_DESIGN_DIRECTOR",
+      "VISUAL_STORYTELLING_DIRECTOR",
+      "ARABIC_RTL_GOVERNOR",
+      "BRAND_PRODUCTION_LEAD"
+    ],
+    "assurance": [
+      "EVIDENCE_AUDITOR",
+      "COMMERCIAL_RISK_AUDITOR",
+      "QA_RELIABILITY_LEAD",
+      "ADVERSARIAL_RED_TEAM",
+      "INDEPENDENT_RELEASE_CHAIR"
+    ]
+  },
+  "routing_by_rfp_role": {
+    "COVER": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "COMPETITION_NARRATIVE": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CEO_GM",
+        "SENIOR_PARTNER",
+        "PRINCIPAL_DIRECTOR",
+        "CHIEF_STRATEGY_TRANSFORMATION"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "TABLE_OF_CONTENTS": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "OPPORTUNITY_SNAPSHOT": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CEO_GM",
+        "SENIOR_PARTNER",
+        "PRINCIPAL_DIRECTOR",
+        "CHIEF_STRATEGY_TRANSFORMATION"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "KEY_DATES": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "PRINCIPAL_DIRECTOR",
+        "PMO_DELIVERY",
+        "CHIEF_PROCUREMENT_COMMERCIAL"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "SOURCE_COVERAGE": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "CLIENT_NEED": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "STRATEGIC_READING": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CEO_GM",
+        "SENIOR_PARTNER",
+        "PRINCIPAL_DIRECTOR",
+        "CHIEF_STRATEGY_TRANSFORMATION"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "SCOPE_ARCHITECTURE": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "COO",
+        "PMO_DELIVERY",
+        "IMPLEMENTATION_DELIVERY_EXPERT"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "COO"
+      ]
+    },
+    "DELIVERY_JOURNEY": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "COO",
+        "PMO_DELIVERY",
+        "IMPLEMENTATION_DELIVERY_EXPERT"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "COO"
+      ]
+    },
+    "BOQ_INTELLIGENCE": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CFO",
+        "CHIEF_PROCUREMENT_COMMERCIAL",
+        "COMMERCIAL_EVALUATOR",
+        "COMMERCIAL_RISK_AUDITOR"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "CFO",
+        "COMMERCIAL_EVALUATOR"
+      ]
+    },
+    "TECHNICAL_REQUIREMENTS": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CIO_CTO_CDO",
+        "CISO",
+        "TECHNICAL_EVALUATOR",
+        "DATA_PDPL"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "CIO_CTO_CDO",
+        "CISO",
+        "TECHNICAL_EVALUATOR",
+        "DATA_PDPL"
+      ]
+    },
+    "TEAM_CAPACITY": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CHRO",
+        "COO",
+        "PMO_DELIVERY"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "CHRO",
+        "COO"
+      ]
+    },
+    "EVALUATION_WIN": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CFO",
+        "CHIEF_PROCUREMENT_COMMERCIAL",
+        "COMMERCIAL_EVALUATOR",
+        "COMMERCIAL_RISK_AUDITOR"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "CFO",
+        "COMMERCIAL_EVALUATOR"
+      ]
+    },
+    "QUALIFICATION_READINESS": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CHIEF_PROCUREMENT_COMMERCIAL",
+        "LEGAL_CONTRACTS",
+        "AUDIT_COMPLIANCE"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "LEGAL_CONTRACTS"
+      ]
+    },
+    "COMMERCIAL_EXPOSURE": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CFO",
+        "CHIEF_PROCUREMENT_COMMERCIAL",
+        "COMMERCIAL_EVALUATOR",
+        "COMMERCIAL_RISK_AUDITOR"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "CFO",
+        "COMMERCIAL_EVALUATOR"
+      ]
+    },
+    "PROPOSAL_STRATEGY": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "PRINCIPAL_DIRECTOR",
+        "PMO_DELIVERY",
+        "CHIEF_PROCUREMENT_COMMERCIAL"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "PROPOSAL_GANTT": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "PRINCIPAL_DIRECTOR",
+        "PMO_DELIVERY",
+        "CHIEF_PROCUREMENT_COMMERCIAL"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "CONTRACT_GANTT": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "COO",
+        "PMO_DELIVERY",
+        "IMPLEMENTATION_DELIVERY_EXPERT"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "COO"
+      ]
+    },
+    "RISKS": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "COO",
+        "PMO_DELIVERY",
+        "IMPLEMENTATION_DELIVERY_EXPERT"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "COO"
+      ]
+    },
+    "CLARIFICATIONS": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CFO",
+        "CHIEF_PROCUREMENT_COMMERCIAL",
+        "COMMERCIAL_EVALUATOR",
+        "COMMERCIAL_RISK_AUDITOR"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "CFO",
+        "COMMERCIAL_EVALUATOR"
+      ]
+    },
+    "ASSUMPTIONS_GAPS": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ]
+    },
+    "AUTHORSHIP_MATURITY": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "SENIOR_PARTNER",
+        "SAUDI_PROCUREMENT_EVALUATOR",
+        "CHIEF_PROCUREMENT_COMMERCIAL",
+        "LEGAL_CONTRACTS"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "SAUDI_PROCUREMENT_EVALUATOR",
+        "LEGAL_CONTRACTS"
+      ]
+    },
+    "BID_DECISION": {
+      "producer_challenge_council": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "EVIDENCE_LEAD",
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "RED_TEAM_CHALLENGER",
+        "CEO_GM",
+        "SENIOR_PARTNER",
+        "PRINCIPAL_DIRECTOR",
+        "CHIEF_STRATEGY_TRANSFORMATION",
+        "CFO",
+        "CHIEF_PROCUREMENT_COMMERCIAL",
+        "COMMERCIAL_EVALUATOR",
+        "COMMERCIAL_RISK_AUDITOR",
+        "COO",
+        "PMO_DELIVERY"
+      ],
+      "artifact_council": [
+        "ENGAGEMENT_PARTNER",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "release_specialists": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM",
+        "CFO",
+        "COMMERCIAL_EVALUATOR"
+      ]
+    }
+  },
+  "separation": {
+    "producer": "creates content/graph/hypotheses",
+    "challenger": "tries to disprove/strengthen thesis before render",
+    "judge": "independent quality/evidence assessment",
+    "release_chair": "uses evidence and blockers; cannot be overridden by average score"
+  },
+  "id_semantics": "All non-ROLE-* identifiers in this file are analytical lens IDs, not authorized runtime role IDs.",
+  "lens_registry": "council_lens_registry_v7.json",
+  "authorized_runtime_role_authority": "09_COUNCILS_AND_ROLES.md",
+  "runtime_mapping_required": true,
+  "unmapped_lens_behavior": "BLOCK_COUNCIL_ROUTE_UNRESOLVED"
+}

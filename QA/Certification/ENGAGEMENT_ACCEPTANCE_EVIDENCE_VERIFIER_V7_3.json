@@ -1,0 +1,221 @@
+{
+  "suite": "Rashad v7.3 Embedded Actual-Engagement Acceptance Evidence Verifier",
+  "status": "PASS",
+  "passed": 9,
+  "total": 9,
+  "checks": [
+    {
+      "name": "engagement_acceptance_report_exists",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "suite_status_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "name": "actual_artifact_count_at_least_two",
+      "status": "PASS",
+      "detail": 2
+    },
+    {
+      "name": "all_rows_hash_bound",
+      "status": "PASS",
+      "detail": [
+        "c246a472dafd3b07911afa73848b1d3f9eaba685d7260f403f505b79ea283084",
+        "e4116c3e497aab4a9b675950118d32bda03419fb16f039117a2fc688beda4988"
+      ]
+    },
+    {
+      "name": "distinct_actual_artifact_hashes",
+      "status": "PASS",
+      "detail": [
+        "c246a472dafd3b07911afa73848b1d3f9eaba685d7260f403f505b79ea283084",
+        "e4116c3e497aab4a9b675950118d32bda03419fb16f039117a2fc688beda4988"
+      ]
+    },
+    {
+      "name": "negative_baselines_correctly_blocked",
+      "status": "PASS",
+      "detail": [
+        [
+          "Rubix_RFP_Summary_PR-IC-2026-037_v10_V721 ChatGpt.pptx",
+          [
+            "DECK_DISTINCT_COMPOSITION_FLOOR_NOT_MET",
+            "PAGE_10::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_10::SAFE_AREA_VIOLATION",
+            "PAGE_11::SAFE_AREA_VIOLATION",
+            "PAGE_12::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_12::SAFE_AREA_VIOLATION",
+            "PAGE_13::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_13::SAFE_AREA_VIOLATION",
+            "PAGE_14::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_14::SAFE_AREA_VIOLATION",
+            "PAGE_15::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_15::SAFE_AREA_VIOLATION",
+            "PAGE_16::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_16::SAFE_AREA_VIOLATION",
+            "PAGE_17::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_17::SAFE_AREA_VIOLATION",
+            "PAGE_18::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_18::SAFE_AREA_VIOLATION",
+            "PAGE_19::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_19::SAFE_AREA_VIOLATION",
+            "PAGE_1::INTERNAL_OR_DEBUG_VOCABULARY:Rashad OS V7.2.1",
+            "PAGE_1::SAFE_AREA_VIOLATION",
+            "PAGE_1::WESTERN_NUMERAL_IN_ARABIC_NATURAL_LANGUAGE:إصدار تنفيذي وفق Rashad OS V7.2.1",
+            "PAGE_20::SAFE_AREA_VIOLATION",
+            "PAGE_21::SAFE_AREA_VIOLATION",
+            "PAGE_22::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_22::SAFE_AREA_VIOLATION",
+            "PAGE_23::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_23::SAFE_AREA_VIOLATION",
+            "PAGE_24::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_24::SAFE_AREA_VIOLATION",
+            "PAGE_2::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_2::SAFE_AREA_VIOLATION",
+            "PAGE_3::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_3::SAFE_AREA_VIOLATION",
+            "PAGE_4::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_4::SAFE_AREA_VIOLATION",
+            "PAGE_5::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_5::SAFE_AREA_VIOLATION",
+            "PAGE_6::SAFE_AREA_VIOLATION",
+            "PAGE_7::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_7::SAFE_AREA_VIOLATION",
+            "PAGE_8::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_8::SAFE_AREA_VIOLATION",
+            "PAGE_9::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_9::SAFE_AREA_VIOLATION"
+          ]
+        ],
+        [
+          "Rubix_RFP_Summary_PR-IC-2026-037_v9 Claude Chat.pptx",
+          [
+            "RASTER_ONLY_PROJECTION_WITHOUT_HASH_BOUND_SEMANTIC_MASTER_PROOF"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "actual_bytes_rule_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "composition_failure_baseline_present",
+      "status": "PASS",
+      "detail": [
+        [
+          "DECK_DISTINCT_COMPOSITION_FLOOR_NOT_MET",
+          "PAGE_10::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_10::SAFE_AREA_VIOLATION",
+          "PAGE_11::SAFE_AREA_VIOLATION",
+          "PAGE_12::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_12::SAFE_AREA_VIOLATION",
+          "PAGE_13::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_13::SAFE_AREA_VIOLATION",
+          "PAGE_14::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_14::SAFE_AREA_VIOLATION",
+          "PAGE_15::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_15::SAFE_AREA_VIOLATION",
+          "PAGE_16::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_16::SAFE_AREA_VIOLATION",
+          "PAGE_17::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_17::SAFE_AREA_VIOLATION",
+          "PAGE_18::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_18::SAFE_AREA_VIOLATION",
+          "PAGE_19::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_19::SAFE_AREA_VIOLATION",
+          "PAGE_1::INTERNAL_OR_DEBUG_VOCABULARY:Rashad OS V7.2.1",
+          "PAGE_1::SAFE_AREA_VIOLATION",
+          "PAGE_1::WESTERN_NUMERAL_IN_ARABIC_NATURAL_LANGUAGE:إصدار تنفيذي وفق Rashad OS V7.2.1",
+          "PAGE_20::SAFE_AREA_VIOLATION",
+          "PAGE_21::SAFE_AREA_VIOLATION",
+          "PAGE_22::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_22::SAFE_AREA_VIOLATION",
+          "PAGE_23::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_23::SAFE_AREA_VIOLATION",
+          "PAGE_24::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_24::SAFE_AREA_VIOLATION",
+          "PAGE_2::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_2::SAFE_AREA_VIOLATION",
+          "PAGE_3::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_3::SAFE_AREA_VIOLATION",
+          "PAGE_4::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_4::SAFE_AREA_VIOLATION",
+          "PAGE_5::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_5::SAFE_AREA_VIOLATION",
+          "PAGE_6::SAFE_AREA_VIOLATION",
+          "PAGE_7::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_7::SAFE_AREA_VIOLATION",
+          "PAGE_8::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_8::SAFE_AREA_VIOLATION",
+          "PAGE_9::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_9::SAFE_AREA_VIOLATION"
+        ],
+        [
+          "RASTER_ONLY_PROJECTION_WITHOUT_HASH_BOUND_SEMANTIC_MASTER_PROOF"
+        ]
+      ]
+    },
+    {
+      "name": "raster_only_semantic_master_block_present",
+      "status": "PASS",
+      "detail": [
+        [
+          "DECK_DISTINCT_COMPOSITION_FLOOR_NOT_MET",
+          "PAGE_10::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_10::SAFE_AREA_VIOLATION",
+          "PAGE_11::SAFE_AREA_VIOLATION",
+          "PAGE_12::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_12::SAFE_AREA_VIOLATION",
+          "PAGE_13::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_13::SAFE_AREA_VIOLATION",
+          "PAGE_14::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_14::SAFE_AREA_VIOLATION",
+          "PAGE_15::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_15::SAFE_AREA_VIOLATION",
+          "PAGE_16::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_16::SAFE_AREA_VIOLATION",
+          "PAGE_17::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_17::SAFE_AREA_VIOLATION",
+          "PAGE_18::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_18::SAFE_AREA_VIOLATION",
+          "PAGE_19::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_19::SAFE_AREA_VIOLATION",
+          "PAGE_1::INTERNAL_OR_DEBUG_VOCABULARY:Rashad OS V7.2.1",
+          "PAGE_1::SAFE_AREA_VIOLATION",
+          "PAGE_1::WESTERN_NUMERAL_IN_ARABIC_NATURAL_LANGUAGE:إصدار تنفيذي وفق Rashad OS V7.2.1",
+          "PAGE_20::SAFE_AREA_VIOLATION",
+          "PAGE_21::SAFE_AREA_VIOLATION",
+          "PAGE_22::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_22::SAFE_AREA_VIOLATION",
+          "PAGE_23::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_23::SAFE_AREA_VIOLATION",
+          "PAGE_24::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_24::SAFE_AREA_VIOLATION",
+          "PAGE_2::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_2::SAFE_AREA_VIOLATION",
+          "PAGE_3::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_3::SAFE_AREA_VIOLATION",
+          "PAGE_4::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_4::SAFE_AREA_VIOLATION",
+          "PAGE_5::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_5::SAFE_AREA_VIOLATION",
+          "PAGE_6::SAFE_AREA_VIOLATION",
+          "PAGE_7::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_7::SAFE_AREA_VIOLATION",
+          "PAGE_8::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_8::SAFE_AREA_VIOLATION",
+          "PAGE_9::DOMINANT_MASS_BELOW_FLOOR",
+          "PAGE_9::SAFE_AREA_VIOLATION"
+        ],
+        [
+          "RASTER_ONLY_PROJECTION_WITHOUT_HASH_BOUND_SEMANTIC_MASTER_PROOF"
+        ]
+      ]
+    }
+  ]
+}

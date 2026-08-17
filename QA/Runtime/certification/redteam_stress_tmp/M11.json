@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M11",
+  "mutation": "table_rows_30",
+  "expected": "safe continuation pages; no unreadable shrink",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "8ad2ac161667cef8fc5cd4be36e51d5d4a80cae74d11660807a8be5f226fb0e5",
+  "mutated_input_hash": "8ad2ac161667cef8fc5cd4be36e51d5d4a80cae74d11660807a8be5f226fb0e5",
+  "measured_object_count": 1,
+  "changed": true
+}

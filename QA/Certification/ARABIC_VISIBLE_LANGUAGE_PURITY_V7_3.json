@@ -1,0 +1,86 @@
+{
+  "suite": "Arabic Visible Language Purity v7.3",
+  "status": "PASS",
+  "passed": 6,
+  "total": 6,
+  "tests": [
+    {
+      "name": "arabic_technical_tokens_allowed",
+      "status": "PASS",
+      "observed": "PASS",
+      "violations": []
+    },
+    {
+      "name": "internal_ready_blocked",
+      "status": "PASS",
+      "observed": "FAIL",
+      "violations": [
+        {
+          "kind": "internal_vocabulary_leak",
+          "idx": 0,
+          "term": "ready",
+          "text": "الحالة READY والخطوة NEXT"
+        },
+        {
+          "kind": "internal_vocabulary_leak",
+          "idx": 0,
+          "term": "next",
+          "text": "الحالة READY والخطوة NEXT"
+        }
+      ]
+    },
+    {
+      "name": "debug_string_blocked",
+      "status": "PASS",
+      "observed": "FAIL",
+      "violations": [
+        {
+          "kind": "internal_vocabulary_leak",
+          "idx": 0,
+          "term": "v7.7 test",
+          "text": "اختبار v7.7 Test"
+        },
+        {
+          "kind": "western_numeral_leakage",
+          "idx": 0,
+          "text": "اختبار v7.7 Test"
+        }
+      ]
+    },
+    {
+      "name": "pure_latin_client_prose_blocked",
+      "status": "PASS",
+      "observed": "FAIL",
+      "violations": [
+        {
+          "kind": "pure_latin_client_text_on_arabic_page",
+          "idx": 0,
+          "tokens": [
+            "Executive",
+            "Summary",
+            "Draft"
+          ],
+          "text": "Executive Summary Draft"
+        }
+      ]
+    },
+    {
+      "name": "western_numeral_in_arabic_blocked",
+      "status": "PASS",
+      "observed": "FAIL",
+      "violations": [
+        {
+          "kind": "western_numeral_leakage",
+          "idx": 0,
+          "text": "مدة التنفيذ 24 شهرًا"
+        }
+      ]
+    },
+    {
+      "name": "isolated_technical_numeric_allowed",
+      "status": "PASS",
+      "observed": "PASS",
+      "violations": []
+    }
+  ]
+}

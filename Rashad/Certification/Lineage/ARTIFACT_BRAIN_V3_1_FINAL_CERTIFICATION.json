@@ -1,0 +1,71 @@
+{
+  "package": "Rashad OS",
+  "canonical_skill_version": "7.0.2",
+  "consulting_brain_runtime_version": "3.1.0",
+  "artifact_exhibit_brain_version": "3.1.0",
+  "qa_runtime_version": "4.2",
+  "qa_brain_version": "1.1.0",
+  "status": "CANONICAL_FINAL_OFFLINE_CERTIFIED_BASELINE",
+  "production_release_status": "NOT_PRE_RELEASED_FOR_ANY_ENGAGEMENT",
+  "release_authority": "RASHAD_BRAIN_RELEASE_CHAIR",
+  "qa_authority_ceiling": "QA_CANDIDATE_PASS",
+  "protected_skill_corpus_changed": false,
+  "artifact_brain": {
+    "councils": 18,
+    "registered_unique_roles": 107,
+    "communication_strategies": 24,
+    "all_roles_loaded_by_default": false,
+    "geometry_primitives_have_hypothesis_authority": false,
+    "certification": "32/32 PASS",
+    "red_team": "15/15 ATTACKS BLOCKED",
+    "quality_stress": {
+      "page_runs": 2400,
+      "deck_runs": 300,
+      "adversarial_deck_attacks": 5,
+      "crashes": 0,
+      "tests": "16/16 PASS"
+    }
+  },
+  "qa_brain": {
+    "councils": 12,
+    "certification": "15/15 PASS",
+    "actual_pixel_product_council": true,
+    "executive_simplicity_artifact_skeptic_council": true
+  },
+  "a_to_z_relationship_audit": "64/64 PASS",
+  "full_os_verification": "19/19 PASS",
+  "final_package_red_team": "26/26 PASS",
+  "rfp_summary_execution": "18/18 PASS",
+  "rfp_summary_red_team": "9/9 ATTACKS BLOCKED",
+  "brain_artifact_admission_foundation": "28/28 PASS",
+  "brain_artifact_admission_red_team": "14/14 ATTACKS BLOCKED",
+  "qa_regression_v3": "19/19 PASS",
+  "qa_regression_v31": "21/21 PASS",
+  "qa_legacy_stress": {
+    "runs": 500,
+    "crashes": 0,
+    "status": "PASS"
+  },
+  "skill_certification": "64/64 PASS",
+  "skill_red_team": "42/42 ATTACKS BLOCKED",
+  "owner_language_gate": "PASS",
+  "key_final_remediations": [
+    "QA Brain expanded from 10 to 12 councils for actual-pixel/product review and executive simplicity/artifact skepticism.",
+    "Artifact hypotheses are communication strategies, not RING/HUB/SPINE/STACK/LANE geometry variants.",
+    "Communication strategy universe expanded to 24 with SCORECARD_LED for gates/readiness/KPI decisions.",
+    "Duplicate artifact expert role IDs removed; multi-council participation is represented through secondary_councils.",
+    "Evidence-locator metadata no longer biases every grounded page toward TABLE/EVIDENCE communication.",
+    "The substring go inside governance no longer creates a false GO/decision classification.",
+    "Generic composition-grammar reuse is blocked even when strategy labels differ.",
+    "Framework QA is explicitly separate from QA of the actual rendered product.",
+    "Current authority graph, active product registry, and version-retirement ledger now route RFP Summary only through v7.0.2 version-agnostic aliases; stale v7.0.1 routing is regression-blocked."
+  ],
+  "known_production_dependencies": [
+    "Configure real independent provider/judge executions for the current engagement.",
+    "Complete and prove remaining production renderer connector/obstacle-routing/pixel mechanics.",
+    "Populate governed firm-specific knowledge such as credentials, CV/capacity, case studies and rate cards from an approved Data Room.",
+    "Prove final PDF/PPTX parity on the actual engagement output."
+  ],
+  "p0_open_in_skill_brain_qa_contract_layer": 0,
+  "p1_open_in_skill_brain_qa_contract_layer": 0
+}

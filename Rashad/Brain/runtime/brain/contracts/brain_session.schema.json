@@ -1,0 +1,27 @@
+{
+  "required": [
+    "session_id",
+    "task",
+    "state",
+    "route",
+    "invocations",
+    "findings",
+    "decisions",
+    "hash_chain",
+    "release"
+  ],
+  "states": [
+    "INIT",
+    "GROUNDED",
+    "ROUTED",
+    "PRODUCED",
+    "CHALLENGED",
+    "DISSENT_RESOLVED",
+    "COGNITIVE_LOCKED",
+    "ARTIFACT_SEARCHED",
+    "JUDGED",
+    "QA_CANDIDATE_PASS",
+    "RELEASED",
+    "BLOCKED"
+  ]
+}

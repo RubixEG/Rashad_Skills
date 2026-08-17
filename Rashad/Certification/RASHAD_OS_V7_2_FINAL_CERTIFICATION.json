@@ -1,0 +1,141 @@
+{
+  "package": "Rashad OS",
+  "version": "7.2.0",
+  "status": "CURRENT_V7_2_HOST_NATIVE_OFFLINE_CERTIFIED_BASELINE",
+  "certified_at_utc": "2026-08-16T22:21:06Z",
+  "architecture": {
+    "skill": "7.2.0",
+    "brain": "3.4.0",
+    "artifact_brain": "3.3.0",
+    "qa_runtime": "4.3",
+    "qa_brain": "1.3.0",
+    "constitutional_councils": 16,
+    "brain_executable_actors": 69,
+    "artifact_councils": 20,
+    "artifact_registered_roles": 107,
+    "communication_strategies": 24,
+    "qa_councils": 14,
+    "execution_modes": [
+      "HOST_NATIVE_MODE",
+      "API_PROVIDER_MODE",
+      "OFFLINE_VALIDATION_MODE"
+    ]
+  },
+  "verification": {
+    "skill": {
+      "passed": 109,
+      "total": 109,
+      "status": "PASS"
+    },
+    "skill_red_team": {
+      "blocked": 71,
+      "total": 71,
+      "status": "PASS"
+    },
+    "a_to_z": {
+      "passed": 102,
+      "total": 102,
+      "status": "PASS"
+    },
+    "full_line": {
+      "status": "PASS",
+      "files_scanned": 1993,
+      "lines_scanned": 201584,
+      "bytes_scanned": 21863940,
+      "self_claim_files": 894,
+      "nonmanifest_self_claim_files": 798,
+      "p0": 0,
+      "p1": 0
+    },
+    "brain_coherence": {
+      "passed": 43,
+      "total": 43,
+      "status": "PASS"
+    },
+    "brain_coherence_stress": {
+      "status": "PASS",
+      "operations": 5950,
+      "error_count": 0
+    },
+    "host_native_brain": {
+      "passed": 16,
+      "total": 16,
+      "status": "PASS"
+    },
+    "host_native_red_team": {
+      "blocked": 9,
+      "total": 9,
+      "status": "PASS"
+    },
+    "host_native_qa": {
+      "passed": 6,
+      "total": 6,
+      "status": "PASS"
+    },
+    "host_native_stress": {
+      "suite": "Host-Native Execution Stress v7.2",
+      "status": "PASS",
+      "operations": 2580,
+      "stats": {
+        "provider_valid": 1200,
+        "provider_attack_blocked": 1200,
+        "brain_runs": 180,
+        "brain_proof_pass": 180,
+        "unexpected_pass": 0,
+        "crashes": 0
+      },
+      "error_count": 0,
+      "errors": []
+    },
+    "user_visible_delivery": {
+      "passed": 20,
+      "total": 20,
+      "status": "PASS"
+    },
+    "delivery_red_team": {
+      "blocked": 26,
+      "total": 26,
+      "status": "PASS"
+    },
+    "artifact_stress_quality": {
+      "status": "PASS",
+      "crashes": 0
+    },
+    "golden_redf": {
+      "status": "PASS"
+    },
+    "incident_regression": {
+      "status": "PASS",
+      "incident_count": 15,
+      "passed": 20,
+      "total": 20
+    },
+    "final_package_red_team": {
+      "status": "PASS",
+      "blocked": 70,
+      "total": 70
+    },
+    "final_verify": {
+      "status": "PASS",
+      "passed": 31,
+      "total": 31,
+      "execution": "PROCESS_GROUP_ISOLATED_ORDERED_FILE_LOGGED_FAIL_CLOSED"
+    }
+  },
+  "host_native_truth": {
+    "chat_host_without_python_api_key": "MAY_EXECUTE_VIA_HOST_NATIVE_MODE_WHEN_HOST_BRIDGE_OR_HASH_BOUND_RESPONSE_BUNDLE_IS_AVAILABLE",
+    "no_host_bridge_and_no_api": "OFFLINE_VALIDATION_MODE_FAIL_CLOSED",
+    "host_native_pass_requires": "REQUEST_KEY_SESSION_RESPONSE_ID_SOURCE_AND_INPUT_BOUND_PROOF",
+    "host_native_is_external_independence": false,
+    "released_requires_external_independence": true
+  },
+  "release_truth": {
+    "offline_certified": true,
+    "production_released": false,
+    "qa_ceiling": "QA_CANDIDATE_PASS",
+    "release_authority": "RASHAD_BRAIN_RELEASE_CHAIR",
+    "external_independent_release_evidence_current_engagement": "REQUIRED_FOR_RELEASE",
+    "pdf_pptx_parity_current_engagement": "REQUIRED_FOR_RELEASE"
+  },
+  "exact_zip_status": "DISTRIBUTION_REQUIRES_EXTERNAL_FRESH_HASH_INTEGRITY_AND_SEPARATE_31_SUITE_EXECUTION_PROOF"
+}

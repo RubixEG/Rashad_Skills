@@ -1,0 +1,91 @@
+{
+  "package": "Rashad OS",
+  "certification": "RASHAD_OS_V7_1_FINAL_CERTIFICATION",
+  "status": "PASS_OFFLINE_CERTIFIED_WORKTREE_EXACT_ZIP_REVALIDATION_REQUIRED_AT_HANDOFF",
+  "canonical_skill_version": "7.1.0",
+  "brain_runtime_version": "3.2.0",
+  "artifact_brain_version": "3.2.0",
+  "qa_runtime_version": "4.3",
+  "qa_brain_version": "1.2.0",
+  "final_verifier": {
+    "status": "PASS",
+    "passed": 25,
+    "total": 25,
+    "execution": "SEQUENTIAL_ISOLATED_FILE_LOGGED_FAIL_CLOSED"
+  },
+  "skill_v7_1": "80/80 PASS",
+  "skill_red_team_v7_1": "55/55 ATTACKS BLOCKED",
+  "a_to_z_relationship_audit": "69/69 PASS",
+  "full_line_conflict_audit": {
+    "status": "PASS",
+    "p0_count": 0,
+    "p1_count": 0,
+    "evidence": "QA/Certification/FULL_LINE_CONFLICT_AUDIT_V7_1.json"
+  },
+  "incident_regression": {
+    "status": "PASS",
+    "incident_count": 15,
+    "passed": 17,
+    "total": 17
+  },
+  "user_visible_delivery": {
+    "status": "PASS",
+    "passed": 19,
+    "total": 19
+  },
+  "user_visible_delivery_red_team": {
+    "status": "PASS",
+    "blocked": 26,
+    "total": 26
+  },
+  "stress_quality": {
+    "status": "PASS",
+    "page_runs": 4000,
+    "deck_runs": 800,
+    "crashes": 0,
+    "unsafe_escaped": 0,
+    "valid_failed": 0
+  },
+  "golden_redf_acceptance": {
+    "status": "PASS",
+    "page_count": 14,
+    "diagram_ratio": 0.286,
+    "delivery": "DELIVERY_ALLOWED"
+  },
+  "final_package_red_team": {
+    "status": "PASS",
+    "passed": 31,
+    "total": 31
+  },
+  "artifact_intelligence": {
+    "constitutional_brain_councils": 16,
+    "artifact_councils": 20,
+    "artifact_registered_roles": 107,
+    "communication_strategies": 24,
+    "qa_councils": 14
+  },
+  "hard_locks": [
+    "CONTENT_DIRECT_TO_PPTX_BYPASS_BLOCKED",
+    "CONCEPT_RENDER_INTERNAL_ONLY",
+    "PRODUCTION_PAGE_RENDER_REQUIRED",
+    "INDEPENDENT_EXACT_HASH_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+    "REPAIR_LOOP_MUST_CLOSE",
+    "FRAMEWORK_QA_SUBSTITUTION_FORBIDDEN",
+    "EXACT_FILE_DELIVERY_CERTIFICATE_REQUIRED",
+    "FIVE_HYPOTHESES_ARE_COMMUNICATION_STRATEGIES",
+    "H1_POSITION_HAS_ZERO_AUTHORITY",
+    "SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE_BLOCKED",
+    "DECISION_AND_ARTIFACT_WORKFLOWS_SEPARATELY_BOUND",
+    "ARTIFACT_STRATEGY_REGISTRY_RUNTIME_PARITY_REQUIRED",
+    "FINAL_VERIFIER_SINGLE_RUN_LOCK_FILE_LOGGED_AND_LOGDIR_RESILIENT",
+    "REGRESSION_OUTPUT_ROOTS_CLEANED_EACH_RUN",
+    "15_INCIDENTS_PERMANENTLY_REGRESSION_LOCKED"
+  ],
+  "truthful_boundaries": [
+    "NO_LIVE_EXTERNAL_SME_OR_JUDGE_EXECUTION_CLAIMED_WITHOUT_CONFIGURED_PROVIDER",
+    "REMAINING_RENDERER_ANCHOR_OBSTACLE_AND_PDF_PPTX_PARITY_MECHANICS_OPEN",
+    "FUTURE_CLIENT_DECK_REQUIRES_EXACT_FILE_V7_1_DELIVERY_GATE",
+    "FIRM_SPECIFIC_GOVERNED_KNOWLEDGE_REQUIRED_WHEN_APPLICABLE"
+  ],
+  "protected_corpus_change": "NO"
+}

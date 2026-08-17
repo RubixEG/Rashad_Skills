@@ -1,0 +1,26 @@
+{
+  "required": [
+    "finding_id",
+    "council_id",
+    "function",
+    "status",
+    "claim",
+    "evidence_refs",
+    "severity",
+    "disposition",
+    "invocation_id",
+    "input_hash"
+  ],
+  "status": [
+    "FINDING",
+    "NO_MATERIAL_OBJECTION",
+    "BLOCKER"
+  ],
+  "disposition": [
+    "OPEN",
+    "ACCEPTED",
+    "REJECTED_WITH_EVIDENCE",
+    "RESOLVED",
+    "NOT_APPLICABLE"
+  ]
+}

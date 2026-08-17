@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rashad v7.0.1 QA Failure Case Detector Contract",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "category",
+    "key",
+    "description",
+    "severity",
+    "detector_requirement",
+    "repair_policy",
+    "release_consequence",
+    "detector",
+    "measurement",
+    "threshold",
+    "applicability",
+    "minimum_measured_objects",
+    "stress_fixture",
+    "test_fixture",
+    "evidence_output",
+    "execution_owner",
+    "not_instrumented_result",
+    "implementation_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{3,4}-[0-9]{3}$"
+    },
+    "detector": {
+      "type": "string",
+      "minLength": 3
+    },
+    "measurement": {
+      "type": "string",
+      "minLength": 5
+    },
+    "threshold": {
+      "type": "string",
+      "minLength": 3
+    },
+    "applicability": {
+      "type": "string",
+      "minLength": 3
+    },
+    "minimum_measured_objects": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "stress_fixture": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "test_fixture": {
+      "type": "string",
+      "pattern": "^FX-"
+    },
+    "implementation_status": {
+      "const": "SPECIFIED_NOT_IMPLEMENTED"
+    }
+  }
+}

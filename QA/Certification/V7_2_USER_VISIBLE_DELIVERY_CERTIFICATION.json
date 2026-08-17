@@ -1,0 +1,153 @@
+{
+  "suite": "Rashad v7.2 User-Visible Artifact Delivery Certification",
+  "status": "PASS",
+  "passed": 22,
+  "total": 22,
+  "tests": [
+    {
+      "name": "good_varied_pptx_product_inspection",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "all_pages_have_recomputed_brain_proof",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all_pages_have_executed_preconcept_councils",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all_pages_have_executed_art_direction_councils",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all_pages_have_executed_production_councils",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "deck_review_council_executed",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "good_actual_output_qa_pass",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "good_exact_file_delivery_allowed",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "fake_brain_pass_string_cannot_substitute_invocations",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "fake_artifact_council_pass_string_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "fake_art_direction_pass_string_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "fake_production_council_pass_string_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "missing_deck_artifact_council_blocks",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "framework_certification_cannot_substitute_output_qa",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exact_file_hash_mismatch_blocks",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "artifact_truth_89_blocks_delivery",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ceqs_89_blocks_delivery",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "concept_render_never_user_visible",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "missing_pixel_review_blocks",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "repair_not_closed_blocks",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "generic_shape_card_deck_blocked",
+      "status": "PASS",
+      "detail": [
+        "DECK_DISTINCT_COMPOSITION_FLOOR_NOT_MET",
+        "EQUAL_CARD_GRID_OVERUSE",
+        "PAGE_10::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_10::ELEMENT_OFF_CANVAS",
+        "PAGE_10::SAFE_AREA_VIOLATION",
+        "PAGE_1::ELEMENT_OFF_CANVAS",
+        "PAGE_1::SAFE_AREA_VIOLATION",
+        "PAGE_2::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_2::ELEMENT_OFF_CANVAS",
+        "PAGE_2::SAFE_AREA_VIOLATION",
+        "PAGE_3::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_3::ELEMENT_OFF_CANVAS",
+        "PAGE_3::SAFE_AREA_VIOLATION",
+        "PAGE_4::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_4::ELEMENT_OFF_CANVAS",
+        "PAGE_4::SAFE_AREA_VIOLATION",
+        "PAGE_5::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_5::ELEMENT_OFF_CANVAS",
+        "PAGE_5::SAFE_AREA_VIOLATION",
+        "PAGE_6::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_6::ELEMENT_OFF_CANVAS",
+        "PAGE_6::SAFE_AREA_VIOLATION",
+        "PAGE_7::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_7::ELEMENT_OFF_CANVAS",
+        "PAGE_7::SAFE_AREA_VIOLATION",
+        "PAGE_8::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_8::ELEMENT_OFF_CANVAS",
+        "PAGE_8::SAFE_AREA_VIOLATION",
+        "PAGE_9::DOMINANT_MASS_BELOW_FLOOR",
+        "PAGE_9::ELEMENT_OFF_CANVAS",
+        "PAGE_9::SAFE_AREA_VIOLATION",
+        "SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE",
+        "PPTX_EQUAL_CARD_GRID_OVERUSE",
+        "PPTX_SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE"
+      ]
+    },
+    {
+      "name": "internal_concept_stage_is_not_user_visible",
+      "status": "PASS",
+      "detail": null
+    }
+  ]
+}

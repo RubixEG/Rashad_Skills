@@ -1,0 +1,15 @@
+{
+  "suite": "Host-Native Execution Stress v7.2",
+  "status": "PASS",
+  "operations": 2580,
+  "stats": {
+    "provider_valid": 1200,
+    "provider_attack_blocked": 1200,
+    "brain_runs": 180,
+    "brain_proof_pass": 180,
+    "unexpected_pass": 0,
+    "crashes": 0
+  },
+  "error_count": 0,
+  "errors": []
+}

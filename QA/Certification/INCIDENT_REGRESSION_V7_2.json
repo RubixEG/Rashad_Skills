@@ -1,0 +1,120 @@
+{
+  "suite": "Rashad v7.2 Incident Regression Registry",
+  "status": "PASS",
+  "incident_count": 15,
+  "passed": 20,
+  "total": 20,
+  "tests": [
+    {
+      "name": "incident_registry_unique_and_complete",
+      "status": "PASS",
+      "detail": 15
+    },
+    {
+      "name": "every_incident_is_P0_with_regression_mapping",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "concept_wireframe_never_user_visible",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "missing_pixel_review_never_user_visible",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "unclosed_repair_never_user_visible",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "shape_only_card_output_blocked",
+      "status": "PASS",
+      "detail": [
+        "PPTX_STRUCTURAL_MONOTONY",
+        "PPTX_SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE",
+        "PPTX_EQUAL_CARD_GRID_OVERUSE"
+      ]
+    },
+    {
+      "name": "labels_without_execution_proof_never_deliver",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "metadata_key_names_do_not_trigger_expertise",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "current_manifest_v7_2",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "decision_and_artifact_workflows_both_bound",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "concept_render_internal_only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "golden_acceptance_required",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "strategy_registry_exact_24_runtime_parity",
+      "status": "PASS",
+      "detail": {
+        "runtime": 24,
+        "registry": 24
+      }
+    },
+    {
+      "name": "all_69_registered_brain_actors_reachable",
+      "status": "PASS",
+      "detail": {
+        "actors": 69,
+        "reachable": 69,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "artifact_20_councils_107_roles_24_strategies",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "qa_14_councils",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "final_verifier_directory_inode_lock_file_logged_fail_closed",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "brain_coherence_evidence_pass",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "brain_stress_evidence_pass",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "golden_redf_evidence_pass",
+      "status": "PASS",
+      "detail": null
+    }
+  ]
+}

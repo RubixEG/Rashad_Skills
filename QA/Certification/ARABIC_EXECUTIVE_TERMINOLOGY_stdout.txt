@@ -1,0 +1,1 @@
+[('visible_title_diacritic', 'BLOCK', 'BLOCK'), ('visible_subsection', 'BLOCK', 'BLOCK'), ('visible_callout', 'BLOCK', 'BLOCK'), ('source_quote', 'PASS', 'PASS'), ('approved_default', 'PASS', 'PASS'), ('approved_profit', 'PASS', 'PASS'), ('specific_impact', 'PASS', 'PASS')]

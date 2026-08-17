@@ -1,0 +1,26 @@
+{
+  "suite": "Rashad v7.2 Brain Coherence Stress & Quality",
+  "status": "PASS",
+  "counters": {
+    "route_cases": 3000,
+    "brain_runs": 250,
+    "key_name_attacks": 1000,
+    "artifact_cases": 1500,
+    "artifact_execution_runs": 200
+  },
+  "error_count": 0,
+  "errors": [],
+  "duration_sec": 1.449,
+  "quality_assertions": [
+    "bounded expert activation",
+    "no unknown configured roles",
+    "all required roles selected",
+    "semantic values not key names",
+    "full Brain cognitive lock with recomputed proof",
+    "five distinct artifact strategies",
+    "three+ strategy families",
+    "non-diagram candidate required",
+    "Arabic RTL Artifact council routed",
+    "artifact councils actually executed"
+  ]
+}

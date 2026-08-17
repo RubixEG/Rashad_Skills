@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Rashad User Visible Artifact Delivery Dossier v1",
+  "type":"object",
+  "required":["schema","classification","output_file_sha256","artifact_brain_execution_status","production_render_status","actual_output_qa_closed_loop_status","pages","deck_pixel_review"],
+  "properties":{
+    "schema":{"const":"RASHAD_USER_VISIBLE_ARTIFACT_DELIVERY_V1"},
+    "classification":{"enum":["USER_VISIBLE_ARTIFACT_DRAFT","RELEASE_CANDIDATE","RELEASED"]},
+    "output_file_sha256":{"type":"string","minLength":64,"maxLength":64},
+    "artifact_brain_execution_status":{"const":"PASS"},
+    "production_render_status":{"const":"PASS"},
+    "actual_output_qa_closed_loop_status":{"const":"PASS"},
+    "pages":{"type":"array","minItems":1},
+    "deck_pixel_review":{"type":"object"},
+    "framework_certification_substitute":{"const":false}
+  },
+  "additionalProperties":true
+}

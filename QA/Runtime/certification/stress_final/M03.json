@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M03",
+  "mutation": "arabic_text_plus_35_percent",
+  "expected": "RTL and geometry preserved",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "63d997a57e9db719a364321df8391c64734d231cfa7fa3ed016ce6ae37d2bce7",
+  "mutated_input_hash": "63d997a57e9db719a364321df8391c64734d231cfa7fa3ed016ce6ae37d2bce7",
+  "measured_object_count": 1,
+  "changed": true
+}

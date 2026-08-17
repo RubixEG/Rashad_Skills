@@ -1,0 +1,7 @@
+{
+  "version": "7.0",
+  "shipped_svg_icon_count": 0,
+  "status": "NO_BUNDLED_SVG_ICON_BINARIES",
+  "pipeline_authority": "03_ARTIFACT_ENGINE/13_ICON_SYSTEM_AND_SVG_PIPELINE.md",
+  "rule": "Do not claim an included icon family unless runtime inventory contains approved SVG assets."
+}

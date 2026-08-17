@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rubix/rashad/v6/page-spec.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "engagement_id",
+    "page_id",
+    "page_mode",
+    "page_family",
+    "canvas",
+    "graph_ref",
+    "exhibit_ref",
+    "content_pack",
+    "production_route",
+    "instrumentation_level",
+    "qa_expectations",
+    "pending_product_state"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "6.0"
+    },
+    "engagement_id": {
+      "type": "string"
+    },
+    "page_id": {
+      "type": "string",
+      "pattern": "^P[0-9]{2,3}$"
+    },
+    "page_mode": {
+      "enum": [
+        "COVER",
+        "DIVIDER",
+        "NARRATIVE",
+        "ARTIFACT_LED",
+        "HYBRID",
+        "DENSE_EVIDENCE"
+      ]
+    },
+    "page_family": {
+      "type": "string"
+    },
+    "canvas": {
+      "type": "object",
+      "required": [
+        "width",
+        "height"
+      ],
+      "properties": {
+        "width": {
+          "type": "integer"
+        },
+        "height": {
+          "type": "integer"
+        }
+      }
+    },
+    "graph_ref": {
+      "type": "string"
+    },
+    "exhibit_ref": {
+      "type": "string"
+    },
+    "content_pack": {
+      "type": "object",
+      "required": [
+        "evaluator_question",
+        "thesis",
+        "evidence",
+        "implication",
+        "sources"
+      ],
+      "properties": {
+        "evaluator_question": {
+          "type": "string",
+          "minLength": 10
+        },
+        "thesis": {
+          "type": "string",
+          "minLength": 20
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1
+        },
+        "interpretation": {
+          "type": "string"
+        },
+        "implication": {
+          "type": "string",
+          "minLength": 10
+        },
+        "decision": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^EV-[0-9]{4,6}$"
+          }
+        }
+      }
+    },
+    "production_route": {
+      "enum": [
+        "NATIVE",
+        "HYBRID_GVM_OVERLAY"
+      ]
+    },
+    "instrumentation_level": {
+      "const": "L3"
+    },
+    "qa_expectations": {
+      "type": "object",
+      "required": [
+        "expected_nodes",
+        "expected_edges",
+        "required_gates",
+        "critical_page",
+        "criticality_evidence_ref"
+      ],
+      "properties": {
+        "expected_nodes": {
+          "type": "array"
+        },
+        "expected_edges": {
+          "type": "array"
+        },
+        "required_gates": {
+          "type": "array"
+        },
+        "repair_performed": {
+          "type": "boolean"
+        },
+        "critical_page": {
+          "type": "boolean",
+          "description": "Derived from v6.2.2 criticality contract; not a producer-discretionary downgrade flag. Analytical client-facing pages default true."
+        },
+        "criticality_evidence_ref": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Reference to page_criticality.json produced under 01_ACTIVE_RUNTIME/68_V6_2_2_PAGE_CRITICALITY_CLASSIFICATION_CONTRACT.md. Producer prose is not authoritative classification evidence."
+        }
+      }
+    },
+    "pending_product_state": {
+      "type": "object",
+      "required": [
+        "product_status",
+        "next_step"
+      ],
+      "properties": {
+        "product_status": {
+          "enum": [
+            "IN_PROGRESS",
+            "BLOCKED",
+            "READY_FOR_RELEASE",
+            "RELEASED"
+          ]
+        },
+        "next_step": {
+          "type": "string"
+        },
+        "asset_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "resume_token": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "verdict": "TAXONOMY_CONTRACT_PASS",
+  "counts": {
+    "cases": 233,
+    "families": 21,
+    "stress_mutations": 20
+  },
+  "errors": [],
+  "contract_hashes": {
+    "taxonomy": "8b63a1fc1ba409139388f0d182c367529dd5b26611ee65b1c24487da1011c1dd",
+    "families": "5e1e3f9b0ffb1639933636c3ad1d593dd2e29eb9786af1c2d99e723be0ba9ea5",
+    "stress": "cf6fa75aef1e106de4fe7ec8013f9b0c10ec42ef302bcdacba12d60b1439d9ca"
+  }
+}

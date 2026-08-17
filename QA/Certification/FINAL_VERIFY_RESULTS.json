@@ -1,0 +1,506 @@
+{
+  "suite": "Rashad OS Final Verification v7.3 Production Organ + Council-Supervised Engagement Acceptance + Exact Handoff",
+  "status": "PASS",
+  "passed": 42,
+  "total": 42,
+  "execution": "PROCESS_GROUP_ISOLATED_ORDERED_FILE_LOGGED_FAIL_CLOSED",
+  "suite_timeout_seconds": 180,
+  "source_fingerprint": "4acd9cbb2c1a74f91ad6380b2dfb6dbb9ce8ada66987c0cf8a5c40dded188429",
+  "resumed": true,
+  "phases": [
+    {
+      "phase": "P1_STATIC_AUTHORITY",
+      "status": "PASS",
+      "passed": 5,
+      "total": 5
+    },
+    {
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "passed": 14,
+      "total": 14
+    },
+    {
+      "phase": "P3_QA_RUNTIME",
+      "status": "PASS",
+      "passed": 7,
+      "total": 7
+    },
+    {
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "passed": 12,
+      "total": 12
+    },
+    {
+      "phase": "P5_INCIDENT_PACKAGE",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4
+    }
+  ],
+  "results": [
+    {
+      "name": "skill_v7_3",
+      "phase": "P1_STATIC_AUTHORITY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 1.471,
+      "stdout_tail": "bel_law \nPASS role23_visible_owner_title \nPASS active_architecture_no_stale_v701_workflow \nPASS active_architecture_no_stale_v701_decision_schema \nPASS ingestion_machine_state_schema_exists \nPASS execution_machine_state_schema_exists \nPASS manifest_binds_ingestion_schema \nPASS manifest_binds_execution_schema \nPASS manifest_rfp_render_count_5 \nPASS workflow_renders_all_5 \nPASS workflow_5_to_9_search \nPASS workflow_machine_step_gate \nPASS role_registry_no_stale_decision_schema \nPASS depth_contract_no_stale_decision_schema \nPASS startup_current_workflow_alias \nPASS v71_delivery_workflow_bound \nPASS v71_artifact_law_global \nPASS v71_actual_pixel_qa_global \nPASS concept_render_internal_only \nPASS production_page_render_required \nPASS user_visible_requires_pixel_pass \nPASS framework_qa_cannot_substitute \nPASS exact_file_delivery_gate_required \nPASS golden_real_rfp_acceptance_required \nPASS artifact_hypotheses_are_communication_strategies \nPASS legacy_geometry_has_no_selection_authority \nPASS legacy_artifact_draft_alias_is_user_visible \nPASS v72_brain_coherence_law_global \nPASS v72_no_generic_fallback_qa_global \nPASS legacy_artifact_foundations_not_global []\nPASS manifest_brain_runtime_350 \nPASS manifest_artifact_brain_400 \nPASS manifest_expert_runtime_bound \nPASS manifest_artifact_council_runtime_bound \nPASS generic_cards_fallback_hard_forbidden \nPASS brain_coherence_rule_execution_required \nPASS brain_actor_registry_minimum_69 69\nPASS brain_actor_exists_SME-AI-ENGINEERING \nPASS brain_actor_exists_SME-SOLUTION-ARCH \nPASS brain_actor_exists_SME-CYBER \nPASS brain_actor_exists_SME-CLOUD-INFRA \nPASS brain_actor_exists_SIM-CFO \nPASS brain_actor_exists_GOV-FINANCIAL-TRUTH \nPASS brain_actor_exists_GOV-TECHNICAL-FEASIBILITY \nPASS brain_actor_exists_GOV-KNOWLEDGE-READINESS \nPASS expert_activation_bounded 14\nPASS ai_engineering_is_ai_data_domain_lead \nPASS artifact_registry_breadth c=20 r=107\nPASS artifact_24_strategies 24\nPASS v71_harness_not_current \nPASS v71_redteam_not_current \nPASS v71_harness_lineage_only \nPASS v72_law_Registry_Routing_Execution_Judgment_Release \nPASS v72_law_No_Council_Execution_Proof \nPASS v72_law_AI_Engineering \nPASS v72_law_isolated \nPASS v73_visual_production_law_global \nPASS v73_remediation_qa_law_global \nPASS v73_workflow_global \nPASS v73_recipe_index_bound \nPASS v73_composition_spec_runtime \nPASS v73_composer_runtime \nPASS v73_renderer_runtime \nPASS v73_imagery_director_runtime \nPASS v73_format_neutral_inspector \nPASS v73_quality_floors \nPASS v73_qa_versions \nPASS v73_engagement_acceptance_rule \nPASS v73_skill_status \nSUMMARY 122/122 PASS\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/skill_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/skill_v7_3.stderr.txt"
+    },
+    {
+      "name": "skill_red_team_v7_3",
+      "phase": "P1_STATIC_AUTHORITY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 1.471,
+      "stdout_tail": "arabic_language_v7_0_2.py']\nBLOCKED A53_decision_and_artifact_workflow_conflation_blocked {'decision': '05_WORKFLOW_ENGINE/23_V7_RFP_SUMMARY_DECISION_WORKFLOW.md', 'artifact': '05_WORKFLOW_ENGINE/24_V7_1_RFP_SUMMARY_ARTIFACT_DELIVERY_WORKFLOW.md'}\nBLOCKED A54_legacy_artifact_foundation_reactivated_globally []\nBLOCKED A55_brain_coherence_law_missing manifest\nBLOCKED A56_generic_cards_fallback_reenabled manifest\nBLOCKED A57_old_v71_harness_reactivated ['tests/skill_certification/verify_skill_v7_3.py', 'tests/skill_certification/red_team_skill_v7_3.py', 'tests/skill_certification/test_owner_arabic_executive_language_v7_0_2.py', 'tests/skill_certification/red_team_owner_arabic_language_v7_0_2.py']\nBLOCKED A58_expert_registry_without_runtime manifest\nBLOCKED A59_artifact_councils_metadata_only manifest\nBLOCKED A60_brain_version_current manifest\nBLOCKED A61_no_execution_proof_can_render v7.2 law\nBLOCKED A62_ai_engineer_missing_from_brain actor ontology\nBLOCKED A63_equal_card_grid_not_forbidden v7.2 QA law\nBLOCKED A64_host_native_law_global manifest\nBLOCKED A65_host_native_qa_law_global manifest\nBLOCKED A66_host_native_workflow_bound 05_WORKFLOW_ENGINE/25_V7_2_HOST_NATIVE_RFP_SUMMARY_EXECUTION_WORKFLOW.md\nBLOCKED A67_three_execution_modes_exact ['HOST_NATIVE_MODE', 'API_PROVIDER_MODE', 'OFFLINE_VALIDATION_MODE']\nBLOCKED A68_host_native_provider_adapter_bound ../Brain/runtime/brain/provider.py::HostNativeProvider|HostNativeResponseBundleProvider|OpenAIResponsesProvider|ExternalCallableProvider\nBLOCKED A69_no_api_key_only_host_block MODEL_CAPABLE_HOST_MUST_NOT_FALL_OFFLINE_SOLELY_BECAUSE_PYTHON_API_KEY_IS_ABSENT\nBLOCKED A70_exact_handoff_authority_removed manifest\nBLOCKED A71_delivered_file_binding_qa_removed manifest\nBLOCKED A72_exact_handoff_runtime_unbound ../Brain/runtime/brain/exact_handoff.py\nBLOCKED A73_wrong_artifact_incident_not_permanent I16_WRONG_ARTIFACT_HANDOFF_AFTER_QA\nBLOCKED A74_v73_visual_law_removed manifest\nBLOCKED A75_v73_remediation_law_removed manifest\nBLOCKED A76_v73_composer_unbound ../Brain/runtime/brain/production/composer.py\nBLOCKED A77_v73_pdf_inspector_unbound ../Brain/runtime/brain/product_geometry.py\nBLOCKED A78_v73_image_path_unbound ../Brain/runtime/brain/imagery_director.py\nBLOCKED A79_v73_quality_floor_deleted {'artifact_truth': 90, 'ceqs': 90, 'dominant_mass_min': 0.32, 'dominant_mass_max': 0.68, 'composition_distinct_ratio_min': 0.7, 'diagram_ratio_hard_block': 0.55}\nBLOCKED A80_fixture_can_certify_engagement FIXTURE_CERTIFICATION_NEVER_SUBSTITUTES_HASH_BOUND_ACTUAL_ENGAGEMENT_ARTIFACT_ACCEPTANCE\nSUMMARY 82/82 ATTACKS BLOCKED\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/skill_red_team_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/skill_red_team_v7_3.stderr.txt"
+    },
+    {
+      "name": "owner_language_red_team",
+      "phase": "P1_STATIC_AUTHORITY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.619,
+      "stdout_tail": "PASS visible_title_block\nPASS visible_subsection_block\nPASS internal_id_pass\nPASS approved_default_pass\nPASS profitability_conditional\nPASS cfo_test_present\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/owner_language_red_team.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/owner_language_red_team.stderr.txt"
+    },
+    {
+      "name": "a_to_z_final_v7_3",
+      "phase": "P1_STATIC_AUTHORITY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 1.125,
+      "stdout_tail": "ad v7.3 Final A-to-Z Brain/Architecture/Workflow/QA Audit\",\n  \"status\": \"PASS\",\n  \"passed\": 114,\n  \"total\": 114,\n  \"categories\": [\n    {\n      \"letter\": \"A\",\n      \"status\": \"PASS\",\n      \"passed\": 4,\n      \"total\": 4\n    },\n    {\n      \"letter\": \"B\",\n      \"status\": \"PASS\",\n      \"passed\": 4,\n      \"total\": 4\n    },\n    {\n      \"letter\": \"C\",\n      \"status\": \"PASS\",\n      \"passed\": 4,\n      \"total\": 4\n    },\n    {\n      \"letter\": \"D\",\n      \"status\": \"PASS\",\n      \"passed\": 4,\n      \"total\": 4\n    },\n    {\n      \"letter\": \"E\",\n      \"status\": \"PASS\",\n      \"passed\": 4,\n      \"total\": 4\n    },\n    {\n      \"letter\": \"F\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"G\",\n      \"status\": \"PASS\",\n      \"passed\": 4,\n      \"total\": 4\n    },\n    {\n      \"letter\": \"H\",\n      \"status\": \"PASS\",\n      \"passed\": 5,\n      \"total\": 5\n    },\n    {\n      \"letter\": \"I\",\n      \"status\": \"PASS\",\n      \"passed\": 7,\n      \"total\": 7\n    },\n    {\n      \"letter\": \"J\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"K\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"L\",\n      \"status\": \"PASS\",\n      \"passed\": 4,\n      \"total\": 4\n    },\n    {\n      \"letter\": \"M\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"N\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"O\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"P\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"Q\",\n      \"status\": \"PASS\",\n      \"passed\": 4,\n      \"total\": 4\n    },\n    {\n      \"letter\": \"R\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"S\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"T\",\n      \"status\": \"PASS\",\n      \"passed\": 5,\n      \"total\": 5\n    },\n    {\n      \"letter\": \"U\",\n      \"status\": \"PASS\",\n      \"passed\": 5,\n      \"total\": 5\n    },\n    {\n      \"letter\": \"V\",\n      \"status\": \"PASS\",\n      \"passed\": 6,\n      \"total\": 6\n    },\n    {\n      \"letter\": \"W\",\n      \"status\": \"PASS\",\n      \"passed\": 3,\n      \"total\": 3\n    },\n    {\n      \"letter\": \"X\",\n      \"status\": \"PASS\",\n      \"passed\": 4,\n      \"total\": 4\n    },\n    {\n      \"letter\": \"Y\",\n      \"status\": \"PASS\",\n      \"passed\": 6,\n      \"total\": 6\n    },\n    {\n      \"letter\": \"Z\",\n      \"status\": \"PASS\",\n      \"passed\": 14,\n      \"total\": 14\n    }\n  ],\n  \"failures\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/a_to_z_final_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/a_to_z_final_v7_3.stderr.txt"
+    },
+    {
+      "name": "full_line_conflict_v7_3",
+      "phase": "P1_STATIC_AUTHORITY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 1.779,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.3 Full Line Conflict Audit\",\n  \"status\": \"PASS\",\n  \"stats\": {\n    \"files_scanned\": 2377,\n    \"lines_scanned\": 259866,\n    \"bytes_scanned\": 24006504,\n    \"self_claim_files\": 928,\n    \"nonmanifest_self_claim_files\": 790\n  },\n  \"manifest_authorities\": 64,\n  \"p0_count\": 0,\n  \"p1_count\": 0\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/full_line_conflict_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/full_line_conflict_v7_3.stderr.txt"
+    },
+    {
+      "name": "rashad_brain",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.618,
+      "stdout_tail": "],\n        \"executed_councils\": [\n          \"GOV-EVIDENCE\",\n          \"GOV-FINANCIAL-TRUTH\",\n          \"GOV-KNOWLEDGE-READINESS\",\n          \"SIM-CFO\",\n          \"SIM-COMMERCIAL-EVALUATOR\",\n          \"SIM-GOV-EVALUATOR\",\n          \"SME-COMMERCIAL\",\n          \"SME-EVIDENCE\",\n          \"SME-LEGAL-CONTRACT\",\n          \"SME-PRICING\"\n        ]\n      }\n    },\n    {\n      \"name\": \"five_structural_hypotheses\",\n      \"status\": \"PASS\",\n      \"detail\": [\n        \"PCS-ADEC6160D094440FA6F6\",\n        \"PCS-7EC1000CA14B89942822\",\n        \"PCS-AD339BDE2DF1FF3F6042\",\n        \"PCS-7C588688EFCBF2E16604\",\n        \"PCS-39F527887238247B7887\"\n      ]\n    },\n    {\n      \"name\": \"winner_not_hardcoded\",\n      \"status\": \"PASS\",\n      \"detail\": \"PENDING_ACTUAL_RENDER_AND_INDEPENDENT_JUDGE\"\n    },\n    {\n      \"name\": \"partial_judgment_blocks_selection\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"BLOCKED\",\n        \"winner\": null,\n        \"reason\": \"ALL_CANDIDATES_REQUIRE_INDEPENDENT_JUDGMENT\"\n      }\n    },\n    {\n      \"name\": \"independent_scores_choose_actual_winner\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"PASS\",\n        \"winner\": \"H5\",\n        \"ranking\": [\n          \"H5\",\n          \"H4\",\n          \"H3\",\n          \"H2\",\n          \"H1\"\n        ],\n        \"scores\": {\n          \"H5\": 85.0,\n          \"H4\": 84.0,\n          \"H3\": 83.0,\n          \"H2\": 82.0,\n          \"H1\": 81.0\n        }\n      }\n    },\n    {\n      \"name\": \"producer_judge_collision_blocked\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"FAIL\",\n        \"errors\": [\n          {\n            \"kind\": \"PRODUCER_JUDGE_COLLISION\",\n            \"actor_id\": \"ACTOR-PRODUCER-A64E9B3B8C47461F\"\n          }\n        ],\n        \"executed_councils\": [\n          \"GOV-EVIDENCE\",\n          \"GOV-FINANCIAL-TRUTH\",\n          \"GOV-KNOWLEDGE-READINESS\",\n          \"SIM-CFO\",\n          \"SIM-COMMERCIAL-EVALUATOR\",\n          \"SIM-GOV-EVALUATOR\",\n          \"SME-COMMERCIAL\",\n          \"SME-EVIDENCE\",\n          \"SME-LEGAL-CONTRACT\",\n          \"SME-PRICING\"\n        ]\n      }\n    },\n    {\n      \"name\": \"qa_candidate_cannot_release_without_judge_and_chair\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"FAIL\",\n        \"final_verdict\": \"BLOCKED\",\n        \"release_authority\": \"RASHAD_BRAIN_RELEASE_CHAIR\",\n        \"errors\": [\n          {\n            \"kind\": \"BRAIN_NOT_JUDGED\",\n            \"state\": \"COGNITIVE_LOCKED\"\n          },\n          {\n            \"kind\": \"INDEPENDENT_JUDGE_MISSING\"\n          },\n          {\n            \"kind\": \"RELEASE_CHAIR_MISSING\"\n          }\n        ]\n      }\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/rashad_brain.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/rashad_brain.stderr.txt"
+    },
+    {
+      "name": "rfp_summary_execution",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 1.873,
+      "stdout_tail": "PASS pack_mode_persistable_full\nPASS pack_mode_stricter_partial\nPASS clarification_window_derived_open\nPASS ingestion_schema_machine_complete\nPASS five_actual_low_fidelity_renders\nPASS fifteen_step_machine_pipeline_passes\nPASS missing_pack_mode_blocks_step3\nPASS missing_cognitive_packet_blocks_step6\nPASS missing_independent_judge_blocks_step11\nPASS invalid_machine_decision_blocks_step14\nPASS executable_5_to_9_visual_search_orchestrator\nPASS live_provider_adapter_fails_closed_unconfigured\nPASS external_provider_injection_executable\nPASS active_authority_no_stale_workflow_ref\nPASS active_authority_current_decision_schema\nPASS role_registry_current_decision_schema\nPASS workflow_requires_all_five_actual_renders\nPASS workflow_requires_5_to_9_search\nSUMMARY 18/18 PASS\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/rfp_summary_execution.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/rfp_summary_execution.stderr.txt"
+    },
+    {
+      "name": "rfp_summary_red_team",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 1.774,
+      "stdout_tail": "BLOCKED_AS_EXPECTED forged_full_pack_mode 03\nBLOCKED_AS_EXPECTED forged_clarification_window 03\nBLOCKED_AS_EXPECTED producer_equals_judge 07\nBLOCKED_AS_EXPECTED five_files_same_render_hash 10\nBLOCKED_AS_EXPECTED judge_hash_mismatch 11\nBLOCKED_AS_EXPECTED hardcoded_h1_without_judges 11\nBLOCKED_AS_EXPECTED decision_without_counter_case 14\nBLOCKED_AS_EXPECTED qa_self_release_attempt 15\nBLOCKED_AS_EXPECTED forged_step_evidence_bypass 06\nSUMMARY 9/9 BLOCKED\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/rfp_summary_red_team.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/rfp_summary_red_team.stderr.txt"
+    },
+    {
+      "name": "brain_v3_3_artifact_admission_regression",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.82,
+      "stdout_tail": "\",\n          \"SME-COMMERCIAL\",\n          \"SME-SOLUTION-ARCH\",\n          \"SME-PMO\",\n          \"SIM-CFO\",\n          \"SME-INTEGRATION\",\n          \"SME-HR-WORKFORCE\",\n          \"GOV-FINANCIAL-TRUTH\"\n        ],\n        \"actor_count\": 14,\n        \"max_actors\": 14,\n        \"constitutional_councils_replaced\": false,\n        \"execution_required_for_active_claim\": true,\n        \"selection_reasons\": {\n          \"SME-EVIDENCE\": [\n            \"CORE\"\n          ],\n          \"SIM-GOV-EVALUATOR\": [\n            \"CORE\"\n          ],\n          \"GOV-EVIDENCE\": [\n            \"CORE\",\n            \"CRITICAL_GOVERNOR\"\n          ],\n          \"GOV-KNOWLEDGE-READINESS\": [\n            \"CORE\",\n            \"CRITICAL_GOVERNOR\"\n          ],\n          \"SME-PRICING\": [\n            \"DOMAIN_LEAD:FINANCIAL_COMMERCIAL\"\n          ],\n          \"SME-ENTERPRISE-ARCH\": [\n            \"DOMAIN_LEAD:TECH_ARCH\"\n          ],\n          \"SME-DELIVERY\": [\n            \"DOMAIN_LEAD:DELIVERY_PEOPLE\"\n          ],\n          \"SME-COMMERCIAL\": [\n            \"DOMAIN:FINANCIAL_COMMERCIAL\"\n          ],\n          \"SME-SOLUTION-ARCH\": [\n            \"DOMAIN:TECH_ARCH\"\n          ],\n          \"SME-PMO\": [\n            \"DOMAIN:DELIVERY_PEOPLE\"\n          ],\n          \"SIM-CFO\": [\n            \"DOMAIN:FINANCIAL_COMMERCIAL\"\n          ],\n          \"SME-INTEGRATION\": [\n            \"DOMAIN:TECH_ARCH\"\n          ],\n          \"SME-HR-WORKFORCE\": [\n            \"DOMAIN:DELIVERY_PEOPLE\"\n          ],\n          \"GOV-FINANCIAL-TRUTH\": [\n            \"DOMAIN:FINANCIAL_COMMERCIAL\"\n          ]\n        }\n      }\n    },\n    {\n      \"name\": \"visual_variety_memory_blocks_immediate_twin\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"BLOCKED\",\n        \"fingerprint\": \"2d64731e636a130ddd71a39076fb41cc108825bc734c88ec57b9ff7429ec92cf\",\n        \"prior_consecutive_same\": 1,\n        \"reason\": \"REPEATED_VISUAL_GRAMMAR\",\n        \"content_fields_excluded\": true\n      }\n    },\n    {\n      \"name\": \"visual_variety_memory_allows_change\",\n      \"status\": \"PASS\",\n      \"detail\": null\n    },\n    {\n      \"name\": \"visual_search_without_live_judge_returns_internal_concept_draft\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"INTERNAL_CONCEPT_DRAFT_READY\",\n        \"renders\": 5,\n        \"selection_status\": \"PROVISIONAL_CONCEPT_NOT_USER_VISIBLE\"\n      }\n    },\n    {\n      \"name\": \"visual_search_concept_truthfully_not_user_visible\",\n      \"status\": \"PASS\",\n      \"detail\": \"PROVISIONAL_CONCEPT_NOT_USER_VISIBLE\"\n    },\n    {\n      \"name\": \"firm_model_is_not_hallucinated\",\n      \"status\": \"PASS\",\n      \"detail\": \"KNOWLEDGE_REQUIRED\"\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/brain_v3_3_artifact_admission_regression.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/brain_v3_3_artifact_admission_regression.stderr.txt"
+    },
+    {
+      "name": "brain_v3_3_artifact_red_team_regression",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.619,
+      "stdout_tail": "ATED_VISUAL_GRAMMAR\",\n        \"content_fields_excluded\": true\n      }\n    },\n    {\n      \"attack\": \"LIVE_JUDGE_ABSENCE_CANNOT_AUTHORIZE_USER_VISIBLE_DRAFT\",\n      \"status\": \"BLOCKED\",\n      \"detail\": {\n        \"status\": \"BLOCK_RENDER\",\n        \"reason\": \"ARTIFACT_PIPELINE_OR_USER_VISIBLE_QA_INCOMPLETE\",\n        \"derived_classification\": \"CONTENT_DRAFT\",\n        \"requested_classification\": \"USER_VISIBLE_ARTIFACT_DRAFT\",\n        \"artifact_gate\": {\n          \"status\": \"BLOCKED\",\n          \"errors\": [\n            \"MISSING_BRAIN_SESSION\",\n            \"MISSING_ARTIFACT_COUNCIL_EXECUTION\",\n            \"BRAIN_EXECUTION_PROOF_REQUIRED\",\n            \"ARTIFACT_COUNCIL_EXECUTION_REQUIRED\",\n            \"EVIDENCE_LINEAGE_REQUIRED\",\n            \"MISSING_ART_DIRECTION_EXECUTION\",\n            \"MISSING_PRODUCTION_COUNCIL_EXECUTION\",\n            \"ART_DIRECTION_EXECUTION_REQUIRED\",\n            \"PRODUCTION_COUNCIL_EXECUTION_REQUIRED\",\n            \"USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY\",\n            \"USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER\",\n            \"PRODUCTION_RENDER_PROOF_REQUIRED\",\n            \"USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED\",\n            \"ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL\",\n            \"ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE\",\n            \"QA_REPAIR_LOOP_NOT_CLOSED\"\n          ]\n        }\n      }\n    },\n    {\n      \"attack\": \"RELEASE_CANDIDATE_WITHOUT_PARITY_PROOF\",\n      \"status\": \"BLOCKED\",\n      \"detail\": {\n        \"status\": \"BLOCK_RENDER\",\n        \"reason\": \"ARTIFACT_PIPELINE_OR_USER_VISIBLE_QA_INCOMPLETE\",\n        \"derived_classification\": \"CONTENT_DRAFT\",\n        \"requested_classification\": \"RELEASE_CANDIDATE\",\n        \"artifact_gate\": {\n          \"status\": \"BLOCKED\",\n          \"errors\": [\n            \"MISSING_BRAIN_SESSION\",\n            \"MISSING_ARTIFACT_COUNCIL_EXECUTION\",\n            \"BRAIN_EXECUTION_PROOF_REQUIRED\",\n            \"ARTIFACT_COUNCIL_EXECUTION_REQUIRED\",\n            \"EVIDENCE_LINEAGE_REQUIRED\",\n            \"MISSING_ART_DIRECTION_EXECUTION\",\n            \"MISSING_PRODUCTION_COUNCIL_EXECUTION\",\n            \"ART_DIRECTION_EXECUTION_REQUIRED\",\n            \"PRODUCTION_COUNCIL_EXECUTION_REQUIRED\",\n            \"USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY\",\n            \"USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER\",\n            \"PRODUCTION_RENDER_PROOF_REQUIRED\",\n            \"QA_REPAIR_LOOP_NOT_CLOSED\"\n          ]\n        }\n      }\n    },\n    {\n      \"attack\": \"QA_PASS_ALONE_CANNOT_ESCALATE_RELEASE\",\n      \"status\": \"BLOCKED\",\n      \"detail\": \"CONTENT_DRAFT\"\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/brain_v3_3_artifact_red_team_regression.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/brain_v3_3_artifact_red_team_regression.stderr.txt"
+    },
+    {
+      "name": "artifact_brain_v3_3_red_team_regression",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.621,
+      "stdout_tail": "\"\n        ],\n        \"registered_council_count\": 20,\n        \"registered_role_count\": 107,\n        \"bounded_activation\": true\n      }\n    },\n    {\n      \"attack\": \"LEGACY_RING_HUB_SPINE_VOCABULARY_RETURNS\",\n      \"status\": \"BLOCKED\",\n      \"detail\": [\n        \"STATEMENT_LED\",\n        \"PORTFOLIO_LED\",\n        \"NUMBER_LED\",\n        \"TABLE_LED\",\n        \"HYBRID_EXHIBIT\"\n      ]\n    },\n    {\n      \"attack\": \"EVIDENCE_METADATA_FORCES_TABLE_BIAS\",\n      \"status\": \"BLOCKED\",\n      \"detail\": {\n        \"winner\": {\n          \"status\": \"PASS\",\n          \"candidate_id\": \"H3\",\n          \"communication_strategy\": \"STATEMENT_LED\",\n          \"selection_authority\": \"PROVISIONAL_PARTNER_HEURISTIC_NOT_INDEPENDENT\",\n          \"selection_reason\": \"Highest communication fit, then simplicity. Candidate position/id is not a scoring input.\",\n          \"independent\": false\n        },\n        \"hypotheses\": [\n          \"ARCHITECTURE_LED\",\n          \"QUESTION_LED\",\n          \"STATEMENT_LED\",\n          \"COMPARISON_LED\",\n          \"HYBRID_EXHIBIT\"\n        ]\n      }\n    },\n    {\n      \"attack\": \"GOVERNANCE_SUBSTRING_FALSE_GO_DECISION\",\n      \"status\": \"BLOCKED\",\n      \"detail\": {\n        \"page_fingerprint\": \"6b3983c6914b\",\n        \"text\": \"an operating system connects strategy, governance, delivery and measurement through feedback.\",\n        \"number_count\": 0,\n        \"numbers\": [],\n        \"decision\": false,\n        \"compare\": false,\n        \"timeline\": false,\n        \"evidence\": false,\n        \"architecture\": false,\n        \"financial\": false,\n        \"people\": false,\n        \"page_family\": \"ANALYTICAL\",\n        \"image_cue\": false,\n        \"node_count\": 2,\n        \"edge_count\": 4,\n        \"relations\": [\n          \"CONTROLS\",\n          \"DEPENDS_ON\",\n          \"ENABLES\",\n          \"FEEDS_BACK\"\n        ],\n        \"has_relationships\": true,\n        \"system_complexity_earned\": true\n      }\n    },\n    {\n      \"attack\": \"COMMUNICATION_STRATEGY_UNIVERSE_NOT_COLLAPSED\",\n      \"status\": \"BLOCKED\",\n      \"detail\": [\n        \"ARCHITECTURE_LED\",\n        \"BEFORE_AFTER\",\n        \"CAUSE_EFFECT\",\n        \"CHART_LED\",\n        \"COMPARISON_LED\",\n        \"CONTROL_TOWER_LED\",\n        \"DECISION_LED\",\n        \"EVIDENCE_LED\",\n        \"HYBRID_EXHIBIT\",\n        \"IMAGE_LED\",\n        \"JOURNEY_LED\",\n        \"MAP_LED\",\n        \"MATRIX_LED\",\n        \"NUMBER_LED\",\n        \"PORTFOLIO_LED\",\n        \"PROCESS_LED\",\n        \"QUESTION_LED\",\n        \"SCENARIO_LED\",\n        \"SCORECARD_LED\",\n        \"SEQUENCE_LED\",\n        \"STATEMENT_LED\",\n        \"SYSTEM_LED\",\n        \"TABLE_LED\",\n        \"TRADEOFF_LED\"\n      ]\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/artifact_brain_v3_3_red_team_regression.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/artifact_brain_v3_3_red_team_regression.stderr.txt"
+    },
+    {
+      "name": "artifact_brain_v3_3_stress_regression",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.819,
+      "stdout_tail": "{\n  \"suite\": \"Rashad Artifact Intelligence Brain v3.3 Stress & Quality\",\n  \"status\": \"PASS\",\n  \"page_runs\": 2400,\n  \"deck_runs\": 300,\n  \"adversarial_deck_attacks\": 5,\n  \"crashes\": 0,\n  \"elapsed_seconds\": 0.23,\n  \"passed\": 16,\n  \"total\": 16,\n  \"selected_candidate_id_distribution\": {\n    \"H3\": 512,\n    \"H2\": 531,\n    \"H1\": 581,\n    \"H4\": 405,\n    \"H5\": 371\n  },\n  \"selected_strategy_distribution\": {\n    \"STATEMENT_LED\": 400,\n    \"DECISION_LED\": 400,\n    \"NUMBER_LED\": 200,\n    \"COMPARISON_LED\": 400,\n    \"ARCHITECTURE_LED\": 200,\n    \"JOURNEY_LED\": 200,\n    \"TABLE_LED\": 162,\n    \"EVIDENCE_LED\": 81,\n    \"SYSTEM_LED\": 200,\n    \"IMAGE_LED\": 157\n  }\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/artifact_brain_v3_3_stress_regression.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/artifact_brain_v3_3_stress_regression.stderr.txt"
+    },
+    {
+      "name": "brain_coherence_v7_2_inherited",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.819,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.2 Brain Coherence & Executable Intelligence Audit\",\n  \"status\": \"PASS\",\n  \"passed\": 43,\n  \"total\": 43,\n  \"failures\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/brain_coherence_v7_2_inherited.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/brain_coherence_v7_2_inherited.stderr.txt"
+    },
+    {
+      "name": "brain_coherence_stress_v7_2_inherited",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 2.122,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.2 Brain Coherence Stress & Quality\",\n  \"status\": \"PASS\",\n  \"counters\": {\n    \"route_cases\": 3000,\n    \"brain_runs\": 250,\n    \"key_name_attacks\": 1000,\n    \"artifact_cases\": 1500,\n    \"artifact_execution_runs\": 200\n  },\n  \"error_count\": 0,\n  \"errors\": [],\n  \"duration_sec\": 1.449,\n  \"quality_assertions\": [\n    \"bounded expert activation\",\n    \"no unknown configured roles\",\n    \"all required roles selected\",\n    \"semantic values not key names\",\n    \"full Brain cognitive lock with recomputed proof\",\n    \"five distinct artifact strategies\",\n    \"three+ strategy families\",\n    \"non-diagram candidate required\",\n    \"Arabic RTL Artifact council routed\",\n    \"artifact councils actually executed\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/brain_coherence_stress_v7_2_inherited.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/brain_coherence_stress_v7_2_inherited.stderr.txt"
+    },
+    {
+      "name": "host_native_brain_execution",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.917,
+      "stdout_tail": "PASS explicit_host_native_selected_without_api\nPASS auto_prefers_host_bridge\nPASS auto_without_host_or_api_is_offline\nPASS host_native_without_bridge_returns_pending\nPASS pending_request_contains_exact_contract\nPASS host_native_brain_reaches_cognitive_lock\nPASS host_native_experts_really_executed\nPASS host_native_brain_execution_proof_recomputes\nPASS all_host_invocations_have_proof\nPASS fake_host_pass_without_proof_blocked\nPASS host_bundle_exact_request_executes\nPASS missing_bundle_response_is_pending_not_faked\nPASS host_native_artifact_councils_execute\nPASS host_native_visual_search_reaches_independent_winner\nPASS host_native_visual_search_art_direction_executes\nPASS api_mode_unconfigured_fails_closed\nSUMMARY 16 / 16\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/host_native_brain_execution.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/host_native_brain_execution.stderr.txt"
+    },
+    {
+      "name": "host_native_brain_red_team",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.722,
+      "stdout_tail": "BLOCKED A1_missing_host_proof\nBLOCKED A2_wrong_request_key\nBLOCKED A3_wrong_host_session\nBLOCKED A4_fake_host_source\nBLOCKED A5_judge_not_independent\nBLOCKED A6_response_id_replay\nBLOCKED A7_bundle_input_hash_substitution\nBLOCKED A8_host_mode_no_bridge_fails_pending\nBLOCKED A9_fabricated_host_locked_session\nSUMMARY 9 / 9 BLOCKED\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/host_native_brain_red_team.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/host_native_brain_red_team.stderr.txt"
+    },
+    {
+      "name": "host_native_execution_stress",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 1.626,
+      "stdout_tail": "{\n  \"suite\": \"Host-Native Execution Stress v7.2\",\n  \"status\": \"PASS\",\n  \"operations\": 2580,\n  \"stats\": {\n    \"provider_valid\": 1200,\n    \"provider_attack_blocked\": 1200,\n    \"brain_runs\": 180,\n    \"brain_proof_pass\": 180,\n    \"unexpected_pass\": 0,\n    \"crashes\": 0\n  },\n  \"error_count\": 0,\n  \"errors\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/host_native_execution_stress.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/host_native_execution_stress.stderr.txt"
+    },
+    {
+      "name": "artifact_brain_v7_3_regression",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.719,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.3 Artifact Brain Regression\",\n  \"status\": \"PASS\",\n  \"passed\": 8,\n  \"total\": 8,\n  \"rows\": [\n    {\n      \"name\": \"IMAGE_LED_reachable_for_cover\",\n      \"status\": \"PASS\",\n      \"detail\": [\n        \"HYBRID_EXHIBIT\",\n        \"IMAGE_LED\",\n        \"STATEMENT_LED\",\n        \"COMPARISON_LED\",\n        \"EVIDENCE_LED\"\n      ]\n    },\n    {\n      \"name\": \"rich_technical_problem_not_minimal_only\",\n      \"status\": \"PASS\",\n      \"detail\": [\n        \"STATEMENT_LED\",\n        \"COMPARISON_LED\",\n        \"CAUSE_EFFECT\",\n        \"HYBRID_EXHIBIT\",\n        \"ARCHITECTURE_LED\"\n      ]\n    },\n    {\n      \"name\": \"reference_grammar_retrieval_executes\",\n      \"status\": \"PASS\",\n      \"detail\": [\n        {\n          \"id\": \"MWAN-HERO\",\n          \"families\": [\n            \"COVER\",\n            \"SECTION_OPENER\"\n          ],\n          \"strategies\": [\n            \"IMAGE_LED\"\n          ],\n          \"principles\": [\n            \"full-page high-key institutional visual\",\n            \"physical left visual scene\",\n            \"physical right clean title space\",\n            \"co-brand single baseline\",\n            \"native authoritative overlays\",\n            \"restrained magenta accent\"\n          ]\n        }\n      ]\n    },\n    {\n      \"name\": \"exhibit_engine_no_KeyError\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"PASS\",\n        \"refs\": []\n      }\n    },\n    {\n      \"name\": \"SHIFT_FOCAL_POINT_reachable_and_physical\",\n      \"status\": \"PASS\",\n      \"detail\": [\n        \"SIMPLIFY_HIERARCHY\",\n        \"STRENGTHEN_EVIDENCE\",\n        \"SHIFT_FOCAL_POINT\",\n        \"REDUCE_COGNITIVE_LOAD\"\n      ]\n    },\n    {\n      \"name\": \"composition_signature_excludes_content_hash\",\n      \"status\": \"PASS\",\n      \"detail\": [\n        \"PCS-DFA90C005CA6DE3DCC2A\",\n        \"PCS-DFA90C005CA6DE3DCC2A\"\n      ]\n    },\n    {\n      \"name\": \"diagram_ratio_threshold_parity\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"profile\": 0.55,\n        \"brain\": 0.55,\n        \"manifest\": 0.55\n      }\n    },\n    {\n      \"name\": \"cobrand_physical_left_order_contract\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"cluster_left\": true,\n        \"cluster_ltr\": true,\n        \"rubix_markup\": 5003,\n        \"client_markup\": 5160\n      }\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/artifact_brain_v7_3_regression.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/artifact_brain_v7_3_regression.stderr.txt"
+    },
+    {
+      "name": "artifact_expert_reachability_v7_3",
+      "phase": "P2_BRAIN",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.727,
+      "stdout_tail": "{\n  \"suite\": \"Artifact Expert Reachability v7.3\",\n  \"status\": \"PASS\",\n  \"registered_roles\": 107,\n  \"tested_routes\": 107,\n  \"unreachable\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/artifact_expert_reachability_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/artifact_expert_reachability_v7_3.stderr.txt"
+    },
+    {
+      "name": "qa_deterministic",
+      "phase": "P3_QA_RUNTIME",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.967,
+      "stdout_tail": "ASS\",\n  \"tests\": [\n    {\n      \"name\": \"taxonomy_contract\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"cases\": 233,\n        \"families\": 21,\n        \"stress_mutations\": 20,\n        \"implemented_overlay\": 233,\n        \"unimplemented_overlay\": 0\n      }\n    },\n    {\n      \"name\": \"valid_synthetic_dossier\",\n      \"status\": \"PASS\",\n      \"detail\": []\n    },\n    {\n      \"name\": \"producer_artifact_truth\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"artifact_truth_not_independent\",\n      \"observed\": [\n        \"artifact_truth_not_independent\"\n      ]\n    },\n    {\n      \"name\": \"artifact_truth_89\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"artifact_truth_below_floor\",\n      \"observed\": [\n        \"artifact_truth_below_floor\"\n      ]\n    },\n    {\n      \"name\": \"producer_ceqs\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"ceqs_not_independent\",\n      \"observed\": [\n        \"ceqs_not_independent\"\n      ]\n    },\n    {\n      \"name\": \"ceqs_89\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"ceqs_below_floor\",\n      \"observed\": [\n        \"ceqs_below_floor\"\n      ]\n    },\n    {\n      \"name\": \"four_hypotheses\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"wrong_hypothesis_count\",\n      \"observed\": [\n        \"wrong_hypothesis_count\"\n      ]\n    },\n    {\n      \"name\": \"duplicate_hypotheses\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"hypotheses_not_materially_distinct\",\n      \"observed\": [\n        \"hypotheses_not_materially_distinct\"\n      ]\n    },\n    {\n      \"name\": \"two_candidates\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"insufficient_render_search\",\n      \"observed\": [\n        \"insufficient_render_search\",\n        \"render_candidates_not_distinct_by_bytes\"\n      ]\n    },\n    {\n      \"name\": \"weak_divergence\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"structural_divergence_below_critical_floor\",\n      \"observed\": [\n        \"structural_divergence_below_critical_floor\",\n        \"structural_divergence_below_target\"\n      ]\n    },\n    {\n      \"name\": \"master_1080p\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"master_resolution_below_floor\",\n      \"observed\": [\n        \"ceqs_render_hash_not_final_master\",\n        \"master_resolution_below_floor\"\n      ]\n    },\n    {\n      \"name\": \"pixel_vacuous\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"pixel_qa_vacuous_pass\",\n      \"observed\": [\n        \"pixel_qa_vacuous_pass\"\n      ]\n    },\n    {\n      \"name\": \"state_skip\",\n      \"status\": \"PASS\",\n      \"expected_block\": \"missing_state\",\n      \"observed\": [\n        \"missing_state\"\n      ]\n    }\n  ],\n  \"passed\": 13,\n  \"total\": 13\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/qa_deterministic.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/qa_deterministic.stderr.txt"
+    },
+    {
+      "name": "qa_regression_v3",
+      "phase": "P3_QA_RUNTIME",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 23.543,
+      "stdout_tail": "  \"test\": \"html_broken_asset.html\",\n      \"pass\": true,\n      \"detail\": \"['G05_CONTAINMENT', 'G39_DOMINANT_MASS', 'G41_CONNECTOR_PATH_GEOMETRY', 'G29_ASSET_PATH_PREFLIGHT']\"\n    },\n    {\n      \"test\": \"html_broken_overlap.html\",\n      \"pass\": true,\n      \"detail\": \"['G03_LINE_COLLISION', 'G05_CONTAINMENT', 'G06_COLLISION', 'G39_DOMINANT_MASS', 'G41_CONNECTOR_PATH_GEOMETRY']\"\n    },\n    {\n      \"test\": \"html_broken_bidi.html\",\n      \"pass\": true,\n      \"detail\": \"['G05_CONTAINMENT', 'G27_BIDI_RUNS', 'G31_EVIDENCE_TRACE', 'G39_DOMINANT_MASS', 'G41_CONNECTOR_PATH_GEOMETRY', 'G34_CEQS']\"\n    },\n    {\n      \"test\": \"html_broken_card_only.html\",\n      \"pass\": true,\n      \"detail\": \"['G05_CONTAINMENT', 'G39_DOMINANT_MASS', 'G41_CONNECTOR_PATH_GEOMETRY', 'G32_ARTIFACT_TRUTH', 'G34_CEQS']\"\n    },\n    {\n      \"test\": \"deck_template_twins_blocked\",\n      \"pass\": true,\n      \"detail\": \"{'anti_template': {'gate': 'G26_ANTI_TEMPLATE', 'required': True, 'test_count': 2, 'status': 'FAIL', 'violations': [{'kind': 'template_twin_pages', 'a': 'p1', 'b': 'p2', 'distance': 0.0, 'tau': 0.085, 'a_shape': {'rows': 4, 'cols': 5, 'blocks': 6, 'nodes': 4, 'edges': 4, 'modal_size_count': 4}, 'b_shape': {'rows': 4, 'cols': 5, 'blocks': 6, 'nodes': 4, 'edges': 4, 'modal_size_count': 4}}, {'kind': 'deck_composition_monotony', 'distinct_ratio': 0.5, 'floor': 0.7}, {'kind': 'template_twin_budget_exceeded', 'twins': 1, 'ceiling': 0}], 'measured': {'pages': 2, 'distinct_ratio': 0.5, 'shapes': [{'rows': 4, 'cols': 5, 'blocks': 6, 'nodes': 4, 'edges': 4, 'modal_size_count': 4}, {'rows': 4, 'cols': 5, 'blocks': 6, 'nodes': 4, 'edges': 4, 'modal_size_count': 4}]}, 'pairs': [{'a': 'p1', 'b': 'p2', \"\n    },\n    {\n      \"test\": \"r_code_effective_reachability\",\n      \"pass\": true,\n      \"detail\": \"{'all': 388, 'mapped': 249, 'direct_only': 139, 'effective_reachable': 388, 'direct_only_ids': ['R-002', 'R-020', 'R-021', 'R-024', 'R-027', 'R-030', 'R-032', 'R-033', 'R-035', 'R-044', 'R-045', 'R-049', 'R-050', 'R-051', 'R-052', 'R-053', 'R-054', 'R-055', 'R-056', 'R-058', 'R-059', 'R-066', 'R-069', 'R-077', 'R-078', 'R-080', 'R-083', 'R-085', 'R-086', 'R-092', 'R-103', 'R-104', 'R-106', 'R-107', 'R-110', 'R-111', 'R-114', 'R-120', 'R-131', 'R-132', 'R-133', 'R-135', 'R-137', 'R-138', 'R-140', 'R-142', 'R-143', 'R-146', 'R-150', 'R-151', 'R-152', 'R-156', 'R-158', 'R-159', 'R-160', 'R-161', 'R-162', 'R-166', 'R-167', 'R-168', 'R-172', 'R-175', 'R-176', 'R-177', 'R-179', 'R-183', 'R-186', 'R-189', 'R-191', 'R-193', 'R-198', 'R-207', 'R-210', 'R-213', 'R-216', 'R-217', 'R-221', 'R-223', 'R\"\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/qa_regression_v3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/qa_regression_v3.stderr.txt"
+    },
+    {
+      "name": "qa_regression_v31",
+      "phase": "P3_QA_RUNTIME",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.89,
+      "stdout_tail": "test\": \"pixel_not_proven\",\n      \"pass\": true,\n      \"detail\": \"[{'kind': 'pixel_qa_missing_or_failed'}]\"\n    },\n    {\n      \"test\": \"state_skip\",\n      \"pass\": true,\n      \"detail\": \"[{'kind': 'missing_state', 'state': 'VISUAL_SEARCH_COMPLETE'}]\"\n    },\n    {\n      \"test\": \"lowres_master\",\n      \"pass\": true,\n      \"detail\": \"[{'kind': 'master_resolution_below_floor', 'size': [1920, 1080]}, {'kind': 'proof_index_master_hash_mismatch'}]\"\n    },\n    {\n      \"test\": \"stale_content_hash\",\n      \"pass\": true,\n      \"detail\": \"[{'kind': 'stale_hash', 'object': 'content_pack', 'expected': '9815e43dd03363095124d16ad4f4fcb038bc5fc5ed07f221f676565c5cf20220', 'actual': '3a1efabe950203ef260c6396a504e22f4b7dd26d19580e0f6f6bf7fa630f06e7'}, {'kind': 'stale_hash', 'object': 'content_pack', 'expected': '9815e43dd03363095124d16ad4f4fcb038bc5fc5ed07f221f676565c5cf20220', 'actual': '3a1efabe950203ef260c6396a504e22f4b7dd26d19580e0f6f6bf7fa630f06e7'}, {'kind': 'stale_hash', 'object': 'content_pack', 'expected': '9815e43dd03363095124d16ad4f4fcb038bc5fc5ed07f221f676565c5cf20220', 'actual': '3a1efabe950203ef260c6396a504e22f4b7dd26d19580e0f6f6bf7fa630f06e7'}]\"\n    },\n    {\n      \"test\": \"page_id_mismatch\",\n      \"pass\": true,\n      \"detail\": \"[{'kind': 'page_id_mismatch', 'values': [('content_pack.json', 'P01'), ('relationship_graph.json', 'P01'), ('artifact_truth.json', 'P01'), ('exhibit_hypotheses.json', 'P01'), ('exhibit_selection.json', 'P01'), ('evidence_pack.json', 'P01'), ('visual_search/manifest.json', 'P01'), ('ceqs.json', 'P99')]}]\"\n    },\n    {\n      \"test\": \"duplicate_hypothesis_signatures\",\n      \"pass\": true,\n      \"detail\": \"[{'kind': 'hypotheses_not_materially_distinct', 'distinct': 1, 'required': 5}, {'kind': 'stale_hash', 'object': 'exhibit_hypotheses', 'expected': '42a517a1b9703784595637ef8614ac0672670b7d977f93d4e25aba1d5d2a1189', 'actual': '5176d30a11022917fda72429bacbd5fa47001e6ab5a63fc03ca2d16cada5cfcd'}, {'kind': 'stale_hash', 'object': 'exhibit_hypotheses', 'expected': '42a517a1b9703784595637ef8614ac0672670b7d977f93d4e25aba1d5d2a1189', 'actual': '5176d30a11022917fda72429bacbd5fa47001e6ab5a63fc03ca2d16cada5cfcd'}]\"\n    },\n    {\n      \"test\": \"duplicate_render_candidates\",\n      \"pass\": true,\n      \"detail\": \"[{'kind': 'render_candidates_not_distinct', 'distinct': 1, 'required': 3}]\"\n    },\n    {\n      \"test\": \"master_hash_mismatch\",\n      \"pass\": true,\n      \"detail\": \"[{'kind': 'proof_index_master_hash_mismatch'}]\"\n    },\n    {\n      \"test\": \"single_current_startup_route\",\n      \"pass\": true,\n      \"detail\": \"{'status': 'PASS', 'errors': []}\"\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/qa_regression_v31.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/qa_regression_v31.stderr.txt"
+    },
+    {
+      "name": "qa_arabic_visible_language_v7_3",
+      "phase": "P3_QA_RUNTIME",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.618,
+      "stdout_tail": "{\n  \"suite\": \"Arabic Visible Language Purity v7.3\",\n  \"status\": \"PASS\",\n  \"passed\": 6,\n  \"total\": 6,\n  \"tests\": [\n    {\n      \"name\": \"arabic_technical_tokens_allowed\",\n      \"status\": \"PASS\",\n      \"observed\": \"PASS\",\n      \"violations\": []\n    },\n    {\n      \"name\": \"internal_ready_blocked\",\n      \"status\": \"PASS\",\n      \"observed\": \"FAIL\",\n      \"violations\": [\n        {\n          \"kind\": \"internal_vocabulary_leak\",\n          \"idx\": 0,\n          \"term\": \"ready\",\n          \"text\": \"الحالة READY والخطوة NEXT\"\n        },\n        {\n          \"kind\": \"internal_vocabulary_leak\",\n          \"idx\": 0,\n          \"term\": \"next\",\n          \"text\": \"الحالة READY والخطوة NEXT\"\n        }\n      ]\n    },\n    {\n      \"name\": \"debug_string_blocked\",\n      \"status\": \"PASS\",\n      \"observed\": \"FAIL\",\n      \"violations\": [\n        {\n          \"kind\": \"internal_vocabulary_leak\",\n          \"idx\": 0,\n          \"term\": \"v7.7 test\",\n          \"text\": \"اختبار v7.7 Test\"\n        },\n        {\n          \"kind\": \"western_numeral_leakage\",\n          \"idx\": 0,\n          \"text\": \"اختبار v7.7 Test\"\n        }\n      ]\n    },\n    {\n      \"name\": \"pure_latin_client_prose_blocked\",\n      \"status\": \"PASS\",\n      \"observed\": \"FAIL\",\n      \"violations\": [\n        {\n          \"kind\": \"pure_latin_client_text_on_arabic_page\",\n          \"idx\": 0,\n          \"tokens\": [\n            \"Executive\",\n            \"Summary\",\n            \"Draft\"\n          ],\n          \"text\": \"Executive Summary Draft\"\n        }\n      ]\n    },\n    {\n      \"name\": \"western_numeral_in_arabic_blocked\",\n      \"status\": \"PASS\",\n      \"observed\": \"FAIL\",\n      \"violations\": [\n        {\n          \"kind\": \"western_numeral_leakage\",\n          \"idx\": 0,\n          \"text\": \"مدة التنفيذ 24 شهرًا\"\n        }\n      ]\n    },\n    {\n      \"name\": \"isolated_technical_numeric_allowed\",\n      \"status\": \"PASS\",\n      \"observed\": \"PASS\",\n      \"violations\": []\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/qa_arabic_visible_language_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/qa_arabic_visible_language_v7_3.stderr.txt"
+    },
+    {
+      "name": "qa_stress_legacy",
+      "phase": "P3_QA_RUNTIME",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 3.257,
+      "stdout_tail": "{\n  \"runs\": 500,\n  \"crashes\": 0,\n  \"passes\": 498,\n  \"pass_winner_budget_violations\": 0,\n  \"graphs_per_sec\": 316.3,\n  \"status\": \"PASS\"\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/qa_stress_legacy.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/qa_stress_legacy.stderr.txt"
+    },
+    {
+      "name": "threshold_binding_v7_3",
+      "phase": "P3_QA_RUNTIME",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 1.272,
+      "stdout_tail": "  \"Rashad/Brain/runtime/brain/quality_floors_v7_3.py\",\n        \"Rashad/Brain/runtime/brain/spec_divergence.py\",\n        \"Rashad/Brain/runtime/brain/composition_spec.py\"\n      ]\n    },\n    {\n      \"threshold\": \"diagram_ratio_hard_block\",\n      \"value\": 0.55,\n      \"status\": \"BOUND\",\n      \"consumers\": [\n        \"Rashad/Brain/runtime/brain/quality_floors_v7_3.py\",\n        \"Rashad/Brain/runtime/brain/actual_output_qa.py\",\n        \"QA/Brain/artifact_brain_regression_v7_3.py\"\n      ]\n    },\n    {\n      \"threshold\": \"safe_area_min_visible_px2\",\n      \"value\": 16,\n      \"status\": \"BOUND\",\n      \"consumers\": [\n        \"Rashad/Brain/runtime/brain/quality_floors_v7_3.py\",\n        \"Rashad/Brain/runtime/brain/product_geometry.py\",\n        \"QA/Brain/remediation_matrix_v7_3.py\",\n        \"QA/Runtime/qa/visual_qa_core.py\"\n      ]\n    },\n    {\n      \"threshold\": \"min_type_hierarchy_levels\",\n      \"value\": 3,\n      \"status\": \"BOUND\",\n      \"consumers\": [\n        \"Rashad/Brain/runtime/brain/quality_floors_v7_3.py\",\n        \"Rashad/Brain/runtime/brain/composition_spec.py\"\n      ]\n    }\n  ],\n  \"parity\": [\n    {\n      \"threshold\": \"dominant_mass_min\",\n      \"qa_profile\": 0.32,\n      \"brain_floor\": 0.32,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"dominant_mass_max\",\n      \"qa_profile\": 0.68,\n      \"brain_floor\": 0.68,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"artifact_truth_min\",\n      \"qa_profile\": 90,\n      \"brain_floor\": 90,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"ceqs_min\",\n      \"qa_profile\": 90,\n      \"brain_floor\": 90,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"min_pairwise_structural_divergence_critical\",\n      \"qa_profile\": 0.12,\n      \"brain_floor\": 0.12,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"target_pairwise_structural_divergence\",\n      \"qa_profile\": 0.18,\n      \"brain_floor\": 0.18,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"diagram_ratio_hard_block\",\n      \"qa_profile\": 0.55,\n      \"brain_floor\": 0.55,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"safe_area_min_visible_px2\",\n      \"qa_profile\": 16,\n      \"brain_floor\": 16,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"min_type_hierarchy_levels\",\n      \"qa_profile\": 3,\n      \"brain_floor\": 3,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"min_exhibit_hypotheses\",\n      \"qa_profile\": 5,\n      \"brain_floor\": 5,\n      \"status\": \"PASS\"\n    },\n    {\n      \"threshold\": \"min_actual_render_candidates_critical\",\n      \"qa_profile\": 3,\n      \"brain_floor\": 3,\n      \"status\": \"PASS\"\n    }\n  ],\n  \"blockers\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/threshold_binding_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/threshold_binding_v7_3.stderr.txt"
+    },
+    {
+      "name": "stress_contract_parity_v7_3",
+      "phase": "P3_QA_RUNTIME",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.569,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.3 Stress Contract Parity\",\n  \"status\": \"PASS\",\n  \"core_mutations\": 20,\n  \"arabic_required_modes\": [\n    \"ARABIC_INDIC_NUMERALS\",\n    \"LONG_LATIN_TOKEN\",\n    \"FIVE_DIGIT_BADGE\",\n    \"TITLE_THREE_LINES\",\n    \"FONT_FALLBACK\",\n    \"NODE_GROWTH\"\n  ],\n  \"executable_arabic_modes\": [\n    \"ARABIC_INDIC_NUMERALS\",\n    \"ARABIC_TEXT_GROWTH_120\",\n    \"FIVE_DIGIT_BADGE\",\n    \"FONT_FALLBACK\",\n    \"FONT_SCALE_108\",\n    \"FONT_SCALE_110\",\n    \"LINE_HEIGHT_108\",\n    \"LOGO_CANVAS_PADDING\",\n    \"LONG_LATIN_TOKEN\",\n    \"LONG_SOURCE_LINE\",\n    \"NODE_GROWTH\",\n    \"TITLE_THREE_LINES\"\n  ],\n  \"total_governed_stress_surface\": 26,\n  \"blockers\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/stress_contract_parity_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/stress_contract_parity_v7_3.stderr.txt"
+    },
+    {
+      "name": "qa_brain",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.569,
+      "stdout_tail": "ATE_PASS\",\n        \"executed\": [\n          \"Q01_MECHANICAL_GEOMETRY\",\n          \"Q02_EVIDENCE_EPISTEMIC\",\n          \"Q03_ARTIFACT_SEMANTICS\",\n          \"Q04_CONSULTING_VISUAL\",\n          \"Q05_ARABIC_RTL_TYPOGRAPHY\",\n          \"Q06_BRAND_PRODUCTION_EXPORT\",\n          \"Q07_CROSS_DECK_NARRATIVE\",\n          \"Q08_ADVERSARIAL_RED_TEAM\",\n          \"Q09_META_QA_INTEGRITY\",\n          \"Q10_QA_RELEASE_CANDIDATE\",\n          \"Q11_ACTUAL_PIXEL_PRODUCT_REVIEW\",\n          \"Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC\",\n          \"Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE\"\n        ]\n      }\n    },\n    {\n      \"name\": \"qa_never_releases\",\n      \"status\": \"PASS\",\n      \"detail\": \"QA_CANDIDATE_PASS\"\n    },\n    {\n      \"name\": \"all_councils_independent\",\n      \"status\": \"PASS\",\n      \"detail\": [\n        \"Q01_MECHANICAL_GEOMETRY\",\n        \"Q02_EVIDENCE_EPISTEMIC\",\n        \"Q03_ARTIFACT_SEMANTICS\",\n        \"Q04_CONSULTING_VISUAL\",\n        \"Q05_ARABIC_RTL_TYPOGRAPHY\",\n        \"Q06_BRAND_PRODUCTION_EXPORT\",\n        \"Q07_CROSS_DECK_NARRATIVE\",\n        \"Q11_ACTUAL_PIXEL_PRODUCT_REVIEW\",\n        \"Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC\",\n        \"Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE\",\n        \"Q08_ADVERSARIAL_RED_TEAM\",\n        \"Q09_META_QA_INTEGRITY\",\n        \"Q10_QA_RELEASE_CANDIDATE\"\n      ]\n    },\n    {\n      \"name\": \"unique_actors\",\n      \"status\": \"PASS\",\n      \"detail\": null\n    },\n    {\n      \"name\": \"unique_contexts\",\n      \"status\": \"PASS\",\n      \"detail\": null\n    },\n    {\n      \"name\": \"red_team_accepts_clean_candidate\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"PASS\",\n        \"findings\": []\n      }\n    },\n    {\n      \"name\": \"red_team_blocks_qa_release_escalation\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"FAIL\",\n        \"findings\": [\n          {\n            \"kind\": \"QA_AUTHORITY_ESCALATION\",\n            \"severity\": \"P0\"\n          }\n        ]\n      }\n    },\n    {\n      \"name\": \"deterministic_fail_blocks_brain\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"BLOCKED\",\n        \"final_verdict\": \"BLOCKED\",\n        \"reason\": \"DETERMINISTIC_QA_NOT_PASSED\",\n        \"deterministic_status\": \"FAIL\",\n        \"production_release_authority\": \"RASHAD_BRAIN_RELEASE_CHAIR\",\n        \"execution_mode_resolution\": {\n          \"mode\": \"CERTIFICATION_TEST_MODE\",\n          \"reason\": \"EXPLICIT_PROVIDER_OBJECT\",\n          \"provider\": \"ScriptedIndependentTestProvider\"\n        },\n        \"provider_runtime\": {\n          \"execution_mode\": \"CERTIFICATION_TEST_MODE\",\n          \"provider\": \"ScriptedIndependentTestProvider\"\n        }\n      }\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/qa_brain.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/qa_brain.stderr.txt"
+    },
+    {
+      "name": "host_native_qa",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.62,
+      "stdout_tail": "PASS qa_host_native_no_bridge_returns_pending\nPASS qa_host_native_reaches_candidate_pass\nPASS qa_host_native_executes_all_required\nPASS qa_host_native_all_independent\nPASS qa_fake_host_proof_blocked\nPASS qa_bundle_missing_response_pending\nSUMMARY 6 / 6\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/host_native_qa.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/host_native_qa.stderr.txt"
+    },
+    {
+      "name": "user_visible_delivery",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 8.57,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.2 User-Visible Artifact Delivery Certification\",\n  \"status\": \"PASS\",\n  \"passed\": 22,\n  \"total\": 22,\n  \"failed\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/user_visible_delivery.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/user_visible_delivery.stderr.txt"
+    },
+    {
+      "name": "delivery_red_team",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.971,
+      "stdout_tail": "{\n  \"suite\": \"V7.2 User-Visible Artifact Delivery Red Team\",\n  \"status\": \"PASS\",\n  \"blocked\": 26,\n  \"total\": 26,\n  \"escaped\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/delivery_red_team.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/delivery_red_team.stderr.txt"
+    },
+    {
+      "name": "exact_handoff_lock",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 3.836,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.2.1 Exact Artifact Handoff Lock Certification\",\n  \"status\": \"PASS\",\n  \"passed\": 9,\n  \"total\": 9,\n  \"failed\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/exact_handoff_lock.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/exact_handoff_lock.stderr.txt"
+    },
+    {
+      "name": "wrong_handoff_real_incident",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.72,
+      "stdout_tail": "N_VISIBLE_TEXT:HOST-NATIVE,ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_4::DOMINANT_MASS_BELOW_FLOOR\",\n    \"PRODUCT_INSPECTION::PAGE_4::INTERNAL_OR_DEBUG_VOCABULARY:ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_4::INTERNAL_OR_DEBUG_VOCABULARY:HOST-NATIVE\",\n    \"PRODUCT_INSPECTION::PAGE_4::SAFE_AREA_VIOLATION\",\n    \"PRODUCT_INSPECTION::PAGE_5::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:HOST-NATIVE,ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_5::DOMINANT_MASS_BELOW_FLOOR\",\n    \"PRODUCT_INSPECTION::PAGE_5::INTERNAL_OR_DEBUG_VOCABULARY:ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_5::INTERNAL_OR_DEBUG_VOCABULARY:HOST-NATIVE\",\n    \"PRODUCT_INSPECTION::PAGE_5::SAFE_AREA_VIOLATION\",\n    \"PRODUCT_INSPECTION::PAGE_6::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:HOST-NATIVE,ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_6::DOMINANT_MASS_BELOW_FLOOR\",\n    \"PRODUCT_INSPECTION::PAGE_6::INTERNAL_OR_DEBUG_VOCABULARY:ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_6::INTERNAL_OR_DEBUG_VOCABULARY:HOST-NATIVE\",\n    \"PRODUCT_INSPECTION::PAGE_6::SAFE_AREA_VIOLATION\",\n    \"PRODUCT_INSPECTION::PAGE_7::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:HOST-NATIVE,ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_7::DOMINANT_MASS_BELOW_FLOOR\",\n    \"PRODUCT_INSPECTION::PAGE_7::INTERNAL_OR_DEBUG_VOCABULARY:ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_7::INTERNAL_OR_DEBUG_VOCABULARY:HOST-NATIVE\",\n    \"PRODUCT_INSPECTION::PAGE_7::SAFE_AREA_VIOLATION\",\n    \"PRODUCT_INSPECTION::PAGE_8::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:CI/CD,Rollback,Versioning,Runbook\",\n    \"PRODUCT_INSPECTION::PAGE_8::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:HOST-NATIVE,ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_8::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:On-Prem,Backup,Monitoring\",\n    \"PRODUCT_INSPECTION::PAGE_8::DOMINANT_MASS_BELOW_FLOOR\",\n    \"PRODUCT_INSPECTION::PAGE_8::INTERNAL_OR_DEBUG_VOCABULARY:ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_8::INTERNAL_OR_DEBUG_VOCABULARY:HOST-NATIVE\",\n    \"PRODUCT_INSPECTION::PAGE_8::SAFE_AREA_VIOLATION\",\n    \"PRODUCT_INSPECTION::PAGE_9::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:DevOps\",\n    \"PRODUCT_INSPECTION::PAGE_9::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:HOST-NATIVE,ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_9::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:Mobile\",\n    \"PRODUCT_INSPECTION::PAGE_9::ARABIC_PAGE_PURE_LATIN_VISIBLE_TEXT:UX/UI\",\n    \"PRODUCT_INSPECTION::PAGE_9::DOMINANT_MASS_BELOW_FLOOR\",\n    \"PRODUCT_INSPECTION::PAGE_9::INTERNAL_OR_DEBUG_VOCABULARY:ARTIFACT_DRAFT\",\n    \"PRODUCT_INSPECTION::PAGE_9::INTERNAL_OR_DEBUG_VOCABULARY:HOST-NATIVE\",\n    \"PRODUCT_INSPECTION::PAGE_9::SAFE_AREA_VIOLATION\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/wrong_handoff_real_incident.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/wrong_handoff_real_incident.stderr.txt"
+    },
+    {
+      "name": "artifact_stress_quality_v7_3",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.92,
+      "stdout_tail": "{\n  \"suite\": \"V7.3 Artifact Stress Quality\",\n  \"status\": \"PASS\",\n  \"page_runs\": 4000,\n  \"deck_runs\": 800,\n  \"operations\": 4800,\n  \"crashes\": 0,\n  \"unsafe_escaped\": 0,\n  \"valid_failed\": 0,\n  \"current_quality_floors\": [\n    \"artifact_truth>=90\",\n    \"ceqs>=90\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/artifact_stress_quality_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/artifact_stress_quality_v7_3.stderr.txt"
+    },
+    {
+      "name": "golden_redf_acceptance_inherited",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 14.432,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.2 Golden REDF End-to-End Brain→Artifact→Pixel-QA Acceptance\",\n  \"status\": \"PASS\",\n  \"checks\": {\n    \"golden_page_count_14\": true,\n    \"all_14_pages_have_real_brain_execution\": true,\n    \"all_14_pages_have_all_three_artifact_execution_stages\": true,\n    \"deck_review_council_execution_pass\": true,\n    \"golden_product_inspection_pass\": true,\n    \"golden_actual_output_qa_pass\": true,\n    \"golden_exact_file_delivery_allowed\": true,\n    \"strategy_variety_at_least_8\": true,\n    \"not_diagram_dominated\": true,\n    \"incident_profile_still_blocked\": true,\n    \"incident_shape_only_signature_locked\": true,\n    \"synthetic_bad_deck_still_blocked\": true\n  },\n  \"strategy_count\": 14,\n  \"diagram_ratio\": 0.286,\n  \"golden_product_blockers\": [],\n  \"golden_qa_blockers\": [],\n  \"delivery_blockers\": [],\n  \"incident_blockers\": [\n    \"PPTX_SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/golden_redf_acceptance_inherited.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/golden_redf_acceptance_inherited.stderr.txt"
+    },
+    {
+      "name": "visual_production_v7_3",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 7.159,
+      "stdout_tail": "[]\n      }\n    },\n    {\n      \"name\": \"production_render_2\",\n      \"status\": \"PASS\",\n      \"detail\": null\n    },\n    {\n      \"name\": \"semantic_master_gate_2\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"PASS\",\n        \"html_master_path\": \"/tmp/tmpyr9slkzi/r1/production_master.html\",\n        \"blockers\": [],\n        \"warnings\": [],\n        \"measured_object_count\": 7,\n        \"composition_spec_sha256\": \"e9821c5f708df8075288d722a183fe258fac635ec5ae9d949dd01dfd7eff640d\",\n        \"rule\": \"Semantic master must be instrumented, composition-spec bound, quality-floor compliant and client-safe before pixel review.\"\n      }\n    },\n    {\n      \"name\": \"composer_instrumentation_2\",\n      \"status\": \"PASS\",\n      \"detail\": null\n    },\n    {\n      \"name\": \"composer_full_unified_qa\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"verdict\": \"HTML_PREEXPORT_PASS\",\n        \"ceqs\": {\n          \"score\": 96,\n          \"status\": \"PASS\",\n          \"breakdown\": {\n            \"argument\": 15,\n            \"exhibit_synthesis\": 15,\n            \"artifact_integration\": 15,\n            \"evidence\": 10,\n            \"hierarchy\": 10,\n            \"visual_mass\": 6,\n            \"scanability\": 10,\n            \"reference_grammar\": 5,\n            \"brand\": 5,\n            \"originality\": 5\n          }\n        },\n        \"blockers\": []\n      }\n    },\n    {\n      \"name\": \"production_render_3\",\n      \"status\": \"PASS\",\n      \"detail\": null\n    },\n    {\n      \"name\": \"semantic_master_gate_3\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"PASS\",\n        \"html_master_path\": \"/tmp/tmpyr9slkzi/r2/production_master.html\",\n        \"blockers\": [],\n        \"warnings\": [],\n        \"measured_object_count\": 3,\n        \"composition_spec_sha256\": \"b01dcae6f422b50cfca189849580dd7402f93234692c6df25de93d79c964b713\",\n        \"rule\": \"Semantic master must be instrumented, composition-spec bound, quality-floor compliant and client-safe before pixel review.\"\n      }\n    },\n    {\n      \"name\": \"composer_instrumentation_3\",\n      \"status\": \"PASS\",\n      \"detail\": null\n    },\n    {\n      \"name\": \"raster_projection_format_inspection\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"PASS\",\n        \"warnings\": [\n          \"RASTER_ONLY_PROJECTION_SEMANTIC_MASTER_PROOF_BOUND\"\n        ],\n        \"blockers\": []\n      }\n    },\n    {\n      \"name\": \"unknown_format_refused\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"BLOCKED\",\n        \"format\": \".xyz\",\n        \"blockers\": [\n          \"NO_REGISTERED_INSPECTOR_FOR_FORMAT\"\n        ],\n        \"warnings\": []\n      }\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/visual_production_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/visual_production_v7_3.stderr.txt"
+    },
+    {
+      "name": "visual_production_red_team_v7_3",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.753,
+      "stdout_tail": "{\n  \"suite\": \"Visual Production Red Team v7.3\",\n  \"status\": \"PASS\",\n  \"blocked\": 4,\n  \"total\": 4,\n  \"tests\": [\n    {\n      \"name\": \"forged_image_proof_blocked\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"BLOCKED\",\n        \"reason\": \"HOST_NATIVE_IMAGE_PROOF_INVALID\",\n        \"request_key\": \"IMGREQ-C0B9A3CD37737E63F1F5FFE3\"\n      }\n    },\n    {\n      \"name\": \"duplicate_composition_set_blocked\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"BLOCKED\",\n        \"min_pairwise\": 0.0,\n        \"mean_pairwise\": 0.0,\n        \"required_min\": 0.12,\n        \"target_mean\": 0.18,\n        \"pairs\": [\n          {\n            \"a\": 0,\n            \"b\": 1,\n            \"distance\": 0.0\n          },\n          {\n            \"a\": 0,\n            \"b\": 2,\n            \"distance\": 0.0\n          },\n          {\n            \"a\": 0,\n            \"b\": 3,\n            \"distance\": 0.0\n          },\n          {\n            \"a\": 0,\n            \"b\": 4,\n            \"distance\": 0.0\n          },\n          {\n            \"a\": 1,\n            \"b\": 2,\n            \"distance\": 0.0\n          },\n          {\n            \"a\": 1,\n            \"b\": 3,\n            \"distance\": 0.0\n          },\n          {\n            \"a\": 1,\n            \"b\": 4,\n            \"distance\": 0.0\n          },\n          {\n            \"a\": 2,\n            \"b\": 3,\n            \"distance\": 0.0\n          },\n          {\n            \"a\": 2,\n            \"b\": 4,\n            \"distance\": 0.0\n          },\n          {\n            \"a\": 3,\n            \"b\": 4,\n            \"distance\": 0.0\n          }\n        ]\n      }\n    },\n    {\n      \"name\": \"generated_text_logo_digits_blocked\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"BLOCKED\",\n        \"blockers\": [\n          \"GENERATED_IMAGE_CONTAINS_TEXT\",\n          \"GENERATED_IMAGE_LOGO_NOT_PROVEN_ABSENT\",\n          \"GENERATED_IMAGE_DIGITS_NOT_PROVEN_ABSENT\",\n          \"IMAGE_ASSET_PROOF_REQUIRED\"\n        ],\n        \"asset_path\": null,\n        \"asset_sha256\": null,\n        \"rule\": \"Generated visual plates are non-authoritative: text, logos, numerals and official seals are forbidden; native verified overlays own factual content.\"\n      }\n    },\n    {\n      \"name\": \"unregistered_format_blocked\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"BLOCKED\",\n        \"format\": \".bin\",\n        \"blockers\": [\n          \"NO_REGISTERED_INSPECTOR_FOR_FORMAT\"\n        ],\n        \"warnings\": []\n      }\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/visual_production_red_team_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/visual_production_red_team_v7_3.stderr.txt"
+    },
+    {
+      "name": "deck_continuity_v7_3",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 5.168,
+      "stdout_tail": "      \"hist_l1_max\": 1.8\n    },\n    \"page_count\": 4\n  },\n  \"hash_attack\": {\n    \"status\": \"FAIL\",\n    \"verdict\": \"BLOCKED\",\n    \"violations\": [\n      {\n        \"page_id\": \"P02\",\n        \"problem\": \"master hash mismatch\",\n        \"expected\": \"0000000000000000000000000000000000000000000000000000000000000000\",\n        \"actual\": \"766544100d4190d1faf770447fd25a247dd192ceb90c6e86ba62409b1577b1cd\"\n      }\n    ],\n    \"measurements\": [\n      {\n        \"page_id\": \"P02\",\n        \"comparison\": \"adjacent_page_style_continuity\",\n        \"anchor_page_id\": \"P01\",\n        \"lightness_delta\": 46.5247685185185,\n        \"edge_density_delta\": 1.1771180555555567,\n        \"hist_l1\": 2.0235069444444447\n      },\n      {\n        \"page_id\": \"P03\",\n        \"comparison\": \"adjacent_page_style_continuity\",\n        \"anchor_page_id\": \"P02\",\n        \"lightness_delta\": 45.580364583333335,\n        \"edge_density_delta\": 0.9239930555555542,\n        \"hist_l1\": 2.001215277777778\n      },\n      {\n        \"page_id\": \"P04\",\n        \"comparison\": \"adjacent_page_style_continuity\",\n        \"anchor_page_id\": \"P03\",\n        \"lightness_delta\": 4.047818287037046,\n        \"edge_density_delta\": 4.088940972222222,\n        \"hist_l1\": 0.5460416666666668\n      }\n    ],\n    \"thresholds\": {\n      \"lightness_delta_max\": 75,\n      \"edge_density_delta_max\": 45,\n      \"hist_l1_max\": 1.8\n    },\n    \"page_count\": 4\n  },\n  \"link_attack\": {\n    \"status\": \"FAIL\",\n    \"verdict\": \"BLOCKED\",\n    \"violations\": [\n      {\n        \"page_id\": \"P03\",\n        \"problem\": \"previous-page continuity link mismatch\",\n        \"expected\": \"P02\",\n        \"actual\": \"WRONG\"\n      }\n    ],\n    \"measurements\": [\n      {\n        \"page_id\": \"P02\",\n        \"comparison\": \"adjacent_page_style_continuity\",\n        \"anchor_page_id\": \"P01\",\n        \"lightness_delta\": 46.5247685185185,\n        \"edge_density_delta\": 1.1771180555555567,\n        \"hist_l1\": 2.0235069444444447\n      },\n      {\n        \"page_id\": \"P03\",\n        \"comparison\": \"adjacent_page_style_continuity\",\n        \"anchor_page_id\": \"P02\",\n        \"lightness_delta\": 45.580364583333335,\n        \"edge_density_delta\": 0.9239930555555542,\n        \"hist_l1\": 2.001215277777778\n      },\n      {\n        \"page_id\": \"P04\",\n        \"comparison\": \"adjacent_page_style_continuity\",\n        \"anchor_page_id\": \"P03\",\n        \"lightness_delta\": 4.047818287037046,\n        \"edge_density_delta\": 4.088940972222222,\n        \"hist_l1\": 0.5460416666666668\n      }\n    ],\n    \"thresholds\": {\n      \"lightness_delta_max\": 75,\n      \"edge_density_delta_max\": 45,\n      \"hist_l1_max\": 1.8\n    },\n    \"page_count\": 4\n  }\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/deck_continuity_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/deck_continuity_v7_3.stderr.txt"
+    },
+    {
+      "name": "governed_production_delivery_v7_3",
+      "phase": "P4_PRODUCTION_DELIVERY",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 9.425,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.3 Governed Production Delivery Success Path\",\n  \"status\": \"PASS\",\n  \"checks\": {\n    \"all_8_promotions_pass\": true,\n    \"all_artifact_truth_ge_90\": true,\n    \"all_ceqs_ge_90\": true,\n    \"all_semantic_masters_pass\": true,\n    \"all_preconcept_executed\": true,\n    \"all_art_direction_executed\": true,\n    \"all_production_councils_executed\": true,\n    \"deck_council_executed\": true,\n    \"product_inspection_pass\": true,\n    \"actual_output_qa_pass\": true,\n    \"delivery_allowed\": true,\n    \"handoff_certified\": true\n  },\n  \"pages\": [\n    {\n      \"page_id\": \"P01\",\n      \"strategy\": \"DECISION_LED\",\n      \"promotion\": \"PASS\",\n      \"artifact_truth\": 96.0,\n      \"ceqs\": 96.0,\n      \"semantic_master\": \"PASS\"\n    },\n    {\n      \"page_id\": \"P02\",\n      \"strategy\": \"CHART_LED\",\n      \"promotion\": \"PASS\",\n      \"artifact_truth\": 96.0,\n      \"ceqs\": 96.0,\n      \"semantic_master\": \"PASS\"\n    },\n    {\n      \"page_id\": \"P03\",\n      \"strategy\": \"SEQUENCE_LED\",\n      \"promotion\": \"PASS\",\n      \"artifact_truth\": 96.0,\n      \"ceqs\": 96.0,\n      \"semantic_master\": \"PASS\"\n    },\n    {\n      \"page_id\": \"P04\",\n      \"strategy\": \"ARCHITECTURE_LED\",\n      \"promotion\": \"PASS\",\n      \"artifact_truth\": 96.0,\n      \"ceqs\": 96.0,\n      \"semantic_master\": \"PASS\"\n    },\n    {\n      \"page_id\": \"P05\",\n      \"strategy\": \"COMPARISON_LED\",\n      \"promotion\": \"PASS\",\n      \"artifact_truth\": 96.0,\n      \"ceqs\": 96.0,\n      \"semantic_master\": \"PASS\"\n    },\n    {\n      \"page_id\": \"P06\",\n      \"strategy\": \"EVIDENCE_LED\",\n      \"promotion\": \"PASS\",\n      \"artifact_truth\": 96.0,\n      \"ceqs\": 96.0,\n      \"semantic_master\": \"PASS\"\n    },\n    {\n      \"page_id\": \"P07\",\n      \"strategy\": \"SCORECARD_LED\",\n      \"promotion\": \"PASS\",\n      \"artifact_truth\": 96.0,\n      \"ceqs\": 96.0,\n      \"semantic_master\": \"PASS\"\n    },\n    {\n      \"page_id\": \"P08\",\n      \"strategy\": \"NUMBER_LED\",\n      \"promotion\": \"PASS\",\n      \"artifact_truth\": 96.0,\n      \"ceqs\": 96.0,\n      \"semantic_master\": \"PASS\"\n    }\n  ],\n  \"product_blockers\": [],\n  \"qa_blockers\": [],\n  \"delivery_blockers\": [],\n  \"rule\": \"Fail-closed production is certified only if at least one real Brain→Councils→CompositionSpec→Composer→Pixels→QA→Exact-Handoff path succeeds.\"\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/governed_production_delivery_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/governed_production_delivery_v7_3.stderr.txt"
+    },
+    {
+      "name": "incident_regression_v7_3",
+      "phase": "P5_INCIDENT_PACKAGE",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.919,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.3 Incident Regression Registry\",\n  \"status\": \"PASS\",\n  \"incident_count\": 16,\n  \"passed\": 21,\n  \"total\": 21,\n  \"failed\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/incident_regression_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/incident_regression_v7_3.stderr.txt"
+    },
+    {
+      "name": "engagement_acceptance_evidence_v7_3",
+      "phase": "P5_INCIDENT_PACKAGE",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.568,
+      "stdout_tail": "_8::SAFE_AREA_VIOLATION\",\n          \"PAGE_9::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_9::SAFE_AREA_VIOLATION\"\n        ],\n        [\n          \"RASTER_ONLY_PROJECTION_WITHOUT_HASH_BOUND_SEMANTIC_MASTER_PROOF\"\n        ]\n      ]\n    },\n    {\n      \"name\": \"raster_only_semantic_master_block_present\",\n      \"status\": \"PASS\",\n      \"detail\": [\n        [\n          \"DECK_DISTINCT_COMPOSITION_FLOOR_NOT_MET\",\n          \"PAGE_10::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_10::SAFE_AREA_VIOLATION\",\n          \"PAGE_11::SAFE_AREA_VIOLATION\",\n          \"PAGE_12::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_12::SAFE_AREA_VIOLATION\",\n          \"PAGE_13::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_13::SAFE_AREA_VIOLATION\",\n          \"PAGE_14::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_14::SAFE_AREA_VIOLATION\",\n          \"PAGE_15::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_15::SAFE_AREA_VIOLATION\",\n          \"PAGE_16::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_16::SAFE_AREA_VIOLATION\",\n          \"PAGE_17::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_17::SAFE_AREA_VIOLATION\",\n          \"PAGE_18::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_18::SAFE_AREA_VIOLATION\",\n          \"PAGE_19::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_19::SAFE_AREA_VIOLATION\",\n          \"PAGE_1::INTERNAL_OR_DEBUG_VOCABULARY:Rashad OS V7.2.1\",\n          \"PAGE_1::SAFE_AREA_VIOLATION\",\n          \"PAGE_1::WESTERN_NUMERAL_IN_ARABIC_NATURAL_LANGUAGE:إصدار تنفيذي وفق Rashad OS V7.2.1\",\n          \"PAGE_20::SAFE_AREA_VIOLATION\",\n          \"PAGE_21::SAFE_AREA_VIOLATION\",\n          \"PAGE_22::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_22::SAFE_AREA_VIOLATION\",\n          \"PAGE_23::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_23::SAFE_AREA_VIOLATION\",\n          \"PAGE_24::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_24::SAFE_AREA_VIOLATION\",\n          \"PAGE_2::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_2::SAFE_AREA_VIOLATION\",\n          \"PAGE_3::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_3::SAFE_AREA_VIOLATION\",\n          \"PAGE_4::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_4::SAFE_AREA_VIOLATION\",\n          \"PAGE_5::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_5::SAFE_AREA_VIOLATION\",\n          \"PAGE_6::SAFE_AREA_VIOLATION\",\n          \"PAGE_7::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_7::SAFE_AREA_VIOLATION\",\n          \"PAGE_8::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_8::SAFE_AREA_VIOLATION\",\n          \"PAGE_9::DOMINANT_MASS_BELOW_FLOOR\",\n          \"PAGE_9::SAFE_AREA_VIOLATION\"\n        ],\n        [\n          \"RASTER_ONLY_PROJECTION_WITHOUT_HASH_BOUND_SEMANTIC_MASTER_PROOF\"\n        ]\n      ]\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/engagement_acceptance_evidence_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/engagement_acceptance_evidence_v7_3.stderr.txt"
+    },
+    {
+      "name": "remediation_matrix_v7_3",
+      "phase": "P5_INCIDENT_PACKAGE",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.669,
+      "stdout_tail": "{\n  \"suite\": \"Rashad v7.3 Council-Supervised Remediation Matrix\",\n  \"status\": \"PASS\",\n  \"findings\": 49,\n  \"closed\": 48,\n  \"external_prerequisite_enforced\": 1,\n  \"open\": 0,\n  \"open_p0_p1\": 0,\n  \"open_rows\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/remediation_matrix_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/remediation_matrix_v7_3.stderr.txt"
+    },
+    {
+      "name": "final_red_team_v7_3",
+      "phase": "P5_INCIDENT_PACKAGE",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_sec": 0.677,
+      "stdout_tail": "{\n  \"suite\": \"Rashad OS v7.3 Final Package Adversarial Red Team\",\n  \"status\": \"PASS\",\n  \"blocked\": 79,\n  \"total\": 79,\n  \"escaped\": []\n}\n",
+      "stderr_tail": "",
+      "stdout_log": "QA/Certification/suite_logs/final_red_team_v7_3.stdout.txt",
+      "stderr_log": "QA/Certification/suite_logs/final_red_team_v7_3.stderr.txt"
+    }
+  ]
+}

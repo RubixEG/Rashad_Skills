@@ -1,0 +1,874 @@
+{
+  "suite": "RFP Summary Execution Red Team v7.0.2",
+  "status": "PASS",
+  "blocked": 9,
+  "total": 9,
+  "attacks": [
+    {
+      "attack": "forged_full_pack_mode",
+      "status": "BLOCKED_AS_EXPECTED",
+      "expected_step": "03",
+      "result": {
+        "status": "BLOCKED",
+        "passed_steps": 2,
+        "total_steps": 15,
+        "first_non_pass": "03",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "BLOCKED",
+            "reason": "SOURCE_PACK_MODE_INCONSISTENT_WITH_EVIDENCE",
+            "detail": {
+              "stored": "FULL_RFP_PACK",
+              "derived": "PARTIAL_RFP_PACK"
+            }
+          },
+          "04": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "05": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "07": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "08": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "1f44cafcfd3355a3bc2f58f7916d771e9d4d9ee2c3f6f2585037fa0b09cdc2d4"
+      }
+    },
+    {
+      "attack": "forged_clarification_window",
+      "status": "BLOCKED_AS_EXPECTED",
+      "expected_step": "03",
+      "result": {
+        "status": "BLOCKED",
+        "passed_steps": 2,
+        "total_steps": 15,
+        "first_non_pass": "03",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "BLOCKED",
+            "reason": "CLARIFICATION_WINDOW_INCONSISTENT_WITH_VERIFIED_INPUTS",
+            "detail": {
+              "stored": "CLOSED",
+              "derived": "OPEN"
+            }
+          },
+          "04": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "05": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "07": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "08": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "99eb9bb153e83889a0bfaa4138677c86c5f6bdef91a53bfdaf0fef4bc376e8b8"
+      }
+    },
+    {
+      "attack": "producer_equals_judge",
+      "status": "BLOCKED_AS_EXPECTED",
+      "expected_step": "07",
+      "result": {
+        "status": "BLOCKED",
+        "passed_steps": 6,
+        "total_steps": 15,
+        "first_non_pass": "07",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "PASS",
+            "detail": {
+              "packets": 1
+            }
+          },
+          "07": {
+            "status": "BLOCKED",
+            "reason": "COUNCIL_EXECUTION_INCOMPLETE",
+            "detail": {
+              "errors": [
+                {
+                  "page_id": "P08",
+                  "reason": "INDEPENDENCE_INVALID"
+                }
+              ]
+            }
+          },
+          "08": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "b29b3797f05b51d3efaea57f430891c6848d4cd53e2d910ed00a5a8f9a298f53"
+      }
+    },
+    {
+      "attack": "five_files_same_render_hash",
+      "status": "BLOCKED_AS_EXPECTED",
+      "expected_step": "10",
+      "result": {
+        "status": "BLOCKED",
+        "passed_steps": 9,
+        "total_steps": 15,
+        "first_non_pass": "10",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "PASS",
+            "detail": {
+              "packets": 1
+            }
+          },
+          "07": {
+            "status": "PASS",
+            "detail": {
+              "sessions": 1
+            }
+          },
+          "08": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "NOT_EXECUTED",
+            "reason": "ALL_FIVE_ACTUAL_RENDERS_REQUIRED",
+            "detail": {
+              "errors": [
+                {
+                  "page_id": "P08",
+                  "renders": 5,
+                  "distinct_hashes": 1
+                }
+              ]
+            }
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "206d31a5abcb2476101b2940a581a02f39d7507a170f2ddf0a0b64181a85b2ff"
+      }
+    },
+    {
+      "attack": "judge_hash_mismatch",
+      "status": "BLOCKED_AS_EXPECTED",
+      "expected_step": "11",
+      "result": {
+        "status": "BLOCKED",
+        "passed_steps": 10,
+        "total_steps": 15,
+        "first_non_pass": "11",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "PASS",
+            "detail": {
+              "packets": 1
+            }
+          },
+          "07": {
+            "status": "PASS",
+            "detail": {
+              "sessions": 1
+            }
+          },
+          "08": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "INDEPENDENT_5_TO_9_VISUAL_SEARCH_INCOMPLETE",
+            "detail": {
+              "errors": [
+                {
+                  "page_id": "P08",
+                  "initial_judged": 4,
+                  "refined": 4,
+                  "distinct_refined": 4,
+                  "final": true
+                }
+              ]
+            }
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "6baffa211881c7c97ae684daa41348999b64c29d0037fedd2a2e8c7fdccb8340"
+      }
+    },
+    {
+      "attack": "hardcoded_h1_without_judges",
+      "status": "BLOCKED_AS_EXPECTED",
+      "expected_step": "11",
+      "result": {
+        "status": "BLOCKED",
+        "passed_steps": 10,
+        "total_steps": 15,
+        "first_non_pass": "11",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "PASS",
+            "detail": {
+              "packets": 1
+            }
+          },
+          "07": {
+            "status": "PASS",
+            "detail": {
+              "sessions": 1
+            }
+          },
+          "08": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "INDEPENDENT_5_TO_9_VISUAL_SEARCH_INCOMPLETE",
+            "detail": {
+              "errors": [
+                {
+                  "page_id": "P08",
+                  "initial_judged": 0,
+                  "refined": 4,
+                  "distinct_refined": 4,
+                  "final": true
+                }
+              ]
+            }
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "989f1155a5bd029cde09a9dd84cd66d0708851692e468cb656d1244d9e27f4b4"
+      }
+    },
+    {
+      "attack": "decision_without_counter_case",
+      "status": "BLOCKED_AS_EXPECTED",
+      "expected_step": "14",
+      "result": {
+        "status": "BLOCKED",
+        "passed_steps": 13,
+        "total_steps": 15,
+        "first_non_pass": "14",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "PASS",
+            "detail": {
+              "packets": 1
+            }
+          },
+          "07": {
+            "status": "PASS",
+            "detail": {
+              "sessions": 1
+            }
+          },
+          "08": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "BLOCKED",
+            "reason": "BID_DECISION_OBJECT_INVALID",
+            "detail": {
+              "errors": [
+                "'' is too short"
+              ]
+            }
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "3e7e74d07b3bb137c97d6c5d43df7096f701db002e60b83116bc0052b0afacfc"
+      }
+    },
+    {
+      "attack": "qa_self_release_attempt",
+      "status": "BLOCKED_AS_EXPECTED",
+      "expected_step": "15",
+      "result": {
+        "status": "BLOCKED",
+        "passed_steps": 14,
+        "total_steps": 15,
+        "first_non_pass": "15",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "PASS",
+            "detail": {
+              "packets": 1
+            }
+          },
+          "07": {
+            "status": "PASS",
+            "detail": {
+              "sessions": 1
+            }
+          },
+          "08": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "PASS",
+            "detail": {
+              "recommendation": "HOLD"
+            }
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "FINAL_MASTER_PARITY_PROOF_OR_RELEASE_CHAIR_INCOMPLETE",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "de1de860c01b52af0dd3ac1968329c91667be51fe89099a47233ec05b2b45692"
+      }
+    },
+    {
+      "attack": "forged_step_evidence_bypass",
+      "status": "BLOCKED_AS_EXPECTED",
+      "expected_step": "06",
+      "result": {
+        "status": "BLOCKED",
+        "passed_steps": 5,
+        "total_steps": 15,
+        "first_non_pass": "06",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "BLOCKED",
+            "reason": "COGNITIVE_PACKETS_MISSING_OR_INVALID",
+            "detail": {
+              "errors": [
+                {
+                  "page_id": "P08",
+                  "error": "MISSING"
+                }
+              ]
+            }
+          },
+          "07": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "08": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "78ab550fd3ab1eb65c3285c1e0cad69b45ae07ddfd91d5527061963a1cbdf637"
+      }
+    }
+  ]
+}

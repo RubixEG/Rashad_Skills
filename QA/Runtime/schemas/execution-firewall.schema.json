@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "engagement_id",
+    "version_resolved",
+    "evidence_ledger_valid",
+    "source_instruction_isolation",
+    "brand_assets_verified",
+    "font_preflight",
+    "semantic_signatures_preserved",
+    "compliance_chambers_complete",
+    "image_last_state_safe"
+  ],
+  "properties": {
+    "engagement_id": {
+      "type": "string"
+    },
+    "version_resolved": {
+      "const": true
+    },
+    "evidence_ledger_valid": {
+      "const": true
+    },
+    "source_instruction_isolation": {
+      "const": true
+    },
+    "brand_assets_verified": {
+      "const": true
+    },
+    "font_preflight": {
+      "const": true
+    },
+    "semantic_signatures_preserved": {
+      "const": true
+    },
+    "compliance_chambers_complete": {
+      "const": true
+    },
+    "image_last_state_safe": {
+      "const": true
+    }
+  }
+}

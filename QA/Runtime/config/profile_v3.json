@@ -1,0 +1,308 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "safe_margin": 36,
+    "accepted_authoring_canvases": [
+      [
+        1920,
+        1080
+      ],
+      [
+        1600,
+        900
+      ],
+      [
+        1280,
+        720
+      ]
+    ],
+    "note": "v2.6: authoring canvas may differ from master canvas; G01 now checks ASPECT + membership, and the 16:9 master export is enforced by parity_qa min_master_width/height."
+  },
+  "thresholds": {
+    "overflow_px": 1.5,
+    "overlap_area_px": 80,
+    "line_overlap_px2": 4,
+    "header_gap_px": 10,
+    "header_artifact_gap_px": 14,
+    "connector_attach_px": 18,
+    "label_attach_px": 90,
+    "owner_anchor_tolerance_px": 14,
+    "align_px": 5,
+    "spacing_variance_px": 10,
+    "padding_min_px": 8,
+    "padding_max_px": 100,
+    "min_body_font_px": 14,
+    "min_source_font_px": 12,
+    "max_title_font_px": 92,
+    "min_title_font_px": 28,
+    "max_transform_scale_ratio": 1.12,
+    "max_rotation_deg": 1.0,
+    "card_dominance_ratio": 0.52,
+    "balance_extreme_ratio": 0.88,
+    "stress_font_scales": [
+      1.08,
+      1.1,
+      1.15
+    ],
+    "stress_line_height_scales": [
+      1.08,
+      1.12
+    ],
+    "repeat_geometry_px": 1.5,
+    "min_master_width": 3840,
+    "min_master_height": 2160,
+    "dense_master_width": 5760,
+    "dense_master_height": 3240,
+    "artifact_score_min_critical": 85,
+    "artifact_score_min_partner": 90,
+    "anti_template_tau": 0.085,
+    "deck_distinct_composition_floor": 0.7,
+    "stress_arabic_modes": [
+      "ARABIC_INDIC_NUMERALS",
+      "LONG_LATIN_TOKEN",
+      "FIVE_DIGIT_BADGE",
+      "TITLE_THREE_LINES",
+      "FONT_FALLBACK",
+      "NODE_GROWTH"
+    ],
+    "min_visual_fill_density": 0.03,
+    "target_visual_fill_density": 0.055,
+    "max_visual_fill_density": 0.72,
+    "artifact_truth_min": 85,
+    "artifact_truth_partner_target": 90,
+    "ceqs_min": 90,
+    "max_edge_crossings_critical": 2,
+    "evidence_claim_distance_px": 220,
+    "dominant_mass_min": 0.32,
+    "dominant_mass_max": 0.68,
+    "max_template_twins_per_4_pages": 0,
+    "min_exhibit_hypotheses": 5
+  },
+  "allowed_fonts": [
+    "Montserrat Arabic",
+    "Montserrat"
+  ],
+  "debug_terms": [
+    "Rashad v",
+    "visual acceptance",
+    "debug metadata",
+    "qa harness",
+    "internal production metadata",
+    "NEXT_STEP=",
+    "PRODUCT_STATUS="
+  ],
+  "fallback_fonts_requiring_waiver": [
+    "Noto Sans Arabic",
+    "Noto Kufi Arabic",
+    "Noto Naskh Arabic",
+    "Cairo",
+    "Tajawal",
+    "Arial"
+  ],
+  "brand_lock": {
+    "_source": "08_BRAND_CURRENT/RUBIX_ARTIFACT_PALETTE.md + RUBIX_BRAND_GUIDELINES_NORMALIZED.md + LOGO_ROUTING_AUTHORITY.md",
+    "palette_hex": [
+      "#FFFFFF",
+      "#FAF9FA",
+      "#F8EDF3",
+      "#F5EEF5",
+      "#F0F4FA",
+      "#EBF4F5",
+      "#A42365",
+      "#1A1A1A",
+      "#3D3D3D",
+      "#6F6F73",
+      "#E6E2E4",
+      "#822B83",
+      "#077381",
+      "#407ABE",
+      "#F15A26",
+      "#D32A45",
+      "#203B70",
+      "#F1DEE8",
+      "#ECDFEC",
+      "#DAEAEC",
+      "#E2EBF5",
+      "#FDE6DE",
+      "#F8DFE3",
+      "#DEE2EA",
+      "#FEF2EE",
+      "#FBEEF0",
+      "#EDEFF4"
+    ],
+    "forbidden_canvas_hex": [
+      "#000000",
+      "#0F0F12"
+    ],
+    "palette_delta_tolerance": 18,
+    "max_distinct_colours_per_page": 12,
+    "near_black_luminance_max": 0.04,
+    "background_min_area_share": 0.35,
+    "contrast_min_normal": 4.5,
+    "contrast_min_large": 3.0,
+    "large_text_px": 24,
+    "type_scale_px": [
+      12,
+      14,
+      16,
+      18,
+      21,
+      26,
+      32,
+      40,
+      52,
+      64
+    ],
+    "type_scale_tolerance_px": 0.6,
+    "max_distinct_font_sizes": 8,
+    "cobrand_order": [
+      "RUBIX",
+      "CLIENT"
+    ],
+    "cobrand_max_left_fraction": 0.42,
+    "cobrand_clear_space_ratio": 0.25,
+    "cobrand_optical_height_tolerance": 0.12,
+    "cobrand_aspect_drift_max": 0.005,
+    "cobrand_min_wordmark_height_fraction": 0.028,
+    "numeral_policy": {
+      "arabic_natural_language": "ARABIC_INDIC",
+      "technical_tokens": "EUROPEAN",
+      "_source": "RUBIX_BRAND_GUIDELINES_NORMALIZED.md \u2014 current user override"
+    },
+    "approved_logo_sha256": {
+      "rubix-accelerator-current-light.png": "111bd2a03a79468da154a1f08cd7dd56376be7893196df7c11162ea586f3909d",
+      "rubix-analytica-current-light.png": "c1b23ddeff2678cc83797c4dc0c1965f178d4071473dcd1adf604c740b89c3e8",
+      "rubix-beyond-current-light.png": "359a0c9f94d775ddb1f52b08a9a462d7da959002b4f1904d67262da13bcdf1ef",
+      "rubix-connect-current-light.png": "948afbf0f6ad4e633681638cda8efdabb7f9f16b1a62f577c85be6c51355be8b",
+      "rubix-consulting-current-light.png": "f69684cf53fdc047ddfc5d2df27411ede85ef63b1cd4ded991878fa2e81e1ed0",
+      "rubix-master-current-light.png": "82d0ac6cf107e3ccba0d2ddae09811846ecc556e18322456ee0800da39fd9ad2",
+      "rubix-official-device-current.png": "0e81c863f1a70f31af40f3917954f4ab955906c6bccdca408bb42f493c35512f",
+      "rubix-studio-current-light.png": "4407edef0b50efa158dfef044ee50c2e1d6ac5db886a558a995e235a3239dbcc"
+    },
+    "approved_logo_optical": {
+      "rubix-accelerator-current-light.png": {
+        "canvas": [
+          1281,
+          665
+        ],
+        "visible_bbox": [
+          293,
+          168,
+          988,
+          497
+        ],
+        "visible_w": 695,
+        "visible_h": 329,
+        "visible_aspect": 2.1125
+      },
+      "rubix-analytica-current-light.png": {
+        "canvas": [
+          1281,
+          665
+        ],
+        "visible_bbox": [
+          293,
+          168,
+          988,
+          497
+        ],
+        "visible_w": 695,
+        "visible_h": 329,
+        "visible_aspect": 2.1125
+      },
+      "rubix-beyond-current-light.png": {
+        "canvas": [
+          1281,
+          665
+        ],
+        "visible_bbox": [
+          293,
+          168,
+          988,
+          497
+        ],
+        "visible_w": 695,
+        "visible_h": 329,
+        "visible_aspect": 2.1125
+      },
+      "rubix-connect-current-light.png": {
+        "canvas": [
+          1281,
+          665
+        ],
+        "visible_bbox": [
+          293,
+          168,
+          988,
+          497
+        ],
+        "visible_w": 695,
+        "visible_h": 329,
+        "visible_aspect": 2.1125
+      },
+      "rubix-consulting-current-light.png": {
+        "canvas": [
+          1281,
+          665
+        ],
+        "visible_bbox": [
+          293,
+          168,
+          988,
+          497
+        ],
+        "visible_w": 695,
+        "visible_h": 329,
+        "visible_aspect": 2.1125
+      },
+      "rubix-master-current-light.png": {
+        "canvas": [
+          1920,
+          1080
+        ],
+        "visible_bbox": [
+          374,
+          291,
+          1546,
+          699
+        ],
+        "visible_w": 1172,
+        "visible_h": 408,
+        "visible_aspect": 2.8725
+      },
+      "rubix-official-device-current.png": {
+        "canvas": [
+          112,
+          194
+        ],
+        "visible_bbox": [
+          0,
+          0,
+          112,
+          194
+        ],
+        "visible_w": 112,
+        "visible_h": 194,
+        "visible_aspect": 0.5773
+      },
+      "rubix-studio-current-light.png": {
+        "canvas": [
+          1281,
+          665
+        ],
+        "visible_bbox": [
+          293,
+          168,
+          988,
+          497
+        ],
+        "visible_w": 695,
+        "visible_h": 329,
+        "visible_aspect": 2.1125
+      }
+    },
+    "default_consulting_asset": "rubix-consulting-current-light.png"
+  },
+  "runtime_version": "3.0"
+}

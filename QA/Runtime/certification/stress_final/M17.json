@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M17",
+  "mutation": "render_1920_3840_5760",
+  "expected": "same layout semantics/hash lineage",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "74011576d3b20a6fe34d4d6701f7ee1d35ccd97a3afd1075d06724128b77c6e1",
+  "mutated_input_hash": "74011576d3b20a6fe34d4d6701f7ee1d35ccd97a3afd1075d06724128b77c6e1",
+  "measured_object_count": 1,
+  "changed": true
+}

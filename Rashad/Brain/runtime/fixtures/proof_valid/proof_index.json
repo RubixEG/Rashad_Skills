@@ -1,0 +1,14 @@
+{
+  "schema_version": "6.1",
+  "engagement_id": "TEST",
+  "product": "RFP_SUMMARY",
+  "pages": [
+    {
+      "page_id": "P01",
+      "path": "pages/P01",
+      "critical": true,
+      "master_file": "page_01.png",
+      "master_sha256": "7c031887cb946e569f34c4e407f9837efa88b2c0128f31a066c24f2502f68ff3"
+    }
+  ]
+}

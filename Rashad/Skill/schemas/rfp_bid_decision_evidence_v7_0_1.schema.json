@@ -1,0 +1,383 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rashad v7.0.1 RFP Bid Decision Evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "decision_id",
+    "recommendation",
+    "decision_method",
+    "management_approval_required",
+    "dimensions",
+    "conditions",
+    "blockers",
+    "required_actions",
+    "counter_case",
+    "evidence_sufficiency"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string",
+      "pattern": "^DEC-[A-Z0-9_-]{3,40}$"
+    },
+    "recommendation": {
+      "enum": [
+        "GO",
+        "GO_WITH_CONDITIONS",
+        "HOLD",
+        "NO_GO_RECOMMENDATION",
+        "INSUFFICIENT_INFORMATION"
+      ]
+    },
+    "decision_method": {
+      "const": "EVIDENCE_SYNTHESIS_NOT_AUTOMATIC_WEIGHTED_SCORE"
+    },
+    "management_approval_required": {
+      "const": true
+    },
+    "dimensions": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "dimension",
+          "assessment",
+          "confidence",
+          "rationale",
+          "evidence_refs"
+        ],
+        "properties": {
+          "dimension": {
+            "enum": [
+              "OPPORTUNITY_ATTRACTIVENESS",
+              "STRATEGIC_FIT",
+              "WIN_POSITION",
+              "DELIVERY_CONFIDENCE",
+              "TEAM_READINESS",
+              "EVIDENCE_READINESS",
+              "COMMERCIAL_PRICING_CONFIDENCE",
+              "SCHEDULE_PRESSURE",
+              "PROCUREMENT_MATURITY",
+              "RISK_EXPOSURE"
+            ]
+          },
+          "assessment": {
+            "enum": [
+              "FAVORABLE",
+              "MIXED",
+              "UNFAVORABLE",
+              "INSUFFICIENT"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 8
+          },
+          "evidence_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source_ref",
+                "locator"
+              ],
+              "properties": {
+                "source_ref": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "required_actions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "counter_case": {
+      "type": "string",
+      "minLength": 8
+    },
+    "evidence_sufficiency": {
+      "enum": [
+        "SUFFICIENT_FOR_RECOMMENDATION",
+        "PARTIAL_REQUIRES_CONDITIONS",
+        "INSUFFICIENT"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "recommendation": {
+            "const": "GO_WITH_CONDITIONS"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "conditions": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recommendation": {
+            "const": "HOLD"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "blockers": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recommendation": {
+            "const": "INSUFFICIENT_INFORMATION"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evidence_sufficiency": {
+            "const": "INSUFFICIENT"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "OPPORTUNITY_ATTRACTIVENESS"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "STRATEGIC_FIT"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "WIN_POSITION"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "DELIVERY_CONFIDENCE"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "TEAM_READINESS"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "EVIDENCE_READINESS"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "COMMERCIAL_PRICING_CONFIDENCE"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "SCHEDULE_PRESSURE"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "PROCUREMENT_MATURITY"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "dimensions": {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "dimension": {
+                "const": "RISK_EXPOSURE"
+              }
+            },
+            "required": [
+              "dimension"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    }
+  ]
+}

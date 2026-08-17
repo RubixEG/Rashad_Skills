@@ -1,0 +1,462 @@
+{
+  "version": "1.0.0",
+  "architecture": "DECISION_DOMAIN_COUNCILS_OVER_AUTHORIZED_V7_LENSES",
+  "principles": [
+    "Councils are decision/question systems, not theatrical personas.",
+    "All critical work uses a shared blackboard with append-only findings and hash lineage.",
+    "Producer, Challenger, Independent Judge and Release Chair are separate invocation functions.",
+    "No invocation evidence means NOT_EXECUTED, never PASS.",
+    "Hard blockers cannot be averaged away.",
+    "Critical decisions require dissent or an explicit evidence-backed NO_MATERIAL_OBJECTION finding.",
+    "Meta-Cognition Council reviews council coverage, conflicts, groupthink and authority leakage."
+  ],
+  "always_on_critical": [
+    "C03_EPISTEMIC_TRUTH",
+    "C13_ADVERSARIAL_COUNTERFACTUAL",
+    "C15_META_COGNITION_INTEGRITY"
+  ],
+  "councils": [
+    {
+      "id": "C01_STRATEGIC_THESIS",
+      "name": "Strategic Thesis & Opportunity Council",
+      "purpose": "Builds the management argument and strategic meaning, not a section description.",
+      "authorized_lenses": [
+        "SENIOR_PARTNER",
+        "ENGAGEMENT_PARTNER",
+        "PRINCIPAL_DIRECTOR",
+        "CHIEF_STRATEGY_TRANSFORMATION",
+        "CEO_GM"
+      ],
+      "questions": [
+        "What management decision does this object support?",
+        "What is the answer-first thesis?",
+        "Why now and what changes if we act or do not act?",
+        "What would make this strategically unattractive?"
+      ],
+      "hard_blockers": [
+        "NO_MANAGEMENT_QUESTION",
+        "DESCRIPTIVE_NOT_DECISION_USEFUL",
+        "THESIS_NOT_EVIDENCE_BACKED"
+      ],
+      "triggers": [
+        "COMPETITION_NARRATIVE",
+        "OPPORTUNITY_SNAPSHOT",
+        "STRATEGIC_READING",
+        "MANAGEMENT_DECISION"
+      ]
+    },
+    {
+      "id": "C02_CLIENT_EVALUATOR_INTENT",
+      "name": "Client & Evaluator Intent Council",
+      "purpose": "Tests what the client is actually buying and what an evaluator will reward or reject.",
+      "authorized_lenses": [
+        "SAUDI_GOVERNMENT_EVALUATOR",
+        "SAUDI_PROCUREMENT_EVALUATOR",
+        "TECHNICAL_EVALUATOR",
+        "COMMERCIAL_EVALUATOR",
+        "AUTHORITY_FUND_EXECUTIVE"
+      ],
+      "questions": [
+        "What does the client explicitly ask for?",
+        "What is implicit but defensible?",
+        "What evidence will an evaluator look for?",
+        "Which requirement is mandatory versus differentiating?"
+      ],
+      "hard_blockers": [
+        "EVALUATOR_QUESTION_MISSING",
+        "MANDATORY_REQUIREMENT_UNMAPPED",
+        "INFERENCE_PRESENTED_AS_FACT"
+      ],
+      "triggers": [
+        "CLIENT_NEED",
+        "EVALUATION_WIN",
+        "QUALIFICATION_EVIDENCE",
+        "SOURCE_COVERAGE"
+      ]
+    },
+    {
+      "id": "C03_EPISTEMIC_TRUTH",
+      "name": "Evidence & Epistemic Integrity Council",
+      "purpose": "Separates fact, inference, assumption and recommendation; checks source coverage, contradictions, freshness and confidence.",
+      "authorized_lenses": [
+        "EVIDENCE_LEAD",
+        "EVIDENCE_AUDITOR",
+        "AUDIT_COMPLIANCE",
+        "RED_TEAM_CHALLENGER"
+      ],
+      "questions": [
+        "What is known?",
+        "What is inferred?",
+        "What is assumed?",
+        "What contradicts this claim?",
+        "What source locator proves each material claim?",
+        "What would falsify the conclusion?"
+      ],
+      "hard_blockers": [
+        "UNSOURCED_MATERIAL_CLAIM",
+        "STALE_EVIDENCE",
+        "CONTRADICTION_UNRESOLVED",
+        "ASSUMPTION_AS_FACT",
+        "CONFIDENCE_WITHOUT_BASIS"
+      ],
+      "triggers": []
+    },
+    {
+      "id": "C04_COMMERCIAL_FINANCIAL",
+      "name": "Commercial & Financial Consequence Council",
+      "purpose": "Translates scope and contract terms into commitments, margin, cash, pricing and commercial risk.",
+      "authorized_lenses": [
+        "CFO",
+        "CHIEF_PROCUREMENT_COMMERCIAL",
+        "COMMERCIAL_EVALUATOR",
+        "COMMERCIAL_RISK_AUDITOR",
+        "CHIEF_RISK"
+      ],
+      "questions": [
+        "What must Rubix pay, commit or guarantee?",
+        "What can change price or margin?",
+        "What can change cash flow or working capital?",
+        "What penalties, guarantees or payment terms matter?",
+        "Which assumptions require pricing protection?"
+      ],
+      "hard_blockers": [
+        "COMMERCIAL_IMPACT_NOT_ANALYZED",
+        "PAYMENT_OR_GUARANTEE_RISK_MISSING",
+        "UNSUPPORTED_MARGIN_OR_CASH_CLAIM"
+      ],
+      "triggers": [
+        "BOQ_INTELLIGENCE",
+        "COMMERCIAL_EXPOSURE",
+        "MANAGEMENT_DECISION"
+      ]
+    },
+    {
+      "id": "C05_DELIVERY_OPERATING",
+      "name": "Delivery & Operating Feasibility Council",
+      "purpose": "Tests whether the proposed promise can actually be mobilized, governed, staffed, accepted and operated.",
+      "authorized_lenses": [
+        "COO",
+        "PMO_DELIVERY",
+        "IMPLEMENTATION_DELIVERY_EXPERT",
+        "OPERATING_MODEL_EXPERT",
+        "QUALITY_ACCEPTANCE"
+      ],
+      "questions": [
+        "What are the workstreams, owners and handoffs?",
+        "What is the critical path?",
+        "What dependencies are client-owned?",
+        "What acceptance gates exist?",
+        "Where can delivery fail even if the bid wins?"
+      ],
+      "hard_blockers": [
+        "DEPENDENCY_MISSING",
+        "OWNER_OR_HANDOFF_MISSING",
+        "ACCEPTANCE_NOT_DEFINED",
+        "UNREALISTIC_DELIVERY_PROMISE"
+      ],
+      "triggers": [
+        "SCOPE_ARCHITECTURE",
+        "DELIVERY_JOURNEY",
+        "TEAM_CAPACITY",
+        "CONTRACT_DELIVERY",
+        "RISKS"
+      ]
+    },
+    {
+      "id": "C06_TECH_DATA_CYBER",
+      "name": "Technology, Data & Cyber Council",
+      "purpose": "Challenges technical feasibility, integration, security, data governance and non-functional obligations.",
+      "authorized_lenses": [
+        "CIO_CTO_CDO",
+        "CISO",
+        "TECHNICAL_EVALUATOR",
+        "DATA_PDPL",
+        "CYBERSECURITY"
+      ],
+      "questions": [
+        "What systems/data/integrations are actually required?",
+        "What non-functional requirements constrain architecture?",
+        "What cyber/data obligations are mandatory?",
+        "What is unknown and must be clarified?"
+      ],
+      "hard_blockers": [
+        "TECH_REQUIREMENT_DROPPED",
+        "CYBER_OR_DATA_OBLIGATION_MISSING",
+        "INTEGRATION_ASSUMPTION_UNTESTED"
+      ],
+      "triggers": [
+        "TECHNICAL_REQUIREMENTS"
+      ]
+    },
+    {
+      "id": "C07_LEGAL_PROCUREMENT_COMPLIANCE",
+      "name": "Legal, Procurement & Compliance Council",
+      "purpose": "Tests contractual, procurement, legal, local-content and compliance constraints.",
+      "authorized_lenses": [
+        "LEGAL_CONTRACTS",
+        "SAUDI_PROCUREMENT_EVALUATOR",
+        "LOCAL_CONTENT_SAUDIZATION",
+        "AUDIT_COMPLIANCE",
+        "CHIEF_PROCUREMENT_COMMERCIAL"
+      ],
+      "questions": [
+        "What clause creates an obligation or restriction?",
+        "Which procurement rule can disqualify us?",
+        "What local-content/Saudization/compliance proof is required?",
+        "Which clause needs clarification before pricing or commitment?"
+      ],
+      "hard_blockers": [
+        "DISQUALIFICATION_RISK_MISSED",
+        "CONTRACTUAL_OBLIGATION_MISSING",
+        "COMPLIANCE_EVIDENCE_MISSING"
+      ],
+      "triggers": [
+        "QUALIFICATION_EVIDENCE",
+        "COMMERCIAL_EXPOSURE",
+        "CLARIFICATIONS",
+        "RISKS"
+      ]
+    },
+    {
+      "id": "C08_PEOPLE_CAPABILITY_CHANGE",
+      "name": "People, Capability & Change Council",
+      "purpose": "Tests team sufficiency, capability gaps, availability, change/adoption and organizational dependency.",
+      "authorized_lenses": [
+        "CHRO",
+        "COO",
+        "PMO_DELIVERY",
+        "TRANSFORMATION_EXPERT",
+        "IMPLEMENTATION_DELIVERY_EXPERT"
+      ],
+      "questions": [
+        "Do we have the mandatory roles and evidence?",
+        "What capability is scarce?",
+        "What change/adoption work is required?",
+        "What depends on client availability or decision rights?"
+      ],
+      "hard_blockers": [
+        "MANDATORY_ROLE_MISSING",
+        "CAPABILITY_GAP_HIDDEN",
+        "CHANGE_ADOPTION_OMITTED"
+      ],
+      "triggers": [
+        "TEAM_CAPACITY",
+        "CONTRACT_DELIVERY"
+      ]
+    },
+    {
+      "id": "C09_CAUSAL_SCENARIO",
+      "name": "Causal, Scenario & Assumption Council",
+      "purpose": "Builds cause-effect and sensitivity logic so Rashad knows what changes when an assumption or constraint changes.",
+      "authorized_lenses": [
+        "CHIEF_RISK",
+        "CFO",
+        "COO",
+        "STRATEGY_CONSULTANT",
+        "RED_TEAM_CHALLENGER"
+      ],
+      "questions": [
+        "Which assumptions drive the conclusion?",
+        "If the assumption changes, which claims, price, schedule or design change?",
+        "What are best/base/worst credible cases?",
+        "Which variable has the highest decision sensitivity?"
+      ],
+      "hard_blockers": [
+        "NO_SENSITIVITY_FOR_MATERIAL_ASSUMPTION",
+        "CAUSAL_CHAIN_UNSUPPORTED",
+        "CHANGE_PROPAGATION_MISSING"
+      ],
+      "triggers": [
+        "COMMERCIAL_EXPOSURE",
+        "ASSUMPTIONS_GAPS",
+        "RISKS",
+        "MANAGEMENT_DECISION"
+      ]
+    },
+    {
+      "id": "C10_ARTIFACT_SYNTHESIS",
+      "name": "Artifact Synthesis Council",
+      "purpose": "Transforms argument + relationships into materially different consulting exhibit hypotheses.",
+      "authorized_lenses": [
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "ENGAGEMENT_PARTNER",
+        "EVIDENCE_AUDITOR"
+      ],
+      "questions": [
+        "What relationships must be visible?",
+        "What topology expresses them best?",
+        "Are five hypotheses materially different?",
+        "Is the artifact analytical or decorative?"
+      ],
+      "hard_blockers": [
+        "CARDS_AS_DEFAULT",
+        "RELATIONSHIPS_NOT_VISIBLE",
+        "HYPOTHESES_NOT_DISTINCT",
+        "TEMPLATE_COPY"
+      ],
+      "triggers": [
+        "*ANALYTICAL*"
+      ]
+    },
+    {
+      "id": "C11_VISUAL_PERCEPTION",
+      "name": "Visual Perception & Information Design Council",
+      "purpose": "Judges the actual rendered pixels for focal point, hierarchy, visual mass, negative space, readability and synthesis.",
+      "authorized_lenses": [
+        "INFORMATION_DESIGN_DIRECTOR",
+        "VISUAL_STORYTELLING_DIRECTOR",
+        "ARTIFACT_INTELLIGENCE_DIRECTOR",
+        "ARABIC_RTL_GOVERNOR"
+      ],
+      "questions": [
+        "Can the thesis be understood in 5–10 seconds?",
+        "Is the focal point unambiguous?",
+        "Are connectors anchored and readable?",
+        "Is the bottom/edge density balanced?",
+        "Is this composition materially different from alternatives?"
+      ],
+      "hard_blockers": [
+        "FLOATING_CONNECTOR",
+        "NO_FOCAL_POINT",
+        "VISUAL_MASS_IMBALANCE",
+        "RENDER_NOT_JUDGED",
+        "RTL_VISUAL_ORDER_BROKEN"
+      ],
+      "triggers": [
+        "*RENDERED_ANALYTICAL*"
+      ]
+    },
+    {
+      "id": "C12_PRODUCTION_INTEGRITY",
+      "name": "Production, Renderer, RTL & Brand Council",
+      "purpose": "Checks deterministic output mechanics and cross-format fidelity.",
+      "authorized_lenses": [
+        "QA_RELIABILITY_LEAD",
+        "ARABIC_RTL_GOVERNOR",
+        "BRAND_PRODUCTION_LEAD",
+        "QUALITY_ACCEPTANCE"
+      ],
+      "questions": [
+        "Any overflow, clipping, collision or hidden object?",
+        "Are fonts and Arabic shaping exact?",
+        "Are logos/brand assets correct?",
+        "Do PPTX/PDF/master pixels agree?",
+        "Did repair preserve semantic hashes?"
+      ],
+      "hard_blockers": [
+        "OVERFLOW_OR_CLIP",
+        "FONT_FALLBACK",
+        "BRAND_ASSET_MISMATCH",
+        "PARITY_FAIL",
+        "SEMANTIC_REPAIR_DRIFT"
+      ],
+      "triggers": [
+        "*RENDERED*"
+      ]
+    },
+    {
+      "id": "C13_ADVERSARIAL_COUNTERFACTUAL",
+      "name": "Adversarial & Counterfactual Red Team",
+      "purpose": "Attempts to disprove the content, design, evidence, execution and QA claims.",
+      "authorized_lenses": [
+        "ADVERSARIAL_RED_TEAM",
+        "RED_TEAM_CHALLENGER",
+        "COMMERCIAL_RISK_AUDITOR",
+        "QA_RELIABILITY_LEAD"
+      ],
+      "questions": [
+        "How could this be wrong?",
+        "How could QA be gamed?",
+        "What source or scenario defeats the thesis?",
+        "Is the winner truly different or cosmetically different?",
+        "Can a stale or fake PASS slip through?"
+      ],
+      "hard_blockers": [
+        "NO_ADVERSARIAL_CHALLENGE",
+        "QA_GAMING_PATH_OPEN",
+        "FALSE_DIVERSITY",
+        "FAKE_OR_STALE_PROOF"
+      ],
+      "triggers": []
+    },
+    {
+      "id": "C14_CROSS_DECK_NARRATIVE",
+      "name": "Cross-Deck Narrative & Consistency Council",
+      "purpose": "Checks progression, duplication, visual rhythm, decision story and contradiction across pages.",
+      "authorized_lenses": [
+        "ENGAGEMENT_PARTNER",
+        "ENGAGEMENT_MANAGER",
+        "INFORMATION_DESIGN_DIRECTOR",
+        "EVIDENCE_AUDITOR"
+      ],
+      "questions": [
+        "Does each page advance the argument?",
+        "Are page conclusions contradictory?",
+        "Is topology repeating without analytical reason?",
+        "Are decisions/gaps propagated consistently?"
+      ],
+      "hard_blockers": [
+        "CROSS_PAGE_CONTRADICTION",
+        "REPETITIVE_TOPOLOGY",
+        "NARRATIVE_STALL",
+        "DECISION_NOT_PROPAGATED"
+      ],
+      "triggers": [
+        "*DECK*"
+      ]
+    },
+    {
+      "id": "C15_META_COGNITION_INTEGRITY",
+      "name": "Meta-Cognition & Council Integrity Council",
+      "purpose": "Reviews the reviewers: route completeness, groupthink, role overlap, unresolved dissent, authority leakage and missing expertise.",
+      "authorized_lenses": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "ADVERSARIAL_RED_TEAM",
+        "QA_RELIABILITY_LEAD",
+        "ENGAGEMENT_PARTNER"
+      ],
+      "questions": [
+        "Did the right councils run?",
+        "Did any producer also act as judge?",
+        "Was dissent resolved with evidence rather than consensus?",
+        "Which relevant expertise was omitted?",
+        "Are all-PASS results suspiciously unsupported?"
+      ],
+      "hard_blockers": [
+        "COUNCIL_ROUTE_INCOMPLETE",
+        "PRODUCER_JUDGE_COLLISION",
+        "UNRESOLVED_DISSENT",
+        "GROUPTHINK_OR_CONSENSUS_LAUNDERING",
+        "AUTHORITY_LEAKAGE"
+      ],
+      "triggers": []
+    },
+    {
+      "id": "C16_RELEASE_TRUTHFULNESS",
+      "name": "Release & Truthfulness Council",
+      "purpose": "Makes the final release decision from hard evidence only.",
+      "authorized_lenses": [
+        "INDEPENDENT_RELEASE_CHAIR",
+        "EVIDENCE_AUDITOR",
+        "QA_RELIABILITY_LEAD",
+        "ADVERSARIAL_RED_TEAM"
+      ],
+      "questions": [
+        "Are all hard blockers closed?",
+        "Are judge calls independent and render/source grounded?",
+        "Is capability mode truthful?",
+        "Can this be called RELEASED without relying on producer assertions?"
+      ],
+      "hard_blockers": [
+        "HARD_BLOCKER_OPEN",
+        "INDEPENDENT_JUDGE_MISSING",
+        "QA_EVIDENCE_MISSING",
+        "CAPABILITY_OVERCLAIM"
+      ],
+      "triggers": [
+        "*FINAL_RELEASE*"
+      ]
+    }
+  ]
+}

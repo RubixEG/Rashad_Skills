@@ -1,0 +1,112 @@
+{
+  "passed": 20,
+  "total": 21,
+  "status": "FAIL",
+  "tests": [
+    {
+      "test": "complete_dossier_passes",
+      "pass": true,
+      "detail": "{'status': 'PASS', 'verdict': 'PRODUCT_PROOF_PASS', 'errors': [], 'pages': [{'page_id': 'P01', 'result': {'status': 'PASS', 'verdict': 'PAGE_DOSSIER_PASS', 'errors': [], 'measured': {'page_ids': [('content_pack.json', 'P01'), ('relationship_graph.json', 'P01'), ('artifact_truth.json', 'P01'), ('exhibit_hypotheses.json', 'P01'), ('exhibit_selection.json', 'P01'), ('evidence_pack.json', 'P01'), ('visual_search/manifest.json', 'P01'), ('ceqs.json', 'P01')], 'artifact_truth': 100.0, 'hypothesis_count': 5, 'hypothesis_distinct_signatures': 5, 'render_candidate_count': 3, 'render_candidate_distinct_hashes': 3, 'ceqs': 93.0, 'master_size': [3840, 2160], 'states': ['INGESTED', 'CONTENT_LOCKED', 'GRAPH_LOCKED', 'ARTIFACT_TRUTH_PASS', 'EXHIBIT_SEARCH_COMPLETE', 'WINNER_LOCKED', 'VISUAL_SEARCH_COMPLETE', 'CEQS_PASS', 'PAGE_MASTER_LOCKED', 'PAGE_QA_PASS']}}}]}"
+    },
+    {
+      "test": "missing_content",
+      "pass": true,
+      "detail": "[{'kind': 'page_dossier_blocked', 'page_id': 'P01'}]"
+    },
+    {
+      "test": "missing_graph",
+      "pass": true,
+      "detail": "[{'kind': 'page_dossier_blocked', 'page_id': 'P01'}]"
+    },
+    {
+      "test": "missing_artifact_truth",
+      "pass": true,
+      "detail": "[{'kind': 'page_dossier_blocked', 'page_id': 'P01'}]"
+    },
+    {
+      "test": "missing_ceqs",
+      "pass": true,
+      "detail": "[{'kind': 'page_dossier_blocked', 'page_id': 'P01'}]"
+    },
+    {
+      "test": "missing_master",
+      "pass": true,
+      "detail": "[{'kind': 'page_dossier_blocked', 'page_id': 'P01'}]"
+    },
+    {
+      "test": "missing_html_qa",
+      "pass": true,
+      "detail": "[{'kind': 'page_dossier_blocked', 'page_id': 'P01'}]"
+    },
+    {
+      "test": "two_hypotheses",
+      "pass": true,
+      "detail": "[{'kind': 'wrong_hypothesis_count', 'expected': 5, 'actual': 2}, {'kind': 'stale_hash', 'object': 'exhibit_hypotheses', 'expected': '42a517a1b9703784595637ef8614ac0672670b7d977f93d4e25aba1d5d2a1189', 'actual': 'd81548a00f0a41a7dd96ec8e77a80e5d7c752901cccd4d9f732c0922a7ff1153'}, {'kind': 'stale_hash', 'object': 'exhibit_hypotheses', 'expected': '42a517a1b9703784595637ef8614ac0672670b7d977f93d4e25aba1d5d2a1189', 'actual': 'd81548a00f0a41a7dd96ec8e77a80e5d7c752901cccd4d9f732c0922a7ff1153'}]"
+    },
+    {
+      "test": "one_render_candidate",
+      "pass": true,
+      "detail": "[{'kind': 'insufficient_render_search', 'minimum': 3, 'actual': 1}, {'kind': 'render_candidates_not_distinct', 'distinct': 1, 'required': 3}]"
+    },
+    {
+      "test": "two_render_candidates",
+      "pass": true,
+      "detail": "[{'kind': 'insufficient_render_search', 'minimum': 3, 'actual': 2}, {'kind': 'render_candidates_not_distinct', 'distinct': 2, 'required': 3}]"
+    },
+    {
+      "test": "artifact_truth_84",
+      "pass": true,
+      "detail": "[{'kind': 'artifact_truth_below_floor', 'score': 84.0}, {'kind': 'stale_hash', 'object': 'artifact_truth', 'expected': 'd2c9a31e1b0fabc2fd1f487d536dbecdb2afc0d3cfc9447c2be5000cb22c1b0f', 'actual': '7d08b4136b3787839d132192ba60c0d47ecf144cc2f939eabbe0db0710678ec9'}, {'kind': 'stale_hash', 'object': 'artifact_truth', 'expected': 'd2c9a31e1b0fabc2fd1f487d536dbecdb2afc0d3cfc9447c2be5000cb22c1b0f', 'actual': '7d08b4136b3787839d132192ba60c0d47ecf144cc2f939eabbe0db0710678ec9'}, {'kind': 'stale_hash', 'object': 'artifact_truth', 'expected': 'd2c9a31e1b0fabc2fd1f487d536dbecdb2afc0d3cfc9447c2be5000cb22c1b0f', 'actual': '7d08b4136b3787839d132192ba60c0d47ecf144cc2f939eabbe0db0710678ec9'}]"
+    },
+    {
+      "test": "ceqs_89",
+      "pass": true,
+      "detail": "[{'kind': 'ceqs_below_floor', 'score': 89.0}]"
+    },
+    {
+      "test": "pixel_not_proven",
+      "pass": true,
+      "detail": "[{'kind': 'pixel_qa_missing_or_failed'}]"
+    },
+    {
+      "test": "state_skip",
+      "pass": true,
+      "detail": "[{'kind': 'missing_state', 'state': 'VISUAL_SEARCH_COMPLETE'}]"
+    },
+    {
+      "test": "lowres_master",
+      "pass": true,
+      "detail": "[{'kind': 'master_resolution_below_floor', 'size': [1920, 1080]}, {'kind': 'proof_index_master_hash_mismatch'}]"
+    },
+    {
+      "test": "stale_content_hash",
+      "pass": true,
+      "detail": "[{'kind': 'stale_hash', 'object': 'content_pack', 'expected': '9815e43dd03363095124d16ad4f4fcb038bc5fc5ed07f221f676565c5cf20220', 'actual': '3a1efabe950203ef260c6396a504e22f4b7dd26d19580e0f6f6bf7fa630f06e7'}, {'kind': 'stale_hash', 'object': 'content_pack', 'expected': '9815e43dd03363095124d16ad4f4fcb038bc5fc5ed07f221f676565c5cf20220', 'actual': '3a1efabe950203ef260c6396a504e22f4b7dd26d19580e0f6f6bf7fa630f06e7'}, {'kind': 'stale_hash', 'object': 'content_pack', 'expected': '9815e43dd03363095124d16ad4f4fcb038bc5fc5ed07f221f676565c5cf20220', 'actual': '3a1efabe950203ef260c6396a504e22f4b7dd26d19580e0f6f6bf7fa630f06e7'}]"
+    },
+    {
+      "test": "page_id_mismatch",
+      "pass": true,
+      "detail": "[{'kind': 'page_id_mismatch', 'values': [('content_pack.json', 'P01'), ('relationship_graph.json', 'P01'), ('artifact_truth.json', 'P01'), ('exhibit_hypotheses.json', 'P01'), ('exhibit_selection.json', 'P01'), ('evidence_pack.json', 'P01'), ('visual_search/manifest.json', 'P01'), ('ceqs.json', 'P99')]}]"
+    },
+    {
+      "test": "duplicate_hypothesis_signatures",
+      "pass": true,
+      "detail": "[{'kind': 'hypotheses_not_materially_distinct', 'distinct': 1, 'required': 5}, {'kind': 'stale_hash', 'object': 'exhibit_hypotheses', 'expected': '42a517a1b9703784595637ef8614ac0672670b7d977f93d4e25aba1d5d2a1189', 'actual': '5176d30a11022917fda72429bacbd5fa47001e6ab5a63fc03ca2d16cada5cfcd'}, {'kind': 'stale_hash', 'object': 'exhibit_hypotheses', 'expected': '42a517a1b9703784595637ef8614ac0672670b7d977f93d4e25aba1d5d2a1189', 'actual': '5176d30a11022917fda72429bacbd5fa47001e6ab5a63fc03ca2d16cada5cfcd'}]"
+    },
+    {
+      "test": "duplicate_render_candidates",
+      "pass": true,
+      "detail": "[{'kind': 'render_candidates_not_distinct', 'distinct': 1, 'required': 3}]"
+    },
+    {
+      "test": "master_hash_mismatch",
+      "pass": true,
+      "detail": "[{'kind': 'proof_index_master_hash_mismatch'}]"
+    },
+    {
+      "test": "single_current_startup_route",
+      "pass": false,
+      "detail": "{'status': 'FAIL', 'errors': [{'file': 'SKILL.md', 'kind': 'missing_startup_file'}, {'file': '00_START_HERE.md', 'kind': 'missing_startup_file'}, {'file': 'PROJECT_INSTRUCTIONS.md', 'kind': 'missing_startup_file'}, {'file': '00_CHAT_MIRROR_KERNEL/00_RASHAD_BOOTSTRAP.md', 'kind': 'missing_startup_file'}, {'file': '00_CHAT_MIRROR_KERNEL/02_CURRENT_AUTHORITY_GRAPH.md', 'kind': 'missing_startup_file'}, {'file': '00_CHAT_MIRROR_KERNEL/12_CONTEXT_ROUTER.md', 'kind': 'missing_startup_file'}]}"
+    }
+  ]
+}

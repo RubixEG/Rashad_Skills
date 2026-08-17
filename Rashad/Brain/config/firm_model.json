@@ -1,0 +1,19 @@
+{
+  "model_version":"1.0.0",
+  "status":"KNOWLEDGE_REQUIRED",
+  "truth_rule":"No firm capability, credential, rate, capacity, case study or commercial constraint may be inferred from an RFP.",
+  "cells":{
+    "capabilities":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "offerings":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "sectors":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "locations":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "people_capacity":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "certifications":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "case_studies":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "partners":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "rate_cards":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "commercial_constraints":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "risk_appetite":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]},
+    "strategic_priorities":{"status":"KNOWLEDGE_REQUIRED","evidence_refs":[]}
+  }
+}

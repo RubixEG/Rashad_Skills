@@ -1,0 +1,8 @@
+{
+  "runs": 500,
+  "crashes": 0,
+  "passes": 498,
+  "pass_winner_budget_violations": 0,
+  "graphs_per_sec": 184.1,
+  "status": "PASS"
+}

@@ -1,0 +1,185 @@
+{
+  "suite": "Host-Native Execution Red Team",
+  "status": "PASS",
+  "blocked": 9,
+  "total": 9,
+  "attacks": [
+    {
+      "attack": "A1_missing_host_proof",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "NOT_EXECUTED",
+        "reason": "HOST_NATIVE_PROOF_INVALID",
+        "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+        "invocation_id": "INV-A50FBF9A82EC4ADF",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    },
+    {
+      "attack": "A2_wrong_request_key",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "NOT_EXECUTED",
+        "reason": "HOST_NATIVE_PROOF_INVALID",
+        "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+        "invocation_id": "INV-F9596A1E69224943",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    },
+    {
+      "attack": "A3_wrong_host_session",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "NOT_EXECUTED",
+        "reason": "HOST_NATIVE_PROOF_INVALID",
+        "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+        "invocation_id": "INV-D3257FAC103049B2",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    },
+    {
+      "attack": "A4_fake_host_source",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "NOT_EXECUTED",
+        "reason": "HOST_NATIVE_PROOF_INVALID",
+        "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+        "invocation_id": "INV-0BED0ECDB3D041AA",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    },
+    {
+      "attack": "A5_judge_not_independent",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "NOT_EXECUTED",
+        "reason": "HOST_NATIVE_INDEPENDENCE_PROOF_INVALID",
+        "request_key": "ebbb45efcc817f5e9168f148ba37bbcc40c6d909ee73eb642954ef7555083e7d",
+        "invocation_id": "INV-4EF9C342E15F441C",
+        "function": "INDEPENDENT_JUDGE",
+        "council_id": "C11",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "b63a6e409cab927a23753749828d5504d7194dc17846f6040d64b4262afe5dd6",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    },
+    {
+      "attack": "A6_response_id_replay",
+      "status": "BLOCKED",
+      "detail": [
+        {
+          "status": "PASS",
+          "host_native_proof": {
+            "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+            "host_session_id": "HS",
+            "host_response_id": "SAME",
+            "source": "HOST_NATIVE_MODEL_EXECUTION",
+            "independent_context": false
+          },
+          "findings": [],
+          "output": {
+            "x": 1
+          },
+          "invocation_id": "SAME",
+          "function": "PRODUCER",
+          "council_id": "C01",
+          "actor_id": "A",
+          "isolated_context_id": "CTX",
+          "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+          "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+          "execution_mode": "HOST_NATIVE_MODE",
+          "provider": "HOST_NATIVE_MODEL",
+          "host_native": true
+        },
+        {
+          "status": "NOT_EXECUTED",
+          "reason": "HOST_NATIVE_RESPONSE_REUSED",
+          "request_key": "ff37740dc333b8b42ad17c2f12fa57e174a8be61c8d760b7bfa800261e971c81",
+          "invocation_id": "INV-7E51C8331B104E05",
+          "function": "COUNCIL_REVIEW",
+          "council_id": "C02",
+          "actor_id": "B",
+          "isolated_context_id": "CTX2",
+          "input_hash": "9a51a7767c3d6fbab05a874b052aa49174a280702a278208810f9cd1a9ef3afa",
+          "execution_mode": "HOST_NATIVE_MODE"
+        }
+      ]
+    },
+    {
+      "attack": "A7_bundle_input_hash_substitution",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "HOST_NATIVE_PENDING",
+        "reason": "HOST_NATIVE_RESPONSE_REQUIRED",
+        "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+        "host_session_id": "HS",
+        "invocation_id": "HOST-PENDING-39F8CDA1804F42DA",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    },
+    {
+      "attack": "A8_host_mode_no_bridge_fails_pending",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "reason": "HOST_NATIVE_EXECUTION_PENDING"
+      }
+    },
+    {
+      "attack": "A9_fabricated_host_locked_session",
+      "status": "BLOCKED",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "BRAIN_HOST_NATIVE_REQUEST_KEY_MISMATCH",
+          "BRAIN_EXPERT_HOST_NATIVE_REQUEST_KEY_MISMATCH"
+        ],
+        "coverage_recomputed": {
+          "status": "PASS",
+          "errors": [],
+          "executed_councils": [
+            "X"
+          ]
+        },
+        "expert_proof": {
+          "status": "BLOCKED",
+          "errors": [
+            "EXPERT_HOST_NATIVE_REQUEST_KEY_MISMATCH"
+          ],
+          "required": [
+            "X"
+          ],
+          "executed": [
+            "X"
+          ]
+        }
+      }
+    }
+  ]
+}

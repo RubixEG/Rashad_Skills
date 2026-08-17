@@ -1,0 +1,18 @@
+{
+  "version": "7.0.2",
+  "prohibited_visible_terms_ar": [
+    "التعرّض",
+    "التعرض"
+  ],
+  "normalized_match": "التعرض",
+  "default_role16_visible_title_ar": "الالتزامات والمخاطر التجارية والمالية",
+  "internal_id_allowlist": [
+    "COMMERCIAL_EXPOSURE"
+  ],
+  "visible_exception_markers": [
+    "SOURCE_QUOTATION",
+    "HISTORICAL_SOURCE",
+    "OWNER_APPROVED_ENGAGEMENT_EXCEPTION"
+  ],
+  "profitability_cashflow_evidence_required": true
+}

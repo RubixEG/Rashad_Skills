@@ -1,0 +1,227 @@
+{
+  "suite": "Rashad OS Final Package Adversarial Red Team",
+  "status": "PASS",
+  "passed": 31,
+  "total": 31,
+  "attacks": [
+    {
+      "attack": "top_level_exactly_Rashad_and_QA",
+      "status": "PASS",
+      "detail": [
+        "QA",
+        "Rashad"
+      ]
+    },
+    {
+      "attack": "skill_v7_1_current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "skill_current_certification_harness_v71",
+      "status": "PASS",
+      "detail": {
+        "certification_harness": "tests/skill_certification/verify_skill_v7_1.py",
+        "certification_harnesses": [
+          "tests/skill_certification/verify_skill_v7_1.py",
+          "tests/skill_certification/red_team_skill_v7_1.py",
+          "tests/skill_certification/test_owner_arabic_executive_language_v7_0_2.py",
+          "tests/skill_certification/red_team_owner_arabic_language_v7_0_2.py"
+        ]
+      }
+    },
+    {
+      "attack": "protected_prompt_count_388",
+      "status": "PASS",
+      "detail": 388
+    },
+    {
+      "attack": "protected_scope_count_96",
+      "status": "PASS",
+      "detail": 96
+    },
+    {
+      "attack": "protected_mapping_count_96",
+      "status": "PASS",
+      "detail": 96
+    },
+    {
+      "attack": "protected_hashes_exact",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "rashad_brain_16_councils",
+      "status": "PASS",
+      "detail": 16
+    },
+    {
+      "attack": "qa_brain_14_councils",
+      "status": "PASS",
+      "detail": 14
+    },
+    {
+      "attack": "qa_brain_actual_pixel_council_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "qa_brain_artifact_skeptic_council_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "no_hardcoded_H1_winner",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "winner_requires_independent_judgment",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "artifact_brain_v3_20_councils",
+      "status": "PASS",
+      "detail": 20
+    },
+    {
+      "attack": "artifact_brain_v3_large_expert_universe",
+      "status": "PASS",
+      "detail": 107
+    },
+    {
+      "attack": "artifact_strategy_registry_matches_runtime",
+      "status": "PASS",
+      "detail": {
+        "registry": [
+          "ARCHITECTURE_LED",
+          "BEFORE_AFTER",
+          "CAUSE_EFFECT",
+          "CHART_LED",
+          "COMPARISON_LED",
+          "CONTROL_TOWER_LED",
+          "DECISION_LED",
+          "EVIDENCE_LED",
+          "HYBRID_EXHIBIT",
+          "IMAGE_LED",
+          "JOURNEY_LED",
+          "MAP_LED",
+          "MATRIX_LED",
+          "NUMBER_LED",
+          "PORTFOLIO_LED",
+          "PROCESS_LED",
+          "QUESTION_LED",
+          "SCENARIO_LED",
+          "SCORECARD_LED",
+          "SEQUENCE_LED",
+          "STATEMENT_LED",
+          "SYSTEM_LED",
+          "TABLE_LED",
+          "TRADEOFF_LED"
+        ],
+        "runtime": [
+          "ARCHITECTURE_LED",
+          "BEFORE_AFTER",
+          "CAUSE_EFFECT",
+          "CHART_LED",
+          "COMPARISON_LED",
+          "CONTROL_TOWER_LED",
+          "DECISION_LED",
+          "EVIDENCE_LED",
+          "HYBRID_EXHIBIT",
+          "IMAGE_LED",
+          "JOURNEY_LED",
+          "MAP_LED",
+          "MATRIX_LED",
+          "NUMBER_LED",
+          "PORTFOLIO_LED",
+          "PROCESS_LED",
+          "QUESTION_LED",
+          "SCENARIO_LED",
+          "SCORECARD_LED",
+          "SEQUENCE_LED",
+          "STATEMENT_LED",
+          "SYSTEM_LED",
+          "TABLE_LED",
+          "TRADEOFF_LED"
+        ]
+      }
+    },
+    {
+      "attack": "artifact_search_uses_communication_strategy_brain",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "actual_output_qa_runtime_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "artifact_brain_constitution_is_global",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "v71_delivery_authorities_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "qa_has_no_rashad_release_module",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "qa_cannot_emit_RELEASED",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "legacy_release_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "no_stale_absolute_runtime_path",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "owner_arabic_language_gate",
+      "status": "PASS",
+      "detail": "PASS owner Arabic executive naming v7.0.2"
+    },
+    {
+      "attack": "qa_brain_certification",
+      "status": "PASS",
+      "detail": "_blocks_brain\",\n      \"status\": \"PASS\",\n      \"detail\": {\n        \"status\": \"BLOCKED\",\n        \"final_verdict\": \"BLOCKED\",\n        \"reason\": \"DETERMINISTIC_QA_NOT_PASSED\",\n        \"deterministic_status\": \"FAIL\",\n        \"production_release_authority\": \"RASHAD_BRAIN_RELEASE_CHAIR\"\n      }\n    }\n  ]\n}"
+    },
+    {
+      "attack": "rashad_brain_certification",
+      "status": "PASS",
+      "detail": "IR\",\n        \"errors\": [\n          {\n            \"kind\": \"BRAIN_NOT_JUDGED\",\n            \"state\": \"COGNITIVE_LOCKED\"\n          },\n          {\n            \"kind\": \"INDEPENDENT_JUDGE_MISSING\"\n          },\n          {\n            \"kind\": \"RELEASE_CHAIR_MISSING\"\n          }\n        ]\n      }\n    }\n  ]\n}"
+    },
+    {
+      "attack": "no_pyc_cache",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "final_verifier_file_logged_single_run_resilient",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "regression_outputs_cleaned_each_run",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "no_nested_zip_packages",
+      "status": "PASS",
+      "detail": []
+    }
+  ]
+}

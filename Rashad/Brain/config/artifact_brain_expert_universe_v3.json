@@ -1,0 +1,970 @@
+{
+  "artifact_brain_version": "4.0.0",
+  "principle": "Large expert universe, bounded activation. Registered expertise does not imply governed knowledge readiness.",
+  "runtime_activation_policy": {
+    "mandatory_core_councils": [
+      "ARGUMENT_COUNCIL",
+      "EVIDENCE_EPISTEMIC_COUNCIL",
+      "COMMUNICATION_STRATEGY_COUNCIL",
+      "SIMPLICITY_COUNCIL",
+      "INFORMATION_DESIGN_COUNCIL",
+      "ARTIFACT_RED_TEAM"
+    ],
+    "max_active_councils_per_page": 12,
+    "max_active_roles_per_page": 18,
+    "all_registered_roles_loaded_by_default": false
+  },
+  "councils": [
+    {
+      "id": "ARGUMENT_COUNCIL",
+      "name": "Consulting Argument Council",
+      "roles": [
+        "AR-SENIOR-PARTNER",
+        "AR-ENGAGEMENT-PARTNER",
+        "AR-PRINCIPAL",
+        "AR-ENGAGEMENT-MANAGER",
+        "AR-STRATEGY-CONSULTANT",
+        "AR-TRANSFORMATION-SME",
+        "AR-OPERATING-MODEL-SME",
+        "AR-VALUE-CREATION-SME"
+      ]
+    },
+    {
+      "id": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "name": "Executive Audience Council",
+      "roles": [
+        "AR-CEO-GM-SIMULATOR",
+        "AR-CFO-SIMULATOR",
+        "AR-COO-SIMULATOR",
+        "AR-CIO-CTO-SIMULATOR",
+        "AR-CISO-SIMULATOR",
+        "AR-CHRO-SIMULATOR",
+        "AR-CHIEF-STRATEGY-TRANSFORMATION-SIMULATOR",
+        "AR-CHIEF-PROCUREMENT-SIMULATOR",
+        "AR-CHIEF-RISK-SIMULATOR",
+        "AR-PMO-DIRECTOR-SIMULATOR"
+      ]
+    },
+    {
+      "id": "EVALUATOR_COUNCIL",
+      "name": "Evaluator Simulation Council",
+      "roles": [
+        "AR-TECHNICAL-EVALUATOR",
+        "AR-COMMERCIAL-EVALUATOR",
+        "AR-PROCUREMENT-EVALUATOR",
+        "AR-SAUDI-GOVERNMENT-EVALUATOR",
+        "AR-LEGAL-REVIEWER",
+        "AR-CYBERSECURITY-REVIEWER",
+        "AR-DATA-PRIVACY-REVIEWER",
+        "AR-COMPLIANCE-REVIEWER"
+      ]
+    },
+    {
+      "id": "EVIDENCE_EPISTEMIC_COUNCIL",
+      "name": "Evidence & Epistemic Council",
+      "roles": [
+        "AR-EVIDENCE-ARCHITECT",
+        "AR-RESEARCH-ANALYST",
+        "AR-SOURCE-INTEGRITY-SME",
+        "AR-QUANTITATIVE-ANALYST",
+        "AR-ASSUMPTION-CHALLENGER",
+        "AR-EPISTEMIC-GOVERNOR"
+      ]
+    },
+    {
+      "id": "COMMUNICATION_STRATEGY_COUNCIL",
+      "name": "Communication Strategy Council",
+      "roles": [
+        "AR-COMMUNICATION-STRATEGIST",
+        "AR-EXECUTIVE-COMMUNICATION-ARCHITECT",
+        "AR-PROPOSAL-STORYLINER",
+        "AR-NARRATIVE-STRATEGIST",
+        "AR-DECISION-COMMUNICATION-SME"
+      ]
+    },
+    {
+      "id": "SIMPLICITY_COUNCIL",
+      "name": "Simplicity Council",
+      "roles": [
+        "AR-SENIOR-PARTNER-SIMPLICITY-REVIEWER",
+        "AR-EXECUTIVE-EDITOR",
+        "AR-COGNITIVE-LOAD-SPECIALIST",
+        "AR-INFORMATION-DESIGNER",
+        "AR-MINIMALISM-RESTRAINT-REVIEWER"
+      ]
+    },
+    {
+      "id": "INFORMATION_DESIGN_COUNCIL",
+      "name": "Information Design & Perception Council",
+      "roles": [
+        "AR-INFORMATION-ARCHITECT",
+        "AR-INFORMATION-DESIGNER",
+        "AR-DATA-VISUALIZATION-EXPERT",
+        "AR-VISUAL-PERCEPTION-EXPERT",
+        "AR-COGNITIVE-LOAD-SPECIALIST",
+        "AR-EDITORIAL-DESIGNER",
+        "AR-DASHBOARD-DESIGNER",
+        "AR-NARRATIVE-VISUALIZATION-EXPERT",
+        "AR-DIAGRAMMING-EXPERT"
+      ]
+    },
+    {
+      "id": "QUANTITATIVE_EXHIBIT_COUNCIL",
+      "name": "Quantitative Exhibit Council",
+      "roles": [
+        "AR-CFO-SIMULATOR",
+        "AR-QUANTITATIVE-ANALYST",
+        "AR-DATA-VISUALIZATION-EXPERT",
+        "AR-PRICING-SME",
+        "AR-COMMERCIAL-SME",
+        "AR-STATISTICS-SME",
+        "AR-FINANCIAL-MODELING-SME"
+      ]
+    },
+    {
+      "id": "SYSTEMS_ARCHITECTURE_COUNCIL",
+      "name": "Systems & Architecture Council",
+      "roles": [
+        "AR-ENTERPRISE-ARCHITECT",
+        "AR-SOLUTION-ARCHITECT",
+        "AR-BUSINESS-ARCHITECT",
+        "AR-INTEGRATION-ARCHITECT",
+        "AR-DATA-ARCHITECT",
+        "AR-AI-ARCHITECT",
+        "AR-CYBERSECURITY-ARCHITECT",
+        "AR-CLOUD-INFRASTRUCTURE-ARCHITECT",
+        "AR-OPERATING-MODEL-SME"
+      ]
+    },
+    {
+      "id": "STORYTELLING_EDITORIAL_COUNCIL",
+      "name": "Storytelling & Editorial Council",
+      "roles": [
+        "AR-ENGAGEMENT-PARTNER",
+        "AR-PROPOSAL-STORYLINER",
+        "AR-EXECUTIVE-WRITER",
+        "AR-EDITORIAL-DIRECTOR",
+        "AR-HEADLINE-SPECIALIST",
+        "AR-ARABIC-EDITORIAL-DIRECTOR"
+      ]
+    },
+    {
+      "id": "ARABIC_RTL_COUNCIL",
+      "name": "Arabic / RTL Composition Council",
+      "roles": [
+        "AR-ARABIC-EDITORIAL-DIRECTOR",
+        "AR-ARABIC-TYPOGRAPHY-EXPERT",
+        "AR-RTL-INFORMATION-DESIGNER",
+        "AR-BIDI-SPECIALIST",
+        "AR-ARABIC-EXECUTIVE-LANGUAGE-REVIEWER"
+      ]
+    },
+    {
+      "id": "CREATIVE_VISUAL_COUNCIL",
+      "name": "Creative Visual Council",
+      "roles": [
+        "AR-ART-DIRECTOR",
+        "AR-CONSULTING-PRESENTATION-DESIGNER",
+        "AR-CREATIVE-DIRECTOR",
+        "AR-VISUAL-METAPHOR-SPECIALIST",
+        "AR-IMAGE-DIRECTOR",
+        "AR-ILLUSTRATION-DIRECTOR",
+        "AR-PHOTOGRAPHY-HERO-IMAGE-DIRECTOR"
+      ]
+    },
+    {
+      "id": "BRAND_COUNCIL",
+      "name": "Brand Council",
+      "roles": [
+        "AR-BRAND-DIRECTOR",
+        "AR-RUBIX-BRAND-CUSTODIAN",
+        "AR-CO-BRANDING-REVIEWER",
+        "AR-VISUAL-IDENTITY-DESIGNER"
+      ]
+    },
+    {
+      "id": "PRODUCTION_COUNCIL",
+      "name": "Production Council",
+      "roles": [
+        "AR-PPTX-PRODUCTION-SPECIALIST",
+        "AR-GEOMETRY-ENGINEER",
+        "AR-TYPOGRAPHY-ENGINEER",
+        "AR-CONNECTOR-ROUTING-ENGINEER",
+        "AR-ASSET-MANAGER",
+        "AR-EXPORT-SPECIALIST",
+        "AR-PDF-PPTX-PARITY-SPECIALIST"
+      ]
+    },
+    {
+      "id": "INDEPENDENT_EXHIBIT_JUDGE_COUNCIL",
+      "name": "Independent Exhibit Judge Council",
+      "roles": [
+        "AR-INDEPENDENT-CONSULTING-PARTNER",
+        "AR-INDEPENDENT-INFORMATION-DESIGNER",
+        "AR-INDEPENDENT-EXECUTIVE-SIMULATOR",
+        "AR-INDEPENDENT-EVIDENCE-JUDGE",
+        "AR-INDEPENDENT-VISUAL-QA-JUDGE"
+      ]
+    },
+    {
+      "id": "ARTIFACT_RED_TEAM",
+      "name": "Artifact Red Team",
+      "roles": [
+        "AR-GENERIC-LAYOUT-ATTACKER",
+        "AR-DIAGRAM-OVERUSE-ATTACKER",
+        "AR-TEMPLATE-SIMILARITY-ATTACKER",
+        "AR-COMPLEXITY-ATTACKER",
+        "AR-EVIDENCE-OMISSION-ATTACKER",
+        "AR-FIVE-SECOND-COMPREHENSION-ATTACKER"
+      ]
+    },
+    {
+      "id": "DECK_ARTISTIC_DIRECTOR_COUNCIL",
+      "name": "Deck Artistic Director Council",
+      "roles": [
+        "AR-DECK-STORY-DIRECTOR",
+        "AR-VISUAL-RHYTHM-DIRECTOR",
+        "AR-EXECUTIVE-NARRATIVE-REVIEWER",
+        "AR-INFORMATION-DENSITY-REVIEWER",
+        "AR-CROSS-DECK-VARIETY-REVIEWER"
+      ]
+    },
+    {
+      "id": "META_EXPERTISE_ROUTER",
+      "name": "Meta-Cognition / Expertise Router",
+      "roles": [
+        "AR-MISSING-EXPERTISE-DETECTOR",
+        "AR-COUNCIL-INTEGRITY-REVIEWER",
+        "AR-KNOWLEDGE-READINESS-ROUTER",
+        "AR-SPECIALIST-ESCALATION-DIRECTOR"
+      ]
+    },
+    {
+      "id": "ART_DIRECTION_COUNCIL",
+      "purpose": "Convert the winning communication strategy into page-specific visual concept, art direction, focal hierarchy and negative-space logic before geometry.",
+      "roles": [
+        "AR-CREATIVE-DIRECTOR",
+        "AR-ART-DIRECTOR",
+        "AR-CONSULTING-PRESENTATION-DESIGNER",
+        "AR-INFORMATION-DESIGNER",
+        "AR-VISUAL-PERCEPTION-EXPERT",
+        "AR-SENIOR-PARTNER-SIMPLICITY-REVIEWER"
+      ]
+    },
+    {
+      "id": "USER_VISIBLE_DELIVERY_COUNCIL",
+      "purpose": "Verify production render authenticity, actual-output QA closure, export integrity and exact-file delivery evidence; no concept-wireframe delivery.",
+      "roles": [
+        "AR-PPTX-PRODUCTION-SPECIALIST",
+        "AR-EXPORT-SPECIALIST",
+        "AR-PDF-PPTX-PARITY-SPECIALIST",
+        "AR-INDEPENDENT-VISUAL-QA-JUDGE",
+        "AR-INDEPENDENT-CONSULTING-PARTNER",
+        "AR-COUNCIL-INTEGRITY-REVIEWER"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "AR-SENIOR-PARTNER",
+      "name": "Senior Partner",
+      "home_council": "ARGUMENT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-ENGAGEMENT-PARTNER",
+      "name": "Engagement Partner",
+      "home_council": "ARGUMENT_COUNCIL",
+      "secondary_councils": [
+        "STORYTELLING_EDITORIAL_COUNCIL"
+      ]
+    },
+    {
+      "id": "AR-PRINCIPAL",
+      "name": "Principal",
+      "home_council": "ARGUMENT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-ENGAGEMENT-MANAGER",
+      "name": "Engagement Manager",
+      "home_council": "ARGUMENT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-STRATEGY-CONSULTANT",
+      "name": "Strategy Consultant",
+      "home_council": "ARGUMENT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-TRANSFORMATION-SME",
+      "name": "Transformation SME",
+      "home_council": "ARGUMENT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-OPERATING-MODEL-SME",
+      "name": "Operating Model SME",
+      "home_council": "ARGUMENT_COUNCIL",
+      "secondary_councils": [
+        "SYSTEMS_ARCHITECTURE_COUNCIL"
+      ]
+    },
+    {
+      "id": "AR-VALUE-CREATION-SME",
+      "name": "Value Creation SME",
+      "home_council": "ARGUMENT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CEO-GM-SIMULATOR",
+      "name": "CEO / GM Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CFO-SIMULATOR",
+      "name": "CFO Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": [
+        "QUANTITATIVE_EXHIBIT_COUNCIL"
+      ]
+    },
+    {
+      "id": "AR-COO-SIMULATOR",
+      "name": "COO Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CIO-CTO-SIMULATOR",
+      "name": "CIO / CTO Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CISO-SIMULATOR",
+      "name": "CISO Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CHRO-SIMULATOR",
+      "name": "CHRO Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CHIEF-STRATEGY-TRANSFORMATION-SIMULATOR",
+      "name": "Chief Strategy / Transformation Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CHIEF-PROCUREMENT-SIMULATOR",
+      "name": "Chief Procurement Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CHIEF-RISK-SIMULATOR",
+      "name": "Chief Risk Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-PMO-DIRECTOR-SIMULATOR",
+      "name": "PMO Director Simulator",
+      "home_council": "EXECUTIVE_AUDIENCE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-TECHNICAL-EVALUATOR",
+      "name": "Technical Evaluator",
+      "home_council": "EVALUATOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-COMMERCIAL-EVALUATOR",
+      "name": "Commercial Evaluator",
+      "home_council": "EVALUATOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-PROCUREMENT-EVALUATOR",
+      "name": "Procurement Evaluator",
+      "home_council": "EVALUATOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-SAUDI-GOVERNMENT-EVALUATOR",
+      "name": "Saudi Government Evaluator",
+      "home_council": "EVALUATOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-LEGAL-REVIEWER",
+      "name": "Legal Reviewer",
+      "home_council": "EVALUATOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CYBERSECURITY-REVIEWER",
+      "name": "Cybersecurity Reviewer",
+      "home_council": "EVALUATOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-DATA-PRIVACY-REVIEWER",
+      "name": "Data / Privacy Reviewer",
+      "home_council": "EVALUATOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-COMPLIANCE-REVIEWER",
+      "name": "Compliance Reviewer",
+      "home_council": "EVALUATOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EVIDENCE-ARCHITECT",
+      "name": "Evidence Architect",
+      "home_council": "EVIDENCE_EPISTEMIC_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-RESEARCH-ANALYST",
+      "name": "Research Analyst",
+      "home_council": "EVIDENCE_EPISTEMIC_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-SOURCE-INTEGRITY-SME",
+      "name": "Source Integrity SME",
+      "home_council": "EVIDENCE_EPISTEMIC_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-QUANTITATIVE-ANALYST",
+      "name": "Quantitative Analyst",
+      "home_council": "EVIDENCE_EPISTEMIC_COUNCIL",
+      "secondary_councils": [
+        "QUANTITATIVE_EXHIBIT_COUNCIL"
+      ]
+    },
+    {
+      "id": "AR-ASSUMPTION-CHALLENGER",
+      "name": "Assumption Challenger",
+      "home_council": "EVIDENCE_EPISTEMIC_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EPISTEMIC-GOVERNOR",
+      "name": "Epistemic Governor",
+      "home_council": "EVIDENCE_EPISTEMIC_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-COMMUNICATION-STRATEGIST",
+      "name": "Communication Strategist",
+      "home_council": "COMMUNICATION_STRATEGY_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EXECUTIVE-COMMUNICATION-ARCHITECT",
+      "name": "Executive Communication Architect",
+      "home_council": "COMMUNICATION_STRATEGY_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-PROPOSAL-STORYLINER",
+      "name": "Proposal Storyliner",
+      "home_council": "COMMUNICATION_STRATEGY_COUNCIL",
+      "secondary_councils": [
+        "STORYTELLING_EDITORIAL_COUNCIL"
+      ]
+    },
+    {
+      "id": "AR-NARRATIVE-STRATEGIST",
+      "name": "Narrative Strategist",
+      "home_council": "COMMUNICATION_STRATEGY_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-DECISION-COMMUNICATION-SME",
+      "name": "Decision Communication SME",
+      "home_council": "COMMUNICATION_STRATEGY_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-SENIOR-PARTNER-SIMPLICITY-REVIEWER",
+      "name": "Senior Partner Simplicity Reviewer",
+      "home_council": "SIMPLICITY_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EXECUTIVE-EDITOR",
+      "name": "Executive Editor",
+      "home_council": "SIMPLICITY_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-COGNITIVE-LOAD-SPECIALIST",
+      "name": "Cognitive Load Specialist",
+      "home_council": "SIMPLICITY_COUNCIL",
+      "secondary_councils": [
+        "INFORMATION_DESIGN_COUNCIL"
+      ]
+    },
+    {
+      "id": "AR-INFORMATION-DESIGNER",
+      "name": "Information Designer",
+      "home_council": "SIMPLICITY_COUNCIL",
+      "secondary_councils": [
+        "INFORMATION_DESIGN_COUNCIL"
+      ]
+    },
+    {
+      "id": "AR-MINIMALISM-RESTRAINT-REVIEWER",
+      "name": "Minimalism / Restraint Reviewer",
+      "home_council": "SIMPLICITY_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-INFORMATION-ARCHITECT",
+      "name": "Information Architect",
+      "home_council": "INFORMATION_DESIGN_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-DATA-VISUALIZATION-EXPERT",
+      "name": "Data Visualization Expert",
+      "home_council": "INFORMATION_DESIGN_COUNCIL",
+      "secondary_councils": [
+        "QUANTITATIVE_EXHIBIT_COUNCIL"
+      ]
+    },
+    {
+      "id": "AR-VISUAL-PERCEPTION-EXPERT",
+      "name": "Visual Perception Expert",
+      "home_council": "INFORMATION_DESIGN_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EDITORIAL-DESIGNER",
+      "name": "Editorial Designer",
+      "home_council": "INFORMATION_DESIGN_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-DASHBOARD-DESIGNER",
+      "name": "Dashboard Designer",
+      "home_council": "INFORMATION_DESIGN_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-NARRATIVE-VISUALIZATION-EXPERT",
+      "name": "Narrative Visualization Expert",
+      "home_council": "INFORMATION_DESIGN_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-DIAGRAMMING-EXPERT",
+      "name": "Diagramming Expert",
+      "home_council": "INFORMATION_DESIGN_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-PRICING-SME",
+      "name": "Pricing SME",
+      "home_council": "QUANTITATIVE_EXHIBIT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-COMMERCIAL-SME",
+      "name": "Commercial SME",
+      "home_council": "QUANTITATIVE_EXHIBIT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-STATISTICS-SME",
+      "name": "Statistics SME",
+      "home_council": "QUANTITATIVE_EXHIBIT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-FINANCIAL-MODELING-SME",
+      "name": "Financial Modeling SME",
+      "home_council": "QUANTITATIVE_EXHIBIT_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-ENTERPRISE-ARCHITECT",
+      "name": "Enterprise Architect",
+      "home_council": "SYSTEMS_ARCHITECTURE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-SOLUTION-ARCHITECT",
+      "name": "Solution Architect",
+      "home_council": "SYSTEMS_ARCHITECTURE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-BUSINESS-ARCHITECT",
+      "name": "Business Architect",
+      "home_council": "SYSTEMS_ARCHITECTURE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-INTEGRATION-ARCHITECT",
+      "name": "Integration Architect",
+      "home_council": "SYSTEMS_ARCHITECTURE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-DATA-ARCHITECT",
+      "name": "Data Architect",
+      "home_council": "SYSTEMS_ARCHITECTURE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-AI-ARCHITECT",
+      "name": "AI Architect",
+      "home_council": "SYSTEMS_ARCHITECTURE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CYBERSECURITY-ARCHITECT",
+      "name": "Cybersecurity Architect",
+      "home_council": "SYSTEMS_ARCHITECTURE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CLOUD-INFRASTRUCTURE-ARCHITECT",
+      "name": "Cloud / Infrastructure Architect",
+      "home_council": "SYSTEMS_ARCHITECTURE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EXECUTIVE-WRITER",
+      "name": "Executive Writer",
+      "home_council": "STORYTELLING_EDITORIAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EDITORIAL-DIRECTOR",
+      "name": "Editorial Director",
+      "home_council": "STORYTELLING_EDITORIAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-HEADLINE-SPECIALIST",
+      "name": "Headline Specialist",
+      "home_council": "STORYTELLING_EDITORIAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-ARABIC-EDITORIAL-DIRECTOR",
+      "name": "Arabic Editorial Director",
+      "home_council": "STORYTELLING_EDITORIAL_COUNCIL",
+      "secondary_councils": [
+        "ARABIC_RTL_COUNCIL"
+      ]
+    },
+    {
+      "id": "AR-ARABIC-TYPOGRAPHY-EXPERT",
+      "name": "Arabic Typography Expert",
+      "home_council": "ARABIC_RTL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-RTL-INFORMATION-DESIGNER",
+      "name": "RTL Information Designer",
+      "home_council": "ARABIC_RTL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-BIDI-SPECIALIST",
+      "name": "BiDi Specialist",
+      "home_council": "ARABIC_RTL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-ARABIC-EXECUTIVE-LANGUAGE-REVIEWER",
+      "name": "Arabic Executive Language Reviewer",
+      "home_council": "ARABIC_RTL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-ART-DIRECTOR",
+      "name": "Art Director",
+      "home_council": "CREATIVE_VISUAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CONSULTING-PRESENTATION-DESIGNER",
+      "name": "Consulting Presentation Designer",
+      "home_council": "CREATIVE_VISUAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CREATIVE-DIRECTOR",
+      "name": "Creative Director",
+      "home_council": "CREATIVE_VISUAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-VISUAL-METAPHOR-SPECIALIST",
+      "name": "Visual Metaphor Specialist",
+      "home_council": "CREATIVE_VISUAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-IMAGE-DIRECTOR",
+      "name": "Image Director",
+      "home_council": "CREATIVE_VISUAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-ILLUSTRATION-DIRECTOR",
+      "name": "Illustration Director",
+      "home_council": "CREATIVE_VISUAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-PHOTOGRAPHY-HERO-IMAGE-DIRECTOR",
+      "name": "Photography / Hero Image Director",
+      "home_council": "CREATIVE_VISUAL_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-BRAND-DIRECTOR",
+      "name": "Brand Director",
+      "home_council": "BRAND_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-RUBIX-BRAND-CUSTODIAN",
+      "name": "Rubix Brand Custodian",
+      "home_council": "BRAND_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CO-BRANDING-REVIEWER",
+      "name": "Co-branding Reviewer",
+      "home_council": "BRAND_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-VISUAL-IDENTITY-DESIGNER",
+      "name": "Visual Identity Designer",
+      "home_council": "BRAND_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-PPTX-PRODUCTION-SPECIALIST",
+      "name": "PPTX Production Specialist",
+      "home_council": "PRODUCTION_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-GEOMETRY-ENGINEER",
+      "name": "Geometry Engineer",
+      "home_council": "PRODUCTION_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-TYPOGRAPHY-ENGINEER",
+      "name": "Typography Engineer",
+      "home_council": "PRODUCTION_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CONNECTOR-ROUTING-ENGINEER",
+      "name": "Connector / Routing Engineer",
+      "home_council": "PRODUCTION_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-ASSET-MANAGER",
+      "name": "Asset Manager",
+      "home_council": "PRODUCTION_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EXPORT-SPECIALIST",
+      "name": "Export Specialist",
+      "home_council": "PRODUCTION_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-PDF-PPTX-PARITY-SPECIALIST",
+      "name": "PDF / PPTX Parity Specialist",
+      "home_council": "PRODUCTION_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-INDEPENDENT-CONSULTING-PARTNER",
+      "name": "Independent Consulting Partner",
+      "home_council": "INDEPENDENT_EXHIBIT_JUDGE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-INDEPENDENT-INFORMATION-DESIGNER",
+      "name": "Independent Information Designer",
+      "home_council": "INDEPENDENT_EXHIBIT_JUDGE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-INDEPENDENT-EXECUTIVE-SIMULATOR",
+      "name": "Independent Executive Simulator",
+      "home_council": "INDEPENDENT_EXHIBIT_JUDGE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-INDEPENDENT-EVIDENCE-JUDGE",
+      "name": "Independent Evidence Judge",
+      "home_council": "INDEPENDENT_EXHIBIT_JUDGE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-INDEPENDENT-VISUAL-QA-JUDGE",
+      "name": "Independent Visual QA Judge",
+      "home_council": "INDEPENDENT_EXHIBIT_JUDGE_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-GENERIC-LAYOUT-ATTACKER",
+      "name": "Generic Layout Attacker",
+      "home_council": "ARTIFACT_RED_TEAM",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-DIAGRAM-OVERUSE-ATTACKER",
+      "name": "Diagram Overuse Attacker",
+      "home_council": "ARTIFACT_RED_TEAM",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-TEMPLATE-SIMILARITY-ATTACKER",
+      "name": "Template Similarity Attacker",
+      "home_council": "ARTIFACT_RED_TEAM",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-COMPLEXITY-ATTACKER",
+      "name": "Complexity Attacker",
+      "home_council": "ARTIFACT_RED_TEAM",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EVIDENCE-OMISSION-ATTACKER",
+      "name": "Evidence Omission Attacker",
+      "home_council": "ARTIFACT_RED_TEAM",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-FIVE-SECOND-COMPREHENSION-ATTACKER",
+      "name": "Five-Second Comprehension Attacker",
+      "home_council": "ARTIFACT_RED_TEAM",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-DECK-STORY-DIRECTOR",
+      "name": "Deck Story Director",
+      "home_council": "DECK_ARTISTIC_DIRECTOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-VISUAL-RHYTHM-DIRECTOR",
+      "name": "Visual Rhythm Director",
+      "home_council": "DECK_ARTISTIC_DIRECTOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-EXECUTIVE-NARRATIVE-REVIEWER",
+      "name": "Executive Narrative Reviewer",
+      "home_council": "DECK_ARTISTIC_DIRECTOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-INFORMATION-DENSITY-REVIEWER",
+      "name": "Information Density Reviewer",
+      "home_council": "DECK_ARTISTIC_DIRECTOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-CROSS-DECK-VARIETY-REVIEWER",
+      "name": "Cross-deck Variety Reviewer",
+      "home_council": "DECK_ARTISTIC_DIRECTOR_COUNCIL",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-MISSING-EXPERTISE-DETECTOR",
+      "name": "Missing Expertise Detector",
+      "home_council": "META_EXPERTISE_ROUTER",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-COUNCIL-INTEGRITY-REVIEWER",
+      "name": "Council Integrity Reviewer",
+      "home_council": "META_EXPERTISE_ROUTER",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-KNOWLEDGE-READINESS-ROUTER",
+      "name": "Knowledge Readiness Router",
+      "home_council": "META_EXPERTISE_ROUTER",
+      "secondary_councils": []
+    },
+    {
+      "id": "AR-SPECIALIST-ESCALATION-DIRECTOR",
+      "name": "Specialist Escalation Director",
+      "home_council": "META_EXPERTISE_ROUTER",
+      "secondary_councils": []
+    }
+  ],
+  "communication_strategy_universe": [
+    "STATEMENT_LED",
+    "NUMBER_LED",
+    "EVIDENCE_LED",
+    "TABLE_LED",
+    "CHART_LED",
+    "COMPARISON_LED",
+    "MATRIX_LED",
+    "DECISION_LED",
+    "SCORECARD_LED",
+    "QUESTION_LED",
+    "SEQUENCE_LED",
+    "PROCESS_LED",
+    "SYSTEM_LED",
+    "ARCHITECTURE_LED",
+    "IMAGE_LED",
+    "HYBRID_EXHIBIT",
+    "SCENARIO_LED",
+    "TRADEOFF_LED",
+    "BEFORE_AFTER",
+    "CAUSE_EFFECT",
+    "PORTFOLIO_LED",
+    "MAP_LED",
+    "JOURNEY_LED",
+    "CONTROL_TOWER_LED"
+  ],
+  "constitution": [
+    "AN_ARTIFACT_IS_NOT_A_DIAGRAM",
+    "ANSWER_FIRST",
+    "SIMPLEST_VALID_FORM_WINS",
+    "COMPLEXITY_MUST_BE_EARNED",
+    "NO_TEMPLATE_SELECTION_AS_THINKING",
+    "NO_POSITIONAL_HYPOTHESIS_WINNER",
+    "ACTUAL_PIXELS_REQUIRE_ACTUAL_OUTPUT_QA",
+    "DECK_RHYTHM_IS_A_RELEASE_CONCERN"
+  ],
+  "registered_role_count": 107,
+  "version": "4.0.0",
+  "artifact_brain_name": "Rashad Consulting Artifact Intelligence Brain v3.3",
+  "communication_strategy_count": 24,
+  "name": "Rashad Artifact Intelligence Expert Universe v4.0"
+}

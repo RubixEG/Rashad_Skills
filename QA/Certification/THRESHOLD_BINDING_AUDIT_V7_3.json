@@ -1,0 +1,476 @@
+{
+  "suite": "Rashad v7.3 Active Threshold Binding Audit",
+  "status": "PASS",
+  "active_thresholds": 44,
+  "retired_thresholds": 6,
+  "bound": 44,
+  "rows": [
+    {
+      "threshold": "overflow_px",
+      "value": 1.5,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "overlap_area_px",
+      "value": 80,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "line_overlap_px2",
+      "value": 4,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "header_gap_px",
+      "value": 10,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "header_artifact_gap_px",
+      "value": 14,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "connector_attach_px",
+      "value": 18,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "label_attach_px",
+      "value": 90,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "owner_anchor_tolerance_px",
+      "value": 14,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "align_px",
+      "value": 5,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "spacing_variance_px",
+      "value": 10,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "padding_min_px",
+      "value": 8,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "padding_max_px",
+      "value": 100,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "min_body_font_px",
+      "value": 14,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "min_source_font_px",
+      "value": 12,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "max_title_font_px",
+      "value": 92,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "min_title_font_px",
+      "value": 28,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "max_transform_scale_ratio",
+      "value": 1.12,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "max_rotation_deg",
+      "value": 1.0,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "card_dominance_ratio",
+      "value": 0.52,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "balance_extreme_ratio",
+      "value": 0.88,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "stress_font_scales",
+      "value": [
+        1.08,
+        1.1,
+        1.15
+      ],
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "stress_line_height_scales",
+      "value": [
+        1.08,
+        1.12
+      ],
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "min_master_width",
+      "value": 3840,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/parity_qa.py"
+      ]
+    },
+    {
+      "threshold": "min_master_height",
+      "value": 2160,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/parity_qa.py"
+      ]
+    },
+    {
+      "threshold": "anti_template_tau",
+      "value": 0.085,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/unified_html_qa.py"
+      ]
+    },
+    {
+      "threshold": "deck_distinct_composition_floor",
+      "value": 0.7,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/unified_html_qa.py"
+      ]
+    },
+    {
+      "threshold": "stress_arabic_modes",
+      "value": [
+        "ARABIC_INDIC_NUMERALS",
+        "LONG_LATIN_TOKEN",
+        "FIVE_DIGIT_BADGE",
+        "TITLE_THREE_LINES",
+        "FONT_FALLBACK",
+        "NODE_GROWTH"
+      ],
+      "status": "BOUND",
+      "consumers": [
+        "QA/Brain/stress_contract_parity_v7_3.py",
+        "QA/Runtime/qa/unified_html_qa.py"
+      ]
+    },
+    {
+      "threshold": "min_visual_fill_density",
+      "value": 0.12,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/stress_and_safety.py"
+      ]
+    },
+    {
+      "threshold": "target_visual_fill_density",
+      "value": 0.3,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/stress_and_safety.py"
+      ]
+    },
+    {
+      "threshold": "max_visual_fill_density",
+      "value": 0.72,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/stress_and_safety.py"
+      ]
+    },
+    {
+      "threshold": "artifact_truth_min",
+      "value": 90,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Brain/runtime/validation/execution_dossier_v4.py",
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/actual_output_qa.py",
+        "QA/Runtime/qa/unified_html_qa.py"
+      ]
+    },
+    {
+      "threshold": "ceqs_min",
+      "value": 90,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Brain/runtime/validation/execution_dossier_v4.py",
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/actual_output_qa.py",
+        "QA/Runtime/qa/unified_html_qa.py"
+      ]
+    },
+    {
+      "threshold": "max_edge_crossings_critical",
+      "value": 2,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/gates_v26.py"
+      ]
+    },
+    {
+      "threshold": "evidence_claim_distance_px",
+      "value": 220,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/gates_v26.py"
+      ]
+    },
+    {
+      "threshold": "dominant_mass_min",
+      "value": 0.32,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Skill/tests/skill_certification/red_team_skill_v7_3.py",
+        "Rashad/Skill/tests/skill_certification/verify_skill_v7_3.py",
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/product_geometry.py",
+        "Rashad/Brain/runtime/brain/composition_spec.py",
+        "QA/Brain/remediation_matrix_v7_3.py",
+        "QA/Runtime/qa/gates_v26.py"
+      ]
+    },
+    {
+      "threshold": "dominant_mass_max",
+      "value": 0.68,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Skill/tests/skill_certification/verify_skill_v7_3.py",
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/product_geometry.py",
+        "Rashad/Brain/runtime/brain/composition_spec.py",
+        "QA/Runtime/qa/gates_v26.py"
+      ]
+    },
+    {
+      "threshold": "max_template_twins_per_4_pages",
+      "value": 0,
+      "status": "BOUND",
+      "consumers": [
+        "QA/Runtime/qa/unified_html_qa.py"
+      ]
+    },
+    {
+      "threshold": "min_exhibit_hypotheses",
+      "value": 5,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/visual_search.py"
+      ]
+    },
+    {
+      "threshold": "min_actual_render_candidates_critical",
+      "value": 3,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Brain/runtime/validation/execution_dossier_v4.py",
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py"
+      ]
+    },
+    {
+      "threshold": "min_pairwise_structural_divergence_critical",
+      "value": 0.12,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Brain/runtime/validation/execution_dossier_v4.py",
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/spec_divergence.py",
+        "Rashad/Brain/runtime/brain/product_geometry.py",
+        "Rashad/Brain/runtime/brain/composition_spec.py"
+      ]
+    },
+    {
+      "threshold": "target_pairwise_structural_divergence",
+      "value": 0.18,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Brain/runtime/validation/execution_dossier_v4.py",
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/spec_divergence.py",
+        "Rashad/Brain/runtime/brain/composition_spec.py"
+      ]
+    },
+    {
+      "threshold": "diagram_ratio_hard_block",
+      "value": 0.55,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/actual_output_qa.py",
+        "QA/Brain/artifact_brain_regression_v7_3.py"
+      ]
+    },
+    {
+      "threshold": "safe_area_min_visible_px2",
+      "value": 16,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/product_geometry.py",
+        "QA/Brain/remediation_matrix_v7_3.py",
+        "QA/Runtime/qa/visual_qa_core.py"
+      ]
+    },
+    {
+      "threshold": "min_type_hierarchy_levels",
+      "value": 3,
+      "status": "BOUND",
+      "consumers": [
+        "Rashad/Brain/runtime/brain/quality_floors_v7_3.py",
+        "Rashad/Brain/runtime/brain/composition_spec.py"
+      ]
+    }
+  ],
+  "parity": [
+    {
+      "threshold": "dominant_mass_min",
+      "qa_profile": 0.32,
+      "brain_floor": 0.32,
+      "status": "PASS"
+    },
+    {
+      "threshold": "dominant_mass_max",
+      "qa_profile": 0.68,
+      "brain_floor": 0.68,
+      "status": "PASS"
+    },
+    {
+      "threshold": "artifact_truth_min",
+      "qa_profile": 90,
+      "brain_floor": 90,
+      "status": "PASS"
+    },
+    {
+      "threshold": "ceqs_min",
+      "qa_profile": 90,
+      "brain_floor": 90,
+      "status": "PASS"
+    },
+    {
+      "threshold": "min_pairwise_structural_divergence_critical",
+      "qa_profile": 0.12,
+      "brain_floor": 0.12,
+      "status": "PASS"
+    },
+    {
+      "threshold": "target_pairwise_structural_divergence",
+      "qa_profile": 0.18,
+      "brain_floor": 0.18,
+      "status": "PASS"
+    },
+    {
+      "threshold": "diagram_ratio_hard_block",
+      "qa_profile": 0.55,
+      "brain_floor": 0.55,
+      "status": "PASS"
+    },
+    {
+      "threshold": "safe_area_min_visible_px2",
+      "qa_profile": 16,
+      "brain_floor": 16,
+      "status": "PASS"
+    },
+    {
+      "threshold": "min_type_hierarchy_levels",
+      "qa_profile": 3,
+      "brain_floor": 3,
+      "status": "PASS"
+    },
+    {
+      "threshold": "min_exhibit_hypotheses",
+      "qa_profile": 5,
+      "brain_floor": 5,
+      "status": "PASS"
+    },
+    {
+      "threshold": "min_actual_render_candidates_critical",
+      "qa_profile": 3,
+      "brain_floor": 3,
+      "status": "PASS"
+    }
+  ],
+  "blockers": []
+}

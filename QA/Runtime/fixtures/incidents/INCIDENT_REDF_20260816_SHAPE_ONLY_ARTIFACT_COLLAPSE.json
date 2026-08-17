@@ -1,0 +1,179 @@
+{
+  "status": "BLOCKED",
+  "blockers": [
+    "PPTX_SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE"
+  ],
+  "warnings": [],
+  "pptx_sha256": "4f7664a20eb2e4fd89a54f39bde3d63c1cd80ec99e8205a9cef398b2f39cd651",
+  "slide_count": 14,
+  "slides": [
+    {
+      "slide": 1,
+      "shapes": 9,
+      "pictures": 2,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 6,
+      "text_chars": 273,
+      "structural_fingerprint": "S9|P2|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 2,
+      "shapes": 32,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 20,
+      "text_chars": 653,
+      "structural_fingerprint": "S32|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 3,
+      "shapes": 30,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 22,
+      "text_chars": 436,
+      "structural_fingerprint": "S30|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 4,
+      "shapes": 28,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 20,
+      "text_chars": 405,
+      "structural_fingerprint": "S28|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 5,
+      "shapes": 34,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 26,
+      "text_chars": 723,
+      "structural_fingerprint": "S34|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 6,
+      "shapes": 23,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 16,
+      "text_chars": 581,
+      "structural_fingerprint": "S23|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 7,
+      "shapes": 40,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 33,
+      "text_chars": 538,
+      "structural_fingerprint": "S40|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 8,
+      "shapes": 31,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 21,
+      "text_chars": 783,
+      "structural_fingerprint": "S31|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 9,
+      "shapes": 42,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 25,
+      "text_chars": 430,
+      "structural_fingerprint": "S42|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 10,
+      "shapes": 26,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 16,
+      "text_chars": 433,
+      "structural_fingerprint": "S26|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 11,
+      "shapes": 45,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 27,
+      "text_chars": 490,
+      "structural_fingerprint": "S45|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 12,
+      "shapes": 41,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 22,
+      "text_chars": 424,
+      "structural_fingerprint": "S41|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 13,
+      "shapes": 41,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 30,
+      "text_chars": 453,
+      "structural_fingerprint": "S41|P0|G0|C0|T0|CH0"
+    },
+    {
+      "slide": 14,
+      "shapes": 29,
+      "pictures": 0,
+      "graphic_frames": 0,
+      "connectors": 0,
+      "tables": 0,
+      "charts": 0,
+      "text_runs": 18,
+      "text_chars": 494,
+      "structural_fingerprint": "S29|P0|G0|C0|T0|CH0"
+    }
+  ]
+}

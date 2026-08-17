@@ -1,0 +1,1256 @@
+{
+  "suite": "Rashad v7.2.1 Final A-to-Z Brain/Architecture/Workflow/QA Audit",
+  "status": "PASS",
+  "passed": 107,
+  "total": 107,
+  "categories": [
+    {
+      "letter": "A",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4,
+      "checks": [
+        {
+          "name": "canonical_skill_version_7_2",
+          "status": "PASS",
+          "detail": [
+            "7.2.1",
+            "7.2.1",
+            "7.2.1",
+            "7.2.1"
+          ]
+        },
+        {
+          "name": "brain_version_3_4",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "global_authorities_exist",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "current_cert_harness_v72",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4,
+      "checks": [
+        {
+          "name": "brain_manifest_bound_to_v72",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "brain_actor_count_69",
+          "status": "PASS",
+          "detail": 69
+        },
+        {
+          "name": "brain_actor_ids_unique",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "brain_layers_include_expert_execution",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4,
+      "checks": [
+        {
+          "name": "constitutional_council_count_16",
+          "status": "PASS",
+          "detail": 16
+        },
+        {
+          "name": "artifact_council_count_20",
+          "status": "PASS",
+          "detail": 20
+        },
+        {
+          "name": "qa_council_count_14",
+          "status": "PASS",
+          "detail": 14
+        },
+        {
+          "name": "artifact_council_roles_all_resolve",
+          "status": "PASS",
+          "detail": []
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4,
+      "checks": [
+        {
+          "name": "protected_corpus_hash_exact",
+          "status": "PASS",
+          "detail": []
+        },
+        {
+          "name": "protected_counts_388_96_96",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "evidence_governor_registered",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "claim_visual_binding_runtime",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "E",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4,
+      "checks": [
+        {
+          "name": "all_registered_brain_actors_reachable",
+          "status": "PASS",
+          "detail": {
+            "unreachable": [],
+            "unknown": []
+          }
+        },
+        {
+          "name": "technical_route_pass",
+          "status": "PASS",
+          "detail": {
+            "status": "PASS",
+            "selected_experts": [
+              "SME-EVIDENCE",
+              "SIM-GOV-EVALUATOR",
+              "GOV-EVIDENCE",
+              "GOV-KNOWLEDGE-READINESS",
+              "SME-ENTERPRISE-ARCH",
+              "SME-SOLUTION-ARCH",
+              "SIM-CIO-CTO",
+              "GOV-TECHNICAL-FEASIBILITY",
+              "SME-AI-ENGINEERING",
+              "SME-CYBER",
+              "SME-CLOUD-INFRA",
+              "SME-BACKEND",
+              "SME-UX",
+              "GOV-ARTIFACT-PIPELINE"
+            ],
+            "required_experts": [
+              "SME-EVIDENCE",
+              "SIM-GOV-EVALUATOR",
+              "GOV-EVIDENCE",
+              "GOV-KNOWLEDGE-READINESS",
+              "SME-ENTERPRISE-ARCH",
+              "SME-SOLUTION-ARCH",
+              "SIM-CIO-CTO",
+              "GOV-TECHNICAL-FEASIBILITY",
+              "SME-AI-ENGINEERING",
+              "SME-CYBER",
+              "SME-CLOUD-INFRA",
+              "SME-BACKEND",
+              "SME-UX",
+              "GOV-ARTIFACT-PIPELINE"
+            ],
+            "selected_count": 14,
+            "max_active_experts": 14,
+            "matched_domains": [
+              "TECH_ARCH",
+              "AI_DATA",
+              "CYBER_PRIVACY",
+              "CLOUD_DEVOPS",
+              "SOFTWARE_ENGINEERING",
+              "UX_ACCESSIBILITY",
+              "ARTIFACT_DELIVERY"
+            ],
+            "selection_reasons": {
+              "SME-EVIDENCE": [
+                "CORE"
+              ],
+              "SIM-GOV-EVALUATOR": [
+                "CORE"
+              ],
+              "GOV-EVIDENCE": [
+                "CORE",
+                "CRITICAL_GOVERNOR"
+              ],
+              "GOV-KNOWLEDGE-READINESS": [
+                "CORE",
+                "CRITICAL_GOVERNOR"
+              ],
+              "SME-ENTERPRISE-ARCH": [
+                "RFP_ROLE:TECHNICAL_REQUIREMENTS",
+                "DOMAIN_LEAD:TECH_ARCH"
+              ],
+              "SME-SOLUTION-ARCH": [
+                "RFP_ROLE:TECHNICAL_REQUIREMENTS"
+              ],
+              "SIM-CIO-CTO": [
+                "RFP_ROLE:TECHNICAL_REQUIREMENTS"
+              ],
+              "GOV-TECHNICAL-FEASIBILITY": [
+                "RFP_ROLE:TECHNICAL_REQUIREMENTS"
+              ],
+              "SME-AI-ENGINEERING": [
+                "DOMAIN_LEAD:AI_DATA"
+              ],
+              "SME-CYBER": [
+                "DOMAIN_LEAD:CYBER_PRIVACY"
+              ],
+              "SME-CLOUD-INFRA": [
+                "DOMAIN_LEAD:CLOUD_DEVOPS"
+              ],
+              "SME-BACKEND": [
+                "DOMAIN_LEAD:SOFTWARE_ENGINEERING"
+              ],
+              "SME-UX": [
+                "DOMAIN_LEAD:UX_ACCESSIBILITY"
+              ],
+              "GOV-ARTIFACT-PIPELINE": [
+                "DOMAIN_LEAD:ARTIFACT_DELIVERY"
+              ]
+            },
+            "unknown_configured_roles": [],
+            "missing_required_roles": [],
+            "registered_actor_count": 69,
+            "bounded_activation": true,
+            "principle": "REGISTERED_NE_ACTIVE; ROUTED_PLUS_EXECUTED_EQUALS_ACTIVE_INTELLIGENCE"
+          }
+        },
+        {
+          "name": "expert_execution_ledger_pass",
+          "status": "PASS",
+          "detail": []
+        },
+        {
+          "name": "no_execution_provider_blocks",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "F",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "router_binds_decision_and_artifact_workflows",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "decision_workflow_fail_closed",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "artifact_workflow_forbids_content_direct_to_pptx",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "G",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4,
+      "checks": [
+        {
+          "name": "critical_governors_present",
+          "status": "PASS",
+          "detail": [
+            "GOV-EVIDENCE",
+            "GOV-KNOWLEDGE-READINESS"
+          ]
+        },
+        {
+          "name": "governors_have_veto_runtime",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "release_governor_reachable",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "artifact_pipeline_governor_reachable",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "H",
+      "status": "PASS",
+      "passed": 5,
+      "total": 5,
+      "checks": [
+        {
+          "name": "strategy_count_24",
+          "status": "PASS",
+          "detail": 24
+        },
+        {
+          "name": "strategy_registry_runtime_parity",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "five_unique_strategies",
+          "status": "PASS",
+          "detail": {
+            "status": "PASS",
+            "hypotheses": [
+              {
+                "id": "H1",
+                "communication_strategy": "EVIDENCE_LED",
+                "strategy_family": "ANALYTICAL",
+                "communication_intent": "Claim-to-proof composition",
+                "complexity_level": 2,
+                "partner_fit_score": 77.0,
+                "simplicity_score": 76,
+                "page_fingerprint": "26235c0d9687",
+                "structural_signature": "EVIDENCE_LED|ANALYTICAL|26235c0d9687|C2|139ddf",
+                "visual_concept_id": "VC-13DB49370A",
+                "visual_concept_brief": {
+                  "focal_rule": "claim and proof are visually inseparable",
+                  "page_specific_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                  "proof_encoding": "source/evidence",
+                  "negative_space_role": "protect focal hierarchy; never empty filler",
+                  "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+                  "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+                  "complexity_rule": "use the least complex form that preserves the business relationship"
+                },
+                "system_complexity_earned": false,
+                "visual_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+              },
+              {
+                "id": "H2",
+                "communication_strategy": "TABLE_LED",
+                "strategy_family": "ANALYTICAL",
+                "communication_intent": "Structured evidence table with analytical emphasis",
+                "complexity_level": 2,
+                "partner_fit_score": 77.0,
+                "simplicity_score": 76,
+                "page_fingerprint": "26235c0d9687",
+                "structural_signature": "TABLE_LED|ANALYTICAL|26235c0d9687|C2|16e644",
+                "visual_concept_id": "VC-3DF8FDB61E",
+                "visual_concept_brief": {
+                  "focal_rule": "scanable structure reveals comparison or obligation",
+                  "page_specific_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                  "proof_encoding": "source/evidence",
+                  "negative_space_role": "protect focal hierarchy; never empty filler",
+                  "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+                  "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+                  "complexity_rule": "use the least complex form that preserves the business relationship"
+                },
+                "system_complexity_earned": false,
+                "visual_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+              },
+              {
+                "id": "H3",
+                "communication_strategy": "DECISION_LED",
+                "strategy_family": "MINIMAL",
+                "communication_intent": "Decision, gates, conditions, and next action",
+                "complexity_level": 2,
+                "partner_fit_score": 85.0,
+                "simplicity_score": 76,
+                "page_fingerprint": "26235c0d9687",
+                "structural_signature": "DECISION_LED|MINIMAL|26235c0d9687|C2|4a59d6",
+                "visual_concept_id": "VC-11587C1CD2",
+                "visual_concept_brief": {
+                  "focal_rule": "decision and conditions are visible before detail",
+                  "page_specific_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                  "proof_encoding": "source/evidence",
+                  "negative_space_role": "protect focal hierarchy; never empty filler",
+                  "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+                  "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+                  "complexity_rule": "use the least complex form that preserves the business relationship"
+                },
+                "system_complexity_earned": false,
+                "visual_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+              },
+              {
+                "id": "H4",
+                "communication_strategy": "SCORECARD_LED",
+                "strategy_family": "ANALYTICAL",
+                "communication_intent": "Compact status, gate, readiness, or KPI scorecard tied to a decision",
+                "complexity_level": 2,
+                "partner_fit_score": 79.0,
+                "simplicity_score": 76,
+                "page_fingerprint": "26235c0d9687",
+                "structural_signature": "SCORECARD_LED|ANALYTICAL|26235c0d9687|C2|e9b511",
+                "visual_concept_id": "VC-3EAF9DEEF6",
+                "visual_concept_brief": {
+                  "focal_rule": "status/gates create immediate management action",
+                  "page_specific_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                  "proof_encoding": "source/evidence",
+                  "negative_space_role": "protect focal hierarchy; never empty filler",
+                  "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+                  "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+                  "complexity_rule": "use the least complex form that preserves the business relationship"
+                },
+                "system_complexity_earned": false,
+                "visual_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+              },
+              {
+                "id": "H5",
+                "communication_strategy": "HYBRID_EXHIBIT",
+                "strategy_family": "HYBRID",
+                "communication_intent": "Deliberate combination of evidence and one relationship system",
+                "complexity_level": 3,
+                "partner_fit_score": 56.0,
+                "simplicity_score": 64,
+                "page_fingerprint": "26235c0d9687",
+                "structural_signature": "HYBRID_EXHIBIT|HYBRID|26235c0d9687|C3|c081fe",
+                "visual_concept_id": "VC-1012768731",
+                "visual_concept_brief": {
+                  "focal_rule": "one analytical proof structure plus one earned relationship",
+                  "page_specific_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                  "proof_encoding": "source/evidence",
+                  "negative_space_role": "protect focal hierarchy; never empty filler",
+                  "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+                  "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+                  "complexity_rule": "use the least complex form that preserves the business relationship"
+                },
+                "system_complexity_earned": false,
+                "visual_thesis": "قرار الدخول يتطلب إثبات الجاهزية",
+                "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+              }
+            ],
+            "page_features": {
+              "page_fingerprint": "26235c0d9687",
+              "text": "قرار الدخول يتطلب إثبات الجاهزية",
+              "number_count": 0,
+              "numbers": [],
+              "decision": true,
+              "compare": false,
+              "timeline": false,
+              "evidence": true,
+              "architecture": false,
+              "financial": false,
+              "people": false,
+              "node_count": 2,
+              "edge_count": 1,
+              "relations": [
+                "SUPPORTS"
+              ],
+              "has_relationships": false,
+              "system_complexity_earned": false
+            },
+            "distinct_communication_strategies": 5,
+            "distinct_strategy_families": 3,
+            "contains_minimal_hypothesis": true,
+            "diagram_only_search": false,
+            "winner": null,
+            "selection_status": "PENDING_RENDER_AND_JUDGMENT"
+          }
+        },
+        {
+          "name": "not_diagram_only",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "minimal_candidate_required",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "I",
+      "status": "PASS",
+      "passed": 7,
+      "total": 7,
+      "checks": [
+        {
+          "name": "execution_modes_defined",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "host_native_provider_executable",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "host_native_proof_hash_bound",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "host_native_no_api_key_law",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "provider_marks_independent_judges",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "release_requires_independent_judge",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "qa_ceiling_not_release",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "J",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "no_h1_positional_winner",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "provisional_master_blocked_user_visible",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "candidate_position_zero_authority",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "K",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "missing_rate_knowledge_blocks_final_price",
+          "status": "PASS",
+          "detail": {
+            "status": "KNOWLEDGE_READINESS_BLOCK",
+            "routed_expertise": [
+              {
+                "knowledge_pack": "KP-FIRM-RATES",
+                "sme": "SME-PRICING",
+                "trigger": "FIRM_RATES",
+                "required_output": "FINAL_PRICE",
+                "knowledge_status": "KNOWLEDGE_REQUIRED",
+                "blocked_outputs": [
+                  "FINAL_PRICE",
+                  "MARGIN",
+                  "LABOR_COST"
+                ]
+              }
+            ],
+            "blockers": [
+              {
+                "knowledge_pack": "KP-FIRM-RATES",
+                "required_output": "FINAL_PRICE",
+                "status": "KNOWLEDGE_REQUIRED"
+              }
+            ],
+            "principle": "EXPERTISE_AVAILABILITY_NE_KNOWLEDGE_READINESS"
+          }
+        },
+        {
+          "name": "knowledge_readiness_governor_registered",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "expertise_not_equal_knowledge",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "L",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4,
+      "checks": [
+        {
+          "name": "legacy_artifact_foundations_not_global",
+          "status": "PASS",
+          "detail": []
+        },
+        {
+          "name": "retrieval_quarantine_v72",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "provenance_runtime_quarantined",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "current_v72_execution_has_no_v71_script_dependency",
+          "status": "PASS",
+          "detail": []
+        }
+      ]
+    },
+    {
+      "letter": "M",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "artifact_meta_router_activated",
+          "status": "PASS",
+          "detail": {
+            "status": "PASS",
+            "stage": "PRE_CONCEPT",
+            "page_features": {
+              "page_fingerprint": "26235c0d9687",
+              "text": "قرار الدخول يتطلب إثبات الجاهزية",
+              "number_count": 0,
+              "numbers": [],
+              "decision": true,
+              "compare": false,
+              "timeline": false,
+              "evidence": true,
+              "architecture": false,
+              "financial": false,
+              "people": false,
+              "node_count": 2,
+              "edge_count": 1,
+              "relations": [
+                "SUPPORTS"
+              ],
+              "has_relationships": false,
+              "system_complexity_earned": false
+            },
+            "active_councils": [
+              "ARGUMENT_COUNCIL",
+              "EVIDENCE_EPISTEMIC_COUNCIL",
+              "COMMUNICATION_STRATEGY_COUNCIL",
+              "SIMPLICITY_COUNCIL",
+              "INFORMATION_DESIGN_COUNCIL",
+              "META_EXPERTISE_ROUTER",
+              "ARTIFACT_RED_TEAM",
+              "EXECUTIVE_AUDIENCE_COUNCIL",
+              "ARABIC_RTL_COUNCIL"
+            ],
+            "active_roles": [
+              "AR-SENIOR-PARTNER",
+              "AR-ENGAGEMENT-PARTNER",
+              "AR-PRINCIPAL",
+              "AR-ENGAGEMENT-MANAGER",
+              "AR-STRATEGY-CONSULTANT",
+              "AR-TRANSFORMATION-SME",
+              "AR-OPERATING-MODEL-SME",
+              "AR-VALUE-CREATION-SME",
+              "AR-EVIDENCE-ARCHITECT",
+              "AR-RESEARCH-ANALYST",
+              "AR-SOURCE-INTEGRITY-SME",
+              "AR-QUANTITATIVE-ANALYST",
+              "AR-ASSUMPTION-CHALLENGER",
+              "AR-EPISTEMIC-GOVERNOR",
+              "AR-COMMUNICATION-STRATEGIST",
+              "AR-EXECUTIVE-COMMUNICATION-ARCHITECT",
+              "AR-PROPOSAL-STORYLINER",
+              "AR-NARRATIVE-STRATEGIST"
+            ],
+            "registered_council_count": 20,
+            "registered_role_count": 107,
+            "bounded_activation": true
+          }
+        },
+        {
+          "name": "brain_reaches_cognitive_lock",
+          "status": "PASS",
+          "detail": "COGNITIVE_LOCKED"
+        },
+        {
+          "name": "brain_proof_recomputed",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "N",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "role16_owner_arabic_title",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "arabic_artifact_council_routes",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "arabic_qa_routes",
+          "status": "PASS",
+          "detail": [
+            "Q01_MECHANICAL_GEOMETRY",
+            "Q02_EVIDENCE_EPISTEMIC",
+            "Q03_ARTIFACT_SEMANTICS",
+            "Q04_CONSULTING_VISUAL",
+            "Q05_ARABIC_RTL_TYPOGRAPHY",
+            "Q06_BRAND_PRODUCTION_EXPORT",
+            "Q07_CROSS_DECK_NARRATIVE",
+            "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+            "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+            "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+            "Q08_ADVERSARIAL_RED_TEAM",
+            "Q09_META_QA_INTEGRITY",
+            "Q10_QA_RELEASE_CANDIDATE"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "O",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "artifact_draft_alias_user_visible",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "concept_render_internal_only",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "production_render_required",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "P",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "production_without_brain_proof_blocks",
+          "status": "PASS",
+          "detail": {
+            "status": "BLOCKED",
+            "reason": "BRAIN_EXECUTION_PROOF_NOT_PROVEN",
+            "brain_execution_proof": {
+              "status": "BLOCKED",
+              "errors": [
+                "BRAIN_NOT_COGNITIVE_LOCKED",
+                "BRAIN_COVERAGE_RECOMPUTE_FAILED",
+                "BRAIN_EXPERT_LEDGER_REQUIRED"
+              ],
+              "coverage_recomputed": {
+                "status": "FAIL",
+                "errors": [
+                  {
+                    "kind": "PRODUCER_NOT_EXECUTED"
+                  },
+                  {
+                    "kind": "EXPERT_COUNCIL_EXECUTION_NOT_PROVEN"
+                  }
+                ],
+                "executed_councils": []
+              },
+              "expert_proof": {
+                "status": "BLOCKED",
+                "errors": [
+                  "EXPERT_LEDGER_REQUIRED"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "production_requires_art_direction",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "production_requires_readiness_council",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "Q",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4,
+      "checks": [
+        {
+          "name": "actual_pixel_qa_council",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "simplicity_artifact_skeptic_qa",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "delivery_repair_qa",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "quality_floor_defined",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "R",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "repair_loop_user_visible_required",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "release_chair_only",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "live_release_not_faked",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "S",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "brain_coherence_stress_pass",
+          "status": "PASS",
+          "detail": {
+            "route_cases": 3000,
+            "brain_runs": 250,
+            "key_name_attacks": 1000,
+            "artifact_cases": 1500,
+            "artifact_execution_runs": 200
+          }
+        },
+        {
+          "name": "stress_zero_errors",
+          "status": "PASS",
+          "detail": 0
+        },
+        {
+          "name": "skill_redteam_current_declared",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "T",
+      "status": "PASS",
+      "passed": 5,
+      "total": 5,
+      "checks": [
+        {
+          "name": "technical_routes_SME-AI-ENGINEERING",
+          "status": "PASS",
+          "detail": [
+            "GOV-ARTIFACT-PIPELINE",
+            "GOV-EVIDENCE",
+            "GOV-KNOWLEDGE-READINESS",
+            "GOV-TECHNICAL-FEASIBILITY",
+            "SIM-CIO-CTO",
+            "SIM-GOV-EVALUATOR",
+            "SME-AI-ENGINEERING",
+            "SME-BACKEND",
+            "SME-CLOUD-INFRA",
+            "SME-CYBER",
+            "SME-ENTERPRISE-ARCH",
+            "SME-EVIDENCE",
+            "SME-SOLUTION-ARCH",
+            "SME-UX"
+          ]
+        },
+        {
+          "name": "technical_routes_SME-SOLUTION-ARCH",
+          "status": "PASS",
+          "detail": [
+            "GOV-ARTIFACT-PIPELINE",
+            "GOV-EVIDENCE",
+            "GOV-KNOWLEDGE-READINESS",
+            "GOV-TECHNICAL-FEASIBILITY",
+            "SIM-CIO-CTO",
+            "SIM-GOV-EVALUATOR",
+            "SME-AI-ENGINEERING",
+            "SME-BACKEND",
+            "SME-CLOUD-INFRA",
+            "SME-CYBER",
+            "SME-ENTERPRISE-ARCH",
+            "SME-EVIDENCE",
+            "SME-SOLUTION-ARCH",
+            "SME-UX"
+          ]
+        },
+        {
+          "name": "technical_routes_SME-CYBER",
+          "status": "PASS",
+          "detail": [
+            "GOV-ARTIFACT-PIPELINE",
+            "GOV-EVIDENCE",
+            "GOV-KNOWLEDGE-READINESS",
+            "GOV-TECHNICAL-FEASIBILITY",
+            "SIM-CIO-CTO",
+            "SIM-GOV-EVALUATOR",
+            "SME-AI-ENGINEERING",
+            "SME-BACKEND",
+            "SME-CLOUD-INFRA",
+            "SME-CYBER",
+            "SME-ENTERPRISE-ARCH",
+            "SME-EVIDENCE",
+            "SME-SOLUTION-ARCH",
+            "SME-UX"
+          ]
+        },
+        {
+          "name": "technical_routes_SME-CLOUD-INFRA",
+          "status": "PASS",
+          "detail": [
+            "GOV-ARTIFACT-PIPELINE",
+            "GOV-EVIDENCE",
+            "GOV-KNOWLEDGE-READINESS",
+            "GOV-TECHNICAL-FEASIBILITY",
+            "SIM-CIO-CTO",
+            "SIM-GOV-EVALUATOR",
+            "SME-AI-ENGINEERING",
+            "SME-BACKEND",
+            "SME-CLOUD-INFRA",
+            "SME-CYBER",
+            "SME-ENTERPRISE-ARCH",
+            "SME-EVIDENCE",
+            "SME-SOLUTION-ARCH",
+            "SME-UX"
+          ]
+        },
+        {
+          "name": "technical_routes_GOV-TECHNICAL-FEASIBILITY",
+          "status": "PASS",
+          "detail": [
+            "GOV-ARTIFACT-PIPELINE",
+            "GOV-EVIDENCE",
+            "GOV-KNOWLEDGE-READINESS",
+            "GOV-TECHNICAL-FEASIBILITY",
+            "SIM-CIO-CTO",
+            "SIM-GOV-EVALUATOR",
+            "SME-AI-ENGINEERING",
+            "SME-BACKEND",
+            "SME-CLOUD-INFRA",
+            "SME-CYBER",
+            "SME-ENTERPRISE-ARCH",
+            "SME-EVIDENCE",
+            "SME-SOLUTION-ARCH",
+            "SME-UX"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "U",
+      "status": "PASS",
+      "passed": 5,
+      "total": 5,
+      "checks": [
+        {
+          "name": "exact_file_delivery_gate",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "exact_handoff_rebinds_delivered_bytes",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "handoff_certificate_required_authority",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "framework_qa_substitution_forbidden",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "user_visible_requires_pixel_pass",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "V",
+      "status": "PASS",
+      "passed": 6,
+      "total": 6,
+      "checks": [
+        {
+          "name": "skill_status_v72",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "cert_requirements_v72",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "artifact_registry_v33",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "brain_manifest_v34",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "current_facing_docs_are_v72_not_stale_v71",
+          "status": "PASS",
+          "detail": []
+        },
+        {
+          "name": "current_status_layer_has_no_pending_v72_finalization",
+          "status": "PASS",
+          "detail": []
+        }
+      ]
+    },
+    {
+      "letter": "W",
+      "status": "PASS",
+      "passed": 3,
+      "total": 3,
+      "checks": [
+        {
+          "name": "rfp_roles_24",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "workflow_machine_state_schema",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "decision_and_delivery_workflows_separate",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "X",
+      "status": "PASS",
+      "passed": 4,
+      "total": 4,
+      "checks": [
+        {
+          "name": "strategy_count_field_24",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "artifact_registry_counts_match",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "artifact_council_counts_match",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "brain_actor_count_manifest_match",
+          "status": "PASS",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "letter": "Y",
+      "status": "PASS",
+      "passed": 6,
+      "total": 6,
+      "checks": [
+        {
+          "name": "all_python_syntax_valid",
+          "status": "PASS",
+          "detail": []
+        },
+        {
+          "name": "all_json_parse_valid",
+          "status": "PASS",
+          "detail": []
+        },
+        {
+          "name": "no_pyc_or_pycache_in_final_worktree",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "final_verifier_single_run_lock",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "line_scan_executed",
+          "status": "PASS",
+          "detail": {
+            "files": 2161,
+            "text_lines": 210351
+          }
+        },
+        {
+          "name": "skill_manifest_v72_exact_all_current_bytes",
+          "status": "PASS",
+          "detail": {
+            "manifest": 1377,
+            "actual": 1377,
+            "missing": [],
+            "extra": []
+          }
+        }
+      ]
+    },
+    {
+      "letter": "Z",
+      "status": "PASS",
+      "passed": 7,
+      "total": 7,
+      "checks": [
+        {
+          "name": "fake_pass_without_invocations_blocked",
+          "status": "PASS",
+          "detail": {
+            "status": "BLOCKED",
+            "reason": "BRAIN_EXECUTION_PROOF_NOT_PROVEN",
+            "brain_execution_proof": {
+              "status": "BLOCKED",
+              "errors": [
+                "BRAIN_COVERAGE_RECOMPUTE_FAILED",
+                "BRAIN_EXPERT_LEDGER_PROOF_KIND_INVALID",
+                "BRAIN_EXPERT_REQUIRED_SET_EMPTY",
+                "BRAIN_EXPERT_INVOCATIONS_EMPTY"
+              ],
+              "coverage_recomputed": {
+                "status": "FAIL",
+                "errors": [
+                  {
+                    "kind": "PRODUCER_NOT_EXECUTED"
+                  }
+                ],
+                "executed_councils": []
+              },
+              "expert_proof": {
+                "status": "BLOCKED",
+                "errors": [
+                  "EXPERT_LEDGER_PROOF_KIND_INVALID",
+                  "EXPERT_REQUIRED_SET_EMPTY",
+                  "EXPERT_INVOCATIONS_EMPTY"
+                ],
+                "required": [],
+                "executed": []
+              }
+            }
+          }
+        },
+        {
+          "name": "generic_cards_hard_forbidden",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "no_council_execution_no_pptx_law",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "framework_qa_cannot_masquerade",
+          "status": "PASS",
+          "detail": null
+        },
+        {
+          "name": "exact_handoff_certification_pass",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "real_wrong_handoff_incident_replay_pass",
+          "status": "PASS",
+          "detail": "PASS"
+        },
+        {
+          "name": "v721_incident_registry_pass",
+          "status": "PASS",
+          "detail": {
+            "status": "PASS",
+            "incidents": 16
+          }
+        }
+      ]
+    }
+  ]
+}

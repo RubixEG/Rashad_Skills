@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "engagement_id",
+    "entries"
+  ],
+  "properties": {
+    "engagement_id": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "classification",
+          "source",
+          "locator",
+          "truth_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^EV-[0-9]{4,6}$"
+          },
+          "classification": {
+            "enum": [
+              "ENGAGEMENT_EVIDENCE",
+              "REFERENCE_ONLY",
+              "FIRM_VERIFIED_EVIDENCE"
+            ]
+          },
+          "source": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "truth_status": {
+            "enum": [
+              "PROVEN",
+              "VISUALLY_INSPECTED",
+              "INFERRED",
+              "ASSUMED",
+              "BLOCKED"
+            ]
+          },
+          "claim_scope": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

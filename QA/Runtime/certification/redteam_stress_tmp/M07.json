@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M07",
+  "mutation": "font_fallback",
+  "expected": "BLOCK unless approved waiver; rerun geometry",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "656383e464d2bda2213bfe83069303fa8ba9c6a537875c69be0d84bfc8188c5f",
+  "mutated_input_hash": "656383e464d2bda2213bfe83069303fa8ba9c6a537875c69be0d84bfc8188c5f",
+  "measured_object_count": 1,
+  "changed": true
+}

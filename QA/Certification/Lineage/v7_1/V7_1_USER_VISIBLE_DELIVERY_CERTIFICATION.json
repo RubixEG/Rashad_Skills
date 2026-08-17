@@ -1,0 +1,103 @@
+{
+  "suite": "V7.1 User Visible Artifact Delivery Certification",
+  "status": "FAIL",
+  "passed": 17,
+  "total": 19,
+  "tests": [
+    {
+      "name": "good_varied_pptx_product_inspection",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "good_user_visible_actual_output_qa",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "good_exact_file_delivery_allowed",
+      "status": "FAIL",
+      "detail": "['DECK_ARTIFACT_COUNCIL_EXECUTION_NOT_PROVEN', 'P01::BRAIN_EXECUTION_PROOF_INVALID', 'P01::EXPERT_EXECUTION_LEDGER_INVALID', 'P01::ARTIFACT_COUNCIL_LEDGER_INVALID', 'P01::ART_DIRECTION_LEDGER_INVALID', 'P01::PRODUCTION_COUNCIL_LEDGER_INVALID', 'P01::BRAIN_COGNITIVE_LOCK_NOT_PROVEN', 'P01::EXECUTABLE_SME_COUNCIL_NOT_PROVEN', 'P01::ARTIFACT_COUNCIL_EXECUTION_NOT_PROVEN', 'P01::ART_DIRECTION_EXECUTION_NOT_PROVEN', 'P01::PRODUCTION_COUNCIL_EXECUTION_NOT_PROVEN', 'P02::BRAIN_EXECUTION_PROOF_INVALID', 'P02::EXPERT_EXECUTION_LEDGER_INVALID', 'P02::ARTIFACT_COUNCIL_LEDGER_INVALID', 'P02::ART_DIRECTION_LEDGER_INVALID', 'P02::PRODUCTION_COUNCIL_LEDGER_INVALID', 'P02::BRAIN_COGNITIVE_LOCK_NOT_PROVEN', 'P02::EXECUTABLE_SME_COUNCIL_NOT_PROVEN', 'P02::ARTIFACT_COUNCIL_EXECUTION_NOT_PROVEN', 'P02::ART_DIRECTION_EXECUTION_NOT_PROVEN', 'P02::PRODUCTION_COUNCIL_EXECUTION_NOT_PROVEN', 'P03::BRAIN_EXECUTION_PROOF_INVALID', 'P03::EXPERT_EXECUTION_LEDGER_INVALID', 'P03::ARTIFACT_COUNCIL_LEDGER_INVALID', 'P03::ART_DIRECTION_LEDGER_INVALID', 'P03::PRODUCTION_COUNCIL_LEDGER_INVALID', 'P03::BRAIN_COGNITIVE_LOCK_NOT_PROVEN', 'P03::EXECUTABLE_SME_COUNCIL_NOT_PROVEN', 'P03::ARTIFACT_COUNCIL_EXECUTION_NOT_PROVEN', 'P03::ART_DIRECTION_EXECUTION_NOT_PROVEN', 'P03::PRODUCTION_COUNCIL_EXECUTION_NOT_PROVEN', 'P04::BRAIN_EXECUTION_PROOF_INVALID', 'P04::EXPERT_EXECUTION_LEDGER_INVALID', 'P04::ARTIFACT_COUNCIL_LEDGER_INVALID', 'P04::ART_DIRECTION_LEDGER_INVALID', 'P04::PRODUCTION_COUNCIL_LEDGER_INVALID', 'P04::BRAIN_COGNITIVE_LOCK_NOT_PROVEN', 'P04::EXECUTABLE_SME_COUNCIL_NOT_PROVEN', 'P04::ARTIFACT_COUNCIL_EXECUTION_NOT_PROVEN', 'P04::ART_DIRECTION_EXECUTION_NOT_PROVEN', 'P04::PRODUCTION_COUNCIL_EXECUTION_NOT_PROVEN', 'P05::BRAIN_EXECUTION_PROOF_INVALID', 'P05::EXPERT_EXECUTION_LEDGER_INVALID', 'P05::ARTIFACT_COUNCIL_LEDGER_INVALID', 'P05::ART_DIRECTION_LEDGER_INVALID', 'P05::PRODUCTION_COUNCIL_LEDGER_INVALID', 'P05::BRAIN_COGNITIVE_LOCK_NOT_PROVEN', 'P05::EXECUTABLE_SME_COUNCIL_NOT_PROVEN', 'P05::ARTIFACT_COUNCIL_EXECUTION_NOT_PROVEN', 'P05::ART_DIRECTION_EXECUTION_NOT_PROVEN', 'P05::PRODUCTION_COUNCIL_EXECUTION_NOT_PROVEN', 'P06::BRAIN_EXECUTION_PROOF_INVALID', 'P06::EXPERT_EXECUTION_LEDGER_INVALID', 'P06::ARTIFACT_COUNCIL_LEDGER_INVALID', 'P06::ART_DIRECTION_LEDGER_INVALID', 'P06::PRODUCTION_COUNCIL_LEDGER_INVALID', 'P06::BRAIN_COGNITIVE_LOCK_NOT_PROVEN', 'P06::EXECUTABLE_SME_COUNCIL_NOT_PROVEN', 'P06::ARTIFACT_COUNCIL_EXECUTION_NOT_PROVEN', 'P06::ART_DIRECTION_EXECUTION_NOT_PROVEN', 'P06::PRODUCTION_COUNCIL_EXECUTION_NOT_PROVEN', 'P07::BRAIN_EXECUTION_PROOF_INVALID', 'P07::EXPERT_EXECUTION_LEDGER_INVALID', 'P07::ARTIFACT_COUNCIL_LEDGER_INVALID', 'P07::ART_DIRECTION_LEDGER_INVALID', 'P07::PRODUCTION_COUNCIL_LEDGER_INVALID', 'P07::BRAIN_COGNITIVE_LOCK_NOT_PROVEN', 'P07::EXECUTABLE_SME_COUNCIL_NOT_PROVEN', 'P07::ARTIFACT_COUNCIL_EXECUTION_NOT_PROVEN', 'P07::ART_DIRECTION_EXECUTION_NOT_PROVEN', 'P07::PRODUCTION_COUNCIL_EXECUTION_NOT_PROVEN', 'P08::BRAIN_EXECUTION_PROOF_INVALID', 'P08::EXPERT_EXECUTION_LEDGER_INVALID', 'P08::ARTIFACT_COUNCIL_LEDGER_INVALID', 'P08::ART_DIRECTION_LEDGER_INVALID', 'P08::PRODUCTION_COUNCIL_LEDGER_INVALID', 'P08::BRAIN_COGNITIVE_LOCK_NOT_PROVEN', 'P08::EXECUTABLE_SME_COUNCIL_NOT_PROVEN', 'P08::ARTIFACT_COUNCIL_EXECUTION_NOT_PROVEN', 'P08::ART_DIRECTION_EXECUTION_NOT_PROVEN', 'P08::PRODUCTION_COUNCIL_EXECUTION_NOT_PROVEN']"
+    },
+    {
+      "name": "concept_render_blocked_user_visible",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "missing_pixel_review_blocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "low_quality_pixel_blocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "pixel_hash_mismatch_blocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "non_independent_pixel_review_blocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "generic_layout_swap_failure_blocks",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "required_repair_history_blocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "framework_certification_cannot_substitute",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "exact_file_hash_mismatch_blocks",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "deck_review_hash_mismatch_blocks",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "shape_only_repetitive_deck_blocked",
+      "status": "PASS",
+      "detail": "['PPTX_STRUCTURAL_MONOTONY', 'PPTX_SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE', 'PPTX_EQUAL_CARD_GRID_OVERUSE']"
+    },
+    {
+      "name": "image_led_without_image_blocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "chart_led_contract_present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "internal_concept_draft_allowed",
+      "status": "FAIL",
+      "detail": ""
+    },
+    {
+      "name": "same_state_user_visible_blocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "legacy_artifact_draft_alias_is_user_visible_and_blocked",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

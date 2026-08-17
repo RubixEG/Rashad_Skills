@@ -1,0 +1,314 @@
+{
+  "version": "7.0",
+  "status": "ARTIFACT_FAMILY_QA_MATRIX",
+  "family_count": 21,
+  "families": {
+    "COVER": {
+      "checks": [
+        "identity exact",
+        "hero topic relevance",
+        "image-left/text-right for governed Arabic cover",
+        "logo signature",
+        "no generated text/logo",
+        "title safe zone"
+      ],
+      "stress": [
+        "long project title",
+        "long client name",
+        "missing hero",
+        "logo padding"
+      ]
+    },
+    "TIMELINE": {
+      "checks": [
+        "chronology",
+        "RTL physical sequence when Arabic",
+        "milestone ownership",
+        "same-date collisions",
+        "labels/connectors"
+      ],
+      "stress": [
+        "8+ milestones",
+        "long dates/labels",
+        "conflicting dates"
+      ]
+    },
+    "ROADMAP_GANTT": {
+      "checks": [
+        "phase/workstream distinction",
+        "dependency routing",
+        "milestones/gates",
+        "critical path",
+        "duration semantics",
+        "parallel tracks"
+      ],
+      "stress": [
+        "8 phases",
+        "12 workstreams",
+        "overlapping milestones",
+        "no exact dates"
+      ]
+    },
+    "MATRIX": {
+      "checks": [
+        "row/column ownership",
+        "header alignment",
+        "cell wrapping",
+        "legend/scale",
+        "peer consistency"
+      ],
+      "stress": [
+        "20x12 matrix",
+        "long Arabic row labels",
+        "sparse/dense cells"
+      ]
+    },
+    "PROCESS_FLOW": {
+      "checks": [
+        "sequence",
+        "branching",
+        "decision gates",
+        "loops",
+        "inputs/outputs",
+        "owner lanes"
+      ],
+      "stress": [
+        "branching graph",
+        "cycles",
+        "bidirectional edges",
+        "long labels"
+      ]
+    },
+    "GOVERNANCE": {
+      "checks": [
+        "decision rights",
+        "ownership",
+        "escalation",
+        "reporting",
+        "control vs peer relation"
+      ],
+      "stress": [
+        "many committees",
+        "cross-cutting controls",
+        "multiple escalation paths"
+      ]
+    },
+    "OPERATING_MODEL": {
+      "checks": [
+        "layers",
+        "capabilities",
+        "enablers",
+        "controls",
+        "feedback",
+        "ownership"
+      ],
+      "stress": [
+        "many capability groups",
+        "cross-layer dependency",
+        "foundation/enabler bands"
+      ]
+    },
+    "ORG_TEAM": {
+      "checks": [
+        "hierarchy",
+        "reporting lines",
+        "role quantity",
+        "phase involvement",
+        "capacity/scarcity"
+      ],
+      "stress": [
+        "long role names",
+        "5 levels",
+        "many peers",
+        "part-time annotations"
+      ]
+    },
+    "RISK_HEATMAP": {
+      "checks": [
+        "likelihood/impact mapping",
+        "risk ID ownership",
+        "legend",
+        "severity",
+        "mitigation linkage"
+      ],
+      "stress": [
+        "20+ risks",
+        "marker collisions",
+        "same-cell clustering"
+      ]
+    },
+    "KPI_DASHBOARD": {
+      "checks": [
+        "metric definition",
+        "unit/denominator",
+        "direction",
+        "threshold",
+        "source",
+        "number containment"
+      ],
+      "stress": [
+        "large values",
+        "negative/decimal",
+        "mixed units",
+        "long KPI labels"
+      ]
+    },
+    "BOQ_DELIVERABLE_SYSTEM": {
+      "checks": [
+        "BOQ wording",
+        "scope mapping",
+        "components",
+        "deliverable",
+        "acceptance",
+        "owner",
+        "dependency",
+        "cost/risk exposure"
+      ],
+      "stress": [
+        "20+ BOQ lines",
+        "compressed pricing lines",
+        "multiple outputs per item"
+      ]
+    },
+    "EVALUATION_WIN_MAP": {
+      "checks": [
+        "criterion",
+        "weight/gate",
+        "evaluator belief",
+        "response",
+        "evidence",
+        "build priority"
+      ],
+      "stress": [
+        "many criteria",
+        "pass/fail plus weighted",
+        "conflicting thresholds"
+      ]
+    },
+    "TECHNICAL_ARCHITECTURE": {
+      "checks": [
+        "systems/components",
+        "interfaces",
+        "data flows",
+        "security zones",
+        "hosting/env",
+        "ownership"
+      ],
+      "stress": [
+        "many integrations",
+        "bidirectional APIs",
+        "long product names"
+      ]
+    },
+    "DEPENDENCY_GRAPH": {
+      "checks": [
+        "typed edges",
+        "visible endpoints",
+        "critical nodes",
+        "cycles/feedback",
+        "ownership"
+      ],
+      "stress": [
+        "16 nodes",
+        "30 edges",
+        "cycles",
+        "crossing pressure"
+      ]
+    },
+    "HUB_RING_SYSTEM": {
+      "checks": [
+        "hub truly central",
+        "ring relations differ from peer cards",
+        "control/feedback encoded"
+      ],
+      "stress": [
+        "10+ satellites",
+        "multiple relation types",
+        "long labels"
+      ]
+    },
+    "HIERARCHY_PYRAMID": {
+      "checks": [
+        "level semantics",
+        "size hierarchy",
+        "no false causality",
+        "labels readable"
+      ],
+      "stress": [
+        "6 levels",
+        "many items per level"
+      ]
+    },
+    "COMPARISON_BENCHMARK": {
+      "checks": [
+        "comparable basis",
+        "scale consistency",
+        "evidence/source",
+        "highlight reason"
+      ],
+      "stress": [
+        "many options",
+        "long criteria",
+        "mixed units"
+      ]
+    },
+    "FINANCIAL_WATERFALL": {
+      "checks": [
+        "starting/ending value",
+        "sign semantics",
+        "units",
+        "source/assumption",
+        "sum integrity"
+      ],
+      "stress": [
+        "negative values",
+        "12+ drivers",
+        "large currency"
+      ]
+    },
+    "PRIORITIZATION_PORTFOLIO": {
+      "checks": [
+        "axis meaning",
+        "thresholds",
+        "item labels",
+        "overlap management",
+        "decision zones"
+      ],
+      "stress": [
+        "30 items",
+        "same coordinates",
+        "long labels"
+      ]
+    },
+    "EVIDENCE_COMPLIANCE_MATRIX": {
+      "checks": [
+        "requirement",
+        "response",
+        "evidence",
+        "status",
+        "owner/gap",
+        "traceability"
+      ],
+      "stress": [
+        "50 rows",
+        "long clauses",
+        "many missing evidence states"
+      ]
+    },
+    "DENSE_TABLE": {
+      "checks": [
+        "header repetition",
+        "row height",
+        "wrapping",
+        "page split",
+        "source visibility",
+        "numeral formatting"
+      ],
+      "stress": [
+        "30+ rows",
+        "multi-line Arabic",
+        "long URLs/IDs"
+      ]
+    }
+  }
+}

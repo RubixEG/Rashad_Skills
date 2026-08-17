@@ -1,0 +1,283 @@
+{
+  "schema": "RASHAD_USER_VISIBLE_ARTIFACT_DELIVERY_V1",
+  "classification": "USER_VISIBLE_ARTIFACT_DRAFT",
+  "output_file_sha256": "948cbcad79b39c2eb56f4b6cff0322604e32c2bdf50d67d21e6a588023dbd149",
+  "pages": [
+    {
+      "page_id": "P01",
+      "selected_strategy": "IMAGE_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P01-D7F3CC8D",
+      "selected_render_hash": "7df8ac0836aee107844e7a377103b179c7c985265f969f92d1fb0e0549a878df",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "7df8ac0836aee107844e7a377103b179c7c985265f969f92d1fb0e0549a878df"
+      }
+    },
+    {
+      "page_id": "P02",
+      "selected_strategy": "HYBRID_EXHIBIT",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P02-D1AABEC2",
+      "selected_render_hash": "e40c89b507d8fd93552f4aa34c1a1d3e74ee8e111367ab41881c7be9e2886db8",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "e40c89b507d8fd93552f4aa34c1a1d3e74ee8e111367ab41881c7be9e2886db8"
+      }
+    },
+    {
+      "page_id": "P03",
+      "selected_strategy": "SEQUENCE_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P03-EC8602DF",
+      "selected_render_hash": "e9a30a3e2f3d35ecf89643efef5678a2bf6f345726445cc13920c83c303d7d3c",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "e9a30a3e2f3d35ecf89643efef5678a2bf6f345726445cc13920c83c303d7d3c"
+      }
+    },
+    {
+      "page_id": "P04",
+      "selected_strategy": "NUMBER_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P04-B0270597",
+      "selected_render_hash": "edd80c6066481b450a148b41b08f53772e7647ab457990098bd0e4191025814a",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "edd80c6066481b450a148b41b08f53772e7647ab457990098bd0e4191025814a"
+      }
+    },
+    {
+      "page_id": "P05",
+      "selected_strategy": "SEQUENCE_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P05-2FF862FF",
+      "selected_render_hash": "7310daf3e3c73ccbfdcff295a85ae4aca9e9fa7fb66bb99a69b40e740eeeb680",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "7310daf3e3c73ccbfdcff295a85ae4aca9e9fa7fb66bb99a69b40e740eeeb680"
+      }
+    },
+    {
+      "page_id": "P06",
+      "selected_strategy": "TABLE_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P06-7DAF2D51",
+      "selected_render_hash": "012161761ea2c8f47887ad8533112d1764441d1b054fdf8f869c800c99fd3ea5",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "012161761ea2c8f47887ad8533112d1764441d1b054fdf8f869c800c99fd3ea5"
+      }
+    },
+    {
+      "page_id": "P07",
+      "selected_strategy": "CAUSE_EFFECT",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P07-B59BE4DD",
+      "selected_render_hash": "5f771a83a27dccd5942bf8d4693103171c081de36628bc6b3099e39bca9ec4b2",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "5f771a83a27dccd5942bf8d4693103171c081de36628bc6b3099e39bca9ec4b2"
+      }
+    },
+    {
+      "page_id": "P08",
+      "selected_strategy": "EVIDENCE_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P08-ECEFC820",
+      "selected_render_hash": "833a198d38bf7baf3f05afd4dc4c59c6599090c9f379d97a9f31f00b994efadd",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "833a198d38bf7baf3f05afd4dc4c59c6599090c9f379d97a9f31f00b994efadd"
+      }
+    },
+    {
+      "page_id": "P09",
+      "selected_strategy": "ARCHITECTURE_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P09-73C20CE8",
+      "selected_render_hash": "46564a86ec2d69861405a77fd09ac9ade3140739433500c50d1cf43f6a25f2a2",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "46564a86ec2d69861405a77fd09ac9ade3140739433500c50d1cf43f6a25f2a2"
+      }
+    },
+    {
+      "page_id": "P10",
+      "selected_strategy": "PROCESS_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P10-93CF1F55",
+      "selected_render_hash": "93d0d710c1c353743242e16eb24d895ffc47c1517f83882f7f793484686e2ca2",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "93d0d710c1c353743242e16eb24d895ffc47c1517f83882f7f793484686e2ca2"
+      }
+    },
+    {
+      "page_id": "P11",
+      "selected_strategy": "CHART_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P11-4FE31277",
+      "selected_render_hash": "d77cf4fd6673883d1a59dbc67b08b9f60a2a9a5ad9e714a4a32a8b71dfda62ea",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "d77cf4fd6673883d1a59dbc67b08b9f60a2a9a5ad9e714a4a32a8b71dfda62ea"
+      }
+    },
+    {
+      "page_id": "P12",
+      "selected_strategy": "ARCHITECTURE_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P12-6EFB788D",
+      "selected_render_hash": "ee9f36f08b742e4026561022d2621bd9c136ae3af730763c53c6ff582391d495",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "ee9f36f08b742e4026561022d2621bd9c136ae3af730763c53c6ff582391d495"
+      }
+    },
+    {
+      "page_id": "P13",
+      "selected_strategy": "PORTFOLIO_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P13-5AA7A043",
+      "selected_render_hash": "b050535ee9056ed298395fff0123e6bf5b5d523c1fd5ae06f48d93c1d0a61d5c",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "b050535ee9056ed298395fff0123e6bf5b5d523c1fd5ae06f48d93c1d0a61d5c"
+      }
+    },
+    {
+      "page_id": "P14",
+      "selected_strategy": "NUMBER_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P14-7BA5D819",
+      "selected_render_hash": "6bb32e5bd692be7994abd7b230808db1cb8a281d8edce0cf6cc26e23df983352",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "6bb32e5bd692be7994abd7b230808db1cb8a281d8edce0cf6cc26e23df983352"
+      }
+    },
+    {
+      "page_id": "P15",
+      "selected_strategy": "SCORECARD_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P15-DA73675E",
+      "selected_render_hash": "60e3265d772a3d21116ad65a23f69476156a69fb6d8e5a6ea4ba3adbf0f61cb3",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "60e3265d772a3d21116ad65a23f69476156a69fb6d8e5a6ea4ba3adbf0f61cb3"
+      }
+    },
+    {
+      "page_id": "P16",
+      "selected_strategy": "NUMBER_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P16-994D54D6",
+      "selected_render_hash": "d40d3e83e2eb3aa7152e89f5a105c93c16f939030b46251c65116524ca25f151",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "d40d3e83e2eb3aa7152e89f5a105c93c16f939030b46251c65116524ca25f151"
+      }
+    },
+    {
+      "page_id": "P17",
+      "selected_strategy": "COMPARISON_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P17-21393573",
+      "selected_render_hash": "ada4f471b8c6398d5fb692b3b93161c4b6499a3f7b9c6e434a66966da6d27219",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "ada4f471b8c6398d5fb692b3b93161c4b6499a3f7b9c6e434a66966da6d27219"
+      }
+    },
+    {
+      "page_id": "P18",
+      "selected_strategy": "PROCESS_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P18-A38942B9",
+      "selected_render_hash": "a81ebdceec2347fcb2f29160e240186e402f6c6d648797703c1f4c5a80f2b674",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "a81ebdceec2347fcb2f29160e240186e402f6c6d648797703c1f4c5a80f2b674"
+      }
+    },
+    {
+      "page_id": "P19",
+      "selected_strategy": "SEQUENCE_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P19-BF914A17",
+      "selected_render_hash": "686e8870075bd8dea41034823e054dfe0f79a04303309091ddfa1ae9a9b530bc",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "686e8870075bd8dea41034823e054dfe0f79a04303309091ddfa1ae9a9b530bc"
+      }
+    },
+    {
+      "page_id": "P20",
+      "selected_strategy": "MATRIX_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P20-168C6B68",
+      "selected_render_hash": "ab4044da4d8de51040cc1dc0d62d5c514dec1ed58fbc41850d390251766620e4",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "ab4044da4d8de51040cc1dc0d62d5c514dec1ed58fbc41850d390251766620e4"
+      }
+    },
+    {
+      "page_id": "P21",
+      "selected_strategy": "MATRIX_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P21-338FC81B",
+      "selected_render_hash": "b788389de0c5d8e8fee4313059a85ee00e35d1e2d0bd89973a484f82882857ab",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "b788389de0c5d8e8fee4313059a85ee00e35d1e2d0bd89973a484f82882857ab"
+      }
+    },
+    {
+      "page_id": "P22",
+      "selected_strategy": "TABLE_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P22-6C5F1C50",
+      "selected_render_hash": "7d63e236b0ce0b259405a9c0ef65782f779193922b9d4ca43127c848afe36fdc",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "7d63e236b0ce0b259405a9c0ef65782f779193922b9d4ca43127c848afe36fdc"
+      }
+    },
+    {
+      "page_id": "P23",
+      "selected_strategy": "COMPARISON_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P23-9B40C1E2",
+      "selected_render_hash": "0de89404f9d2b9f4107c4744556e739e204e1c0d2600ce6297810ff3e8a29849",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "0de89404f9d2b9f4107c4744556e739e204e1c0d2600ce6297810ff3e8a29849"
+      }
+    },
+    {
+      "page_id": "P24",
+      "selected_strategy": "DECISION_LED",
+      "render_kind": "PRODUCTION_PAGE_RENDER",
+      "production_render_id": "PROD-P24-47F65210",
+      "selected_render_hash": "99f55280157b9a4ee8a2ee453a68be137bc01d66e15ee660f3ffc54703dfcf95",
+      "actual_pixel_review": {
+        "status": "PASS",
+        "actual_render_hash": "99f55280157b9a4ee8a2ee453a68be137bc01d66e15ee660f3ffc54703dfcf95"
+      }
+    }
+  ],
+  "deck_pixel_review": {
+    "status": "PASS",
+    "independent": true,
+    "deck_sha256": "948cbcad79b39c2eb56f4b6cff0322604e32c2bdf50d67d21e6a588023dbd149",
+    "montage_sha256": "3a21e5a33b0d371866928aad0b41b8cee13bf9332cde74ad7664899c466996e2"
+  },
+  "product_inspection": {
+    "status": "PASS",
+    "pptx_sha256": "948cbcad79b39c2eb56f4b6cff0322604e32c2bdf50d67d21e6a588023dbd149",
+    "slide_count": 24,
+    "blockers": []
+  }
+}

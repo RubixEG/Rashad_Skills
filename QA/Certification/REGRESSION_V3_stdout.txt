@@ -1,0 +1,102 @@
+{
+  "passed": 19,
+  "total": 19,
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "schema_clean",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "graph_duplicate_node",
+      "pass": true,
+      "detail": "['duplicate node id']"
+    },
+    {
+      "test": "graph_duplicate_edge",
+      "pass": true,
+      "detail": "['duplicate edge id']"
+    },
+    {
+      "test": "graph_dangling_edge",
+      "pass": true,
+      "detail": "['edge E1 target missing: MISSING']"
+    },
+    {
+      "test": "graph_missing_evidence",
+      "pass": true,
+      "detail": "['edges.0.evidence: [] should be non-empty']"
+    },
+    {
+      "test": "graph_invalid_relation",
+      "pass": true,
+      "detail": "[\"edges.0.relation: 'DECORATES' is not one of ['ENABLES', 'DEPENDS_ON', 'FLOWS_TO', 'CONTROLS', 'MEASURES', 'EVIDENCES', 'RISKS', 'PRIORITIZES', 'OWNS', 'APPROVES', 'FEEDS_BACK', 'THRESHOLD_FOR', 'MAPS_TO', 'BLOCKS']\", 'invalid relation DECORATES']"
+    },
+    {
+      "test": "artifact_truth_clean",
+      "pass": true,
+      "detail": "{'key': ('RING', ('cyclic', 'linear')), 'dominant': 'RING', 'primitives': ['RING', 'SPINE'], 'covered': ['APPROVES', 'FEEDS_BACK', 'FLOWS_TO'], 'complexity_band': 'AC-2', 'max_primitives': 3, 'artifact_truth_score': 100.0}"
+    },
+    {
+      "test": "artifact_weak_fails",
+      "pass": true,
+      "detail": "{'key': ('MATRIX', ('bi-axial',)), 'dominant': 'MATRIX', 'primitives': ['MATRIX'], 'covered': [], 'complexity_band': 'AC-1', 'max_primitives': 2, 'artifact_truth_score': 40.0}"
+    },
+    {
+      "test": "five_exhibit_hypotheses",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "exhibit_schema_five",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "exhibit_schema_rejects_two",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "html_clean_legacy.html",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "test": "html_broken_overflow.html",
+      "pass": true,
+      "detail": "['G03_LINE_COLLISION', 'G04_TEXT_FIT', 'C9_PIXEL', 'G34_CEQS']"
+    },
+    {
+      "test": "html_broken_asset.html",
+      "pass": true,
+      "detail": "['G29_ASSET_PATH_PREFLIGHT']"
+    },
+    {
+      "test": "html_broken_overlap.html",
+      "pass": true,
+      "detail": "['G03_LINE_COLLISION', 'G34_CEQS']"
+    },
+    {
+      "test": "html_broken_bidi.html",
+      "pass": true,
+      "detail": "['G27_BIDI_RUNS']"
+    },
+    {
+      "test": "html_broken_card_only.html",
+      "pass": true,
+      "detail": "['G32_ARTIFACT_TRUTH', 'G34_CEQS']"
+    },
+    {
+      "test": "deck_template_twins_blocked",
+      "pass": true,
+      "detail": "{'anti_template': {'gate': 'G26_ANTI_TEMPLATE', 'required': True, 'test_count': 2, 'status': 'FAIL', 'violations': [{'kind': 'template_twin_pages', 'a': 'p1', 'b': 'p2', 'distance': 0.0, 'tau': 0.085, 'a_shape': {'rows': 4, 'cols': 5, 'blocks': 6, 'nodes': 4, 'edges': 4, 'modal_size_count': 4}, 'b_shape': {'rows': 4, 'cols': 5, 'blocks': 6, 'nodes': 4, 'edges': 4, 'modal_size_count': 4}}, {'kind': 'deck_composition_monotony', 'distinct_ratio': 0.5, 'floor': 0.7}], 'measured': {'pages': 2, 'distinct_ratio': 0.5, 'shapes': [{'rows': 4, 'cols': 5, 'blocks': 6, 'nodes': 4, 'edges': 4, 'modal_size_count': 4}, {'rows': 4, 'cols': 5, 'blocks': 6, 'nodes': 4, 'edges': 4, 'modal_size_count': 4}]}, 'pairs': [{'a': 'p1', 'b': 'p2', 'distance': 0.0, 'twin': True}]}}"
+    },
+    {
+      "test": "r_code_effective_reachability",
+      "pass": true,
+      "detail": "{'all': 388, 'mapped': 249, 'direct_only': 139, 'effective_reachable': 388, 'direct_only_ids': ['R-002', 'R-020', 'R-021', 'R-024', 'R-027', 'R-030', 'R-032', 'R-033', 'R-035', 'R-044', 'R-045', 'R-049', 'R-050', 'R-051', 'R-052', 'R-053', 'R-054', 'R-055', 'R-056', 'R-058', 'R-059', 'R-066', 'R-069', 'R-077', 'R-078', 'R-080', 'R-083', 'R-085', 'R-086', 'R-092', 'R-103', 'R-104', 'R-106', 'R-107', 'R-110', 'R-111', 'R-114', 'R-120', 'R-131', 'R-132', 'R-133', 'R-135', 'R-137', 'R-138', 'R-140', 'R-142', 'R-143', 'R-146', 'R-150', 'R-151', 'R-152', 'R-156', 'R-158', 'R-159', 'R-160', 'R-161', 'R-162', 'R-166', 'R-167', 'R-168', 'R-172', 'R-175', 'R-176', 'R-177', 'R-179', 'R-183', 'R-186', 'R-189', 'R-191', 'R-193', 'R-198', 'R-207', 'R-210', 'R-213', 'R-216', 'R-217', 'R-221', 'R-223', 'R"
+    }
+  ]
+}

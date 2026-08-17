@@ -1,0 +1,1326 @@
+{
+  "version": "7.0.2",
+  "status": "CANONICAL_RFP_SUMMARY_ROLE_REGISTRY_V7_0_2_OWNER_LANGUAGE_EXECUTIVE_NAMING_LOCK",
+  "role_count": 24,
+  "role_order_locked": true,
+  "physical_slide_count_fixed": false,
+  "language_rule": "ARABIC_SOURCE_OR_SELECTED_ARABIC_OUTPUT=>ARABIC_VISIBLE_PRODUCT; ENGLISH=>ENGLISH_VISIBLE_PRODUCT; technical/proper-name exceptions only; Arabic visible executive product language forbids ambiguous exposure jargon unless engagement-specific owner approval is explicit",
+  "chapters": {
+    "C1": {
+      "ar": "فهم الفرصة وقرار الإدارة المبكر",
+      "en": "Opportunity Understanding & Early Management Decision",
+      "roles": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "C2": {
+      "ar": "ما الذي يطلبه العميل فعلًا؟",
+      "en": "What the Client Actually Requires",
+      "roles": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "C3": {
+      "ar": "حجم الالتزام والتنفيذ",
+      "en": "Commitment & Delivery Scale",
+      "roles": [
+        11,
+        12,
+        13
+      ]
+    },
+    "C4": {
+      "ar": "كيف نفوز؟",
+      "en": "How We Win",
+      "roles": [
+        14,
+        15,
+        16
+      ]
+    },
+    "C5": {
+      "ar": "استراتيجية التقديم والتنفيذ",
+      "en": "Proposal & Delivery Strategy",
+      "roles": [
+        17,
+        18,
+        19
+      ]
+    },
+    "C6": {
+      "ar": "المخاطر والقرار",
+      "en": "Risks & Decision",
+      "roles": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  },
+  "roles": [
+    {
+      "sequence": 1,
+      "canonical_id": "COVER",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "الغلاف",
+        "en": "Cover"
+      },
+      "chapter_id": "C1",
+      "purpose": {
+        "ar": "تعريف المنافسة والمنتج والهوية دون تحليل.",
+        "en": "Identify the competition/product without analysis."
+      },
+      "management_question": {
+        "ar": "ما المنافسة التي ننظر إليها؟",
+        "en": "What opportunity is this?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "ما الهوية المرجعية الصحيحة للمنافسة؟",
+        "en": "Is the competition identity exact and current?"
+      },
+      "artifact_intent": "IDENTITY",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Reconcile competition identity across all authoritative documents; surface identity conflicts without adding analysis to the cover.",
+          "Verify current Rubix/client asset identity and exact competition/reference metadata."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Authoritative competition title/client entity/reference number when present.",
+          "Verified current Rubix assets and engagement-supplied client assets."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 2,
+      "canonical_id": "COMPETITION_NARRATIVE",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "ماذا تشتري الجهة فعليًا؟",
+        "en": "Competition Narrative"
+      },
+      "chapter_id": "C1",
+      "purpose": {
+        "ar": "شرح ما الذي يشتريه العميل ولماذا وما الذي سيتغير عند نجاح المشروع.",
+        "en": "Explain what the client is buying, why, and what changes on success."
+      },
+      "management_question": {
+        "ar": "ما الذي يطلبه العميل فعليًا وما المشكلة التي يريد حلها؟",
+        "en": "What is the client really buying and why?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "ما الفهم الذي يجب أن ينعكس في العرض بدل إعادة صياغة العنوان؟",
+        "en": "What understanding must the proposal demonstrate?"
+      },
+      "artifact_intent": "EXECUTIVE_NARRATIVE",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Separate stated procurement intent from inferred business problem and expected change.",
+          "Synthesize why the competition exists and what success changes; do not paraphrase the title."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "RFP background, objectives, scope introduction and stated outcomes.",
+          "Cross-source clauses that explain the business context or required transformation."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 3,
+      "canonical_id": "TABLE_OF_CONTENTS",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "خريطة الملخص التنفيذي",
+        "en": "Table of Contents"
+      },
+      "chapter_id": "C1",
+      "purpose": {
+        "ar": "توجيه الإدارة عبر أدوار الملخص وترتيب القراءة.",
+        "en": "Navigate management through the brief."
+      },
+      "management_question": {
+        "ar": "كيف نقرأ الملخص للوصول إلى القرار؟",
+        "en": "How should management navigate the brief?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل رحلة القراءة كاملة ومتسقة مع المنتج؟",
+        "en": "Is the navigation complete and coherent?"
+      },
+      "artifact_intent": "NAVIGATION",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Verify the active 24-role storyline, expansion pages and final reading order.",
+          "Reconcile final pagination after all role expansion/repair."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Canonical role registry and approved generated page map.",
+          "Final pagination/master inventory."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 4,
+      "canonical_id": "OPPORTUNITY_SNAPSHOT",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "صورة الفرصة في دقيقة واحدة",
+        "en": "Opportunity Snapshot"
+      },
+      "chapter_id": "C1",
+      "purpose": {
+        "ar": "ضغط أهم حقائق المنافسة إلى قراءة قرار سريعة.",
+        "en": "Compress decision-relevant opportunity facts."
+      },
+      "management_question": {
+        "ar": "ما أهم ما يجب أن تعرفه الإدارة خلال دقيقة؟",
+        "en": "What must management know in one minute?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "ما الحقائق التي تؤثر في قرار الدخول وبناء العرض؟",
+        "en": "Which facts materially affect the bid decision?"
+      },
+      "artifact_intent": "EXECUTIVE_DASHBOARD",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Select only decision-relevant metrics and distinguish known values from unresolved gaps.",
+          "Interpret scale, bid pressure and implications rather than displaying metrics alone."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Source-backed duration/location/scope/deliverable/BOQ/team/evaluation/pass-mark/support/guarantee facts.",
+          "Source coverage/conflict status for every displayed metric."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 5,
+      "canonical_id": "KEY_DATES",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "الجدول الزمني وضغط التقديم",
+        "en": "Key Dates & Submission Countdown"
+      },
+      "chapter_id": "C1",
+      "purpose": {
+        "ar": "ترجمة التواريخ إلى ضغط زمني ومواعيد داخلية وتعارضات.",
+        "en": "Translate dates into bid pressure and internal deadlines."
+      },
+      "management_question": {
+        "ar": "هل لدينا وقت كافٍ؟ وما المسار الحرج قبل الإغلاق؟",
+        "en": "Do we have enough time and what is the submission critical path?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل التواريخ والتعارضات والمهل موثقة بوضوح؟",
+        "en": "Are deadlines/conflicts evidenced and clear?"
+      },
+      "artifact_intent": "TIMELINE_COUNTDOWN",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Reconcile dates across documents, calculate countdown/internal working deadline and identify conflicts.",
+          "Assess schedule pressure and which bid activities are on the critical path."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Authoritative issue/clarification/submission/opening/award/start dates and source locators.",
+          "Document conflict evidence where dates disagree."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 6,
+      "canonical_id": "SOURCE_COVERAGE",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "اكتمال مستندات المنافسة وما يحتاج إلى حسم",
+        "en": "Source Coverage, Gaps & Conflicts"
+      },
+      "chapter_id": "C2",
+      "purpose": {
+        "ar": "تقييم اكتمال الحزمة وما ينقص القرار أو التسعير أو الحل.",
+        "en": "Assess evidence completeness and conflicts."
+      },
+      "management_question": {
+        "ar": "هل نملك المعلومات الكافية لاتخاذ قرار وتسعير وبناء حل؟",
+        "en": "Do we have enough information to decide, price and design?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "ما المصادر أو التعارضات التي قد تغير الاستجابة؟",
+        "en": "Which source gaps/conflicts could change the response?"
+      },
+      "artifact_intent": "COVERAGE_CONFLICT_MATRIX",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Assess completeness, referenced-but-missing annexes and cross-document contradictions.",
+          "Classify each gap/conflict by decision, solution, pricing or compliance impact."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Complete source inventory with IDs/hashes/status.",
+          "Cross-document references, missing-annex evidence and conflict locators."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 7,
+      "canonical_id": "CLIENT_NEED",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "أهداف المشروع والنتائج التي تتوقعها الجهة",
+        "en": "Client Need, Objectives & Success Outcomes"
+      },
+      "chapter_id": "C2",
+      "purpose": {
+        "ar": "فصل المشكلة والاحتياج والهدف والنتيجة ومقياس النجاح.",
+        "en": "Separate problem, need, objective, outcome and success measure."
+      },
+      "management_question": {
+        "ar": "لماذا يريد العميل المشروع وما النجاح بالنسبة له؟",
+        "en": "Why does the client want this and what is success?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل فهمنا النتيجة المطلوبة وليس الأنشطة فقط؟",
+        "en": "Have we understood outcomes rather than activities?"
+      },
+      "artifact_intent": "NEED_TO_OUTCOME_LOGIC",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Separate problem, need, objective, outcome and success measure.",
+          "Distinguish stated objectives from Rashad inference and test whether outcomes are measurable."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Background/objective/outcome/KPI clauses and relevant scope statements.",
+          "Evidence supporting any inferred problem or success condition."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 8,
+      "canonical_id": "STRATEGIC_READING",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "القراءة الاستراتيجية للفرصة",
+        "en": "Strategic Reading"
+      },
+      "chapter_id": "C2",
+      "purpose": {
+        "ar": "إعادة تركيب متطلبات الكراسة إلى منطق أعمال وقدرات وأولويات.",
+        "en": "Reassemble requirements into business logic and priorities."
+      },
+      "management_question": {
+        "ar": "ماذا تعني المتطلبات مجتمعة للفرصة والحل؟",
+        "en": "What do the requirements mean as a system?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "ما الفهم الاستراتيجي الذي يجب أن يقتنع به المقيم؟",
+        "en": "What strategic understanding should the evaluator see?"
+      },
+      "artifact_intent": "SYSTEM_ARCHITECTURE",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Reassemble dispersed requirements into business logic, capabilities, priorities and transformation implications.",
+          "Identify cross-workstream dependencies and what the client is implicitly optimizing for, labelled as inference where needed."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Cross-source requirements from scope, evaluation, BOQ, technical and contractual documents.",
+          "Counter-evidence or inconsistencies that limit the strategic inference."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 9,
+      "canonical_id": "SCOPE_ARCHITECTURE",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "نطاق المشروع ومجالات العمل",
+        "en": "Scope Architecture & Workstreams"
+      },
+      "chapter_id": "C2",
+      "purpose": {
+        "ar": "تحويل النطاق إلى منظومة مسارات وعلاقات واعتماديات ومسؤوليات.",
+        "en": "Convert scope into workstreams, dependencies and ownership."
+      },
+      "management_question": {
+        "ar": "مم يتكون العمل فعليًا وكيف ترتبط أجزاؤه؟",
+        "en": "What does delivery consist of and how do parts relate?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل غطينا كل نطاق وعلاقاته دون إسقاط أو تكرار؟",
+        "en": "Is every scope element and relationship covered?"
+      },
+      "artifact_intent": "WORKSTREAM_SYSTEM",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Decompose scope into coherent workstreams/capabilities with boundaries, owners, outputs and intersections.",
+          "Model dependencies/control/enablers rather than presenting peer cards."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Scope-of-work clauses, BOQ lines, technical annexes and contractual deliverables.",
+          "Source-backed boundaries, dependencies and ownership requirements."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 10,
+      "canonical_id": "DELIVERY_JOURNEY",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "كيف سينتقل المشروع من التأسيس إلى التشغيل؟",
+        "en": "Delivery Journey, Phases & Dependencies"
+      },
+      "chapter_id": "C2",
+      "purpose": {
+        "ar": "إظهار المراحل والبوابات والمدخلات والاعتماديات والمسار الحرج.",
+        "en": "Show phases, gates, inputs, dependencies and critical path."
+      },
+      "management_question": {
+        "ar": "كيف سينتقل المشروع من البداية إلى القبول والتشغيل؟",
+        "en": "How does the work move from mobilization to acceptance/operation?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل المنهجية قابلة للتنفيذ ومتسقة مع متطلبات العميل؟",
+        "en": "Is the delivery journey executable and aligned?"
+      },
+      "artifact_intent": "PHASE_GATE_JOURNEY",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Derive phases, gates, client inputs, approvals, handoffs and critical path.",
+          "Separate proposal assumptions from source-stated delivery/acceptance requirements."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Schedule/methodology/acceptance/milestone clauses and deliverable dependencies.",
+          "Client approval/input obligations and timing constraints."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 11,
+      "canonical_id": "BOQ_INTELLIGENCE",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "المخرجات والكميات: ما الذي سنلتزم بتسليمه فعليًا؟",
+        "en": "BOQ & Deliverable Intelligence"
+      },
+      "chapter_id": "C3",
+      "purpose": {
+        "ar": "فهم كل بند تعاقدي تشغيليًا وتجاريًا: ما الذي يعنيه، ما الذي يُسلَّم، كيف يُقبل، وما الالتزامات والمخاطر المرتبطة به.",
+        "en": "Interpret each contractual line operationally/commercially."
+      },
+      "management_question": {
+        "ar": "ماذا نلتزم فعليًا بتنفيذه وتسليمه وقبوله وتسعيره؟",
+        "en": "What are we actually committing to build, deliver, accept and price?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل كل بند مربوط بالنطاق والمخرج والقبول والاعتماديات؟",
+        "en": "Is each BOQ item mapped to scope, output, acceptance and dependencies?"
+      },
+      "artifact_intent": "BOQ_TO_ACCEPTANCE_SYSTEM",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Map `Scope → BOQ Item → Components → Deliverable → Acceptance → Owner → Dependencies → Cost/Risk Exposure`.",
+          "Detect compressed pricing lines, ambiguous units and acceptance/payment exposure."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Every relevant BOQ row with quantity/unit/wording and locator.",
+          "Linked scope, acceptance, payment and deliverable clauses."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 12,
+      "canonical_id": "TECHNICAL_REQUIREMENTS",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "متطلبات الحل التقني والبيانات والتكامل",
+        "en": "Technical, Digital, Data & Integration Requirements"
+      },
+      "chapter_id": "C3",
+      "purpose": {
+        "ar": "تجميع الالتزامات التقنية وربطها بالحل والجهد والتكلفة والإطلاق.",
+        "en": "Connect technical obligations to solution/effort/cost/launch."
+      },
+      "management_question": {
+        "ar": "ما الذي تفرضه البيئة التقنية على الحل والتنفيذ؟",
+        "en": "What does the technical environment force us to design for?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل تم تحويل المتطلبات التقنية إلى آثار قابلة للتنفيذ؟",
+        "en": "Are technical requirements translated into delivery implications?"
+      },
+      "artifact_intent": "TECHNICAL_ARCHITECTURE",
+      "omission_policy": "CONDITIONAL",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Synthesize architecture/hosting/integration/data/cyber/environments/DevOps/testing/IP/licensing/support requirements.",
+          "Identify solution, staffing, schedule and pricing implications and contradictions."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Technical/software/cyber/data/integration annexes and source-code/IP/licensing clauses.",
+          "Environment, hosting, interface, security and support evidence."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 13,
+      "canonical_id": "TEAM_CAPACITY",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "القدرات المطلوبة لتنفيذ المشروع",
+        "en": "Team & Delivery Capacity"
+      },
+      "chapter_id": "C3",
+      "purpose": {
+        "ar": "تحليل متطلبات الفريق والقدرة الفعلية والندرة والالتزام.",
+        "en": "Assess required team and actual delivery capacity/readiness."
+      },
+      "management_question": {
+        "ar": "هل نستطيع توفير الفريق المطلوب بالمواصفات وفي الوقت؟",
+        "en": "Can we field the required team in time and at the required quality?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل الهيكل والسير الذاتية والأدلة ستكسب النقاط وتغطي التنفيذ؟",
+        "en": "Will the team structure/evidence satisfy evaluation and delivery?"
+      },
+      "artifact_intent": "TEAM_PHASE_CAPACITY",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Map required roles, quantities, experience, qualifications, certifications, location/language and phase involvement.",
+          "Assess delivery capacity, peak load, scarcity and compliance gaps; separate RFP minimums from Council recommendations."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Team specification/evaluation clauses and required CV/certificate evidence.",
+          "Mounted CV/corporate evidence readiness where available; missing evidence remains explicit."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 14,
+      "canonical_id": "EVALUATION_WIN",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "كيف سيُقيَّم العرض وما الذي يصنع التفوق؟",
+        "en": "Evaluation Logic & Win Strategy"
+      },
+      "chapter_id": "C4",
+      "purpose": {
+        "ar": "تحويل معايير التقييم إلى اعتقاد مطلوب ودليل واستجابة وأولوية بناء.",
+        "en": "Translate evaluation into evaluator belief, evidence and build priority."
+      },
+      "management_question": {
+        "ar": "كيف نفوز بالنقاط وما الذي يجب أن نثبتَه؟",
+        "en": "How do we win points and what must we prove?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "ماذا يجب أن يرى المقيم ليمنح الدرجة؟",
+        "en": "What must the evaluator see to award the score?"
+      },
+      "artifact_intent": "CRITERION_TO_EVIDENCE_WIN_MAP",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Translate each criterion/gate into evaluator belief, required proof, Rubix response and build priority.",
+          "Separate qualification/pass-fail gates from weighted scoring and identify win/loss drivers."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Technical/commercial evaluation sheets, weights, pass marks and mandatory prerequisites.",
+          "Evidence requirements and source-backed criteria/gates."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 15,
+      "canonical_id": "QUALIFICATION_READINESS",
+      "legacy_aliases": [
+        "EVIDENCE_READINESS"
+      ],
+      "visible_name": {
+        "ar": "جاهزية التأهيل والأدلة الداعمة",
+        "en": "Qualification, Evidence & Appendix Readiness"
+      },
+      "chapter_id": "C4",
+      "purpose": {
+        "ar": "تقييم جاهزية الوثائق والشهادات والخبرات والسير والملاحق المطلوبة.",
+        "en": "Assess readiness of qualification and supporting evidence."
+      },
+      "management_question": {
+        "ar": "هل نملك أدلة التأهيل والفوز المطلوبة قبل الإغلاق؟",
+        "en": "Do we have the qualification/win evidence before submission?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل يوجد أي نقص قد يمنع التأهيل أو يضعف التقييم؟",
+        "en": "Could any evidence gap block qualification or scoring?"
+      },
+      "artifact_intent": "EVIDENCE_READINESS_MATRIX",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Build a readiness view across corporate documents, team evidence, similar experience, certificates and mandatory forms.",
+          "Assess validity/availability/owner/deadline and bid impact of every gap."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Qualification forms, mandatory appendices, evidence indexes and mounted files.",
+          "Expiry/validity/availability evidence; index presence alone is not proof."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 16,
+      "canonical_id": "COMMERCIAL_EXPOSURE",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "الالتزامات والمخاطر التجارية والمالية",
+        "en": "Commercial & Financial Commitments and Risks"
+      },
+      "chapter_id": "C4",
+      "purpose": {
+        "ar": "تحديد محركات التكلفة والتدفق النقدي والالتزامات والمخاطر التجارية والمالية دون اختراع سعر.",
+        "en": "Identify cost/cash-flow/obligation exposure without inventing price."
+      },
+      "management_question": {
+        "ar": "ما الالتزامات والمخاطر التي قد تغيّر السعر أو الهامش أو التدفق النقدي؟",
+        "en": "What could change price, margin or cash flow?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل الالتزامات والمخاطر التجارية والمالية محددة ومحكومة قبل التسعير؟",
+        "en": "Is commercial exposure understood and protected?"
+      },
+      "artifact_intent": "COMMERCIAL_EXPOSURE_MAP",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Identify cost/margin/cash-flow drivers without inventing a price.",
+          "Analyze payment triggers, bonds, penalties, travel, third parties, licences/infrastructure, staffing load, support/warranty and acceptance dependencies."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "BOQ/pricing basis/payment schedule/contract/penalty/guarantee/support clauses.",
+          "Source-backed volumes, assumptions and unresolved commercial dependencies."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT",
+      "topic_adaptive_visible_title_ar": [
+        {
+          "title": "الالتزامات والمخاطر التجارية والمالية",
+          "condition": "DEFAULT"
+        },
+        {
+          "title": "الالتزامات المالية والتجارية وأثرها على الربحية",
+          "condition": "ONLY_IF_PROFITABILITY_IMPLICATIONS_SUPPORTED"
+        },
+        {
+          "title": "الالتزامات المالية والتجارية وأثرها على التدفق النقدي والربحية",
+          "condition": "ONLY_IF_CASH_FLOW_AND_PROFITABILITY_IMPLICATIONS_SUPPORTED"
+        },
+        {
+          "title": "الأثر المالي والتجاري",
+          "condition": "ONLY_IF_CONTEXT_IS_SPECIFIC_ENOUGH_TO_STATE_THE_DECISION_ISSUE"
+        }
+      ],
+      "cfo_language_test_ar": [
+        "ما الذي يجب على Rubix دفعه أو الالتزام به؟",
+        "ما الذي قد يؤثر على الهامش؟",
+        "ما الذي قد يؤثر على التدفق النقدي؟",
+        "ما الضمانات المطلوبة؟",
+        "ما شروط الدفع التي تخلق مخاطر؟",
+        "ما الغرامات أو الجزاءات؟",
+        "ما الافتراضات التي قد تغيّر السعر؟"
+      ],
+      "release_failure_test": "BLOCK if Arabic visible product language uses prohibited exposure jargon instead of the actual commitment, risk, cash-flow, margin, guarantee, payment-term, penalty, or pricing issue."
+    },
+    {
+      "sequence": 17,
+      "canonical_id": "PROPOSAL_STRATEGY",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "استراتيجية الاستجابة للمنافسة",
+        "en": "Proposal Strategy & Build Priorities"
+      },
+      "chapter_id": "C5",
+      "purpose": {
+        "ar": "تحويل فهم المنافسة إلى خطة بناء العرض وأولويات الإثبات والتدخل.",
+        "en": "Turn RFP understanding into proposal build strategy."
+      },
+      "management_question": {
+        "ar": "أين نركز جهدنا وما الذي يجب أن نقفله مبكرًا؟",
+        "en": "Where should we focus effort and what must be locked early?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل الأولويات مرتبطة بالتقييم والأدلة ومخاطر الفوز؟",
+        "en": "Are build priorities tied to evaluation/evidence/win risk?"
+      },
+      "artifact_intent": "BUILD_PRIORITY_CONTROL_TOWER",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Define bid thesis, evaluator questions, win themes, proof points, evidence weaknesses and build priorities.",
+          "Identify which sections need Partner/SME/commercial intervention and which work can proceed in parallel."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Validated outputs of roles 01–16 plus evaluation/evidence gaps.",
+          "Approved Bid Strategy decisions and source-backed proof requirements."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 18,
+      "canonical_id": "PROPOSAL_GANTT",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "خطة إعداد العرض حتى التقديم",
+        "en": "Proposal Preparation Plan"
+      },
+      "chapter_id": "C5",
+      "purpose": {
+        "ar": "خطة عكسية من موعد التسليم تغطي كل مسارات إعداد العرض والمراجعة.",
+        "en": "Reverse-plan proposal preparation from submission."
+      },
+      "management_question": {
+        "ar": "كيف ننجز عرضًا كاملًا ومراجعًا قبل الموعد بهامش أمان؟",
+        "en": "How do we finish a reviewed proposal with upload buffer?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل كل مسار إعداد واعتماد له مالك وموعد واعتماديات؟",
+        "en": "Does every preparation stream have owner/deadline/dependencies?"
+      },
+      "artifact_intent": "BID_PREPARATION_GANTT",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Back-plan from submission, model dependencies/reviews/buffers and identify the proposal critical path.",
+          "Ensure clarification, evidence, commercial, council/red-team, Arabic editorial, production and upload buffers are represented."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Submission/clarification deadlines and current bid-work inventory.",
+          "Known review/approval dependencies and availability constraints."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 19,
+      "canonical_id": "CONTRACT_GANTT",
+      "legacy_aliases": [
+        "DELIVERY_GANTT"
+      ],
+      "visible_name": {
+        "ar": "تصور تنفيذ المشروع بعد الترسية",
+        "en": "Contract Delivery Plan"
+      },
+      "chapter_id": "C5",
+      "purpose": {
+        "ar": "تصور عالي المستوى لتنفيذ العقد من الترسية حتى القبول والتسليم والدعم.",
+        "en": "High-level award-to-delivery roadmap."
+      },
+      "management_question": {
+        "ar": "إذا فزنا، كيف سننفذ العقد واقعيًا؟",
+        "en": "If awarded, how will we deliver realistically?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل الالتزام الزمني متسق مع النطاق والموارد والقبول؟",
+        "en": "Is delivery timing coherent with scope/resources/acceptance?"
+      },
+      "artifact_intent": "CONTRACT_DELIVERY_GANTT",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Translate award-to-delivery obligations into workstreams, milestones, gates, approvals, launch/support and final handover.",
+          "Use T0/weeks/months when source dates are not fixed; do not invent calendar dates."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Contract duration, SOW phases, deliverable/acceptance milestones and support/handover obligations.",
+          "Dependencies/client approvals relevant to sequencing."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 20,
+      "canonical_id": "RISKS",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "ما الذي قد يهدد الفوز أو التنفيذ؟",
+        "en": "Proposal, Delivery, Launch & Operational Risks"
+      },
+      "chapter_id": "C6",
+      "purpose": {
+        "ar": "تحديد المخاطر المادية التي تغير الحل أو السعر أو الفريق أو الجدول أو القبول أو التشغيل.",
+        "en": "Identify material risks affecting bid/delivery/launch/operations."
+      },
+      "management_question": {
+        "ar": "ما الذي قد يجعلنا نخسر أو نتعثر أو نخسر هامشًا؟",
+        "en": "What could cause us to lose, fail delivery or erode margin?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل المخاطر مادية ولها أسباب ومحفزات ومعالجة ومالك؟",
+        "en": "Are risks material, causal and actionable?"
+      },
+      "artifact_intent": "EMBEDDED_RISK_CONTROL_MODEL",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Express material risk as cause/trigger → event → impact → mitigation/owner/residual exposure.",
+          "Separate source fact, inference and assumption; prioritize risks that can change bid, solution, price, team, schedule, acceptance or operations."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Source conflicts/gaps/contract obligations/technical dependencies and validated assumptions.",
+          "Evidence for likelihood/impact where available; unknowns explicitly labelled."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 21,
+      "canonical_id": "CLARIFICATIONS",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "الاستفسارات التي يجب حسمها قبل التقديم",
+        "en": "Strategic Clarifications"
+      },
+      "chapter_id": "C6",
+      "purpose": {
+        "ar": "حصر الأسئلة التي يغير جوابها قرارًا حقيقيًا في العرض أو التنفيذ أو التسعير.",
+        "en": "Ask only questions whose answers change a real decision."
+      },
+      "management_question": {
+        "ar": "ما الذي يجب أن نسأل عنه قبل أن نلتزم؟",
+        "en": "What must we clarify before committing?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل الإجابة A مقابل B تغير شيئًا ماديًا؟",
+        "en": "Would answer A vs B materially change the bid?"
+      },
+      "artifact_intent": "DECISION_CHANGING_QUESTION_REGISTER",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Admit only questions where answer A vs B materially changes scope, solution, effort, price, team, schedule, acceptance, launch, operations, responsibility split or qualification.",
+          "Reject already-answered, platform-obvious, non-specific or non-actionable questions."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Exact conflicting/missing source clauses and affected decision/solution element.",
+          "Existing source search proving the answer is not already available."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 22,
+      "canonical_id": "ASSUMPTIONS_GAPS",
+      "legacy_aliases": [
+        "ASSUMPTIONS"
+      ],
+      "visible_name": {
+        "ar": "الافتراضات والفجوات المؤثرة على القرار",
+        "en": "Assumptions & Information Gaps"
+      },
+      "chapter_id": "C6",
+      "purpose": {
+        "ar": "فصل ما نفترضه عما ينقصنا مع أثره ومالك التحقق.",
+        "en": "Separate assumptions from information gaps and impacts."
+      },
+      "management_question": {
+        "ar": "ما الذي نفترضه حاليًا وما الذي نحتاج للتحقق منه؟",
+        "en": "What are we assuming and what remains unknown?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل الافتراضات معلنة ويمكن تتبع أثرها؟",
+        "en": "Are assumptions explicit and impact-traceable?"
+      },
+      "artifact_intent": "ASSUMPTION_GAP_REGISTER",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "State each assumption/gap, reason, affected elements, impact, verification owner and whether it should become a clarification.",
+          "Separate assumption from fact and from open clarification."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Source absence/conflict/ambiguity that necessitates the assumption.",
+          "Affected scope/commercial/technical/timeline evidence."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 23,
+      "canonical_id": "AUTHORSHIP_MATURITY",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "ماذا تكشف طريقة إعداد المنافسة عن عملية الشراء؟",
+        "en": "RFP Authorship & Procurement Maturity"
+      },
+      "chapter_id": "C6",
+      "purpose": {
+        "ar": "استنتاج نموذج إعداد الحزمة ونضجها من اتساق الأدلة والحدود بين الوثائق وتأثير ذلك على الاستراتيجية.",
+        "en": "Infer authoring/assembly model and procurement maturity from evidence."
+      },
+      "management_question": {
+        "ar": "هل الكراسة تبدو جهدًا داخليًا فرديًا، فريقًا متعدد الوظائف، مستشارًا متخصصًا، أم حزمة هجينة؟ وما أثر ذلك؟",
+        "en": "Does the package look individually internal, multi-function, specialist advisory-led or hybrid, and why does it matter?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "ما الذي تقوله بصمة الإعداد عن الغموض والتقييم والاستفسارات والتسعير؟",
+        "en": "What does authorship/maturity imply for response strategy?"
+      },
+      "artifact_intent": "AUTHORSHIP_MATURITY_FINGERPRINT",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Infer likely authoring/assembly model and procurement maturity using evidence for and against, with confidence.",
+          "Translate maturity signals into likely ambiguity, evaluator sophistication, clarification need and commercial protection; never name an advisor without proof."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Cross-document consistency, terminology, BOQ-scope alignment, evaluation logic, acceptance depth and contract/technical coherence.",
+          "Counter-evidence and explicit source proof for any stated authoring fact."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    },
+    {
+      "sequence": 24,
+      "canonical_id": "BID_DECISION",
+      "legacy_aliases": [],
+      "visible_name": {
+        "ar": "قرار الدخول وشروط النجاح",
+        "en": "Management / Bid Decision"
+      },
+      "chapter_id": "C6",
+      "purpose": {
+        "ar": "تجميع كل الأدلة في توصية قرار وشروط وإجراءات إدارة واضحة.",
+        "en": "Synthesize evidence into a management bid decision and actions."
+      },
+      "management_question": {
+        "ar": "هل ندخل المنافسة؟ ولماذا؟ وبأي شروط؟",
+        "en": "Should we bid, why, and under what conditions?"
+      },
+      "evaluator_or_assurance_question": {
+        "ar": "هل القرار مستند إلى جاذبية وفوز وقدرة تنفيذ وأدلة وثقة تجارية ومخاطر؟",
+        "en": "Is the decision grounded in attractiveness, win, delivery, evidence, commercial confidence and risk?"
+      },
+      "artifact_intent": "MANAGEMENT_DECISION_DOSSIER",
+      "omission_policy": "REQUIRED",
+      "physical_page_count": "DYNAMIC_1_TO_N",
+      "visible_bilingual_heading": "FORBIDDEN",
+      "contract_fields_required": [
+        "mandatory_content",
+        "required_analysis",
+        "evidence_requirements",
+        "artifact_intent",
+        "management_implication",
+        "expansion_decision",
+        "release_failure_test"
+      ],
+      "required_analysis": {
+        "en": [
+          "Synthesize opportunity attractiveness, strategic fit, win position, delivery/team/evidence/commercial confidence, schedule pressure, procurement maturity, dependencies, gaps and top risks.",
+          "Challenge the recommendation with counter-evidence/conditions; do not use an automatic weighted formula."
+        ],
+        "ar": []
+      },
+      "evidence_requirements": {
+        "en": [
+          "Validated evidence/outputs from roles 01–23 with locators/hash lineage.",
+          "Decision-dimension evidence objects required by `rfp_bid_decision_evidence_v7.schema.json`."
+        ],
+        "ar": []
+      },
+      "visible_title_mode": "TOPIC_ADAPTIVE_EXECUTIVE_TITLE_WITH_CANONICAL_SAFE_DEFAULT"
+    }
+  ],
+  "decision_states_internal": [
+    "GO",
+    "GO_WITH_CONDITIONS",
+    "HOLD",
+    "NO_GO_RECOMMENDATION",
+    "INSUFFICIENT_INFORMATION"
+  ],
+  "visible_title_generation_rule": {
+    "formula": "Canonical Role + RFP Topic + Management Question + Primary Executive Audience",
+    "default_behavior": "Use canonical Arabic default as a safe baseline, then adapt only when the RFP evidence supports a more specific management implication.",
+    "owner_language_lock": "Arabic visible executive titles/subsections/callouts/decision labels/artifact labels must not use the prohibited exposure term variants unless an engagement-specific owner approval is explicitly recorded.",
+    "cfo_evidence_rule": "Profitability or cash-flow wording is permitted only when source evidence or analysis genuinely supports the dimension."
+  },
+  "prohibited_visible_terms_ar": [
+    "التعرّض",
+    "التعرض"
+  ],
+  "allowed_internal_id_exception": [
+    "COMMERCIAL_EXPOSURE"
+  ]
+}

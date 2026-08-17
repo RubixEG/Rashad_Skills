@@ -1,0 +1,1709 @@
+{
+  "status": "PASS",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "communication_strategy": "SCORECARD_LED",
+      "strategy_family": "ANALYTICAL",
+      "communication_intent": "Compact status, gate, readiness, or KPI scorecard tied to a decision",
+      "complexity_level": 2,
+      "partner_fit_score": 93.0,
+      "simplicity_score": 76,
+      "page_fingerprint": "a5f1414eaedf",
+      "structural_signature": "PCS-2BA74AC9C911F7C9A890",
+      "visual_concept_id": "VC-7742483560",
+      "visual_concept_brief": {
+        "focal_rule": "status/gates create immediate management action",
+        "page_specific_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+        "proof_encoding": "2–4 bounded proof points",
+        "negative_space_role": "protect focal hierarchy; never empty filler",
+        "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+        "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+        "complexity_rule": "use the least complex form that preserves the business relationship"
+      },
+      "system_complexity_earned": true,
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+      "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM",
+      "composition_spec": {
+        "schema": "RASHAD_PAGE_COMPOSITION_SPEC_V1",
+        "version": "1.0",
+        "page_id": null,
+        "page_family": "ANALYTICAL",
+        "communication_strategy": "SCORECARD_LED",
+        "strategy_family": "ANALYTICAL",
+        "dominant_form": "MATRIX",
+        "dominant_mass_target": 0.37,
+        "dominant_bbox": {
+          "x": 0.055,
+          "y": 0.17,
+          "w": 0.6523,
+          "h": 0.5672
+        },
+        "focal_anchor": {
+          "zone": "TOP_LEFT",
+          "bbox": {
+            "x": 0.055,
+            "y": 0.17,
+            "w": 0.6523,
+            "h": 0.5672
+          },
+          "salience_rank": 1
+        },
+        "focal_chain": [
+          "DOMINANT",
+          "SUPPORT",
+          "HEADER"
+        ],
+        "eye_path": {
+          "direction": "RTL",
+          "waypoints": [
+            "TOP_LEFT",
+            "SUPPORT",
+            "HEADER"
+          ]
+        },
+        "salience_budget": {
+          "rank_1": 0.55,
+          "rank_2": 0.28,
+          "rank_3": 0.17
+        },
+        "mass_plan": [
+          [
+            0.25,
+            0.32,
+            0.265,
+            0.0
+          ],
+          [
+            0.78,
+            1.0,
+            0.829,
+            0.0
+          ],
+          [
+            0.74,
+            0.949,
+            0.787,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "negative_space_zones": [
+          {
+            "type": "EMPHASIS_HALO",
+            "bbox": {
+              "x": 0.7273,
+              "y": 0.18,
+              "w": 0.2327,
+              "h": 0.65
+            },
+            "purpose": "separate dominant form"
+          },
+          {
+            "type": "GUTTER",
+            "bbox": {
+              "x": 0.03,
+              "y": 0.03,
+              "w": 0.94,
+              "h": 0.06
+            },
+            "purpose": "header/footer separation"
+          }
+        ],
+        "content_zones": [
+          {
+            "id": "DOMINANT",
+            "role": "DOMINANT",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.17,
+              "w": 0.6523,
+              "h": 0.5672
+            },
+            "z": 20,
+            "overflow": "BLOCK"
+          },
+          {
+            "id": "SUPPORT",
+            "role": "SUPPORT_EVIDENCE",
+            "bbox": {
+              "x": 0.7423,
+              "y": 0.21,
+              "w": 0.2177,
+              "h": 0.5672
+            },
+            "z": 18,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "HEADER",
+            "role": "HEADER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.045,
+              "w": 0.89,
+              "h": 0.12
+            },
+            "z": 30,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "FOOTER",
+            "role": "FOOTER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.93,
+              "w": 0.89,
+              "h": 0.035
+            },
+            "z": 30,
+            "overflow": "BLOCK"
+          }
+        ],
+        "typographic_hierarchy": {
+          "font_family": "Montserrat Arabic",
+          "levels": [
+            {
+              "role": "TITLE",
+              "px": 46
+            },
+            {
+              "role": "THESIS",
+              "px": 30
+            },
+            {
+              "role": "BODY",
+              "px": 21
+            },
+            {
+              "role": "SOURCE",
+              "px": 13
+            }
+          ],
+          "numeral_system": "ARABIC_INDIC",
+          "latin_token_policy": "TECHNICAL_ISLANDS_ONLY",
+          "max_title_lines": 2
+        },
+        "palette_role_map": {
+          "canvas": "#FFFFFF",
+          "ink": "#1A1A1A",
+          "muted": "#6F6F73",
+          "accent_primary": "#A42365",
+          "accent_secondary": "#077381",
+          "surface": "#FAF9FA"
+        },
+        "material_plan": {
+          "surface": "MATTE_EDITORIAL",
+          "corner_radius_px": 18,
+          "line_weight_px": 2,
+          "shadow": "NONE_OR_SUBTLE"
+        },
+        "contrast_pairs": [
+          {
+            "fg": "ink",
+            "bg": "canvas",
+            "target": 4.5
+          },
+          {
+            "fg": "ink",
+            "bg": "surface",
+            "target": 4.5
+          }
+        ],
+        "imagery": {
+          "mode": "NONE",
+          "asset_role": null,
+          "mask_spec": "CROP_TO_DOMINANT_BBOX",
+          "forbidden_semantic_classes": [],
+          "overlay_layers": []
+        },
+        "scene_metaphor": {
+          "concept": null,
+          "sector_frame": null,
+          "justification": "NOT_IMAGE_LED",
+          "literalism_guard": true
+        },
+        "topology": {
+          "nodes": [
+            {
+              "id": "N1",
+              "label": "الاستكشاف",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N2",
+              "label": "التقييم والقرار",
+              "type": "DECISION"
+            },
+            {
+              "id": "N3",
+              "label": "التنفيذ",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N4",
+              "label": "القياس والتحسين",
+              "type": "MEASURE"
+            }
+          ],
+          "edges": [
+            {
+              "id": "E1",
+              "source": "N1",
+              "target": "N2",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E2",
+              "source": "N2",
+              "target": "N3",
+              "relation": "APPROVES",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E3",
+              "source": "N3",
+              "target": "N4",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E4",
+              "source": "N4",
+              "target": "N1",
+              "relation": "FEEDS_BACK",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            }
+          ],
+          "crossing_budget": 0
+        },
+        "reference_grammar_ids": [
+          "CRG-15",
+          "MWAN-ART-DIRECTED-GRID",
+          "CRG-01",
+          "CRG-04"
+        ],
+        "acceptance": {
+          "dominant_mass_min": 0.32,
+          "dominant_mass_max": 0.68,
+          "min_pairwise_divergence": 0.12,
+          "target_pairwise_divergence": 0.18,
+          "safe_margin_px": 36,
+          "min_type_levels": 3,
+          "generic_card_fallback_forbidden": true
+        },
+        "source_hypothesis_id": "H1",
+        "visual_concept_id": "VC-7742483560",
+        "content_digest": "6ef0a7ed5a6278b7",
+        "structural_signature": "PCS-2BA74AC9C911F7C9A890",
+        "spec_sha256": "5b5a227e7a407f4673e9aef22f339a7346c3714e2b66270b2e686a047f440f42",
+        "validation": {
+          "status": "PASS",
+          "errors": []
+        }
+      },
+      "reference_grammar_ids": [
+        "CRG-15",
+        "MWAN-ART-DIRECTED-GRID",
+        "CRG-01",
+        "CRG-04"
+      ]
+    },
+    {
+      "id": "H2",
+      "communication_strategy": "DECISION_LED",
+      "strategy_family": "MINIMAL",
+      "communication_intent": "Decision, gates, conditions, and next action",
+      "complexity_level": 2,
+      "partner_fit_score": 85.0,
+      "simplicity_score": 76,
+      "page_fingerprint": "a5f1414eaedf",
+      "structural_signature": "PCS-51E7E70E92E4C73DEC6F",
+      "visual_concept_id": "VC-6B42F32213",
+      "visual_concept_brief": {
+        "focal_rule": "decision and conditions are visible before detail",
+        "page_specific_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+        "proof_encoding": "2–4 bounded proof points",
+        "negative_space_role": "protect focal hierarchy; never empty filler",
+        "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+        "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+        "complexity_rule": "use the least complex form that preserves the business relationship"
+      },
+      "system_complexity_earned": true,
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+      "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM",
+      "composition_spec": {
+        "schema": "RASHAD_PAGE_COMPOSITION_SPEC_V1",
+        "version": "1.0",
+        "page_id": null,
+        "page_family": "ANALYTICAL",
+        "communication_strategy": "DECISION_LED",
+        "strategy_family": "MINIMAL",
+        "dominant_form": "LADDER",
+        "dominant_mass_target": 0.44,
+        "dominant_bbox": {
+          "x": 0.2034,
+          "y": 0.2434,
+          "w": 0.7416,
+          "h": 0.5933
+        },
+        "focal_anchor": {
+          "zone": "RIGHT_CENTER",
+          "bbox": {
+            "x": 0.2034,
+            "y": 0.2434,
+            "w": 0.7416,
+            "h": 0.5933
+          },
+          "salience_rank": 1
+        },
+        "focal_chain": [
+          "DOMINANT",
+          "SUPPORT",
+          "HEADER"
+        ],
+        "eye_path": {
+          "direction": "RTL",
+          "waypoints": [
+            "RIGHT_CENTER",
+            "SUPPORT",
+            "HEADER"
+          ]
+        },
+        "salience_budget": {
+          "rank_1": 0.55,
+          "rank_2": 0.28,
+          "rank_3": 0.17
+        },
+        "mass_plan": [
+          [
+            0.005,
+            0.026,
+            0.026,
+            0.021
+          ],
+          [
+            0.186,
+            1.0,
+            1.0,
+            0.78
+          ],
+          [
+            0.186,
+            1.0,
+            1.0,
+            0.78
+          ],
+          [
+            0.065,
+            0.347,
+            0.347,
+            0.271
+          ]
+        ],
+        "negative_space_zones": [
+          {
+            "type": "SEPARATION",
+            "bbox": {
+              "x": 0.205,
+              "y": 0.2434,
+              "w": 0.012,
+              "h": 0.5933
+            },
+            "purpose": "separate evidence rail from dominant form"
+          },
+          {
+            "type": "BREATHING",
+            "bbox": {
+              "x": 0.02,
+              "y": 0.82,
+              "w": 0.1584,
+              "h": 0.07
+            },
+            "purpose": "protect lower-left breathing space"
+          },
+          {
+            "type": "GUTTER",
+            "bbox": {
+              "x": 0.03,
+              "y": 0.03,
+              "w": 0.94,
+              "h": 0.06
+            },
+            "purpose": "header/footer separation"
+          }
+        ],
+        "content_zones": [
+          {
+            "id": "DOMINANT",
+            "role": "DOMINANT",
+            "bbox": {
+              "x": 0.2034,
+              "y": 0.2434,
+              "w": 0.7416,
+              "h": 0.5933
+            },
+            "z": 20,
+            "overflow": "BLOCK"
+          },
+          {
+            "id": "SUPPORT",
+            "role": "SUPPORT_EVIDENCE",
+            "bbox": {
+              "x": 0.04,
+              "y": 0.2434,
+              "w": 0.1434,
+              "h": 0.5933
+            },
+            "z": 18,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "HEADER",
+            "role": "HEADER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.045,
+              "w": 0.89,
+              "h": 0.12
+            },
+            "z": 30,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "FOOTER",
+            "role": "FOOTER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.93,
+              "w": 0.89,
+              "h": 0.035
+            },
+            "z": 30,
+            "overflow": "BLOCK"
+          }
+        ],
+        "typographic_hierarchy": {
+          "font_family": "Montserrat Arabic",
+          "levels": [
+            {
+              "role": "TITLE",
+              "px": 46
+            },
+            {
+              "role": "THESIS",
+              "px": 30
+            },
+            {
+              "role": "BODY",
+              "px": 21
+            },
+            {
+              "role": "SOURCE",
+              "px": 13
+            }
+          ],
+          "numeral_system": "ARABIC_INDIC",
+          "latin_token_policy": "TECHNICAL_ISLANDS_ONLY",
+          "max_title_lines": 2
+        },
+        "palette_role_map": {
+          "canvas": "#FFFFFF",
+          "ink": "#1A1A1A",
+          "muted": "#6F6F73",
+          "accent_primary": "#A42365",
+          "accent_secondary": "#077381",
+          "surface": "#FAF9FA"
+        },
+        "material_plan": {
+          "surface": "MATTE_EDITORIAL",
+          "corner_radius_px": 18,
+          "line_weight_px": 2,
+          "shadow": "NONE_OR_SUBTLE"
+        },
+        "contrast_pairs": [
+          {
+            "fg": "ink",
+            "bg": "canvas",
+            "target": 4.5
+          },
+          {
+            "fg": "ink",
+            "bg": "surface",
+            "target": 4.5
+          }
+        ],
+        "imagery": {
+          "mode": "NONE",
+          "asset_role": null,
+          "mask_spec": "CROP_TO_DOMINANT_BBOX",
+          "forbidden_semantic_classes": [],
+          "overlay_layers": []
+        },
+        "scene_metaphor": {
+          "concept": null,
+          "sector_frame": null,
+          "justification": "NOT_IMAGE_LED",
+          "literalism_guard": true
+        },
+        "topology": {
+          "nodes": [
+            {
+              "id": "N1",
+              "label": "الاستكشاف",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N2",
+              "label": "التقييم والقرار",
+              "type": "DECISION"
+            },
+            {
+              "id": "N3",
+              "label": "التنفيذ",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N4",
+              "label": "القياس والتحسين",
+              "type": "MEASURE"
+            }
+          ],
+          "edges": [
+            {
+              "id": "E1",
+              "source": "N1",
+              "target": "N2",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E2",
+              "source": "N2",
+              "target": "N3",
+              "relation": "APPROVES",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E3",
+              "source": "N3",
+              "target": "N4",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E4",
+              "source": "N4",
+              "target": "N1",
+              "relation": "FEEDS_BACK",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            }
+          ],
+          "crossing_budget": 0
+        },
+        "reference_grammar_ids": [
+          "CRG-15",
+          "MWAN-ART-DIRECTED-GRID",
+          "CRG-01",
+          "CRG-04"
+        ],
+        "acceptance": {
+          "dominant_mass_min": 0.32,
+          "dominant_mass_max": 0.68,
+          "min_pairwise_divergence": 0.12,
+          "target_pairwise_divergence": 0.18,
+          "safe_margin_px": 36,
+          "min_type_levels": 3,
+          "generic_card_fallback_forbidden": true
+        },
+        "source_hypothesis_id": "H2",
+        "visual_concept_id": "VC-6B42F32213",
+        "content_digest": "6ef0a7ed5a6278b7",
+        "structural_signature": "PCS-51E7E70E92E4C73DEC6F",
+        "spec_sha256": "32ae922a86d4d62f919f8bbb86d87d6101748cf51a9d003088ab15c31e9959f7",
+        "validation": {
+          "status": "PASS",
+          "errors": []
+        }
+      },
+      "reference_grammar_ids": [
+        "CRG-15",
+        "MWAN-ART-DIRECTED-GRID",
+        "CRG-01",
+        "CRG-04"
+      ]
+    },
+    {
+      "id": "H3",
+      "communication_strategy": "SYSTEM_LED",
+      "strategy_family": "RELATIONAL",
+      "communication_intent": "Interdependent system with multiple material relationships",
+      "complexity_level": 4,
+      "partner_fit_score": 77.0,
+      "simplicity_score": 52,
+      "page_fingerprint": "a5f1414eaedf",
+      "structural_signature": "PCS-818FC98FF0E28D8B2BBA",
+      "visual_concept_id": "VC-643202A981",
+      "visual_concept_brief": {
+        "focal_rule": "interdependence and feedback are the message",
+        "page_specific_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+        "proof_encoding": "2–4 bounded proof points",
+        "negative_space_role": "protect focal hierarchy; never empty filler",
+        "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+        "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+        "complexity_rule": "use the least complex form that preserves the business relationship"
+      },
+      "system_complexity_earned": true,
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+      "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM",
+      "composition_spec": {
+        "schema": "RASHAD_PAGE_COMPOSITION_SPEC_V1",
+        "version": "1.0",
+        "page_id": null,
+        "page_family": "ANALYTICAL",
+        "communication_strategy": "SYSTEM_LED",
+        "strategy_family": "RELATIONAL",
+        "dominant_form": "HUB",
+        "dominant_mass_target": 0.35,
+        "dominant_bbox": {
+          "x": 0.055,
+          "y": 0.17,
+          "w": 0.6344,
+          "h": 0.5517
+        },
+        "focal_anchor": {
+          "zone": "TOP_LEFT",
+          "bbox": {
+            "x": 0.055,
+            "y": 0.17,
+            "w": 0.6344,
+            "h": 0.5517
+          },
+          "salience_rank": 1
+        },
+        "focal_chain": [
+          "DOMINANT",
+          "SUPPORT",
+          "HEADER"
+        ],
+        "eye_path": {
+          "direction": "RTL",
+          "waypoints": [
+            "TOP_LEFT",
+            "SUPPORT",
+            "HEADER"
+          ]
+        },
+        "salience_budget": {
+          "rank_1": 0.55,
+          "rank_2": 0.28,
+          "rank_3": 0.17
+        },
+        "mass_plan": [
+          [
+            0.25,
+            0.32,
+            0.242,
+            0.0
+          ],
+          [
+            0.78,
+            1.0,
+            0.758,
+            0.0
+          ],
+          [
+            0.692,
+            0.887,
+            0.672,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "negative_space_zones": [
+          {
+            "type": "EMPHASIS_HALO",
+            "bbox": {
+              "x": 0.7094,
+              "y": 0.18,
+              "w": 0.2506,
+              "h": 0.65
+            },
+            "purpose": "separate dominant form"
+          },
+          {
+            "type": "GUTTER",
+            "bbox": {
+              "x": 0.03,
+              "y": 0.03,
+              "w": 0.94,
+              "h": 0.06
+            },
+            "purpose": "header/footer separation"
+          }
+        ],
+        "content_zones": [
+          {
+            "id": "DOMINANT",
+            "role": "DOMINANT",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.17,
+              "w": 0.6344,
+              "h": 0.5517
+            },
+            "z": 20,
+            "overflow": "BLOCK"
+          },
+          {
+            "id": "SUPPORT",
+            "role": "SUPPORT_EVIDENCE",
+            "bbox": {
+              "x": 0.7244,
+              "y": 0.21,
+              "w": 0.2356,
+              "h": 0.5517
+            },
+            "z": 18,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "HEADER",
+            "role": "HEADER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.045,
+              "w": 0.89,
+              "h": 0.12
+            },
+            "z": 30,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "FOOTER",
+            "role": "FOOTER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.93,
+              "w": 0.89,
+              "h": 0.035
+            },
+            "z": 30,
+            "overflow": "BLOCK"
+          }
+        ],
+        "typographic_hierarchy": {
+          "font_family": "Montserrat Arabic",
+          "levels": [
+            {
+              "role": "TITLE",
+              "px": 46
+            },
+            {
+              "role": "THESIS",
+              "px": 30
+            },
+            {
+              "role": "BODY",
+              "px": 21
+            },
+            {
+              "role": "SOURCE",
+              "px": 13
+            }
+          ],
+          "numeral_system": "ARABIC_INDIC",
+          "latin_token_policy": "TECHNICAL_ISLANDS_ONLY",
+          "max_title_lines": 2
+        },
+        "palette_role_map": {
+          "canvas": "#FFFFFF",
+          "ink": "#1A1A1A",
+          "muted": "#6F6F73",
+          "accent_primary": "#A42365",
+          "accent_secondary": "#077381",
+          "surface": "#FAF9FA"
+        },
+        "material_plan": {
+          "surface": "MATTE_EDITORIAL",
+          "corner_radius_px": 18,
+          "line_weight_px": 2,
+          "shadow": "NONE_OR_SUBTLE"
+        },
+        "contrast_pairs": [
+          {
+            "fg": "ink",
+            "bg": "canvas",
+            "target": 4.5
+          },
+          {
+            "fg": "ink",
+            "bg": "surface",
+            "target": 4.5
+          }
+        ],
+        "imagery": {
+          "mode": "VECTOR_HYBRID",
+          "asset_role": "PRIMARY_VISUAL",
+          "mask_spec": "CROP_TO_DOMINANT_BBOX",
+          "forbidden_semantic_classes": [
+            "TEXT",
+            "LOGO",
+            "NUMERAL",
+            "OFFICIAL_SEAL"
+          ],
+          "overlay_layers": [
+            "NATIVE_TEXT",
+            "VERIFIED_LOGOS"
+          ]
+        },
+        "scene_metaphor": {
+          "concept": null,
+          "sector_frame": null,
+          "justification": "NOT_IMAGE_LED",
+          "literalism_guard": true
+        },
+        "topology": {
+          "nodes": [
+            {
+              "id": "N1",
+              "label": "الاستكشاف",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N2",
+              "label": "التقييم والقرار",
+              "type": "DECISION"
+            },
+            {
+              "id": "N3",
+              "label": "التنفيذ",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N4",
+              "label": "القياس والتحسين",
+              "type": "MEASURE"
+            }
+          ],
+          "edges": [
+            {
+              "id": "E1",
+              "source": "N1",
+              "target": "N2",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E2",
+              "source": "N2",
+              "target": "N3",
+              "relation": "APPROVES",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E3",
+              "source": "N3",
+              "target": "N4",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E4",
+              "source": "N4",
+              "target": "N1",
+              "relation": "FEEDS_BACK",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            }
+          ],
+          "crossing_budget": 0
+        },
+        "reference_grammar_ids": [
+          "CRG-15",
+          "MWAN-ART-DIRECTED-GRID",
+          "CRG-01",
+          "CRG-04"
+        ],
+        "acceptance": {
+          "dominant_mass_min": 0.32,
+          "dominant_mass_max": 0.68,
+          "min_pairwise_divergence": 0.12,
+          "target_pairwise_divergence": 0.18,
+          "safe_margin_px": 36,
+          "min_type_levels": 3,
+          "generic_card_fallback_forbidden": true
+        },
+        "source_hypothesis_id": "H3",
+        "visual_concept_id": "VC-643202A981",
+        "content_digest": "6ef0a7ed5a6278b7",
+        "structural_signature": "PCS-818FC98FF0E28D8B2BBA",
+        "spec_sha256": "a3ac2a1abbb7002da749622b8b3a04ef6497f8d7fa50f36f7ca13e7552861738",
+        "validation": {
+          "status": "PASS",
+          "errors": []
+        }
+      },
+      "reference_grammar_ids": [
+        "CRG-15",
+        "MWAN-ART-DIRECTED-GRID",
+        "CRG-01",
+        "CRG-04"
+      ]
+    },
+    {
+      "id": "H4",
+      "communication_strategy": "TABLE_LED",
+      "strategy_family": "ANALYTICAL",
+      "communication_intent": "Structured evidence table with analytical emphasis",
+      "complexity_level": 2,
+      "partner_fit_score": 73.0,
+      "simplicity_score": 76,
+      "page_fingerprint": "a5f1414eaedf",
+      "structural_signature": "PCS-B65336C6ADCFA37081F2",
+      "visual_concept_id": "VC-F370C4FE54",
+      "visual_concept_brief": {
+        "focal_rule": "scanable structure reveals comparison or obligation",
+        "page_specific_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+        "proof_encoding": "2–4 bounded proof points",
+        "negative_space_role": "protect focal hierarchy; never empty filler",
+        "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+        "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+        "complexity_rule": "use the least complex form that preserves the business relationship"
+      },
+      "system_complexity_earned": true,
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+      "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM",
+      "composition_spec": {
+        "schema": "RASHAD_PAGE_COMPOSITION_SPEC_V1",
+        "version": "1.0",
+        "page_id": null,
+        "page_family": "ANALYTICAL",
+        "communication_strategy": "TABLE_LED",
+        "strategy_family": "ANALYTICAL",
+        "dominant_form": "TABLE",
+        "dominant_mass_target": 0.58,
+        "dominant_bbox": {
+          "x": 0.055,
+          "y": 0.17,
+          "w": 0.82,
+          "h": 0.7073
+        },
+        "focal_anchor": {
+          "zone": "TOP_LEFT",
+          "bbox": {
+            "x": 0.055,
+            "y": 0.17,
+            "w": 0.82,
+            "h": 0.7073
+          },
+          "salience_rank": 1
+        },
+        "focal_chain": [
+          "DOMINANT",
+          "SUPPORT",
+          "HEADER"
+        ],
+        "eye_path": {
+          "direction": "RTL",
+          "waypoints": [
+            "TOP_LEFT",
+            "SUPPORT",
+            "HEADER"
+          ]
+        },
+        "salience_budget": {
+          "rank_1": 0.55,
+          "rank_2": 0.28,
+          "rank_3": 0.17
+        },
+        "mass_plan": [
+          [
+            0.25,
+            0.32,
+            0.32,
+            0.16
+          ],
+          [
+            0.78,
+            1.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.78,
+            1.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.397,
+            0.509,
+            0.509,
+            0.255
+          ]
+        ],
+        "negative_space_zones": [
+          {
+            "type": "EMPHASIS_HALO",
+            "bbox": {
+              "x": 0.895,
+              "y": 0.18,
+              "w": 0.065,
+              "h": 0.65
+            },
+            "purpose": "separate dominant form"
+          },
+          {
+            "type": "GUTTER",
+            "bbox": {
+              "x": 0.03,
+              "y": 0.03,
+              "w": 0.94,
+              "h": 0.06
+            },
+            "purpose": "header/footer separation"
+          }
+        ],
+        "content_zones": [
+          {
+            "id": "DOMINANT",
+            "role": "DOMINANT",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.17,
+              "w": 0.82,
+              "h": 0.7073
+            },
+            "z": 20,
+            "overflow": "BLOCK"
+          },
+          {
+            "id": "SUPPORT",
+            "role": "SUPPORT_EVIDENCE",
+            "bbox": {
+              "x": 0.8,
+              "y": 0.21,
+              "w": 0.16,
+              "h": 0.66
+            },
+            "z": 18,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "HEADER",
+            "role": "HEADER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.045,
+              "w": 0.89,
+              "h": 0.12
+            },
+            "z": 30,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "FOOTER",
+            "role": "FOOTER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.93,
+              "w": 0.89,
+              "h": 0.035
+            },
+            "z": 30,
+            "overflow": "BLOCK"
+          }
+        ],
+        "typographic_hierarchy": {
+          "font_family": "Montserrat Arabic",
+          "levels": [
+            {
+              "role": "TITLE",
+              "px": 46
+            },
+            {
+              "role": "THESIS",
+              "px": 30
+            },
+            {
+              "role": "BODY",
+              "px": 21
+            },
+            {
+              "role": "SOURCE",
+              "px": 13
+            }
+          ],
+          "numeral_system": "ARABIC_INDIC",
+          "latin_token_policy": "TECHNICAL_ISLANDS_ONLY",
+          "max_title_lines": 2
+        },
+        "palette_role_map": {
+          "canvas": "#FFFFFF",
+          "ink": "#1A1A1A",
+          "muted": "#6F6F73",
+          "accent_primary": "#A42365",
+          "accent_secondary": "#077381",
+          "surface": "#FAF9FA"
+        },
+        "material_plan": {
+          "surface": "MATTE_EDITORIAL",
+          "corner_radius_px": 18,
+          "line_weight_px": 2,
+          "shadow": "NONE_OR_SUBTLE"
+        },
+        "contrast_pairs": [
+          {
+            "fg": "ink",
+            "bg": "canvas",
+            "target": 4.5
+          },
+          {
+            "fg": "ink",
+            "bg": "surface",
+            "target": 4.5
+          }
+        ],
+        "imagery": {
+          "mode": "NONE",
+          "asset_role": null,
+          "mask_spec": "CROP_TO_DOMINANT_BBOX",
+          "forbidden_semantic_classes": [],
+          "overlay_layers": []
+        },
+        "scene_metaphor": {
+          "concept": null,
+          "sector_frame": null,
+          "justification": "NOT_IMAGE_LED",
+          "literalism_guard": true
+        },
+        "topology": {
+          "nodes": [
+            {
+              "id": "N1",
+              "label": "الاستكشاف",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N2",
+              "label": "التقييم والقرار",
+              "type": "DECISION"
+            },
+            {
+              "id": "N3",
+              "label": "التنفيذ",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N4",
+              "label": "القياس والتحسين",
+              "type": "MEASURE"
+            }
+          ],
+          "edges": [
+            {
+              "id": "E1",
+              "source": "N1",
+              "target": "N2",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E2",
+              "source": "N2",
+              "target": "N3",
+              "relation": "APPROVES",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E3",
+              "source": "N3",
+              "target": "N4",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E4",
+              "source": "N4",
+              "target": "N1",
+              "relation": "FEEDS_BACK",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            }
+          ],
+          "crossing_budget": 0
+        },
+        "reference_grammar_ids": [
+          "CRG-15",
+          "MWAN-ART-DIRECTED-GRID",
+          "CRG-01",
+          "CRG-04"
+        ],
+        "acceptance": {
+          "dominant_mass_min": 0.32,
+          "dominant_mass_max": 0.68,
+          "min_pairwise_divergence": 0.12,
+          "target_pairwise_divergence": 0.18,
+          "safe_margin_px": 36,
+          "min_type_levels": 3,
+          "generic_card_fallback_forbidden": true
+        },
+        "source_hypothesis_id": "H4",
+        "visual_concept_id": "VC-F370C4FE54",
+        "content_digest": "6ef0a7ed5a6278b7",
+        "structural_signature": "PCS-B65336C6ADCFA37081F2",
+        "spec_sha256": "7e7eebb838768f2308d1caf421b4cb0335ba893aa7d11d0d2f00f719b0da0846",
+        "validation": {
+          "status": "PASS",
+          "errors": []
+        }
+      },
+      "reference_grammar_ids": [
+        "CRG-15",
+        "MWAN-ART-DIRECTED-GRID",
+        "CRG-01",
+        "CRG-04"
+      ]
+    },
+    {
+      "id": "H5",
+      "communication_strategy": "STATEMENT_LED",
+      "strategy_family": "MINIMAL",
+      "communication_intent": "Single conclusion with restrained proof support",
+      "complexity_level": 1,
+      "partner_fit_score": 72.0,
+      "simplicity_score": 88,
+      "page_fingerprint": "a5f1414eaedf",
+      "structural_signature": "PCS-AF26CD9B4489EF808734",
+      "visual_concept_id": "VC-880D2C312B",
+      "visual_concept_brief": {
+        "focal_rule": "one answer first; proof stays subordinate",
+        "page_specific_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+        "proof_encoding": "2–4 bounded proof points",
+        "negative_space_role": "protect focal hierarchy; never empty filler",
+        "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+        "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+        "complexity_rule": "use the least complex form that preserves the business relationship"
+      },
+      "system_complexity_earned": true,
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+      "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM",
+      "composition_spec": {
+        "schema": "RASHAD_PAGE_COMPOSITION_SPEC_V1",
+        "version": "1.0",
+        "page_id": null,
+        "page_family": "ANALYTICAL",
+        "communication_strategy": "STATEMENT_LED",
+        "strategy_family": "MINIMAL",
+        "dominant_form": "STATEMENT_BLOCK",
+        "dominant_mass_target": 0.63,
+        "dominant_bbox": {
+          "x": 0.055,
+          "y": 0.225,
+          "w": 0.82,
+          "h": 0.72
+        },
+        "focal_anchor": {
+          "zone": "BOTTOM_LEFT",
+          "bbox": {
+            "x": 0.055,
+            "y": 0.225,
+            "w": 0.82,
+            "h": 0.72
+          },
+          "salience_rank": 1
+        },
+        "focal_chain": [
+          "DOMINANT",
+          "SUPPORT",
+          "HEADER"
+        ],
+        "eye_path": {
+          "direction": "RTL",
+          "waypoints": [
+            "BOTTOM_LEFT",
+            "SUPPORT",
+            "HEADER"
+          ]
+        },
+        "salience_budget": {
+          "rank_1": 0.55,
+          "rank_2": 0.28,
+          "rank_3": 0.17
+        },
+        "mass_plan": [
+          [
+            0.078,
+            0.1,
+            0.1,
+            0.05
+          ],
+          [
+            0.78,
+            1.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.78,
+            1.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.608,
+            0.78,
+            0.78,
+            0.39
+          ]
+        ],
+        "negative_space_zones": [
+          {
+            "type": "EMPHASIS_HALO",
+            "bbox": {
+              "x": 0.895,
+              "y": 0.18,
+              "w": 0.065,
+              "h": 0.65
+            },
+            "purpose": "separate dominant form"
+          },
+          {
+            "type": "GUTTER",
+            "bbox": {
+              "x": 0.03,
+              "y": 0.03,
+              "w": 0.94,
+              "h": 0.06
+            },
+            "purpose": "header/footer separation"
+          }
+        ],
+        "content_zones": [
+          {
+            "id": "DOMINANT",
+            "role": "DOMINANT",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.225,
+              "w": 0.82,
+              "h": 0.72
+            },
+            "z": 20,
+            "overflow": "BLOCK"
+          },
+          {
+            "id": "SUPPORT",
+            "role": "SUPPORT_EVIDENCE",
+            "bbox": {
+              "x": 0.8,
+              "y": 0.225,
+              "w": 0.16,
+              "h": 0.66
+            },
+            "z": 18,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "HEADER",
+            "role": "HEADER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.045,
+              "w": 0.89,
+              "h": 0.12
+            },
+            "z": 30,
+            "overflow": "REFLOW"
+          },
+          {
+            "id": "FOOTER",
+            "role": "FOOTER",
+            "bbox": {
+              "x": 0.055,
+              "y": 0.93,
+              "w": 0.89,
+              "h": 0.035
+            },
+            "z": 30,
+            "overflow": "BLOCK"
+          }
+        ],
+        "typographic_hierarchy": {
+          "font_family": "Montserrat Arabic",
+          "levels": [
+            {
+              "role": "TITLE",
+              "px": 46
+            },
+            {
+              "role": "THESIS",
+              "px": 30
+            },
+            {
+              "role": "BODY",
+              "px": 21
+            },
+            {
+              "role": "SOURCE",
+              "px": 13
+            }
+          ],
+          "numeral_system": "ARABIC_INDIC",
+          "latin_token_policy": "TECHNICAL_ISLANDS_ONLY",
+          "max_title_lines": 2
+        },
+        "palette_role_map": {
+          "canvas": "#FFFFFF",
+          "ink": "#1A1A1A",
+          "muted": "#6F6F73",
+          "accent_primary": "#A42365",
+          "accent_secondary": "#077381",
+          "surface": "#FAF9FA"
+        },
+        "material_plan": {
+          "surface": "MATTE_EDITORIAL",
+          "corner_radius_px": 18,
+          "line_weight_px": 2,
+          "shadow": "NONE_OR_SUBTLE"
+        },
+        "contrast_pairs": [
+          {
+            "fg": "ink",
+            "bg": "canvas",
+            "target": 4.5
+          },
+          {
+            "fg": "ink",
+            "bg": "surface",
+            "target": 4.5
+          }
+        ],
+        "imagery": {
+          "mode": "NONE",
+          "asset_role": null,
+          "mask_spec": "CROP_TO_DOMINANT_BBOX",
+          "forbidden_semantic_classes": [],
+          "overlay_layers": []
+        },
+        "scene_metaphor": {
+          "concept": null,
+          "sector_frame": null,
+          "justification": "NOT_IMAGE_LED",
+          "literalism_guard": true
+        },
+        "topology": {
+          "nodes": [
+            {
+              "id": "N1",
+              "label": "الاستكشاف",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N2",
+              "label": "التقييم والقرار",
+              "type": "DECISION"
+            },
+            {
+              "id": "N3",
+              "label": "التنفيذ",
+              "type": "PROCESS"
+            },
+            {
+              "id": "N4",
+              "label": "القياس والتحسين",
+              "type": "MEASURE"
+            }
+          ],
+          "edges": [
+            {
+              "id": "E1",
+              "source": "N1",
+              "target": "N2",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E2",
+              "source": "N2",
+              "target": "N3",
+              "relation": "APPROVES",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E3",
+              "source": "N3",
+              "target": "N4",
+              "relation": "FLOWS_TO",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            },
+            {
+              "id": "E4",
+              "source": "N4",
+              "target": "N1",
+              "relation": "FEEDS_BACK",
+              "route_hint": "AUTO_MEASURED",
+              "label_owner": "EDGE"
+            }
+          ],
+          "crossing_budget": 0
+        },
+        "reference_grammar_ids": [
+          "CRG-15",
+          "MWAN-ART-DIRECTED-GRID",
+          "CRG-01",
+          "CRG-04"
+        ],
+        "acceptance": {
+          "dominant_mass_min": 0.32,
+          "dominant_mass_max": 0.68,
+          "min_pairwise_divergence": 0.12,
+          "target_pairwise_divergence": 0.18,
+          "safe_margin_px": 36,
+          "min_type_levels": 3,
+          "generic_card_fallback_forbidden": true
+        },
+        "source_hypothesis_id": "H5",
+        "visual_concept_id": "VC-880D2C312B",
+        "content_digest": "6ef0a7ed5a6278b7",
+        "structural_signature": "PCS-AF26CD9B4489EF808734",
+        "spec_sha256": "4fe53065e4e37c78abd3eee845db9096aecad528b4fd1aa65822dfc714fa30c9",
+        "validation": {
+          "status": "PASS",
+          "errors": []
+        }
+      },
+      "reference_grammar_ids": [
+        "CRG-15",
+        "MWAN-ART-DIRECTED-GRID",
+        "CRG-01",
+        "CRG-04"
+      ]
+    }
+  ],
+  "page_features": {
+    "page_fingerprint": "a5f1414eaedf",
+    "text": "كيف يضمن المنهج أن المراحل تعمل كنظام واحد وليس مهام منفصلة؟ نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+    "number_count": 0,
+    "numbers": [],
+    "decision": true,
+    "compare": false,
+    "timeline": false,
+    "evidence": false,
+    "architecture": false,
+    "financial": false,
+    "people": true,
+    "page_family": "ANALYTICAL",
+    "image_cue": false,
+    "node_count": 4,
+    "edge_count": 4,
+    "relations": [
+      "APPROVES",
+      "FEEDS_BACK",
+      "FLOWS_TO"
+    ],
+    "has_relationships": true,
+    "system_complexity_earned": true
+  },
+  "distinct_communication_strategies": 5,
+  "distinct_strategy_families": 3,
+  "contains_minimal_hypothesis": true,
+  "diagram_only_search": false,
+  "winner": null,
+  "selection_status": "PENDING_ACTUAL_RENDER_AND_INDEPENDENT_JUDGE",
+  "composition_divergence": {
+    "status": "PASS",
+    "min_pairwise": 0.4972,
+    "mean_pairwise": 0.6844,
+    "required_min": 0.12,
+    "target_mean": 0.18,
+    "pairs": [
+      {
+        "a": 0,
+        "b": 1,
+        "distance": 0.6951
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "distance": 0.4972
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "distance": 0.5481
+      },
+      {
+        "a": 0,
+        "b": 4,
+        "distance": 0.7486
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 0.8121
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 0.6926
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "distance": 0.726
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.6533
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "distance": 0.8536
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "distance": 0.617
+      }
+    ]
+  },
+  "distinct_structural_signatures": 5,
+  "artifact_brain_version": "4.0.0",
+  "reference_grammar_ids": [
+    "CRG-04",
+    "CRG-05"
+  ],
+  "visual_problem": "ANALYTICAL | 4 nodes | 4 evidence-linked relationships"
+}

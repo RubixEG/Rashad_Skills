@@ -1,0 +1,190 @@
+#!/usr/bin/env python3
+from pathlib import Path
+import json,re,hashlib,sys
+from jsonschema import Draft202012Validator
+ROOT=Path(__file__).resolve().parents[2]
+checks=[]
+def ck(name,cond,detail=''):
+ checks.append((name,bool(cond),detail));
+def text(rel): return (ROOT/rel).read_text(encoding='utf-8')
+def data(rel): return json.loads(text(rel))
+# Identity/startup
+ck('version_current_721','Current release: v7.2.1' in text('VERSION.md'))
+for rel in ['SKILL.md','00_START_HERE.md','PROJECT_INSTRUCTIONS.md','00_CHAT_MIRROR_KERNEL/00_RASHAD_BOOTSTRAP.md','00_CHAT_MIRROR_KERNEL/24_VERSION_LAYER_RESOLUTION_AND_RETIREMENT_LEDGER.md']:
+ ck('current_route_'+rel, ('v7.2' in text(rel) or 'v7.1' in text(rel) or 'v7.0.2' in text(rel)), rel)
+ck('start_no_candidate_exemption','unless explicitly exempted' not in text('00_START_HERE.md'))
+ck('project_no_candidate_exemption','unless explicitly exempted' not in text('PROJECT_INSTRUCTIONS.md'))
+# Manifest/mirror/hash targets exist
+m=data('ACTIVE_AUTHORITY_MANIFEST.json')
+ck('manifest_version',m['version']=='7.2.1')
+ck('manifest_current_certification_harness',m.get('certification_harness')=='tests/skill_certification/verify_skill_v7_2_1.py',str(m.get('certification_harness')))
+ck('manifest_current_certification_harnesses',set(['tests/skill_certification/verify_skill_v7_2_1.py','tests/skill_certification/red_team_skill_v7_2_1.py']).issubset(set(m.get('certification_harnesses',[]))),str(m.get('certification_harnesses')))
+ck('manifest_v702_harnesses_baseline_only',set(['tests/skill_certification/verify_skill_v7_0_2.py','tests/skill_certification/red_team_skill_v7_0_2.py']).issubset(set(m.get('protected_baseline_regression_harnesses',[]))),str(m.get('protected_baseline_regression_harnesses')))
+ck('manifest_globals_exist',all((ROOT/p).is_file() for p in m['global_authorities']))
+mirror=text('00_CHAT_MIRROR_KERNEL/53_V6_2_ACTIVE_AUTHORITY_REGISTRY.md')
+ck('mirror_contains_all_globals',all(f'`{p}`' in mirror for p in m['global_authorities']))
+# RFP role registry
+rr=data('01_ACTIVE_RUNTIME/rfp_summary_role_registry_v7.json')
+ck('rfp_role_count',len(rr['roles'])==24)
+ck('rfp_sequence', [r['sequence'] for r in rr['roles']]==list(range(1,25)))
+ck('rfp_depth_fields', all(r.get('required_analysis',{}).get('en') and r.get('evidence_requirements',{}).get('en') for r in rr['roles']))
+# depth doc explicit fields 24/24
+rd=text('01_ACTIVE_RUNTIME/40_RFP_SUMMARY_24_ROLE_DEPTH_CONTRACTS.md')
+sections=re.split(r'(?=^## \d{2}\. )',rd,flags=re.M)[1:]
+ck('role_depth_sections_24',len(sections)==24,str(len(sections)))
+ck('role_depth_required_analysis_24',sum('**Required analysis:**' in s for s in sections)==24)
+ck('role_depth_evidence_24',sum('**Evidence:**' in s for s in sections)==24)
+# detailed product sequence
+fp=text('01_ACTIVE_RUNTIME/22_RFP_SUMMARY_FINAL_PRODUCT_CONTRACT.md')
+heads=[(int(n),h.strip()) for n,h in re.findall(r'^## (\d+)\. (.+)$',fp,flags=re.M) if int(n)>=17]
+expected=[17,18,19,20,21,22,23,24]
+ck('final_product_sequence_17_24',[n for n,_ in heads[:8]]==expected,str(heads[:9]))
+ck('client_derivative_not_numbered', '## 24. Client-facing derivative' not in fp and '## Client-facing derivative — separate product' in fp)
+# lens mapping
+roles=set(re.findall(r'\| (ROLE-[A-Z0-9-]+) \|',text('01_ACTIVE_RUNTIME/09_COUNCILS_AND_ROLES.md')))
+lr=data('01_ACTIVE_RUNTIME/council_lens_registry_v7.json')
+ck('authorized_roles_29',len(roles)==29)
+ck('lens_mapping_all_valid',all(set(x['authorized_runtime_role_ids'])<=roles for x in lr['lenses']))
+router=data('01_ACTIVE_RUNTIME/council_of_councils_router_v7.json')
+used=set()
+for arr in router['role_families'].values(): used.update(arr)
+for rdct in router['routing_by_rfp_role'].values():
+ for arr in rdct.values(): used.update(arr)
+registered={x['lens_id'] for x in lr['lenses']}
+ck('router_all_lenses_registered',used==registered,f'used={len(used)} registered={len(registered)}')
+# cognitive schema positive + negative validation
+schema=data('schemas/consulting_cognitive_packet_v7.schema.json'); val=Draft202012Validator(schema)
+valid={'page_id':'P01','role_id':'STRATEGIC_READING','management_question':'What does management need to know?','evaluator_question':'What must evaluator believe here?','decision_supported':'Bid strategy','answer_first_thesis':'The requirements form one operating system.','evidence_for':[{'claim':'Supported claim','source_ref':'SRC-ABC','locator':'p.1','confidence':0.9}],'evidence_against':[],'assumptions':[{'statement':'Assume access','impact':'affects schedule','validation_owner':'PM'}],'counterarguments':['Alternative interpretation exists'],'relationships':[{'source':'A','relation':'ENABLES','target':'B'}],'executive_implication':'Prioritize integration and governance.','council_route':[{'lens_id':'ENGAGEMENT_PARTNER','authorized_runtime_role_ids':['ROLE-PARTNER'],'challenge_question':'Is the thesis decision-relevant?','independence_required':False},{'lens_id':'SAUDI_GOVERNMENT_EVALUATOR','authorized_runtime_role_ids':['ROLE-PROCUREMENT','ROLE-REDTEAM','ROLE-SECTOR-SME'],'challenge_question':'Would this satisfy the evaluator?','independence_required':True},{'lens_id':'RED_TEAM_CHALLENGER','authorized_runtime_role_ids':['ROLE-REDTEAM'],'challenge_question':'What could make this wrong?','independence_required':True}]}
+ck('cognitive_valid_packet',not list(val.iter_errors(valid)))
+for name,mut in [('fake_role',{'role_id':'FAKE_ROLE'}),('fake_relation',{'relationships':[{'source':'A','relation':'MADE_UP_RELATION','target':'B'}]}),('fake_lens',{'council_route':[{'lens_id':'FAKE_LENS','authorized_runtime_role_ids':['ROLE-PARTNER'],'challenge_question':'This should definitely fail schema validation','independence_required':True}]*3})]:
+ q=json.loads(json.dumps(valid)); q.update(mut); ck('cognitive_reject_'+name,bool(list(val.iter_errors(q))))
+# QA taxonomy all detector fields
+qa=data('07_GOVERNANCE_AND_QA/73_V7_VISUAL_AND_EXECUTIVE_FAILURE_TAXONOMY.json'); req=qa['detector_contract_fields']
+ck('qa_count_233',len(qa['cases'])==233)
+ck('qa_all_detector_fields',all(all(k in c and c[k] not in (None,'',[]) for k in req) for c in qa['cases']))
+ck('qa_min_measured_positive',all(c['minimum_measured_objects']>=1 for c in qa['cases']))
+ck('qa_truthful_not_implemented',all(c['implementation_status']=='SPECIFIED_NOT_IMPLEMENTED' for c in qa['cases']))
+# current workflow
+wf=text('05_WORKFLOW_ENGINE/02_RFP_SUMMARY.md')
+ck('workflow_routes_current','23_V7_RFP_SUMMARY_DECISION_WORKFLOW.md' in wf)
+ck('workflow_not_routes_17','executed through `17_A_TO_Z' not in wf)
+# Decision schema structural
+bd=data('schemas/rfp_bid_decision_evidence_v7.schema.json'); bv=Draft202012Validator(bd)
+dims=bd['properties']['dimensions']['items']['properties']['dimension']['enum']
+validd={'decision_id':'DEC-PILOT','recommendation':'GO_WITH_CONDITIONS','decision_method':'EVIDENCE_SYNTHESIS_NOT_AUTOMATIC_WEIGHTED_SCORE','management_approval_required':True,'dimensions':[{'dimension':x,'assessment':'MIXED','confidence':0.7,'rationale':'Evidence supports a mixed assessment.','evidence_refs':[{'source_ref':'SRC-ABC','locator':'p.1'}]} for x in dims],'conditions':['Close evidence gap'],'blockers':[],'required_actions':['Obtain management approval'],'counter_case':'The opportunity may be weaker if unresolved dependencies remain.','evidence_sufficiency':'PARTIAL_REQUIRES_CONDITIONS'}
+ck('bid_decision_valid',not list(bv.iter_errors(validd)))
+q=json.loads(json.dumps(validd)); q['conditions']=[]; ck('bid_decision_reject_conditionless',bool(list(bv.iter_errors(q))))
+q=json.loads(json.dumps(validd)); q['decision_method']='AUTO_WEIGHTED_SCORE'; ck('bid_decision_reject_auto_formula',bool(list(bv.iter_errors(q))))
+q=json.loads(json.dumps(validd)); q['dimensions'][1]['dimension']=q['dimensions'][0]['dimension']; ck('bid_decision_reject_duplicate_dimension',bool(list(bv.iter_errors(q))))
+# authority binding and global authority hash integrity
+bind=data('AUTHORITY_BINDING_CHECK.json'); bm=[]
+for rel,h in bind.get('files',{}).items():
+ pth=ROOT/rel
+ if not pth.exists() or hashlib.sha256(pth.read_bytes()).hexdigest()!=h: bm.append(rel)
+ck('authority_binding_hashes',not bm,str(bm[:5]))
+gh=data('GLOBAL_AUTHORITY_HASHES.json'); gm=[]
+for rel,h in gh.get('files',{}).items():
+ pth=ROOT/rel
+ if not pth.exists() or hashlib.sha256(pth.read_bytes()).hexdigest()!=h: gm.append(rel)
+ck('global_authority_hashes',not gm,str(gm[:5]))
+# protected corpus ledger verifies current bytes for every ledger entry
+ph=data('PROTECTED_CORPUS_HASHES.json'); mism=[]
+files=ph.get('files',{})
+for rel,h in files.items():
+ p=ROOT/rel
+ if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest()!=h: mism.append(rel)
+ck('protected_corpus_hashes',not mism,str(mism[:5]))
+# v7.0.2 owner language / skeleton checks
+rr2=data('01_ACTIVE_RUNTIME/rfp_summary_role_registry_v7.json')
+r16=[r for r in rr2['roles'] if r['canonical_id']=='COMMERCIAL_EXPOSURE'][0]
+ck('owner_default_visible_role16',r16['visible_name']['ar']=='الالتزامات والمخاطر التجارية والمالية')
+ck('commercial_exposure_internal_id_stable',r16['canonical_id']=='COMMERCIAL_EXPOSURE')
+ck('owner_naming_authority_bound','01_ACTIVE_RUNTIME/75_V7_0_2_OWNER_ARABIC_EXECUTIVE_TERMINOLOGY_AND_NAMING_LAW.md' in m['global_authorities'])
+ck('new_summary_skeleton_bound','01_ACTIVE_RUNTIME/76_V7_0_2_RFP_SUMMARY_EXECUTIVE_DECISION_DOSSIER_SKELETON.md' in m['global_authorities'])
+ck('protected_counts_unchanged',m['protected_counts_expected']=={'prompts':388,'scopes':96,'mappings':96,'current_brand_png_assets':8})
+
+# v7.1 current split-brain/status/internal-visible-label hardening
+ck('authority_binding_declares_720',bind.get('skill_version')=='7.2.1')
+cr=data('CERTIFICATION_REQUIREMENTS.json')
+ck('cert_requirements_720',cr.get('version')=='7.2.1')
+cs=data('CURRENT_SKILL_STATUS.json')
+ck('skill_status_scoped',cs.get('status_scope')=='SKILL_LAYER_ONLY_NOT_OS_LEVEL_STATUS_AUTHORITY')
+ck('manifest_current_workflow_alias',m.get('rfp_summary_current_workflow')=='05_WORKFLOW_ENGINE/23_V7_RFP_SUMMARY_DECISION_WORKFLOW.md')
+ck('manifest_artifact_delivery_workflow_alias',m.get('rfp_summary_artifact_delivery_workflow')=='05_WORKFLOW_ENGINE/24_V7_1_RFP_SUMMARY_ARTIFACT_DELIVERY_WORKFLOW.md')
+ck('manifest_current_lens_alias',m.get('council_lens_registry')=='01_ACTIVE_RUNTIME/council_lens_registry_v7.json')
+ck('internal_contract_label_law','INTERNAL CONTRACT LABELS ONLY' in fp or 'Internal contract-label law' in fp)
+ck('role23_visible_owner_title','ماذا تكشف طريقة إعداد المنافسة عن عملية الشراء؟' in fp)
+
+
+# RFP Summary machine-execution hardening
+arch=text('01_ACTIVE_RUNTIME/69_V7_RFP_SUMMARY_CANONICAL_DECISION_ARCHITECTURE.md')
+wfcur=text('05_WORKFLOW_ENGINE/23_V7_RFP_SUMMARY_DECISION_WORKFLOW.md')
+ck('active_architecture_no_stale_v701_workflow','23_V7_0_1_RFP_SUMMARY_DECISION_WORKFLOW' not in arch)
+ck('active_architecture_no_stale_v701_decision_schema','rfp_bid_decision_evidence_v7_0_1.schema.json' not in arch)
+ck('ingestion_machine_state_schema_exists',(ROOT/'schemas/rfp_ingestion_state_v7.schema.json').is_file())
+ck('execution_machine_state_schema_exists',(ROOT/'schemas/rfp_summary_execution_state_v7.schema.json').is_file())
+ck('manifest_binds_ingestion_schema',m.get('rfp_ingestion_state_schema')=='schemas/rfp_ingestion_state_v7.schema.json')
+ck('manifest_binds_execution_schema',m.get('rfp_summary_execution_state_schema')=='schemas/rfp_summary_execution_state_v7.schema.json')
+ck('manifest_rfp_render_count_5',m.get('rfp_summary_minimum_rendered_candidates_critical')==5)
+ck('workflow_renders_all_5','Render **all 5**' in wfcur)
+ck('workflow_5_to_9_search','9 actual compositions' in wfcur and 'Top 2' in wfcur)
+ck('workflow_machine_step_gate','No downstream step may be claimed' in wfcur)
+ck('role_registry_no_stale_decision_schema','rfp_bid_decision_evidence_v7_0_1.schema.json' not in text('01_ACTIVE_RUNTIME/rfp_summary_role_registry_v7.json'))
+ck('depth_contract_no_stale_decision_schema','rfp_bid_decision_evidence_v7_0_1.schema.json' not in text('01_ACTIVE_RUNTIME/40_RFP_SUMMARY_24_ROLE_DEPTH_CONTRACTS.md'))
+ck('startup_current_workflow_alias','23_V7_0_1_RFP_SUMMARY_DECISION_WORKFLOW' not in text('00_CHAT_MIRROR_KERNEL/14_COMPILED_ALWAYS_ON_CONTEXT.md'))
+
+# v7.1 Artifact Intelligence + user-visible delivery integrity
+wf71=text('05_WORKFLOW_ENGINE/24_V7_1_RFP_SUMMARY_ARTIFACT_DELIVERY_WORKFLOW.md')
+law71=text('01_ACTIVE_RUNTIME/78_V7_1_ARTIFACT_INTELLIGENCE_BRAIN_EXECUTION_AND_USER_VISIBLE_DELIVERY_LAW.md')
+qa71=text('07_GOVERNANCE_AND_QA/81_V7_1_ACTUAL_PIXEL_QA_CLOSED_LOOP_AND_GOLDEN_ACCEPTANCE.md')
+ck('v71_delivery_workflow_bound',m.get('rfp_summary_artifact_delivery_workflow')=='05_WORKFLOW_ENGINE/24_V7_1_RFP_SUMMARY_ARTIFACT_DELIVERY_WORKFLOW.md')
+ck('v71_artifact_law_global','01_ACTIVE_RUNTIME/78_V7_1_ARTIFACT_INTELLIGENCE_BRAIN_EXECUTION_AND_USER_VISIBLE_DELIVERY_LAW.md' in m['global_authorities'])
+ck('v71_actual_pixel_qa_global','07_GOVERNANCE_AND_QA/81_V7_1_ACTUAL_PIXEL_QA_CLOSED_LOOP_AND_GOLDEN_ACCEPTANCE.md' in m['global_authorities'])
+ck('concept_render_internal_only','Concept renders cannot be user-visible masters' in wf71 or 'internal only' in wf71.lower())
+ck('production_page_render_required','PRODUCTION_PAGE_RENDER' in wf71 and 'PRODUCTION_PAGE_RENDER' in law71)
+ck('user_visible_requires_pixel_pass','USER_VISIBLE_ARTIFACT_DRAFT' in wf71 and 'pixel' in wf71.lower() and 'closed repair loop' in wf71.lower())
+ck('framework_qa_cannot_substitute','framework qa cannot substitute' in wf71.lower())
+ck('exact_file_delivery_gate_required','Delivery Gate' in wf71 and 'exact-file' in wf71)
+ck('golden_real_rfp_acceptance_required','Golden' in qa71 and 'RFP' in qa71)
+ck('artifact_hypotheses_are_communication_strategies',m.get('artifact_hypothesis_semantics')=='FIVE_DISTINCT_COMMUNICATION_STRATEGIES_NOT_GEOMETRY_VARIANTS')
+ck('legacy_geometry_has_no_selection_authority',m.get('artifact_candidate_position_has_selection_authority') is False)
+ck('legacy_artifact_draft_alias_is_user_visible',m.get('legacy_artifact_draft_alias')=='ARTIFACT_DRAFT_RESOLVES_TO_USER_VISIBLE_ARTIFACT_DRAFT')
+
+# v7.2 Brain coherence / executable intelligence locks
+ck('v72_brain_coherence_law_global','01_ACTIVE_RUNTIME/79_V7_2_BRAIN_COHERENCE_AND_EXECUTABLE_EXPERT_LAW.md' in m['global_authorities'])
+ck('v72_no_generic_fallback_qa_global','07_GOVERNANCE_AND_QA/82_V7_2_BRAIN_COHERENCE_AUDIT_AND_NO_GENERIC_FALLBACK.md' in m['global_authorities'])
+legacy=set(m.get('inherited_artifact_foundations',[]))
+ck('legacy_artifact_foundations_not_global',not (legacy & set(m['global_authorities'])),str(sorted(legacy & set(m['global_authorities']))))
+ck('manifest_brain_runtime_340',m.get('brain_runtime_version')=='3.4.0')
+ck('manifest_artifact_brain_330',m.get('artifact_brain_version')=='3.3.0')
+ck('manifest_expert_runtime_bound',m.get('brain_expert_runtime')=='../Brain/runtime/brain/expert_runtime.py')
+ck('manifest_artifact_council_runtime_bound',m.get('artifact_council_runtime')=='../Brain/runtime/brain/artifact_council_runtime.py')
+ck('generic_cards_fallback_hard_forbidden','HARD_FORBIDDEN' in str(m.get('generic_cards_fallback_policy','')))
+ck('brain_coherence_rule_execution_required','ZERO_ACTIVE_INTELLIGENCE_CREDIT_UNLESS_ROUTED_AND_EXECUTED' in str(m.get('brain_coherence_rule','')))
+# Cross-layer registries must exist and contain real executable breadth, not decorative names.
+brain_cfg=ROOT.parent/'Brain/config'
+actors=json.loads((brain_cfg/'actor_ontology.json').read_text(encoding='utf-8'))
+actor_ids={a['id'] for a in actors['actors']}
+ck('brain_actor_registry_minimum_69',len(actor_ids)>=69,str(len(actor_ids)))
+for rid in ['SME-AI-ENGINEERING','SME-SOLUTION-ARCH','SME-CYBER','SME-CLOUD-INFRA','SIM-CFO','GOV-FINANCIAL-TRUTH','GOV-TECHNICAL-FEASIBILITY','GOV-KNOWLEDGE-READINESS']:
+ ck('brain_actor_exists_'+rid,rid in actor_ids)
+rules=json.loads((brain_cfg/'brain_expert_routing_rules.json').read_text(encoding='utf-8'))
+ck('expert_activation_bounded',1 <= int(rules.get('max_active_experts_per_task',0)) <= 16,str(rules.get('max_active_experts_per_task')))
+ck('ai_engineering_is_ai_data_domain_lead',any(x.get('id')=='AI_DATA' and (x.get('roles') or [None])[0]=='SME-AI-ENGINEERING' for x in rules.get('domain_rules',[])))
+art=json.loads((brain_cfg/'artifact_brain_expert_universe_v3.json').read_text(encoding='utf-8'))
+ck('artifact_registry_breadth',len(art.get('councils',[]))>=20 and len(art.get('roles',[]))>=100,f"c={len(art.get('councils',[]))} r={len(art.get('roles',[]))}")
+ck('artifact_24_strategies',len(art.get('communication_strategy_universe',[]))==24,str(len(art.get('communication_strategy_universe',[]))))
+# Current harnesses only; older versions are lineage/baseline regression, not current authority.
+ck('v71_harness_not_current','tests/skill_certification/verify_skill_v7_1.py' not in m.get('certification_harnesses',[]))
+ck('v71_redteam_not_current','tests/skill_certification/red_team_skill_v7_1.py' not in m.get('certification_harnesses',[]))
+ck('v71_harness_lineage_only','tests/skill_certification/verify_skill_v7_1.py' in m.get('lineage_regression_harnesses',[]))
+# Explicit production chain must be stated in the current law.
+law72=text('01_ACTIVE_RUNTIME/79_V7_2_BRAIN_COHERENCE_AND_EXECUTABLE_EXPERT_LAW.md')
+for phrase in ['Registry ≠ Routing ≠ Execution ≠ Judgment ≠ Release','No Council Execution Proof','AI Engineering','isolated']:
+ ck('v72_law_'+re.sub(r'[^A-Za-z0-9]+','_',phrase).strip('_'),phrase.lower() in law72.lower())
+
+# output
+fail=[x for x in checks if not x[1]]
+for n,ok,d in checks: print(('PASS' if ok else 'FAIL'),n,d)
+print(f'SUMMARY {len(checks)-len(fail)}/{len(checks)} PASS')
+sys.exit(1 if fail else 0)

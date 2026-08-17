@@ -1,0 +1,112 @@
+{
+  "runtime": "4.0-rc1",
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "taxonomy_contract",
+      "status": "PASS",
+      "detail": {
+        "cases": 233,
+        "families": 21,
+        "stress_mutations": 20
+      }
+    },
+    {
+      "name": "valid_synthetic_dossier",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "producer_artifact_truth",
+      "status": "PASS",
+      "expected_block": "artifact_truth_not_independent",
+      "observed": [
+        "artifact_truth_not_independent"
+      ]
+    },
+    {
+      "name": "artifact_truth_89",
+      "status": "PASS",
+      "expected_block": "artifact_truth_below_floor",
+      "observed": [
+        "artifact_truth_below_floor"
+      ]
+    },
+    {
+      "name": "producer_ceqs",
+      "status": "PASS",
+      "expected_block": "ceqs_not_independent",
+      "observed": [
+        "ceqs_not_independent"
+      ]
+    },
+    {
+      "name": "ceqs_89",
+      "status": "PASS",
+      "expected_block": "ceqs_below_floor",
+      "observed": [
+        "ceqs_below_floor"
+      ]
+    },
+    {
+      "name": "four_hypotheses",
+      "status": "PASS",
+      "expected_block": "wrong_hypothesis_count",
+      "observed": [
+        "wrong_hypothesis_count"
+      ]
+    },
+    {
+      "name": "duplicate_hypotheses",
+      "status": "PASS",
+      "expected_block": "hypotheses_not_materially_distinct",
+      "observed": [
+        "hypotheses_not_materially_distinct"
+      ]
+    },
+    {
+      "name": "two_candidates",
+      "status": "PASS",
+      "expected_block": "insufficient_render_search",
+      "observed": [
+        "insufficient_render_search",
+        "render_candidates_not_distinct_by_bytes"
+      ]
+    },
+    {
+      "name": "weak_divergence",
+      "status": "PASS",
+      "expected_block": "structural_divergence_below_critical_floor",
+      "observed": [
+        "structural_divergence_below_critical_floor",
+        "structural_divergence_below_target"
+      ]
+    },
+    {
+      "name": "master_1080p",
+      "status": "PASS",
+      "expected_block": "master_resolution_below_floor",
+      "observed": [
+        "master_resolution_below_floor"
+      ]
+    },
+    {
+      "name": "pixel_vacuous",
+      "status": "PASS",
+      "expected_block": "pixel_qa_vacuous_pass",
+      "observed": [
+        "pixel_qa_vacuous_pass"
+      ]
+    },
+    {
+      "name": "state_skip",
+      "status": "PASS",
+      "expected_block": "missing_state",
+      "observed": [
+        "missing_state"
+      ]
+    }
+  ],
+  "passed": 13,
+  "total": 13
+}

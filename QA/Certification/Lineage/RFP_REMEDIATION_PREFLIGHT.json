@@ -1,0 +1,27 @@
+{
+  "test": "RFP Summary current-route machine-execution remediation preflight",
+  "skill_version": "7.0.2",
+  "status": "PASS",
+  "current_workflow": "05_WORKFLOW_ENGINE/23_V7_RFP_SUMMARY_DECISION_WORKFLOW.md",
+  "ingestion_schema": "schemas/rfp_ingestion_state_v7.schema.json",
+  "execution_schema": "schemas/rfp_summary_execution_state_v7.schema.json",
+  "decision_schema": "schemas/rfp_bid_decision_evidence_v7.schema.json",
+  "execution_validator": "Rashad/Brain/runtime/rfp_summary_runtime.py",
+  "visual_search_orchestrator": "Rashad/Brain/runtime/rfp_summary_orchestrator.py",
+  "initial_render_requirement": 5,
+  "visual_search_target": "5 initial + 4 refined = 9 compositions",
+  "live_provider_adapter": "IMPLEMENTED_FAIL_CLOSED_UNCONFIGURED",
+  "checks": {
+    "active_v701_workflow_reference_removed": true,
+    "active_v701_decision_schema_reference_removed": true,
+    "pack_mode_persisted_and_rederived": true,
+    "clarification_window_persisted_and_rederived": true,
+    "mandatory_registers_machine_required": true,
+    "15_step_upstream_gate_enforced": true,
+    "five_initial_render_hashes_required_distinct": true,
+    "judge_must_match_actual_render_hash": true,
+    "hardcoded_H1_without_judges_blocked": true,
+    "role24_decision_schema_validated": true,
+    "qa_cannot_self_release": true
+  }
+}

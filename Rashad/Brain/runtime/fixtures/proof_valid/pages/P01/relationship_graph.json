@@ -1,0 +1,87 @@
+{
+  "schema_version": "6.0",
+  "engagement_id": "TEST-REDF",
+  "page_id": "P01",
+  "nodes": [
+    {
+      "id": "N1",
+      "type": "PROCESS",
+      "label": "الاستكشاف",
+      "evidence": [
+        "EV-0001"
+      ],
+      "importance": 0.8
+    },
+    {
+      "id": "N2",
+      "type": "DECISION",
+      "label": "التقييم والقرار",
+      "evidence": [
+        "EV-0001"
+      ],
+      "importance": 1.0
+    },
+    {
+      "id": "N3",
+      "type": "PROCESS",
+      "label": "التنفيذ",
+      "evidence": [
+        "EV-0001"
+      ],
+      "importance": 0.8
+    },
+    {
+      "id": "N4",
+      "type": "MEASURE",
+      "label": "القياس والتحسين",
+      "evidence": [
+        "EV-0001"
+      ],
+      "importance": 0.9
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1",
+      "source": "N1",
+      "target": "N2",
+      "relation": "FLOWS_TO",
+      "evidence": [
+        "EV-0001"
+      ]
+    },
+    {
+      "id": "E2",
+      "source": "N2",
+      "target": "N3",
+      "relation": "APPROVES",
+      "evidence": [
+        "EV-0001"
+      ]
+    },
+    {
+      "id": "E3",
+      "source": "N3",
+      "target": "N4",
+      "relation": "FLOWS_TO",
+      "evidence": [
+        "EV-0001"
+      ]
+    },
+    {
+      "id": "E4",
+      "source": "N4",
+      "target": "N1",
+      "relation": "FEEDS_BACK",
+      "evidence": [
+        "EV-0001"
+      ]
+    }
+  ],
+  "provenance": {
+    "derived_from": [
+      "fixture"
+    ],
+    "derived_at": "2026-08-13T00:00:00Z"
+  }
+}

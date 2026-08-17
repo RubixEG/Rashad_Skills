@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M10",
+  "mutation": "graph_nodes_16_edges_30",
+  "expected": "redesign/split if routing unreadable",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "40aa80783bf195f81f52b346a019c36c908a0bb9be995a7b714e1ca936c1a438",
+  "mutated_input_hash": "40aa80783bf195f81f52b346a019c36c908a0bb9be995a7b714e1ca936c1a438",
+  "measured_object_count": 1,
+  "changed": true
+}

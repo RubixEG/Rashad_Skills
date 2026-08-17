@@ -1,0 +1,399 @@
+{
+  "version": "2.1.0",
+  "max_active_experts_per_task": 14,
+  "core_roles": [
+    "SME-EVIDENCE",
+    "SIM-GOV-EVALUATOR",
+    "GOV-EVIDENCE",
+    "GOV-KNOWLEDGE-READINESS"
+  ],
+  "role_rules": {
+    "MANAGEMENT_DECISION": [
+      "SME-STRATEGY",
+      "SIM-CEO",
+      "SIM-CHIEF-STRATEGY",
+      "SME-RISK"
+    ],
+    "COMMERCIAL_EXPOSURE": [
+      "SME-PRICING",
+      "SME-COMMERCIAL",
+      "SME-LEGAL-CONTRACT",
+      "SIM-CFO",
+      "SIM-COMMERCIAL-EVALUATOR",
+      "GOV-FINANCIAL-TRUTH"
+    ],
+    "BOQ_INTELLIGENCE": [
+      "SME-DELIVERY",
+      "SME-PRICING",
+      "SME-COMMERCIAL",
+      "SME-PMO",
+      "SIM-CFO"
+    ],
+    "TEAM_CAPACITY": [
+      "SME-DELIVERY",
+      "SME-HR-WORKFORCE",
+      "SME-PMO",
+      "SIM-COO"
+    ],
+    "TECHNICAL_REQUIREMENTS": [
+      "SME-ENTERPRISE-ARCH",
+      "SME-SOLUTION-ARCH",
+      "SIM-CIO-CTO",
+      "GOV-TECHNICAL-FEASIBILITY"
+    ],
+    "QUALIFICATION_EVIDENCE": [
+      "SME-EVIDENCE",
+      "SME-SA-PROCUREMENT",
+      "SME-PROPOSAL-WIN",
+      "SIM-PROCUREMENT-EVALUATOR",
+      "GOV-COMPLIANCE"
+    ],
+    "EVALUATION_WIN": [
+      "SME-PROPOSAL-WIN",
+      "SME-SA-PROCUREMENT",
+      "SIM-TECH-EVALUATOR",
+      "SIM-COMMERCIAL-EVALUATOR",
+      "SIM-PROCUREMENT-EVALUATOR"
+    ],
+    "CLARIFICATIONS": [
+      "SME-LEGAL-CONTRACT",
+      "SME-SA-PROCUREMENT",
+      "SME-RISK",
+      "SIM-PROCUREMENT-EVALUATOR"
+    ],
+    "RISKS": [
+      "SME-RISK",
+      "SME-LEGAL-CONTRACT",
+      "SME-DELIVERY",
+      "SIM-CHIEF-RISK"
+    ],
+    "SCOPE_ARCHITECTURE": [
+      "SME-BUSINESS-ANALYSIS",
+      "SME-OPERATING-MODEL",
+      "SME-DELIVERY",
+      "SME-SOLUTION-ARCH"
+    ],
+    "DELIVERY_JOURNEY": [
+      "SME-DELIVERY",
+      "SME-PMO",
+      "SME-CHANGE",
+      "SIM-COO"
+    ]
+  },
+  "domain_rules": [
+    {
+      "id": "FINANCIAL_COMMERCIAL",
+      "patterns": [
+        "price",
+        "pricing",
+        "margin",
+        "cost",
+        "payment",
+        "cash",
+        "boq",
+        "guarantee",
+        "سعر",
+        "تسعير",
+        "هامش",
+        "تكلفة",
+        "دفعات",
+        "مالي",
+        "تجاري",
+        "ضمان"
+      ],
+      "roles": [
+        "SME-PRICING",
+        "SME-COMMERCIAL",
+        "SIM-CFO",
+        "GOV-FINANCIAL-TRUTH"
+      ]
+    },
+    {
+      "id": "LEGAL_PROCUREMENT",
+      "patterns": [
+        "contract",
+        "legal",
+        "procurement",
+        "tender",
+        "rfp",
+        "bid",
+        "compliance",
+        "عقد",
+        "قانون",
+        "مشتريات",
+        "منافسة",
+        "طرح",
+        "امتثال"
+      ],
+      "roles": [
+        "SME-LEGAL-CONTRACT",
+        "SME-SA-PROCUREMENT",
+        "SME-PROCUREMENT",
+        "SIM-PROCUREMENT-EVALUATOR",
+        "GOV-COMPLIANCE",
+        "SIM-CHIEF-PROCUREMENT",
+        "SIM-LEGAL-EVALUATOR"
+      ]
+    },
+    {
+      "id": "TECH_ARCH",
+      "patterns": [
+        "architecture",
+        "solution",
+        "platform",
+        "api",
+        "integration",
+        "middleware",
+        "معمار",
+        "حل تقني",
+        "منصة",
+        "تكامل",
+        "واجهة برمجية"
+      ],
+      "roles": [
+        "SME-ENTERPRISE-ARCH",
+        "SME-SOLUTION-ARCH",
+        "SME-INTEGRATION",
+        "SIM-CIO-CTO",
+        "GOV-TECHNICAL-FEASIBILITY",
+        "SME-TECH-ARCH"
+      ]
+    },
+    {
+      "id": "AI_DATA",
+      "patterns": [
+        " ai ",
+        "artificial intelligence",
+        "machine learning",
+        "llm",
+        "langchain",
+        "tensorflow",
+        "model",
+        "data",
+        "analytics",
+        "ذكاء اصطناعي",
+        "تعلم آلي",
+        "بيانات",
+        "تحليلات"
+      ],
+      "roles": [
+        "SME-AI-ENGINEERING",
+        "SME-AI-ARCH",
+        "SME-DATA-AI",
+        "SME-DATA-ARCH",
+        "SME-DATA-ENGINEERING",
+        "SIM-CDO"
+      ]
+    },
+    {
+      "id": "CYBER_PRIVACY",
+      "patterns": [
+        "cyber",
+        "security",
+        "iam",
+        "mfa",
+        "pam",
+        "siem",
+        "waf",
+        "vapt",
+        "privacy",
+        "أمن سيبراني",
+        "أمن معلومات",
+        "خصوصية"
+      ],
+      "roles": [
+        "SME-CYBER",
+        "SME-PRIVACY",
+        "SIM-CISO",
+        "SIM-CYBER-EVALUATOR",
+        "GOV-PRIVACY"
+      ]
+    },
+    {
+      "id": "CLOUD_DEVOPS",
+      "patterns": [
+        "cloud",
+        "devops",
+        "ci/cd",
+        "cicd",
+        "docker",
+        "kubernetes",
+        "infrastructure",
+        "dr",
+        "backup",
+        "سحابة",
+        "ديف أوبس",
+        "بنية تحتية",
+        "نسخ احتياطي",
+        "تعافي"
+      ],
+      "roles": [
+        "SME-CLOUD-INFRA",
+        "SME-DEVOPS",
+        "SME-DATABASE",
+        "SME-FINOPS"
+      ]
+    },
+    {
+      "id": "SOFTWARE_ENGINEERING",
+      "patterns": [
+        "backend",
+        "frontend",
+        "mobile",
+        "react",
+        "node.js",
+        "python",
+        "flutter",
+        "software",
+        "تطوير",
+        "واجهة أمامية",
+        "خلفية",
+        "تطبيق جوال"
+      ],
+      "roles": [
+        "SME-BACKEND",
+        "SME-FRONTEND",
+        "SME-MOBILE",
+        "SME-QA-TESTING"
+      ]
+    },
+    {
+      "id": "UX_ACCESSIBILITY",
+      "patterns": [
+        "ux",
+        "ui",
+        "user experience",
+        "accessibility",
+        "wcag",
+        "تجربة المستخدم",
+        "واجهة المستخدم",
+        "إتاحة"
+      ],
+      "roles": [
+        "SME-UX",
+        "SME-ACCESSIBILITY"
+      ]
+    },
+    {
+      "id": "DELIVERY_PEOPLE",
+      "patterns": [
+        "team",
+        "resource",
+        "capacity",
+        "schedule",
+        "delivery",
+        "pmo",
+        "change",
+        "فريق",
+        "موارد",
+        "جاهزية",
+        "جدول",
+        "تنفيذ",
+        "تغيير"
+      ],
+      "roles": [
+        "SME-DELIVERY",
+        "SME-PMO",
+        "SME-HR-WORKFORCE",
+        "SME-CHANGE",
+        "SIM-COO",
+        "SIM-PMO-DIRECTOR",
+        "SIM-CHRO",
+        "SME-TRANSFORMATION"
+      ]
+    },
+    {
+      "id": "SAP",
+      "patterns": [
+        "sap"
+      ],
+      "roles": [
+        "SME-SAP"
+      ]
+    },
+    {
+      "id": "SALESFORCE",
+      "patterns": [
+        "salesforce"
+      ],
+      "roles": [
+        "SME-SALESFORCE"
+      ]
+    },
+    {
+      "id": "ORACLE",
+      "patterns": [
+        "oracle"
+      ],
+      "roles": [
+        "SME-ORACLE"
+      ]
+    },
+    {
+      "id": "OT_ICS",
+      "patterns": [
+        "ot/ics",
+        "industrial control",
+        "ics security",
+        "تحكم صناعي"
+      ],
+      "roles": [
+        "SME-OT-ICS"
+      ]
+    },
+    {
+      "id": "ARABIC_RTL",
+      "patterns": [
+        "arabic",
+        "rtl",
+        "right-to-left",
+        "عربي",
+        "العربية",
+        "يمين إلى اليسار"
+      ],
+      "roles": [
+        "GOV-ARABIC-RTL"
+      ]
+    },
+    {
+      "id": "ARTIFACT_DELIVERY",
+      "patterns": [
+        "artifact",
+        "presentation",
+        "pptx",
+        "powerpoint",
+        "deck",
+        "slide",
+        "visual output",
+        "عرض تقديمي",
+        "شرائح",
+        "شريحة"
+      ],
+      "roles": [
+        "GOV-ARTIFACT-PIPELINE",
+        "GOV-BRAND",
+        "GOV-INDEPENDENCE"
+      ]
+    },
+    {
+      "id": "RELEASE_CONTROL",
+      "patterns": [
+        "release candidate",
+        "released",
+        "final release",
+        "production release",
+        "اعتماد نهائي",
+        "إصدار نهائي"
+      ],
+      "roles": [
+        "GOV-RELEASE",
+        "GOV-INDEPENDENCE"
+      ]
+    }
+  ],
+  "mandatory_governors_for_critical": [
+    "GOV-EVIDENCE",
+    "GOV-KNOWLEDGE-READINESS"
+  ],
+  "principle": "Every registered Brain actor has a reachable executable route. Registration alone has zero intelligence credit; task-relevant actors are bounded, routed, isolated, invoked and proven in the Expert Execution Ledger."
+}

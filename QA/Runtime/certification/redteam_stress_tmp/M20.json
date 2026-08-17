@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M20",
+  "mutation": "random_bounded_perturbation_batch",
+  "expected": "new defect becomes permanent regression fixture",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "33324ee116056e8d68c4528d779dc8328fe8d1b4c0692038cbd342434b262078",
+  "mutated_input_hash": "33324ee116056e8d68c4528d779dc8328fe8d1b4c0692038cbd342434b262078",
+  "measured_object_count": 1,
+  "changed": true
+}

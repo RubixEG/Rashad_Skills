@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M14",
+  "mutation": "missing_icon_or_image",
+  "expected": "truthful fallback/block; no invented asset claim",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "d7c0036c3e4f9bc5c3ff9281d0c58228e24506dab7836f0a6196699db8081d58",
+  "mutated_input_hash": "d7c0036c3e4f9bc5c3ff9281d0c58228e24506dab7836f0a6196699db8081d58",
+  "measured_object_count": 1,
+  "changed": true
+}

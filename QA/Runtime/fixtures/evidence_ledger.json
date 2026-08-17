@@ -1,0 +1,15 @@
+{
+  "engagement_id": "TEST-REDF",
+  "entries": [
+    {
+      "id": "EV-0001",
+      "classification": "ENGAGEMENT_EVIDENCE",
+      "source": "fixture-rfp",
+      "locator": "p.1",
+      "truth_status": "PROVEN",
+      "claim_scope": [
+        "methodology"
+      ]
+    }
+  ]
+}

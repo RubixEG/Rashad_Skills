@@ -1,0 +1,107 @@
+{
+  "version": "7.0",
+  "status": "STRESS_CHAOS_METAMORPHIC_MATRIX",
+  "required_mutations": [
+    {
+      "id": "M01",
+      "mutation": "title_length_x2",
+      "expected": "no clipping/overlap; redesign if needed"
+    },
+    {
+      "id": "M02",
+      "mutation": "title_length_x4",
+      "expected": "split/recompose rather than tiny text"
+    },
+    {
+      "id": "M03",
+      "mutation": "arabic_text_plus_35_percent",
+      "expected": "RTL and geometry preserved"
+    },
+    {
+      "id": "M04",
+      "mutation": "body_text_plus_50_percent",
+      "expected": "split or reflow; evidence preserved"
+    },
+    {
+      "id": "M05",
+      "mutation": "font_size_plus_10_percent",
+      "expected": "no hidden collisions"
+    },
+    {
+      "id": "M06",
+      "mutation": "line_height_plus_12_percent",
+      "expected": "no overlap"
+    },
+    {
+      "id": "M07",
+      "mutation": "font_fallback",
+      "expected": "BLOCK unless approved waiver; rerun geometry"
+    },
+    {
+      "id": "M08",
+      "mutation": "long_url_iso_api_token",
+      "expected": "LTR isolation and containment"
+    },
+    {
+      "id": "M09",
+      "mutation": "large_12_digit_SAR_value",
+      "expected": "metric containment"
+    },
+    {
+      "id": "M10",
+      "mutation": "graph_nodes_16_edges_30",
+      "expected": "redesign/split if routing unreadable"
+    },
+    {
+      "id": "M11",
+      "mutation": "table_rows_30",
+      "expected": "safe continuation pages; no unreadable shrink"
+    },
+    {
+      "id": "M12",
+      "mutation": "roadmap_phases_8",
+      "expected": "readable phase/gate/dependency structure"
+    },
+    {
+      "id": "M13",
+      "mutation": "cycle_and_feedback_graph",
+      "expected": "visible return geometry"
+    },
+    {
+      "id": "M14",
+      "mutation": "missing_icon_or_image",
+      "expected": "truthful fallback/block; no invented asset claim"
+    },
+    {
+      "id": "M15",
+      "mutation": "logo_transparent_padding_extreme",
+      "expected": "optical size remains compliant"
+    },
+    {
+      "id": "M16",
+      "mutation": "DPR_1_2_3",
+      "expected": "stable geometry"
+    },
+    {
+      "id": "M17",
+      "mutation": "render_1920_3840_5760",
+      "expected": "same layout semantics/hash lineage"
+    },
+    {
+      "id": "M18",
+      "mutation": "late_font_load",
+      "expected": "invalidate QA and remeasure"
+    },
+    {
+      "id": "M19",
+      "mutation": "repair_attempt_delete_node",
+      "expected": "REPAIR_SAFETY_FAIL"
+    },
+    {
+      "id": "M20",
+      "mutation": "random_bounded_perturbation_batch",
+      "expected": "new defect becomes permanent regression fixture"
+    }
+  ],
+  "principle": "Failure under a valid stress mutation triggers redesign/split/reflow; never weaken evidence or shrink to unreadability."
+}

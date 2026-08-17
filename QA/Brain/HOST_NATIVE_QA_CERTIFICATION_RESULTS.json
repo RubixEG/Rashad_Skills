@@ -1,0 +1,408 @@
+{
+  "suite": "Host-Native QA Certification",
+  "status": "PASS",
+  "passed": 6,
+  "total": 6,
+  "checks": [
+    {
+      "name": "qa_host_native_no_bridge_returns_pending",
+      "status": "PASS",
+      "detail": {
+        "execution_mode": "HOST_NATIVE_MODE",
+        "provider": "HostNativeQAPendingProvider",
+        "host_session_id": "QA-HOST-31F7D7AD91504363",
+        "host_name": "HOST_MODEL",
+        "pending_count": 13,
+        "pending_requests": [
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "8cd82be95142a854fd0ef06403ded3f86b1669715a43f005702c2a4f7536e166",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q01_MECHANICAL_GEOMETRY",
+            "actor_id": "QA-ACTOR-Q01_MECHANICAL_GEOMETRY-AE98C57F5C4B44E8",
+            "isolated_context_id": "QA-CTX-Q01_MECHANICAL_GEOMETRY-C13F6760684F4809",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "5f700fbc29b298a3298a6079a2e5069dda4bb6038d2fce44a11568d54f354cdb",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q02_EVIDENCE_EPISTEMIC",
+            "actor_id": "QA-ACTOR-Q02_EVIDENCE_EPISTEMIC-657FD2BEB07A4D98",
+            "isolated_context_id": "QA-CTX-Q02_EVIDENCE_EPISTEMIC-6F3A37CCDDAA4F67",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "3e5256c7dc99cf657c4846541650d04642d4dd871db6184580961c567bc8ef95",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q03_ARTIFACT_SEMANTICS",
+            "actor_id": "QA-ACTOR-Q03_ARTIFACT_SEMANTICS-E915117ED2E1488F",
+            "isolated_context_id": "QA-CTX-Q03_ARTIFACT_SEMANTICS-702FD5EB046142C0",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "a71b567fc185d9ac2960f45ad8d7e554ddf9afb46981cac810444f5c6df59d94",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q04_CONSULTING_VISUAL",
+            "actor_id": "QA-ACTOR-Q04_CONSULTING_VISUAL-E901E72576BB42A6",
+            "isolated_context_id": "QA-CTX-Q04_CONSULTING_VISUAL-C3F695BAAAD34A7D",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "1255be4679383a21e71520dabc45f4f31e4f6f9250e9c6e90ae9bede47b62945",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q05_ARABIC_RTL_TYPOGRAPHY",
+            "actor_id": "QA-ACTOR-Q05_ARABIC_RTL_TYPOGRAPHY-218F49F31C6B4855",
+            "isolated_context_id": "QA-CTX-Q05_ARABIC_RTL_TYPOGRAPHY-C9002F611D8640D2",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "7cb50d52c74f68a5f4566f0ae74ca54a23686933c761f7574652e6ccb363dfb9",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q06_BRAND_PRODUCTION_EXPORT",
+            "actor_id": "QA-ACTOR-Q06_BRAND_PRODUCTION_EXPORT-D4F2F16D61B14F37",
+            "isolated_context_id": "QA-CTX-Q06_BRAND_PRODUCTION_EXPORT-D1ED13C1FC0947B1",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "e638134ea98a251b6e1c8709a87d570cfb8c7fbbf8c9a9d217719ec03f2188b9",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q07_CROSS_DECK_NARRATIVE",
+            "actor_id": "QA-ACTOR-Q07_CROSS_DECK_NARRATIVE-A8FD08CA26CE49EF",
+            "isolated_context_id": "QA-CTX-Q07_CROSS_DECK_NARRATIVE-635367518E46450C",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "d35353f427cfcdab3ec8c197f59ce47297cb6554286f492b2ef0a478bb33949c",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+            "actor_id": "QA-ACTOR-Q11_ACTUAL_PIXEL_PRODUCT_REVIEW-C305FDEE1340444A",
+            "isolated_context_id": "QA-CTX-Q11_ACTUAL_PIXEL_PRODUCT_REVIEW-82021898E530431C",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "d0ce0a99ae5681862c78fb9e8074a7c987182f7bebb80159f8af8725d80d938c",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+            "actor_id": "QA-ACTOR-Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC-A8A82F180D6244B1",
+            "isolated_context_id": "QA-CTX-Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC-0A336BA2901642E0",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "42c65e64a420c56757e99b6ce3e80de5e8fd44ca0f4acf59df1f362771e2c72d",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_COUNCIL_REVIEW",
+            "council_id": "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE",
+            "actor_id": "QA-ACTOR-Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE-E57C21D66BA6418A",
+            "isolated_context_id": "QA-CTX-Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE-AE0D28D8BC094854",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "fde0fefcf956b78292ae7c83e86b9f70e9b9872d915806a14521f5ca27e78d88",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_RED_TEAM",
+            "council_id": "Q08_ADVERSARIAL_RED_TEAM",
+            "actor_id": "QA-ACTOR-Q08_ADVERSARIAL_RED_TEAM-FD74515F971E41D2",
+            "isolated_context_id": "QA-CTX-Q08_ADVERSARIAL_RED_TEAM-7AD87E3F6E1B4E80",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "f2b7d3e837a3807ed330976a73864b2a0e82b91f6a45d3ff3331f5d77b4e055f",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_META_REVIEW",
+            "council_id": "Q09_META_QA_INTEGRITY",
+            "actor_id": "QA-ACTOR-Q09_META_QA_INTEGRITY-66C48F28C79F4038",
+            "isolated_context_id": "QA-CTX-Q09_META_QA_INTEGRITY-79C299BE5F674E2E",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          },
+          {
+            "schema": "RASHAD_HOST_NATIVE_QA_INVOCATION_V1",
+            "request_key": "449b25a6c52505db7aca291e55b338d3c974ded14e3f94fd35f756ea5124ac77",
+            "host_session_id": "QA-HOST-31F7D7AD91504363",
+            "host_name": "HOST_MODEL",
+            "function": "QA_CANDIDATE_CHAIR",
+            "council_id": "Q10_QA_RELEASE_CANDIDATE",
+            "actor_id": "QA-ACTOR-Q10_QA_RELEASE_CANDIDATE-6E770B0DADB347B0",
+            "isolated_context_id": "QA-CTX-Q10_QA_RELEASE_CANDIDATE-83FB7C2A2AF7498B",
+            "previous_response_id": null,
+            "input_hash": "9aca0abe3042392c0e086ceda06b1ff1ba28ad58b4b126d79caad801319652ef",
+            "payload": {
+              "context": {
+                "deck_level": true,
+                "rendered": true,
+                "user_visible": true,
+                "language": "AR"
+              },
+              "deterministic_report": {
+                "status": "PASS"
+              },
+              "prior_findings": []
+            },
+            "required_response_contract": "RASHAD_HOST_NATIVE_QA_RESPONSE_V1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "qa_host_native_reaches_candidate_pass",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "qa_host_native_executes_all_required",
+      "status": "PASS",
+      "detail": [
+        "Q01_MECHANICAL_GEOMETRY",
+        "Q02_EVIDENCE_EPISTEMIC",
+        "Q03_ARTIFACT_SEMANTICS",
+        "Q04_CONSULTING_VISUAL",
+        "Q05_ARABIC_RTL_TYPOGRAPHY",
+        "Q06_BRAND_PRODUCTION_EXPORT",
+        "Q07_CROSS_DECK_NARRATIVE",
+        "Q08_ADVERSARIAL_RED_TEAM",
+        "Q09_META_QA_INTEGRITY",
+        "Q10_QA_RELEASE_CANDIDATE",
+        "Q11_ACTUAL_PIXEL_PRODUCT_REVIEW",
+        "Q12_EXECUTIVE_SIMPLICITY_ARTIFACT_SKEPTIC",
+        "Q13_DELIVERY_INTEGRITY_REPAIR_CLOSURE"
+      ]
+    },
+    {
+      "name": "qa_host_native_all_independent",
+      "status": "PASS",
+      "detail": 13
+    },
+    {
+      "name": "qa_fake_host_proof_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "NOT_EXECUTED",
+        "reason": "HOST_NATIVE_QA_PROOF_INVALID",
+        "request_key": "4f2e114f9d07821104bff01a5aab6cd19e69fca2a8c0b9cff9b6464540df057c",
+        "council_id": "Q01",
+        "function": "QA_COUNCIL_REVIEW",
+        "actor_id": "A",
+        "isolated_context_id": "C",
+        "input_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "invocation_id": "QAINV-9781010E4FD640B8",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    },
+    {
+      "name": "qa_bundle_missing_response_pending",
+      "status": "PASS",
+      "detail": {
+        "status": "HOST_NATIVE_PENDING",
+        "reason": "HOST_NATIVE_QA_RESPONSE_REQUIRED",
+        "request_key": "4f2e114f9d07821104bff01a5aab6cd19e69fca2a8c0b9cff9b6464540df057c",
+        "host_session_id": "HS",
+        "council_id": "Q01",
+        "function": "QA_COUNCIL_REVIEW",
+        "actor_id": "A",
+        "isolated_context_id": "C",
+        "input_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "invocation_id": "QA-PENDING-0DFF25E3BCD5400B",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "runtime_version": "4.0.1-owner-language-lock",
+  "date": "2026-08-16",
+  "status": "PASS",
+  "owner_language_gate": "PASS",
+  "blocked_attacks": [
+    "visible title",
+    "visible subsection",
+    "visible callout"
+  ],
+  "source_quote_exception": "PASS_EXPLICIT_ONLY",
+  "default_visible_title_ar": "الالتزامات والمخاطر التجارية والمالية",
+  "non_regression": {
+    "self_certification": "13/13 PASS",
+    "regression_v3": "19/19 PASS",
+    "regression_v31": "21/21 PASS",
+    "skill_certification": "44/44 PASS",
+    "r_code_reachability": "388/388"
+  },
+  "final_visible_term_scan": "0 visible executive occurrences"
+}

@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M05",
+  "mutation": "font_size_plus_10_percent",
+  "expected": "no hidden collisions",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "dcb29c00f13512675294c511fca41822aecef062a9e821003e6af6790314afde",
+  "mutated_input_hash": "dcb29c00f13512675294c511fca41822aecef062a9e821003e6af6790314afde",
+  "measured_object_count": 1,
+  "changed": true
+}

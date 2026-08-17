@@ -1,0 +1,9 @@
+{
+  "suite": "V7.2 Artifact Stress Quality",
+  "status": "FAIL",
+  "page_runs": 4000,
+  "deck_runs": 800,
+  "crashes": 0,
+  "unsafe_escaped": 0,
+  "valid_failed": 1466
+}

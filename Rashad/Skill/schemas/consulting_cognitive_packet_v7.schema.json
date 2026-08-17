@@ -1,0 +1,316 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rashad v7.0.2 Consulting Cognitive Packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "page_id",
+    "role_id",
+    "management_question",
+    "evaluator_question",
+    "decision_supported",
+    "answer_first_thesis",
+    "evidence_for",
+    "evidence_against",
+    "assumptions",
+    "counterarguments",
+    "relationships",
+    "executive_implication",
+    "council_route"
+  ],
+  "properties": {
+    "page_id": {
+      "type": "string",
+      "pattern": "^P[0-9]{2,3}$"
+    },
+    "role_id": {
+      "enum": [
+        "COVER",
+        "COMPETITION_NARRATIVE",
+        "TABLE_OF_CONTENTS",
+        "OPPORTUNITY_SNAPSHOT",
+        "KEY_DATES",
+        "SOURCE_COVERAGE",
+        "CLIENT_NEED",
+        "STRATEGIC_READING",
+        "SCOPE_ARCHITECTURE",
+        "DELIVERY_JOURNEY",
+        "BOQ_INTELLIGENCE",
+        "TECHNICAL_REQUIREMENTS",
+        "TEAM_CAPACITY",
+        "EVALUATION_WIN",
+        "QUALIFICATION_READINESS",
+        "COMMERCIAL_EXPOSURE",
+        "PROPOSAL_STRATEGY",
+        "PROPOSAL_GANTT",
+        "CONTRACT_GANTT",
+        "RISKS",
+        "CLARIFICATIONS",
+        "ASSUMPTIONS_GAPS",
+        "AUTHORSHIP_MATURITY",
+        "BID_DECISION"
+      ]
+    },
+    "management_question": {
+      "type": "string",
+      "minLength": 8
+    },
+    "evaluator_question": {
+      "type": "string",
+      "minLength": 8
+    },
+    "decision_supported": {
+      "type": "string",
+      "minLength": 4
+    },
+    "answer_first_thesis": {
+      "type": "string",
+      "minLength": 8
+    },
+    "evidence_for": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim",
+          "source_ref",
+          "locator",
+          "confidence"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string",
+            "minLength": 2
+          },
+          "source_ref": {
+            "type": "string",
+            "minLength": 3
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "evidence_against": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim",
+          "source_ref",
+          "locator"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string",
+            "minLength": 2
+          },
+          "source_ref": {
+            "type": "string",
+            "minLength": 3
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "statement",
+          "impact",
+          "validation_owner"
+        ],
+        "properties": {
+          "statement": {
+            "type": "string",
+            "minLength": 2
+          },
+          "impact": {
+            "type": "string",
+            "minLength": 2
+          },
+          "validation_owner": {
+            "type": "string",
+            "minLength": 2
+          }
+        }
+      }
+    },
+    "counterarguments": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source",
+          "relation",
+          "target"
+        ],
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "relation": {
+            "enum": [
+              "ENABLES",
+              "DEPENDS_ON",
+              "FLOWS_TO",
+              "CONTROLS",
+              "MEASURES",
+              "EVIDENCES",
+              "RISKS",
+              "PRIORITIZES",
+              "OWNS",
+              "APPROVES",
+              "FEEDS_BACK",
+              "THRESHOLD_FOR",
+              "MAPS_TO",
+              "BLOCKS"
+            ]
+          },
+          "target": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "executive_implication": {
+      "type": "string",
+      "minLength": 8
+    },
+    "council_route": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "lens_id",
+          "authorized_runtime_role_ids",
+          "challenge_question"
+        ],
+        "properties": {
+          "lens_id": {
+            "enum": [
+              "ADVERSARIAL_RED_TEAM",
+              "ARABIC_RTL_GOVERNOR",
+              "ARTIFACT_INTELLIGENCE_DIRECTOR",
+              "AUDIT_COMPLIANCE",
+              "AUTHORITY_FUND_EXECUTIVE",
+              "BRAND_PRODUCTION_LEAD",
+              "CEO_GM",
+              "CFO",
+              "CHIEF_PROCUREMENT_COMMERCIAL",
+              "CHIEF_RISK",
+              "CHIEF_STRATEGY_TRANSFORMATION",
+              "CHRO",
+              "CIO_CTO_CDO",
+              "CISO",
+              "COMMERCIAL_EVALUATOR",
+              "COMMERCIAL_RISK_AUDITOR",
+              "COO",
+              "CYBERSECURITY",
+              "DATA_PDPL",
+              "ENGAGEMENT_MANAGER",
+              "ENGAGEMENT_PARTNER",
+              "EVIDENCE_AUDITOR",
+              "EVIDENCE_LEAD",
+              "GOVERNMENT_PMO",
+              "GOVERNMENT_TRANSFORMATION_EXPERT",
+              "IMPLEMENTATION_DELIVERY_EXPERT",
+              "INDEPENDENT_RELEASE_CHAIR",
+              "INFORMATION_DESIGN_DIRECTOR",
+              "LEGAL_CONTRACTS",
+              "LOCAL_CONTENT_SAUDIZATION",
+              "MINISTRY_EXECUTIVE",
+              "OPERATING_MODEL_EXPERT",
+              "PMO_DELIVERY",
+              "PRINCIPAL_DIRECTOR",
+              "QA_RELIABILITY_LEAD",
+              "QUALITY_ACCEPTANCE",
+              "RED_TEAM_CHALLENGER",
+              "SAUDI_GOVERNMENT_EVALUATOR",
+              "SAUDI_PROCUREMENT_EVALUATOR",
+              "SENIOR_PARTNER",
+              "STRATEGY_CONSULTANT",
+              "TECHNICAL_EVALUATOR",
+              "TRANSFORMATION_EXPERT",
+              "VISUAL_STORYTELLING_DIRECTOR"
+            ]
+          },
+          "authorized_runtime_role_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "ROLE-AI",
+                "ROLE-ANALYST",
+                "ROLE-APPENDIX",
+                "ROLE-ARTIFACT",
+                "ROLE-ASSOC",
+                "ROLE-BRAND-QA",
+                "ROLE-COMMERCIAL",
+                "ROLE-CYBER",
+                "ROLE-DATA",
+                "ROLE-DIRECTOR",
+                "ROLE-EA",
+                "ROLE-LEGAL",
+                "ROLE-OPS",
+                "ROLE-PARTNER",
+                "ROLE-PM",
+                "ROLE-PREPRESS",
+                "ROLE-PRIVACY",
+                "ROLE-PROCUREMENT",
+                "ROLE-QA",
+                "ROLE-REDTEAM",
+                "ROLE-REF-ADAPT",
+                "ROLE-RFP-AUTHORSHIP",
+                "ROLE-SECTOR-SME",
+                "ROLE-SL-PARTNER",
+                "ROLE-SPM",
+                "ROLE-STORY",
+                "ROLE-TEAM-COMP",
+                "ROLE-THEME-COLOR",
+                "ROLE-TIMELINE"
+              ]
+            }
+          },
+          "challenge_question": {
+            "type": "string",
+            "minLength": 8
+          },
+          "independence_required": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

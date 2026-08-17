@@ -1,0 +1,1053 @@
+{
+  "suite": "Rashad Consulting Artifact Intelligence Brain v3.3 Certification",
+  "artifact_brain_version": "3.3.0",
+  "status": "FAIL",
+  "passed": 32,
+  "total": 33,
+  "tests": [
+    {
+      "name": "artifact_brain_20_councils",
+      "status": "PASS",
+      "detail": 20
+    },
+    {
+      "name": "artifact_brain_large_role_universe",
+      "status": "PASS",
+      "detail": 107
+    },
+    {
+      "name": "communication_strategy_universe_24",
+      "status": "PASS",
+      "detail": [
+        "ARCHITECTURE_LED",
+        "BEFORE_AFTER",
+        "CAUSE_EFFECT",
+        "CHART_LED",
+        "COMPARISON_LED",
+        "CONTROL_TOWER_LED",
+        "DECISION_LED",
+        "EVIDENCE_LED",
+        "HYBRID_EXHIBIT",
+        "IMAGE_LED",
+        "JOURNEY_LED",
+        "MAP_LED",
+        "MATRIX_LED",
+        "NUMBER_LED",
+        "PORTFOLIO_LED",
+        "PROCESS_LED",
+        "QUESTION_LED",
+        "SCENARIO_LED",
+        "SCORECARD_LED",
+        "SEQUENCE_LED",
+        "STATEMENT_LED",
+        "SYSTEM_LED",
+        "TABLE_LED",
+        "TRADEOFF_LED"
+      ]
+    },
+    {
+      "name": "scorecard_strategy_available",
+      "status": "PASS",
+      "detail": [
+        "ARCHITECTURE_LED",
+        "BEFORE_AFTER",
+        "CAUSE_EFFECT",
+        "CHART_LED",
+        "COMPARISON_LED",
+        "CONTROL_TOWER_LED",
+        "DECISION_LED",
+        "EVIDENCE_LED",
+        "HYBRID_EXHIBIT",
+        "IMAGE_LED",
+        "JOURNEY_LED",
+        "MAP_LED",
+        "MATRIX_LED",
+        "NUMBER_LED",
+        "PORTFOLIO_LED",
+        "PROCESS_LED",
+        "QUESTION_LED",
+        "SCENARIO_LED",
+        "SCORECARD_LED",
+        "SEQUENCE_LED",
+        "STATEMENT_LED",
+        "SYSTEM_LED",
+        "TABLE_LED",
+        "TRADEOFF_LED"
+      ]
+    },
+    {
+      "name": "artifact_brain_bounded_activation",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "stage": "PRE_CONCEPT",
+        "page_features": {
+          "page_fingerprint": "6a617990e7e2",
+          "text": "ai platform architecture with 30 pocs, commercial risk and rfp evaluation",
+          "number_count": 1,
+          "numbers": [
+            "30"
+          ],
+          "decision": false,
+          "compare": false,
+          "timeline": false,
+          "evidence": false,
+          "architecture": true,
+          "financial": true,
+          "people": false,
+          "page_family": "ANALYTICAL",
+          "image_cue": false,
+          "node_count": 6,
+          "edge_count": 5,
+          "relations": [
+            "CONTROLS",
+            "DEPENDS_ON",
+            "ENABLES",
+            "FEEDS_BACK",
+            "FLOWS_TO"
+          ],
+          "has_relationships": true,
+          "system_complexity_earned": true
+        },
+        "active_councils": [
+          "ARGUMENT_COUNCIL",
+          "EVIDENCE_EPISTEMIC_COUNCIL",
+          "COMMUNICATION_STRATEGY_COUNCIL",
+          "SIMPLICITY_COUNCIL",
+          "INFORMATION_DESIGN_COUNCIL",
+          "META_EXPERTISE_ROUTER",
+          "ARTIFACT_RED_TEAM",
+          "QUANTITATIVE_EXHIBIT_COUNCIL",
+          "SYSTEMS_ARCHITECTURE_COUNCIL",
+          "EVALUATOR_COUNCIL",
+          "ARABIC_RTL_COUNCIL"
+        ],
+        "active_roles": [
+          "AR-SENIOR-PARTNER",
+          "AR-ENGAGEMENT-PARTNER",
+          "AR-PRINCIPAL",
+          "AR-ENGAGEMENT-MANAGER",
+          "AR-STRATEGY-CONSULTANT",
+          "AR-TRANSFORMATION-SME",
+          "AR-OPERATING-MODEL-SME",
+          "AR-VALUE-CREATION-SME",
+          "AR-EVIDENCE-ARCHITECT",
+          "AR-RESEARCH-ANALYST",
+          "AR-SOURCE-INTEGRITY-SME",
+          "AR-QUANTITATIVE-ANALYST",
+          "AR-ASSUMPTION-CHALLENGER",
+          "AR-EPISTEMIC-GOVERNOR",
+          "AR-COMMUNICATION-STRATEGIST",
+          "AR-EXECUTIVE-COMMUNICATION-ARCHITECT",
+          "AR-PROPOSAL-STORYLINER",
+          "AR-NARRATIVE-STRATEGIST"
+        ],
+        "registered_council_count": 20,
+        "registered_role_count": 107,
+        "bounded_activation": true
+      }
+    },
+    {
+      "name": "artifact_core_councils_active",
+      "status": "PASS",
+      "detail": [
+        "ARGUMENT_COUNCIL",
+        "EVIDENCE_EPISTEMIC_COUNCIL",
+        "COMMUNICATION_STRATEGY_COUNCIL",
+        "SIMPLICITY_COUNCIL",
+        "INFORMATION_DESIGN_COUNCIL",
+        "META_EXPERTISE_ROUTER",
+        "ARTIFACT_RED_TEAM",
+        "QUANTITATIVE_EXHIBIT_COUNCIL",
+        "SYSTEMS_ARCHITECTURE_COUNCIL",
+        "EVALUATOR_COUNCIL",
+        "ARABIC_RTL_COUNCIL"
+      ]
+    },
+    {
+      "name": "case_1_five_distinct_communication_strategies",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "hypotheses": [
+          {
+            "id": "H1",
+            "communication_strategy": "COMPARISON_LED",
+            "strategy_family": "ANALYTICAL",
+            "communication_intent": "Two or more alternatives, states, or interpretations",
+            "complexity_level": 2,
+            "partner_fit_score": 59.0,
+            "simplicity_score": 76,
+            "page_fingerprint": "48be2881c2a9",
+            "structural_signature": "COMPARISON_LED|ANALYTICAL|C2|a188e643",
+            "visual_concept_id": "VC-B6AC21B420",
+            "visual_concept_brief": {
+              "focal_rule": "difference, trade-off or contrast is the focal logic",
+              "page_specific_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": true,
+            "visual_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H2",
+            "communication_strategy": "EVIDENCE_LED",
+            "strategy_family": "ANALYTICAL",
+            "communication_intent": "Claim-to-proof composition",
+            "complexity_level": 2,
+            "partner_fit_score": 59.0,
+            "simplicity_score": 76,
+            "page_fingerprint": "48be2881c2a9",
+            "structural_signature": "EVIDENCE_LED|ANALYTICAL|C2|5f6e8730",
+            "visual_concept_id": "VC-3F976C2F49",
+            "visual_concept_brief": {
+              "focal_rule": "claim and proof are visually inseparable",
+              "page_specific_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": true,
+            "visual_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H3",
+            "communication_strategy": "CAUSE_EFFECT",
+            "strategy_family": "RELATIONAL",
+            "communication_intent": "Causal chain with evidence-backed links",
+            "complexity_level": 3,
+            "partner_fit_score": 56.0,
+            "simplicity_score": 64,
+            "page_fingerprint": "48be2881c2a9",
+            "structural_signature": "CAUSE_EFFECT|RELATIONAL|C3|89c1a95e",
+            "visual_concept_id": "VC-8ED09F354E",
+            "visual_concept_brief": {
+              "focal_rule": "one page-specific thesis with the simplest adequate visual form",
+              "page_specific_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": true,
+            "visual_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H4",
+            "communication_strategy": "NUMBER_LED",
+            "strategy_family": "MINIMAL",
+            "communication_intent": "One decisive metric or ratio with its implication",
+            "complexity_level": 1,
+            "partner_fit_score": 86.0,
+            "simplicity_score": 88,
+            "page_fingerprint": "48be2881c2a9",
+            "structural_signature": "NUMBER_LED|MINIMAL|C1|e8bbecdf",
+            "visual_concept_id": "VC-8A26E9384D",
+            "visual_concept_brief": {
+              "focal_rule": "one quantified truth dominates; implication is secondary",
+              "page_specific_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": true,
+            "visual_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H5",
+            "communication_strategy": "SYSTEM_LED",
+            "strategy_family": "RELATIONAL",
+            "communication_intent": "Interdependent system with multiple material relationships",
+            "complexity_level": 4,
+            "partner_fit_score": 77.0,
+            "simplicity_score": 52,
+            "page_fingerprint": "48be2881c2a9",
+            "structural_signature": "SYSTEM_LED|RELATIONAL|C4|d7e8553e",
+            "visual_concept_id": "VC-F8780C75CD",
+            "visual_concept_brief": {
+              "focal_rule": "interdependence and feedback are the message",
+              "page_specific_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": true,
+            "visual_thesis": "Five BOQ lines hide 30 POCs and 20 services with major pricing sensitivity",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          }
+        ],
+        "page_features": {
+          "page_fingerprint": "48be2881c2a9",
+          "text": "five boq lines hide 30 pocs and 20 services with major pricing sensitivity",
+          "number_count": 2,
+          "numbers": [
+            "30",
+            "20"
+          ],
+          "decision": false,
+          "compare": false,
+          "timeline": false,
+          "evidence": false,
+          "architecture": false,
+          "financial": true,
+          "people": false,
+          "page_family": "ANALYTICAL",
+          "image_cue": false,
+          "node_count": 6,
+          "edge_count": 5,
+          "relations": [
+            "CONTROLS",
+            "DEPENDS_ON",
+            "ENABLES",
+            "FEEDS_BACK",
+            "FLOWS_TO"
+          ],
+          "has_relationships": true,
+          "system_complexity_earned": true
+        },
+        "distinct_communication_strategies": 5,
+        "distinct_strategy_families": 3,
+        "contains_minimal_hypothesis": true,
+        "diagram_only_search": false,
+        "winner": null,
+        "selection_status": "PENDING_RENDER_AND_JUDGMENT"
+      }
+    },
+    {
+      "name": "case_1_three_strategy_families",
+      "status": "PASS",
+      "detail": 3
+    },
+    {
+      "name": "case_1_minimal_candidate_present",
+      "status": "PASS",
+      "detail": [
+        "COMPARISON_LED",
+        "EVIDENCE_LED",
+        "CAUSE_EFFECT",
+        "NUMBER_LED",
+        "SYSTEM_LED"
+      ]
+    },
+    {
+      "name": "case_1_no_geometry_primitive_as_hypothesis",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "case_2_five_distinct_communication_strategies",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "hypotheses": [
+          {
+            "id": "H1",
+            "communication_strategy": "HYBRID_EXHIBIT",
+            "strategy_family": "HYBRID",
+            "communication_intent": "Deliberate combination of evidence and one relationship system",
+            "complexity_level": 3,
+            "partner_fit_score": 56.0,
+            "simplicity_score": 64,
+            "page_fingerprint": "03bb7d999050",
+            "structural_signature": "HYBRID_EXHIBIT|HYBRID|C3|47b4d81d",
+            "visual_concept_id": "VC-0AFCA95029",
+            "visual_concept_brief": {
+              "focal_rule": "one analytical proof structure plus one earned relationship",
+              "page_specific_thesis": "HOLD until eight management decision gates close",
+              "proof_encoding": "2–4 bounded proof points",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "HOLD until eight management decision gates close",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H2",
+            "communication_strategy": "STATEMENT_LED",
+            "strategy_family": "MINIMAL",
+            "communication_intent": "Single conclusion with restrained proof support",
+            "complexity_level": 1,
+            "partner_fit_score": 72.0,
+            "simplicity_score": 88,
+            "page_fingerprint": "03bb7d999050",
+            "structural_signature": "STATEMENT_LED|MINIMAL|C1|56750f5b",
+            "visual_concept_id": "VC-D38E337409",
+            "visual_concept_brief": {
+              "focal_rule": "one answer first; proof stays subordinate",
+              "page_specific_thesis": "HOLD until eight management decision gates close",
+              "proof_encoding": "2–4 bounded proof points",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "HOLD until eight management decision gates close",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H3",
+            "communication_strategy": "DECISION_LED",
+            "strategy_family": "MINIMAL",
+            "communication_intent": "Decision, gates, conditions, and next action",
+            "complexity_level": 2,
+            "partner_fit_score": 85.0,
+            "simplicity_score": 76,
+            "page_fingerprint": "03bb7d999050",
+            "structural_signature": "DECISION_LED|MINIMAL|C2|d63cb573",
+            "visual_concept_id": "VC-DB1570D2DC",
+            "visual_concept_brief": {
+              "focal_rule": "decision and conditions are visible before detail",
+              "page_specific_thesis": "HOLD until eight management decision gates close",
+              "proof_encoding": "2–4 bounded proof points",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "HOLD until eight management decision gates close",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H4",
+            "communication_strategy": "SCORECARD_LED",
+            "strategy_family": "ANALYTICAL",
+            "communication_intent": "Compact status, gate, readiness, or KPI scorecard tied to a decision",
+            "complexity_level": 2,
+            "partner_fit_score": 79.0,
+            "simplicity_score": 76,
+            "page_fingerprint": "03bb7d999050",
+            "structural_signature": "SCORECARD_LED|ANALYTICAL|C2|f23c0330",
+            "visual_concept_id": "VC-2468B4499E",
+            "visual_concept_brief": {
+              "focal_rule": "status/gates create immediate management action",
+              "page_specific_thesis": "HOLD until eight management decision gates close",
+              "proof_encoding": "2–4 bounded proof points",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "HOLD until eight management decision gates close",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H5",
+            "communication_strategy": "CAUSE_EFFECT",
+            "strategy_family": "RELATIONAL",
+            "communication_intent": "Causal chain with evidence-backed links",
+            "complexity_level": 3,
+            "partner_fit_score": 56.0,
+            "simplicity_score": 64,
+            "page_fingerprint": "03bb7d999050",
+            "structural_signature": "CAUSE_EFFECT|RELATIONAL|C3|89c1a95e",
+            "visual_concept_id": "VC-9E27BFCD24",
+            "visual_concept_brief": {
+              "focal_rule": "one page-specific thesis with the simplest adequate visual form",
+              "page_specific_thesis": "HOLD until eight management decision gates close",
+              "proof_encoding": "2–4 bounded proof points",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "HOLD until eight management decision gates close",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          }
+        ],
+        "page_features": {
+          "page_fingerprint": "03bb7d999050",
+          "text": "hold until eight management decision gates close",
+          "number_count": 0,
+          "numbers": [],
+          "decision": true,
+          "compare": false,
+          "timeline": false,
+          "evidence": false,
+          "architecture": false,
+          "financial": false,
+          "people": false,
+          "page_family": "ANALYTICAL",
+          "image_cue": false,
+          "node_count": 3,
+          "edge_count": 2,
+          "relations": [
+            "DEPENDS_ON",
+            "FLOWS_TO"
+          ],
+          "has_relationships": true,
+          "system_complexity_earned": false
+        },
+        "distinct_communication_strategies": 5,
+        "distinct_strategy_families": 4,
+        "contains_minimal_hypothesis": true,
+        "diagram_only_search": false,
+        "winner": null,
+        "selection_status": "PENDING_RENDER_AND_JUDGMENT"
+      }
+    },
+    {
+      "name": "case_2_three_strategy_families",
+      "status": "PASS",
+      "detail": 4
+    },
+    {
+      "name": "case_2_minimal_candidate_present",
+      "status": "PASS",
+      "detail": [
+        "HYBRID_EXHIBIT",
+        "STATEMENT_LED",
+        "DECISION_LED",
+        "SCORECARD_LED",
+        "CAUSE_EFFECT"
+      ]
+    },
+    {
+      "name": "case_2_no_geometry_primitive_as_hypothesis",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "case_3_five_distinct_communication_strategies",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "hypotheses": [
+          {
+            "id": "H1",
+            "communication_strategy": "NUMBER_LED",
+            "strategy_family": "MINIMAL",
+            "communication_intent": "One decisive metric or ratio with its implication",
+            "complexity_level": 1,
+            "partner_fit_score": 100,
+            "simplicity_score": 88,
+            "page_fingerprint": "fa2a52c6be5a",
+            "structural_signature": "NUMBER_LED|MINIMAL|C1|e8bbecdf",
+            "visual_concept_id": "VC-F9D691C53C",
+            "visual_concept_brief": {
+              "focal_rule": "one quantified truth dominates; implication is secondary",
+              "page_specific_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H2",
+            "communication_strategy": "TABLE_LED",
+            "strategy_family": "ANALYTICAL",
+            "communication_intent": "Structured evidence table with analytical emphasis",
+            "complexity_level": 2,
+            "partner_fit_score": 91.0,
+            "simplicity_score": 76,
+            "page_fingerprint": "fa2a52c6be5a",
+            "structural_signature": "TABLE_LED|ANALYTICAL|C2|fb6390d8",
+            "visual_concept_id": "VC-FC24B9B586",
+            "visual_concept_brief": {
+              "focal_rule": "scanable structure reveals comparison or obligation",
+              "page_specific_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H3",
+            "communication_strategy": "CAUSE_EFFECT",
+            "strategy_family": "RELATIONAL",
+            "communication_intent": "Causal chain with evidence-backed links",
+            "complexity_level": 3,
+            "partner_fit_score": 56.0,
+            "simplicity_score": 64,
+            "page_fingerprint": "fa2a52c6be5a",
+            "structural_signature": "CAUSE_EFFECT|RELATIONAL|C3|89c1a95e",
+            "visual_concept_id": "VC-FEA26B7307",
+            "visual_concept_brief": {
+              "focal_rule": "one page-specific thesis with the simplest adequate visual form",
+              "page_specific_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H4",
+            "communication_strategy": "HYBRID_EXHIBIT",
+            "strategy_family": "HYBRID",
+            "communication_intent": "Deliberate combination of evidence and one relationship system",
+            "complexity_level": 3,
+            "partner_fit_score": 56.0,
+            "simplicity_score": 64,
+            "page_fingerprint": "fa2a52c6be5a",
+            "structural_signature": "HYBRID_EXHIBIT|HYBRID|C3|47b4d81d",
+            "visual_concept_id": "VC-9A1D098804",
+            "visual_concept_brief": {
+              "focal_rule": "one analytical proof structure plus one earned relationship",
+              "page_specific_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H5",
+            "communication_strategy": "EVIDENCE_LED",
+            "strategy_family": "ANALYTICAL",
+            "communication_intent": "Claim-to-proof composition",
+            "complexity_level": 2,
+            "partner_fit_score": 77.0,
+            "simplicity_score": 76,
+            "page_fingerprint": "fa2a52c6be5a",
+            "structural_signature": "EVIDENCE_LED|ANALYTICAL|C2|5f6e8730",
+            "visual_concept_id": "VC-D3E24029C4",
+            "visual_concept_brief": {
+              "focal_rule": "claim and proof are visually inseparable",
+              "page_specific_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+              "proof_encoding": "quantified evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "24 mandatory resources across 12 roles require interviews and security clearance",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          }
+        ],
+        "page_features": {
+          "page_fingerprint": "fa2a52c6be5a",
+          "text": "24 mandatory resources across 12 roles require interviews and security clearance",
+          "number_count": 2,
+          "numbers": [
+            "24",
+            "12"
+          ],
+          "decision": false,
+          "compare": false,
+          "timeline": false,
+          "evidence": true,
+          "architecture": false,
+          "financial": false,
+          "people": true,
+          "page_family": "ANALYTICAL",
+          "image_cue": false,
+          "node_count": 3,
+          "edge_count": 2,
+          "relations": [
+            "DEPENDS_ON",
+            "FLOWS_TO"
+          ],
+          "has_relationships": true,
+          "system_complexity_earned": false
+        },
+        "distinct_communication_strategies": 5,
+        "distinct_strategy_families": 4,
+        "contains_minimal_hypothesis": true,
+        "diagram_only_search": false,
+        "winner": null,
+        "selection_status": "PENDING_RENDER_AND_JUDGMENT"
+      }
+    },
+    {
+      "name": "case_3_three_strategy_families",
+      "status": "PASS",
+      "detail": 4
+    },
+    {
+      "name": "case_3_minimal_candidate_present",
+      "status": "PASS",
+      "detail": [
+        "NUMBER_LED",
+        "TABLE_LED",
+        "CAUSE_EFFECT",
+        "HYBRID_EXHIBIT",
+        "EVIDENCE_LED"
+      ]
+    },
+    {
+      "name": "case_3_no_geometry_primitive_as_hypothesis",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "case_4_five_distinct_communication_strategies",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "hypotheses": [
+          {
+            "id": "H1",
+            "communication_strategy": "CAUSE_EFFECT",
+            "strategy_family": "RELATIONAL",
+            "communication_intent": "Causal chain with evidence-backed links",
+            "complexity_level": 3,
+            "partner_fit_score": 56.0,
+            "simplicity_score": 64,
+            "page_fingerprint": "6b03a99f3023",
+            "structural_signature": "CAUSE_EFFECT|RELATIONAL|C3|89c1a95e",
+            "visual_concept_id": "VC-DB2BDDA41C",
+            "visual_concept_brief": {
+              "focal_rule": "one page-specific thesis with the simplest adequate visual form",
+              "page_specific_thesis": "The RFP documents conflict and must be reconciled before pricing",
+              "proof_encoding": "source/evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "The RFP documents conflict and must be reconciled before pricing",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H2",
+            "communication_strategy": "HYBRID_EXHIBIT",
+            "strategy_family": "HYBRID",
+            "communication_intent": "Deliberate combination of evidence and one relationship system",
+            "complexity_level": 3,
+            "partner_fit_score": 56.0,
+            "simplicity_score": 64,
+            "page_fingerprint": "6b03a99f3023",
+            "structural_signature": "HYBRID_EXHIBIT|HYBRID|C3|47b4d81d",
+            "visual_concept_id": "VC-FD1773C5F2",
+            "visual_concept_brief": {
+              "focal_rule": "one analytical proof structure plus one earned relationship",
+              "page_specific_thesis": "The RFP documents conflict and must be reconciled before pricing",
+              "proof_encoding": "source/evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "The RFP documents conflict and must be reconciled before pricing",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H3",
+            "communication_strategy": "TRADEOFF_LED",
+            "strategy_family": "ANALYTICAL",
+            "communication_intent": "Explicit option trade-offs and consequences",
+            "complexity_level": 3,
+            "partner_fit_score": 78.0,
+            "simplicity_score": 64,
+            "page_fingerprint": "6b03a99f3023",
+            "structural_signature": "TRADEOFF_LED|ANALYTICAL|C3|3f501694",
+            "visual_concept_id": "VC-C44AFA2880",
+            "visual_concept_brief": {
+              "focal_rule": "one page-specific thesis with the simplest adequate visual form",
+              "page_specific_thesis": "The RFP documents conflict and must be reconciled before pricing",
+              "proof_encoding": "source/evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "The RFP documents conflict and must be reconciled before pricing",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H4",
+            "communication_strategy": "COMPARISON_LED",
+            "strategy_family": "ANALYTICAL",
+            "communication_intent": "Two or more alternatives, states, or interpretations",
+            "complexity_level": 2,
+            "partner_fit_score": 81.0,
+            "simplicity_score": 76,
+            "page_fingerprint": "6b03a99f3023",
+            "structural_signature": "COMPARISON_LED|ANALYTICAL|C2|a188e643",
+            "visual_concept_id": "VC-9393031A9E",
+            "visual_concept_brief": {
+              "focal_rule": "difference, trade-off or contrast is the focal logic",
+              "page_specific_thesis": "The RFP documents conflict and must be reconciled before pricing",
+              "proof_encoding": "source/evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "The RFP documents conflict and must be reconciled before pricing",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          },
+          {
+            "id": "H5",
+            "communication_strategy": "STATEMENT_LED",
+            "strategy_family": "MINIMAL",
+            "communication_intent": "Single conclusion with restrained proof support",
+            "complexity_level": 1,
+            "partner_fit_score": 72.0,
+            "simplicity_score": 88,
+            "page_fingerprint": "6b03a99f3023",
+            "structural_signature": "STATEMENT_LED|MINIMAL|C1|56750f5b",
+            "visual_concept_id": "VC-E360BAB801",
+            "visual_concept_brief": {
+              "focal_rule": "one answer first; proof stays subordinate",
+              "page_specific_thesis": "The RFP documents conflict and must be reconciled before pricing",
+              "proof_encoding": "source/evidence",
+              "negative_space_role": "protect focal hierarchy; never empty filler",
+              "anti_template_rule": "composition must be derived from this page thesis/evidence; label-swap reuse is a hard fail",
+              "renderer_constraint": "geometry is downstream; cards/boxes are optional supporting surfaces only",
+              "complexity_rule": "use the least complex form that preserves the business relationship"
+            },
+            "system_complexity_earned": false,
+            "visual_thesis": "The RFP documents conflict and must be reconciled before pricing",
+            "selection_basis": "ANSWER_EVIDENCE_AUDIENCE_SIMPLEST_FORM"
+          }
+        ],
+        "page_features": {
+          "page_fingerprint": "6b03a99f3023",
+          "text": "the rfp documents conflict and must be reconciled before pricing",
+          "number_count": 0,
+          "numbers": [],
+          "decision": false,
+          "compare": true,
+          "timeline": false,
+          "evidence": true,
+          "architecture": false,
+          "financial": false,
+          "people": false,
+          "page_family": "ANALYTICAL",
+          "image_cue": false,
+          "node_count": 3,
+          "edge_count": 2,
+          "relations": [
+            "DEPENDS_ON",
+            "FLOWS_TO"
+          ],
+          "has_relationships": true,
+          "system_complexity_earned": false
+        },
+        "distinct_communication_strategies": 5,
+        "distinct_strategy_families": 4,
+        "contains_minimal_hypothesis": true,
+        "diagram_only_search": false,
+        "winner": null,
+        "selection_status": "PENDING_RENDER_AND_JUDGMENT"
+      }
+    },
+    {
+      "name": "case_4_three_strategy_families",
+      "status": "PASS",
+      "detail": 4
+    },
+    {
+      "name": "case_4_minimal_candidate_present",
+      "status": "PASS",
+      "detail": [
+        "CAUSE_EFFECT",
+        "HYBRID_EXHIBIT",
+        "TRADEOFF_LED",
+        "COMPARISON_LED",
+        "STATEMENT_LED"
+      ]
+    },
+    {
+      "name": "case_4_no_geometry_primitive_as_hypothesis",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "provisional_selection_not_fixed_H1",
+      "status": "PASS",
+      "detail": [
+        "H4",
+        "H3",
+        "H1",
+        "H4"
+      ]
+    },
+    {
+      "name": "page_specific_hypothesis_signatures",
+      "status": "FAIL",
+      "detail": [
+        [
+          "COMPARISON_LED|ANALYTICAL|C2|a188e643",
+          "EVIDENCE_LED|ANALYTICAL|C2|5f6e8730",
+          "CAUSE_EFFECT|RELATIONAL|C3|89c1a95e",
+          "NUMBER_LED|MINIMAL|C1|e8bbecdf",
+          "SYSTEM_LED|RELATIONAL|C4|d7e8553e"
+        ],
+        [
+          "HYBRID_EXHIBIT|HYBRID|C3|47b4d81d",
+          "STATEMENT_LED|MINIMAL|C1|56750f5b",
+          "DECISION_LED|MINIMAL|C2|d63cb573",
+          "SCORECARD_LED|ANALYTICAL|C2|f23c0330",
+          "CAUSE_EFFECT|RELATIONAL|C3|89c1a95e"
+        ],
+        [
+          "NUMBER_LED|MINIMAL|C1|e8bbecdf",
+          "TABLE_LED|ANALYTICAL|C2|fb6390d8",
+          "CAUSE_EFFECT|RELATIONAL|C3|89c1a95e",
+          "HYBRID_EXHIBIT|HYBRID|C3|47b4d81d",
+          "EVIDENCE_LED|ANALYTICAL|C2|5f6e8730"
+        ],
+        [
+          "CAUSE_EFFECT|RELATIONAL|C3|89c1a95e",
+          "HYBRID_EXHIBIT|HYBRID|C3|47b4d81d",
+          "TRADEOFF_LED|ANALYTICAL|C3|3f501694",
+          "COMPARISON_LED|ANALYTICAL|C2|a188e643",
+          "STATEMENT_LED|MINIMAL|C1|56750f5b"
+        ]
+      ]
+    },
+    {
+      "name": "five_unique_render_hashes_per_page",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "candidate_position_not_same_render_across_pages",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "simple_page_need_not_generate_diagram",
+      "status": "PASS",
+      "detail": [
+        "STATEMENT_LED",
+        "QUESTION_LED",
+        "DECISION_LED",
+        "SCORECARD_LED",
+        "HYBRID_EXHIBIT"
+      ]
+    },
+    {
+      "name": "varied_deck_not_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "DRAFT_QA_PARTIAL",
+        "blockers": [],
+        "warnings": [
+          "ACTUAL_PIXEL_QA_INCOMPLETE_0_OF_8"
+        ],
+        "page_count": 8,
+        "diagram_ratio": 0.25,
+        "max_same_strategy_run": 1,
+        "actual_pixel_reviews": 0,
+        "visibility": "INTERNAL"
+      }
+    },
+    {
+      "name": "diagram_overuse_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "blockers": [
+          "DECK_DIAGRAM_OVERUSE",
+          "FOUR_CONSECUTIVE_SAME_COMMUNICATION_STRATEGY",
+          "INSUFFICIENT_DECK_COMMUNICATION_VARIETY",
+          "POSITIONAL_HYPOTHESIS_WINNER_BIAS",
+          "GENERIC_COMPOSITION_REPETITION"
+        ],
+        "warnings": [
+          "ACTUAL_PIXEL_QA_INCOMPLETE_0_OF_12"
+        ],
+        "page_count": 12,
+        "diagram_ratio": 0.833,
+        "max_same_strategy_run": 10,
+        "actual_pixel_reviews": 0,
+        "visibility": "INTERNAL"
+      }
+    },
+    {
+      "name": "positional_winner_bias_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "blockers": [
+          "DECK_DIAGRAM_OVERUSE",
+          "FOUR_CONSECUTIVE_SAME_COMMUNICATION_STRATEGY",
+          "INSUFFICIENT_DECK_COMMUNICATION_VARIETY",
+          "POSITIONAL_HYPOTHESIS_WINNER_BIAS",
+          "GENERIC_COMPOSITION_REPETITION"
+        ],
+        "warnings": [
+          "ACTUAL_PIXEL_QA_INCOMPLETE_0_OF_12"
+        ],
+        "page_count": 12,
+        "diagram_ratio": 0.833,
+        "max_same_strategy_run": 10,
+        "actual_pixel_reviews": 0,
+        "visibility": "INTERNAL"
+      }
+    },
+    {
+      "name": "user_visible_gate_blocks_actual_output_partial_qa",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "errors": [
+          "MISSING_BRAIN_SESSION",
+          "MISSING_ARTIFACT_COUNCIL_EXECUTION",
+          "BRAIN_EXECUTION_PROOF_REQUIRED",
+          "ARTIFACT_COUNCIL_EXECUTION_REQUIRED",
+          "EVIDENCE_LINEAGE_REQUIRED",
+          "MISSING_ART_DIRECTION_EXECUTION",
+          "MISSING_PRODUCTION_COUNCIL_EXECUTION",
+          "ART_DIRECTION_EXECUTION_REQUIRED",
+          "PRODUCTION_COUNCIL_EXECUTION_REQUIRED",
+          "USER_VISIBLE_MASTER_CANNOT_USE_PROVISIONAL_OR_POSITIONAL_AUTHORITY",
+          "USER_VISIBLE_MASTER_MUST_BE_PRODUCTION_PAGE_RENDER",
+          "PRODUCTION_RENDER_PROOF_REQUIRED",
+          "USER_VISIBLE_ACTUAL_OUTPUT_QA_NOT_PASSED",
+          "ACTUAL_OUTPUT_QA_MUST_PASS_NOT_PARTIAL",
+          "ACTUAL_PIXEL_QA_REQUIRED_FOR_USER_VISIBLE",
+          "QA_REPAIR_LOOP_NOT_CLOSED"
+        ]
+      }
+    },
+    {
+      "name": "partial_qa_never_user_visible_or_release_candidate",
+      "status": "PASS",
+      "detail": "CONTENT_DRAFT"
+    },
+    {
+      "name": "missing_execution_proof_cannot_claim_internal_concept_ready",
+      "status": "PASS",
+      "detail": "CONTENT_DRAFT"
+    }
+  ]
+}

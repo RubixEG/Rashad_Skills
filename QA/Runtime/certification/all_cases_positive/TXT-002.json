@@ -1,0 +1,15 @@
+{
+  "case_id": "TXT-002",
+  "detector": "DOM_TEXT_GEOMETRY",
+  "taxonomy_sha256": "8b63a1fc1ba409139388f0d182c367529dd5b26611ee65b1c24487da1011c1dd",
+  "input_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "evidence_id": "TEST-TXT-002",
+  "owner": "QA_RUNTIME_TEST",
+  "status": "PASS",
+  "measured_object_count": 1,
+  "provenance_type": "LOCAL_RUNTIME_MEASUREMENT",
+  "measurement_payload": {
+    "count": 1,
+    "assertion": "fixture_meets_contract"
+  }
+}

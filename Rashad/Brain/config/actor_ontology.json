@@ -1,0 +1,641 @@
+{
+  "ontology_version": "2.0.0",
+  "actor_types": [
+    "SME",
+    "EXECUTIVE_SIMULATOR",
+    "EVALUATOR_SIMULATOR",
+    "GOVERNOR",
+    "PRODUCER",
+    "CHALLENGER",
+    "INDEPENDENT_JUDGE",
+    "RELEASE_CHAIR"
+  ],
+  "cognitive_functions": [
+    "OBSERVE",
+    "GROUND",
+    "CLASSIFY",
+    "FRAME",
+    "DECOMPOSE",
+    "CONNECT",
+    "INFER",
+    "HYPOTHESIZE",
+    "CHALLENGE",
+    "COMPARE",
+    "SIMULATE",
+    "QUANTIFY",
+    "DECIDE",
+    "SYNTHESIZE",
+    "COMMUNICATE",
+    "LEARN"
+  ],
+  "actors": [
+    {
+      "id": "SME-ACCESSIBILITY",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "CHALLENGE",
+        "COMPARE"
+      ],
+      "knowledge_pack": "KP-ACCESSIBILITY-WCAG"
+    },
+    {
+      "id": "SME-AI-ARCH",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "HYPOTHESIZE",
+        "COMPARE"
+      ],
+      "knowledge_pack": "KP-TECH-ARCHITECTURE"
+    },
+    {
+      "id": "SME-AI-ENGINEERING",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "HYPOTHESIZE",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-BACKEND",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-BUSINESS-ANALYSIS",
+      "type": "SME",
+      "functions": [
+        "OBSERVE",
+        "DECOMPOSE",
+        "GROUND"
+      ]
+    },
+    {
+      "id": "SME-CHANGE",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "SIMULATE",
+        "COMMUNICATE"
+      ]
+    },
+    {
+      "id": "SME-CLOUD-INFRA",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "COMPARE",
+        "SIMULATE"
+      ]
+    },
+    {
+      "id": "SME-COMMERCIAL",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "QUANTIFY",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-CYBER",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "CHALLENGE",
+        "COMPARE"
+      ],
+      "knowledge_pack": "KP-CYBER-COMPLIANCE"
+    },
+    {
+      "id": "SME-DATA-AI",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "HYPOTHESIZE"
+      ]
+    },
+    {
+      "id": "SME-DATA-ARCH",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "GROUND"
+      ]
+    },
+    {
+      "id": "SME-DATA-ENGINEERING",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "GROUND"
+      ]
+    },
+    {
+      "id": "SME-DATABASE",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "GROUND"
+      ]
+    },
+    {
+      "id": "SME-DELIVERY",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SME-DEVOPS",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SME-ENTERPRISE-ARCH",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-EVIDENCE",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SME-FINOPS",
+      "type": "SME",
+      "functions": [
+        "QUANTIFY",
+        "COMPARE",
+        "SIMULATE"
+      ],
+      "knowledge_pack": "KP-CLOUD-COST"
+    },
+    {
+      "id": "SME-FRONTEND",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "COMPARE",
+        "COMMUNICATE"
+      ]
+    },
+    {
+      "id": "SME-HR-WORKFORCE",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "DECOMPOSE",
+        "SIMULATE"
+      ]
+    },
+    {
+      "id": "SME-INTEGRATION",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-LEGAL-CONTRACT",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "CHALLENGE",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-MOBILE",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "COMPARE",
+        "SIMULATE"
+      ]
+    },
+    {
+      "id": "SME-OPERATING-MODEL",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "SIMULATE"
+      ]
+    },
+    {
+      "id": "SME-ORACLE",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-OT-ICS",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "CHALLENGE",
+        "CONNECT"
+      ],
+      "knowledge_pack": "KP-OT-ICS-SECURITY"
+    },
+    {
+      "id": "SME-PMO",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "SIMULATE",
+        "QUANTIFY"
+      ]
+    },
+    {
+      "id": "SME-PRICING",
+      "type": "SME",
+      "functions": [
+        "QUANTIFY",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-PRIVACY",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "CHALLENGE",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-PROCUREMENT",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SME-PROPOSAL-WIN",
+      "type": "SME",
+      "functions": [
+        "FRAME",
+        "COMPARE",
+        "SYNTHESIZE"
+      ]
+    },
+    {
+      "id": "SME-QA-TESTING",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "CHALLENGE",
+        "SIMULATE"
+      ]
+    },
+    {
+      "id": "SME-RISK",
+      "type": "SME",
+      "functions": [
+        "INFER",
+        "CHALLENGE",
+        "SIMULATE"
+      ]
+    },
+    {
+      "id": "SME-SA-PROCUREMENT",
+      "type": "SME",
+      "functions": [
+        "GROUND",
+        "CHALLENGE",
+        "COMPARE"
+      ],
+      "knowledge_pack": "KP-SA-PROCUREMENT"
+    },
+    {
+      "id": "SME-SALESFORCE",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "COMPARE"
+      ],
+      "knowledge_pack": "KP-SALESFORCE"
+    },
+    {
+      "id": "SME-SAP",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "COMPARE"
+      ],
+      "knowledge_pack": "KP-SAP"
+    },
+    {
+      "id": "SME-SOLUTION-ARCH",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "COMPARE"
+      ],
+      "knowledge_pack": "KP-TECH-ARCHITECTURE"
+    },
+    {
+      "id": "SME-STRATEGY",
+      "type": "SME",
+      "functions": [
+        "FRAME",
+        "SYNTHESIZE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SME-TECH-ARCH",
+      "type": "SME",
+      "functions": [
+        "DECOMPOSE",
+        "CONNECT",
+        "COMPARE"
+      ]
+    },
+    {
+      "id": "SME-TRANSFORMATION",
+      "type": "SME",
+      "functions": [
+        "FRAME",
+        "DECOMPOSE",
+        "SIMULATE"
+      ]
+    },
+    {
+      "id": "SME-UX",
+      "type": "SME",
+      "functions": [
+        "OBSERVE",
+        "FRAME",
+        "COMMUNICATE"
+      ]
+    },
+    {
+      "id": "SIM-CDO",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-CEO",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE",
+        "DECIDE"
+      ]
+    },
+    {
+      "id": "SIM-CFO",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-CHIEF-PROCUREMENT",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-CHIEF-RISK",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-CHIEF-STRATEGY",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE",
+        "DECIDE"
+      ]
+    },
+    {
+      "id": "SIM-CHRO",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-CIO-CTO",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-CISO",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-COO",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-PMO-DIRECTOR",
+      "type": "EXECUTIVE_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-COMMERCIAL-EVALUATOR",
+      "type": "EVALUATOR_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-CYBER-EVALUATOR",
+      "type": "EVALUATOR_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-GOV-EVALUATOR",
+      "type": "EVALUATOR_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-LEGAL-EVALUATOR",
+      "type": "EVALUATOR_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-PROCUREMENT-EVALUATOR",
+      "type": "EVALUATOR_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "SIM-TECH-EVALUATOR",
+      "type": "EVALUATOR_SIMULATOR",
+      "functions": [
+        "SIMULATE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "id": "GOV-ARABIC-RTL",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND"
+      ],
+      "veto": "ARABIC_RTL_PRODUCT_BREACH"
+    },
+    {
+      "id": "GOV-ARTIFACT-PIPELINE",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND"
+      ],
+      "veto": "COMPOSER_BYPASS"
+    },
+    {
+      "id": "GOV-BRAND",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND"
+      ],
+      "veto": "BRAND_AUTHORITY_BREACH"
+    },
+    {
+      "id": "GOV-COMPLIANCE",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND",
+        "CHALLENGE"
+      ],
+      "veto": "MANDATORY_COMPLIANCE_BREACH"
+    },
+    {
+      "id": "GOV-EVIDENCE",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND"
+      ],
+      "veto": "UNSUPPORTED_MATERIAL_CLAIM"
+    },
+    {
+      "id": "GOV-FINANCIAL-TRUTH",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND",
+        "QUANTIFY"
+      ],
+      "veto": "INVENTED_COST_RATE_MARGIN_PRICE"
+    },
+    {
+      "id": "GOV-INDEPENDENCE",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND"
+      ],
+      "veto": "PRODUCER_JUDGE_COLLISION"
+    },
+    {
+      "id": "GOV-KNOWLEDGE-READINESS",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND",
+        "CHALLENGE"
+      ],
+      "veto": "KNOWLEDGE_NOT_READY_PRESENTED_AS_CERTAINTY"
+    },
+    {
+      "id": "GOV-PRIVACY",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND",
+        "CHALLENGE"
+      ],
+      "veto": "PRIVACY_VIOLATION"
+    },
+    {
+      "id": "GOV-RELEASE",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND"
+      ],
+      "veto": "UNAUTHORIZED_RELEASE"
+    },
+    {
+      "id": "GOV-TECHNICAL-FEASIBILITY",
+      "type": "GOVERNOR",
+      "functions": [
+        "GROUND",
+        "CHALLENGE"
+      ],
+      "veto": "TECHNICAL_INFEASIBILITY"
+    }
+  ],
+  "registered_actor_count": 69,
+  "runtime_rule": "REGISTERED_ACTOR_IS_NOT_ACTIVE_INTELLIGENCE_UNLESS_SELECTED_BY_EXPERT_ROUTER_AND_EXECUTED_WITH_ISOLATED_INVOCATION"
+}

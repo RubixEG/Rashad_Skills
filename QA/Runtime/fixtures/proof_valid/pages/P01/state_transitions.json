@@ -1,0 +1,72 @@
+[
+  {
+    "state": "INGESTED",
+    "page_id": "P01",
+    "evidence_id": "EV-00",
+    "input_hashes": {},
+    "output_hashes": {}
+  },
+  {
+    "state": "CONTENT_LOCKED",
+    "page_id": "P01",
+    "evidence_id": "EV-01",
+    "input_hashes": {},
+    "output_hashes": {}
+  },
+  {
+    "state": "GRAPH_LOCKED",
+    "page_id": "P01",
+    "evidence_id": "EV-02",
+    "input_hashes": {},
+    "output_hashes": {}
+  },
+  {
+    "state": "ARTIFACT_TRUTH_PASS",
+    "page_id": "P01",
+    "evidence_id": "EV-03",
+    "input_hashes": {},
+    "output_hashes": {}
+  },
+  {
+    "state": "EXHIBIT_SEARCH_COMPLETE",
+    "page_id": "P01",
+    "evidence_id": "EV-04",
+    "input_hashes": {},
+    "output_hashes": {}
+  },
+  {
+    "state": "WINNER_LOCKED",
+    "page_id": "P01",
+    "evidence_id": "EV-05",
+    "input_hashes": {},
+    "output_hashes": {}
+  },
+  {
+    "state": "VISUAL_SEARCH_COMPLETE",
+    "page_id": "P01",
+    "evidence_id": "EV-06",
+    "input_hashes": {},
+    "output_hashes": {}
+  },
+  {
+    "state": "CEQS_PASS",
+    "page_id": "P01",
+    "evidence_id": "EV-07",
+    "input_hashes": {},
+    "output_hashes": {}
+  },
+  {
+    "state": "PAGE_MASTER_LOCKED",
+    "page_id": "P01",
+    "evidence_id": "EV-08",
+    "input_hashes": {},
+    "output_hashes": {}
+  },
+  {
+    "state": "PAGE_QA_PASS",
+    "page_id": "P01",
+    "evidence_id": "EV-09",
+    "input_hashes": {},
+    "output_hashes": {}
+  }
+]

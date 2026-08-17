@@ -1,0 +1,190 @@
+{
+  "runtime": "Rashad Brain 1.0 / QA Runtime 4.2 / QA Brain 1.0",
+  "status": "PASS",
+  "passed": 13,
+  "total": 13,
+  "tests": [
+    {
+      "name": "commercial_route_has_cfo_domain",
+      "status": "PASS",
+      "detail": [
+        "C01_STRATEGIC_THESIS",
+        "C03_EPISTEMIC_TRUTH",
+        "C04_COMMERCIAL_FINANCIAL",
+        "C07_LEGAL_PROCUREMENT_COMPLIANCE",
+        "C09_CAUSAL_SCENARIO",
+        "C10_ARTIFACT_SYNTHESIS",
+        "C11_VISUAL_PERCEPTION",
+        "C12_PRODUCTION_INTEGRITY",
+        "C13_ADVERSARIAL_COUNTERFACTUAL",
+        "C15_META_COGNITION_INTEGRITY"
+      ]
+    },
+    {
+      "name": "critical_route_has_epistemic_redteam_meta",
+      "status": "PASS",
+      "detail": [
+        "C01_STRATEGIC_THESIS",
+        "C03_EPISTEMIC_TRUTH",
+        "C04_COMMERCIAL_FINANCIAL",
+        "C07_LEGAL_PROCUREMENT_COMPLIANCE",
+        "C09_CAUSAL_SCENARIO",
+        "C10_ARTIFACT_SYNTHESIS",
+        "C11_VISUAL_PERCEPTION",
+        "C12_PRODUCTION_INTEGRITY",
+        "C13_ADVERSARIAL_COUNTERFACTUAL",
+        "C15_META_COGNITION_INTEGRITY"
+      ]
+    },
+    {
+      "name": "rendered_route_has_visual_and_production",
+      "status": "PASS",
+      "detail": [
+        "C01_STRATEGIC_THESIS",
+        "C03_EPISTEMIC_TRUTH",
+        "C04_COMMERCIAL_FINANCIAL",
+        "C07_LEGAL_PROCUREMENT_COMPLIANCE",
+        "C09_CAUSAL_SCENARIO",
+        "C10_ARTIFACT_SYNTHESIS",
+        "C11_VISUAL_PERCEPTION",
+        "C12_PRODUCTION_INTEGRITY",
+        "C13_ADVERSARIAL_COUNTERFACTUAL",
+        "C15_META_COGNITION_INTEGRITY"
+      ]
+    },
+    {
+      "name": "no_provider_is_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "reason": "PRODUCER_NOT_EXECUTED"
+      }
+    },
+    {
+      "name": "test_provider_reaches_cognitive_lock",
+      "status": "PASS",
+      "detail": "COGNITIVE_LOCKED"
+    },
+    {
+      "name": "brain_does_not_self_release_after_cognition",
+      "status": "PASS",
+      "detail": {
+        "status": "DRAFT_READY",
+        "reason": "ARTIFACT_RENDER_JUDGE_QA_RELEASE_STILL_REQUIRED"
+      }
+    },
+    {
+      "name": "council_coverage_passes",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "errors": [],
+        "executed_councils": [
+          "GOV-EVIDENCE",
+          "GOV-FINANCIAL-TRUTH",
+          "GOV-KNOWLEDGE-READINESS",
+          "SIM-CFO",
+          "SIM-COMMERCIAL-EVALUATOR",
+          "SIM-GOV-EVALUATOR",
+          "SME-COMMERCIAL",
+          "SME-EVIDENCE",
+          "SME-LEGAL-CONTRACT",
+          "SME-PRICING"
+        ]
+      }
+    },
+    {
+      "name": "five_structural_hypotheses",
+      "status": "PASS",
+      "detail": [
+        "PCS-ADEC6160D094440FA6F6",
+        "PCS-7EC1000CA14B89942822",
+        "PCS-AD339BDE2DF1FF3F6042",
+        "PCS-7C588688EFCBF2E16604",
+        "PCS-39F527887238247B7887"
+      ]
+    },
+    {
+      "name": "winner_not_hardcoded",
+      "status": "PASS",
+      "detail": "PENDING_ACTUAL_RENDER_AND_INDEPENDENT_JUDGE"
+    },
+    {
+      "name": "partial_judgment_blocks_selection",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "winner": null,
+        "reason": "ALL_CANDIDATES_REQUIRE_INDEPENDENT_JUDGMENT"
+      }
+    },
+    {
+      "name": "independent_scores_choose_actual_winner",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "winner": "H5",
+        "ranking": [
+          "H5",
+          "H4",
+          "H3",
+          "H2",
+          "H1"
+        ],
+        "scores": {
+          "H5": 85.0,
+          "H4": 84.0,
+          "H3": 83.0,
+          "H2": 82.0,
+          "H1": 81.0
+        }
+      }
+    },
+    {
+      "name": "producer_judge_collision_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "FAIL",
+        "errors": [
+          {
+            "kind": "PRODUCER_JUDGE_COLLISION",
+            "actor_id": "ACTOR-PRODUCER-A64E9B3B8C47461F"
+          }
+        ],
+        "executed_councils": [
+          "GOV-EVIDENCE",
+          "GOV-FINANCIAL-TRUTH",
+          "GOV-KNOWLEDGE-READINESS",
+          "SIM-CFO",
+          "SIM-COMMERCIAL-EVALUATOR",
+          "SIM-GOV-EVALUATOR",
+          "SME-COMMERCIAL",
+          "SME-EVIDENCE",
+          "SME-LEGAL-CONTRACT",
+          "SME-PRICING"
+        ]
+      }
+    },
+    {
+      "name": "qa_candidate_cannot_release_without_judge_and_chair",
+      "status": "PASS",
+      "detail": {
+        "status": "FAIL",
+        "final_verdict": "BLOCKED",
+        "release_authority": "RASHAD_BRAIN_RELEASE_CHAIR",
+        "errors": [
+          {
+            "kind": "BRAIN_NOT_JUDGED",
+            "state": "COGNITIVE_LOCKED"
+          },
+          {
+            "kind": "INDEPENDENT_JUDGE_MISSING"
+          },
+          {
+            "kind": "RELEASE_CHAIR_MISSING"
+          }
+        ]
+      }
+    }
+  ]
+}

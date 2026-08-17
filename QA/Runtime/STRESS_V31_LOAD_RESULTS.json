@@ -1,0 +1,12 @@
+{
+  "artifact_graph_runs": 2000,
+  "artifact_crashes": 0,
+  "artifact_passes": 1990,
+  "passing_budget_violations": 0,
+  "artifact_graphs_per_sec": 249.4,
+  "dossier_runs": 250,
+  "dossier_passes": 250,
+  "dossier_crashes": 0,
+  "dossier_per_sec": 1448.7,
+  "status": "PASS"
+}

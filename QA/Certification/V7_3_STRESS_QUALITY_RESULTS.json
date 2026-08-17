@@ -1,0 +1,14 @@
+{
+  "suite": "V7.3 Artifact Stress Quality",
+  "status": "PASS",
+  "page_runs": 4000,
+  "deck_runs": 800,
+  "operations": 4800,
+  "crashes": 0,
+  "unsafe_escaped": 0,
+  "valid_failed": 0,
+  "current_quality_floors": [
+    "artifact_truth>=90",
+    "ceqs>=90"
+  ]
+}

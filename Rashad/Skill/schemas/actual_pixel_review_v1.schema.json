@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Rashad Actual Pixel Review v1",
+  "type":"object",
+  "required":["status","independent","review_id","actor_id","actual_render_hash","scores","generic_layout_swap_test","artifact_skeptic_test","five_second_test"],
+  "properties":{
+    "status":{"const":"PASS"},
+    "independent":{"const":true},
+    "review_id":{"type":"string","minLength":1},
+    "actor_id":{"type":"string","minLength":1},
+    "actual_render_hash":{"type":"string","minLength":64,"maxLength":64},
+    "scores":{"type":"object","required":["message_clarity","five_second_comprehension","visual_form_fitness","simplicity","executive_hierarchy","evidence_legibility","artifact_usefulness","specificity_to_page","rtl_typography","brand_fidelity","production_quality"]},
+    "generic_layout_swap_test":{"const":"PASS"},
+    "artifact_skeptic_test":{"const":"PASS"},
+    "five_second_test":{"const":"PASS"}
+  },
+  "additionalProperties":true
+}

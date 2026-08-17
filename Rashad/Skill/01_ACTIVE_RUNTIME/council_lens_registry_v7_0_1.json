@@ -1,0 +1,482 @@
+{
+  "version": "7.0.1",
+  "status": "LINEAGE_COMPATIBILITY_ONLY_CURRENT_ROUTING_USES_council_lens_registry_v7_json",
+  "semantics": "Lens IDs are analytical question bundles, not runtime role IDs. Only ROLE-* IDs from 01_ACTIVE_RUNTIME/09_COUNCILS_AND_ROLES.md are runtime identities.",
+  "authorized_runtime_role_count": 29,
+  "authorized_runtime_role_ids": [
+    "ROLE-AI",
+    "ROLE-ANALYST",
+    "ROLE-APPENDIX",
+    "ROLE-ARTIFACT",
+    "ROLE-ASSOC",
+    "ROLE-BRAND-QA",
+    "ROLE-COMMERCIAL",
+    "ROLE-CYBER",
+    "ROLE-DATA",
+    "ROLE-DIRECTOR",
+    "ROLE-EA",
+    "ROLE-LEGAL",
+    "ROLE-OPS",
+    "ROLE-PARTNER",
+    "ROLE-PM",
+    "ROLE-PREPRESS",
+    "ROLE-PRIVACY",
+    "ROLE-PROCUREMENT",
+    "ROLE-QA",
+    "ROLE-REDTEAM",
+    "ROLE-REF-ADAPT",
+    "ROLE-RFP-AUTHORSHIP",
+    "ROLE-SECTOR-SME",
+    "ROLE-SL-PARTNER",
+    "ROLE-SPM",
+    "ROLE-STORY",
+    "ROLE-TEAM-COMP",
+    "ROLE-THEME-COLOR",
+    "ROLE-TIMELINE"
+  ],
+  "lenses": [
+    {
+      "lens_id": "ADVERSARIAL_RED_TEAM",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-REDTEAM"
+      ],
+      "question_focus": "Adversarial Red Team challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "ARABIC_RTL_GOVERNOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-BRAND-QA",
+        "ROLE-PREPRESS"
+      ],
+      "question_focus": "Arabic Rtl Governor challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "ARTIFACT_INTELLIGENCE_DIRECTOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-ARTIFACT"
+      ],
+      "question_focus": "Artifact Intelligence Director challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "AUDIT_COMPLIANCE",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-QA",
+        "ROLE-LEGAL"
+      ],
+      "question_focus": "Audit Compliance challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "AUTHORITY_FUND_EXECUTIVE",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PARTNER",
+        "ROLE-SECTOR-SME"
+      ],
+      "question_focus": "Authority Fund Executive challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "BRAND_PRODUCTION_LEAD",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-BRAND-QA",
+        "ROLE-THEME-COLOR",
+        "ROLE-PREPRESS"
+      ],
+      "question_focus": "Brand Production Lead challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "CEO_GM",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PARTNER",
+        "ROLE-DIRECTOR"
+      ],
+      "question_focus": "Ceo Gm challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "CFO",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-COMMERCIAL",
+        "ROLE-PARTNER"
+      ],
+      "question_focus": "Cfo challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "CHIEF_PROCUREMENT_COMMERCIAL",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PROCUREMENT",
+        "ROLE-COMMERCIAL"
+      ],
+      "question_focus": "Chief Procurement Commercial challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "CHIEF_RISK",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-LEGAL",
+        "ROLE-COMMERCIAL",
+        "ROLE-QA"
+      ],
+      "question_focus": "Chief Risk challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "CHIEF_STRATEGY_TRANSFORMATION",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PARTNER",
+        "ROLE-SL-PARTNER"
+      ],
+      "question_focus": "Chief Strategy Transformation challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "CHRO",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-TEAM-COMP",
+        "ROLE-SPM"
+      ],
+      "question_focus": "Chro challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "CIO_CTO_CDO",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-EA",
+        "ROLE-DATA",
+        "ROLE-AI"
+      ],
+      "question_focus": "Cio Cto Cdo challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "CISO",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-CYBER"
+      ],
+      "question_focus": "Ciso challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "COMMERCIAL_EVALUATOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-COMMERCIAL",
+        "ROLE-REDTEAM"
+      ],
+      "question_focus": "Commercial Evaluator challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "COMMERCIAL_RISK_AUDITOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-COMMERCIAL",
+        "ROLE-LEGAL",
+        "ROLE-QA"
+      ],
+      "question_focus": "Commercial Risk Auditor challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "COO",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-OPS",
+        "ROLE-SPM",
+        "ROLE-PM"
+      ],
+      "question_focus": "Coo challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "CYBERSECURITY",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-CYBER"
+      ],
+      "question_focus": "Cybersecurity challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "DATA_PDPL",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-DATA",
+        "ROLE-PRIVACY"
+      ],
+      "question_focus": "Data Pdpl challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "ENGAGEMENT_MANAGER",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-SPM",
+        "ROLE-PM"
+      ],
+      "question_focus": "Engagement Manager challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "ENGAGEMENT_PARTNER",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PARTNER"
+      ],
+      "question_focus": "Engagement Partner challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "EVIDENCE_AUDITOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-APPENDIX",
+        "ROLE-QA",
+        "ROLE-ANALYST"
+      ],
+      "question_focus": "Evidence Auditor challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "EVIDENCE_LEAD",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-APPENDIX",
+        "ROLE-ANALYST"
+      ],
+      "question_focus": "Evidence Lead challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "GOVERNMENT_PMO",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-TIMELINE",
+        "ROLE-SPM",
+        "ROLE-PM"
+      ],
+      "question_focus": "Government Pmo challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "GOVERNMENT_TRANSFORMATION_EXPERT",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-SECTOR-SME",
+        "ROLE-SL-PARTNER",
+        "ROLE-PROCUREMENT"
+      ],
+      "question_focus": "Government Transformation Expert challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "IMPLEMENTATION_DELIVERY_EXPERT",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-SPM",
+        "ROLE-PM",
+        "ROLE-OPS"
+      ],
+      "question_focus": "Implementation Delivery Expert challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "INDEPENDENT_RELEASE_CHAIR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PARTNER",
+        "ROLE-QA",
+        "ROLE-REDTEAM"
+      ],
+      "question_focus": "Independent Release Chair challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "INFORMATION_DESIGN_DIRECTOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-ARTIFACT",
+        "ROLE-STORY"
+      ],
+      "question_focus": "Information Design Director challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "LEGAL_CONTRACTS",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-LEGAL"
+      ],
+      "question_focus": "Legal Contracts challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "LOCAL_CONTENT_SAUDIZATION",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PROCUREMENT",
+        "ROLE-SECTOR-SME"
+      ],
+      "question_focus": "Local Content Saudization challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "MINISTRY_EXECUTIVE",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PARTNER",
+        "ROLE-SECTOR-SME"
+      ],
+      "question_focus": "Ministry Executive challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "OPERATING_MODEL_EXPERT",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-SL-PARTNER",
+        "ROLE-SECTOR-SME"
+      ],
+      "question_focus": "Operating Model Expert challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "PMO_DELIVERY",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-TIMELINE",
+        "ROLE-SPM",
+        "ROLE-PM"
+      ],
+      "question_focus": "Pmo Delivery challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "PRINCIPAL_DIRECTOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-DIRECTOR"
+      ],
+      "question_focus": "Principal Director challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "QA_RELIABILITY_LEAD",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-QA",
+        "ROLE-PREPRESS"
+      ],
+      "question_focus": "Qa Reliability Lead challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "QUALITY_ACCEPTANCE",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-QA"
+      ],
+      "question_focus": "Quality Acceptance challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "RED_TEAM_CHALLENGER",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-REDTEAM"
+      ],
+      "question_focus": "Red Team Challenger challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "SAUDI_GOVERNMENT_EVALUATOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PROCUREMENT",
+        "ROLE-REDTEAM",
+        "ROLE-SECTOR-SME"
+      ],
+      "question_focus": "Saudi Government Evaluator challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "SAUDI_PROCUREMENT_EVALUATOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PROCUREMENT",
+        "ROLE-REDTEAM"
+      ],
+      "question_focus": "Saudi Procurement Evaluator challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "SENIOR_PARTNER",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-PARTNER"
+      ],
+      "question_focus": "Senior Partner challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "STRATEGY_CONSULTANT",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-ASSOC",
+        "ROLE-ANALYST"
+      ],
+      "question_focus": "Strategy Consultant challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "TECHNICAL_EVALUATOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-EA",
+        "ROLE-REDTEAM"
+      ],
+      "question_focus": "Technical Evaluator challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "TRANSFORMATION_EXPERT",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-SL-PARTNER",
+        "ROLE-SECTOR-SME"
+      ],
+      "question_focus": "Transformation Expert challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    },
+    {
+      "lens_id": "VISUAL_STORYTELLING_DIRECTOR",
+      "lens_type": "ANALYTICAL_LENS_NOT_RUNTIME_ID",
+      "authorized_runtime_role_ids": [
+        "ROLE-STORY",
+        "ROLE-ARTIFACT"
+      ],
+      "question_focus": "Visual Storytelling Director challenge lens; use the mapped authorized runtime roles to ask domain-specific questions. Lens identity itself has zero independent runtime-role authority.",
+      "separation_rule": "If used for Independent Judge/Release, execution must be a separate invocation/context from producer; shared mapped role ID does not waive independence."
+    }
+  ],
+  "superseded_for_current_routing_by": "council_lens_registry_v7.json"
+}

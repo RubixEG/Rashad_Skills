@@ -1,0 +1,109 @@
+{
+  "runtime": "4.0-final",
+  "certification_scope": "QA_RUNTIME_FRAMEWORK_BASELINE",
+  "status": "PASS",
+  "final_classification": "FINAL_FROZEN_QA_BASELINE",
+  "checks": [
+    {
+      "name": "python_compile",
+      "status": "PASS",
+      "detail": {}
+    },
+    {
+      "name": "taxonomy_contract",
+      "status": "PASS",
+      "detail": {
+        "cases": 233,
+        "families": 21,
+        "stress_mutations": 20
+      }
+    },
+    {
+      "name": "implementation_coverage_233",
+      "status": "PASS",
+      "detail": {
+        "implemented": 233,
+        "unimplemented": 0
+      }
+    },
+    {
+      "name": "all_233_runtime_handlers_positive_control",
+      "status": "PASS",
+      "detail": {
+        "passed": 233,
+        "case_count": 233
+      }
+    },
+    {
+      "name": "exact_20_stress_runner",
+      "status": "PASS",
+      "detail": {
+        "executed": 20
+      }
+    },
+    {
+      "name": "browser_clean_fixture",
+      "status": "PASS",
+      "detail": {
+        "verdict": "HTML_PREEXPORT_PASS"
+      }
+    },
+    {
+      "name": "parity_positive_control",
+      "status": "PASS",
+      "detail": {
+        "verdict": "PARITY_PASS"
+      }
+    },
+    {
+      "name": "parity_corruption_blocked",
+      "status": "PASS",
+      "detail": {
+        "verdict": "BLOCKED"
+      }
+    },
+    {
+      "name": "regression_v3",
+      "status": "PASS",
+      "detail": {
+        "script": "run_regression_v3.py",
+        "status": "PASS",
+        "returncode": 0
+      }
+    },
+    {
+      "name": "regression_v31",
+      "status": "PASS",
+      "detail": {
+        "script": "run_regression_v31.py",
+        "status": "PASS",
+        "returncode": 0
+      }
+    },
+    {
+      "name": "skill_v7_0_1_binding",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "verdict": "SKILL_V7_0_1_BINDING_PASS",
+        "errors": [],
+        "measured": {
+          "startup_files_present": {
+            "SKILL.md": true,
+            "00_START_HERE.md": true,
+            "PROJECT_INSTRUCTIONS.md": true
+          }
+        }
+      }
+    },
+    {
+      "name": "red_team_82",
+      "status": "PASS",
+      "detail": {
+        "defended": 82,
+        "total": 82
+      }
+    }
+  ],
+  "important_boundary": "This certifies the QA runtime framework. It does not pre-certify future Rashad proposal outputs; each output must earn PRODUCT_RELEASED through the runtime."
+}

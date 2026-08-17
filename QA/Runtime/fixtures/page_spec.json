@@ -1,0 +1,72 @@
+{
+  "schema_version": "6.0",
+  "engagement_id": "TEST-REDF",
+  "page_id": "P01",
+  "page_mode": "ARTIFACT_LED",
+  "page_family": "ANALYTICAL",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "graph_ref": "graph.json",
+  "exhibit_ref": "exhibit.json",
+  "content_pack": {
+    "evaluator_question": "كيف يضمن المنهج أن المراحل تعمل كنظام واحد وليس مهام منفصلة؟",
+    "thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة",
+    "evidence": [
+      "كل مرحلة تنتج قرارًا أو دليلًا قابلًا للمراجعة"
+    ],
+    "implication": "المقيّم يرى نظام تشغيل مغلقًا يمكن استمراره بعد انتهاء العقد",
+    "sources": [
+      "EV-0001"
+    ]
+  },
+  "production_route": "NATIVE",
+  "instrumentation_level": "L3",
+  "reference_grammar_ids": [
+    "CRG-04"
+  ],
+  "qa_expectations": {
+    "expected_nodes": [
+      "N1",
+      "N2",
+      "N3",
+      "N4"
+    ],
+    "expected_edges": [
+      {
+        "id": "E1",
+        "source": "N1",
+        "target": "N2",
+        "relation": "FLOWS_TO"
+      },
+      {
+        "id": "E2",
+        "source": "N2",
+        "target": "N3",
+        "relation": "APPROVES"
+      },
+      {
+        "id": "E3",
+        "source": "N3",
+        "target": "N4",
+        "relation": "FLOWS_TO"
+      },
+      {
+        "id": "E4",
+        "source": "N4",
+        "target": "N1",
+        "relation": "FEEDS_BACK"
+      }
+    ],
+    "required_gates": [],
+    "repair_performed": false,
+    "critical_page": true
+  },
+  "pending_product_state": {
+    "product_status": "IN_PROGRESS",
+    "next_step": "UNIFIED_QA",
+    "asset_id": null,
+    "resume_token": "test-p01"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "version": "7.2.0",
+  "council_id": "FINAL_A_TO_Z_COUNCIL_OF_COUNCILS",
+  "status": "CURRENT_FINALIZATION_COUNCIL",
+  "principle": "Machine checks are authoritative for offline integration proof; scripted council invocations prove wiring only and never substitute for live independent production judgment.",
+  "letters": [
+    {
+      "letter": "A",
+      "domain": "Authority & precedence",
+      "brain_actor": "GOV-EVIDENCE",
+      "artifact_role": "AR-COUNCIL-INTEGRITY-REVIEWER"
+    },
+    {
+      "letter": "B",
+      "domain": "Brain boot & binding",
+      "brain_actor": "SME-TECH-ARCH",
+      "artifact_role": "AR-SENIOR-PARTNER"
+    },
+    {
+      "letter": "C",
+      "domain": "Councils & council execution",
+      "brain_actor": "GOV-INDEPENDENCE",
+      "artifact_role": "AR-COUNCIL-INTEGRITY-REVIEWER"
+    },
+    {
+      "letter": "D",
+      "domain": "Data/evidence lineage",
+      "brain_actor": "GOV-EVIDENCE",
+      "artifact_role": "AR-EVIDENCE-ARCHITECT"
+    },
+    {
+      "letter": "E",
+      "domain": "Experts/SMEs executable routing",
+      "brain_actor": "SME-AI-ENGINEERING",
+      "artifact_role": "AR-MISSING-EXPERTISE-DETECTOR"
+    },
+    {
+      "letter": "F",
+      "domain": "Flow/state-machine continuity",
+      "brain_actor": "SME-PMO",
+      "artifact_role": "AR-ENGAGEMENT-MANAGER"
+    },
+    {
+      "letter": "G",
+      "domain": "Governors/veto enforcement",
+      "brain_actor": "GOV-COMPLIANCE",
+      "artifact_role": "AR-EPISTEMIC-GOVERNOR"
+    },
+    {
+      "letter": "H",
+      "domain": "Hypotheses/communication strategy",
+      "brain_actor": "GOV-ARTIFACT-PIPELINE",
+      "artifact_role": "AR-COMMUNICATION-STRATEGIST"
+    },
+    {
+      "letter": "I",
+      "domain": "Independence & actor separation",
+      "brain_actor": "GOV-INDEPENDENCE",
+      "artifact_role": "AR-INDEPENDENT-CONSULTING-PARTNER"
+    },
+    {
+      "letter": "J",
+      "domain": "Judgment & winner selection",
+      "brain_actor": "SIM-CEO",
+      "artifact_role": "AR-INDEPENDENT-VISUAL-QA-JUDGE"
+    },
+    {
+      "letter": "K",
+      "domain": "Knowledge readiness",
+      "brain_actor": "GOV-KNOWLEDGE-READINESS",
+      "artifact_role": "AR-KNOWLEDGE-READINESS-ROUTER"
+    },
+    {
+      "letter": "L",
+      "domain": "Legacy quarantine/supersession",
+      "brain_actor": "GOV-COMPLIANCE",
+      "artifact_role": "AR-COUNCIL-INTEGRITY-REVIEWER"
+    },
+    {
+      "letter": "M",
+      "domain": "Meta-cognition/missing expertise",
+      "brain_actor": "SME-STRATEGY",
+      "artifact_role": "AR-MISSING-EXPERTISE-DETECTOR"
+    },
+    {
+      "letter": "N",
+      "domain": "Naming/Arabic/RTL",
+      "brain_actor": "GOV-ARABIC-RTL",
+      "artifact_role": "AR-RTL-INFORMATION-DESIGNER"
+    },
+    {
+      "letter": "O",
+      "domain": "Output classification",
+      "brain_actor": "GOV-ARTIFACT-PIPELINE",
+      "artifact_role": "AR-EXECUTIVE-EDITOR"
+    },
+    {
+      "letter": "P",
+      "domain": "Production renderer admission",
+      "brain_actor": "SME-QA-TESTING",
+      "artifact_role": "AR-PPTX-PRODUCTION-SPECIALIST"
+    },
+    {
+      "letter": "Q",
+      "domain": "QA actual-product quality",
+      "brain_actor": "SME-QA-TESTING",
+      "artifact_role": "AR-INDEPENDENT-VISUAL-QA-JUDGE"
+    },
+    {
+      "letter": "R",
+      "domain": "Repair/release truthfulness",
+      "brain_actor": "GOV-RELEASE",
+      "artifact_role": "AR-PDF-PPTX-PARITY-SPECIALIST"
+    },
+    {
+      "letter": "S",
+      "domain": "Stress/adversarial quality",
+      "brain_actor": "SME-RISK",
+      "artifact_role": "AR-GENERIC-LAYOUT-ATTACKER"
+    },
+    {
+      "letter": "T",
+      "domain": "Technical/AI architecture",
+      "brain_actor": "SME-AI-ENGINEERING",
+      "artifact_role": "AR-SOLUTION-ARCHITECT"
+    },
+    {
+      "letter": "U",
+      "domain": "User-visible delivery integrity",
+      "brain_actor": "GOV-RELEASE",
+      "artifact_role": "AR-PPTX-PRODUCTION-SPECIALIST"
+    },
+    {
+      "letter": "V",
+      "domain": "Version/status consistency",
+      "brain_actor": "GOV-COMPLIANCE",
+      "artifact_role": "AR-COUNCIL-INTEGRITY-REVIEWER"
+    },
+    {
+      "letter": "W",
+      "domain": "Workflow end-to-end",
+      "brain_actor": "SME-DELIVERY",
+      "artifact_role": "AR-ENGAGEMENT-MANAGER"
+    },
+    {
+      "letter": "X",
+      "domain": "Cross-layer registry parity",
+      "brain_actor": "SME-TECH-ARCH",
+      "artifact_role": "AR-COUNCIL-INTEGRITY-REVIEWER"
+    },
+    {
+      "letter": "Y",
+      "domain": "Yield/repeatability/performance",
+      "brain_actor": "SME-DEVOPS",
+      "artifact_role": "AR-PPTX-PRODUCTION-SPECIALIST"
+    },
+    {
+      "letter": "Z",
+      "domain": "Zero-bypass closure",
+      "brain_actor": "GOV-ARTIFACT-PIPELINE",
+      "artifact_role": "AR-GENERIC-LAYOUT-ATTACKER"
+    }
+  ]
+}

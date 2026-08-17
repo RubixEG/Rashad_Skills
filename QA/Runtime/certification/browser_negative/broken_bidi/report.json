@@ -1,0 +1,806 @@
+{
+  "evidence_id": "UQA-7842CDD0A45EACB4",
+  "runtime": "v3.0",
+  "status": "FAIL",
+  "release_verdict": "BLOCKED",
+  "pages": [
+    {
+      "page": 1,
+      "gates": [
+        {
+          "id": "G00_INSTRUMENTATION",
+          "name": "Required instrumentation",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 19,
+          "violations": [],
+          "measured": {
+            "headers": 4,
+            "nodes": 4,
+            "edges": 4,
+            "labels": 0,
+            "owners": 4,
+            "alignment_groups": 1,
+            "spacing_groups": 0,
+            "sequence_groups": 0,
+            "dividers": 0,
+            "images": 2,
+            "tables": 0
+          }
+        },
+        {
+          "id": "G02_HEADER_STACK",
+          "name": "Header stack / reflow",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 4,
+          "violations": [],
+          "measured": {
+            "count": 4
+          }
+        },
+        {
+          "id": "G03_LINE_COLLISION",
+          "name": "Rendered line-fragment collision",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 26,
+          "violations": [],
+          "measured": {
+            "count": 26
+          }
+        },
+        {
+          "id": "G04_TEXT_FIT",
+          "name": "Text overflow / clipping / ellipsis",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 16,
+          "violations": [],
+          "measured": {
+            "count": 16
+          }
+        },
+        {
+          "id": "G05_CONTAINMENT",
+          "name": "Canvas containment",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 26,
+          "violations": [],
+          "measured": {
+            "count": 26
+          }
+        },
+        {
+          "id": "G06_COLLISION",
+          "name": "Structural collision",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 12,
+          "violations": [],
+          "measured": {
+            "count": 12
+          }
+        },
+        {
+          "id": "G07_OCCLUSION",
+          "name": "Z-index / occlusion",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 16,
+          "violations": [],
+          "measured": {
+            "count": 16
+          }
+        },
+        {
+          "id": "G08_ALIGNMENT",
+          "name": "Alignment groups",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 1,
+          "violations": [],
+          "measured": {
+            "count": 1
+          }
+        },
+        {
+          "id": "G09_SPACING",
+          "name": "Spacing rhythm",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 0,
+          "violations": [],
+          "measured": {
+            "count": 0
+          }
+        },
+        {
+          "id": "G10_PADDING_SCALE",
+          "name": "Padding / scale",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 8,
+          "violations": [],
+          "measured": {
+            "count": 8
+          }
+        },
+        {
+          "id": "G11_OWNER_ANCHOR",
+          "name": "Owner/anchor containment",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 4,
+          "violations": [],
+          "measured": {
+            "count": 4
+          }
+        },
+        {
+          "id": "G12_DIVIDERS",
+          "name": "Dividers",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 0,
+          "violations": [],
+          "measured": {
+            "count": 0
+          }
+        },
+        {
+          "id": "G13_TYPOGRAPHY",
+          "name": "Font / glyph / readability",
+          "status": "FAIL",
+          "required": true,
+          "executed": true,
+          "test_count": 16,
+          "violations": [
+            {
+              "kind": "unexpected_font",
+              "idx": 3,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 4,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 5,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 7,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 8,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 9,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 10,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 11,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 12,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 13,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 14,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 19,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 22,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 23,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 24,
+              "family": "Arial, sans-serif"
+            },
+            {
+              "kind": "unexpected_font",
+              "idx": 25,
+              "family": "Arial, sans-serif"
+            }
+          ],
+          "measured": {
+            "count": 16
+          }
+        },
+        {
+          "id": "G14_RTL_BIDI",
+          "name": "RTL/LTR sequence",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 0,
+          "violations": [],
+          "measured": {
+            "count": 0
+          }
+        },
+        {
+          "id": "G15_TOPOLOGY",
+          "name": "Topology inventory truth",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 8,
+          "violations": [],
+          "measured": {
+            "count": 8,
+            "nodes": 4,
+            "edges": 4
+          }
+        },
+        {
+          "id": "G16_CONNECTORS",
+          "name": "Connector geometry",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 4,
+          "violations": [],
+          "measured": {
+            "count": 4
+          }
+        },
+        {
+          "id": "G17_LABELS",
+          "name": "Label ownership/attachment",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 0,
+          "violations": [],
+          "measured": {
+            "count": 0
+          }
+        },
+        {
+          "id": "G18_CARD_TRUTH",
+          "name": "Card dominance / topology truth",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 1,
+          "violations": [],
+          "measured": {
+            "count": 0,
+            "ratio": 0.0,
+            "higherOrder": true
+          }
+        },
+        {
+          "id": "G19_TRANSFORM_LAYER",
+          "name": "Transform / clip / opacity integrity",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 6,
+          "violations": [],
+          "measured": {
+            "count": 6
+          }
+        },
+        {
+          "id": "G20_ASSETS",
+          "name": "Image / asset geometry",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 2,
+          "violations": [],
+          "measured": {
+            "count": 2
+          }
+        },
+        {
+          "id": "G21_DENSE_EVIDENCE",
+          "name": "Tables / dense evidence",
+          "status": "PASS",
+          "required": false,
+          "executed": true,
+          "test_count": 0,
+          "violations": [],
+          "measured": {
+            "count": 0
+          }
+        },
+        {
+          "id": "G22_DEBUG",
+          "name": "Internal metadata leakage",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 1,
+          "violations": [],
+          "measured": {
+            "count": 1
+          }
+        },
+        {
+          "id": "G23_HARMONY",
+          "name": "Whole-page harmony proxy",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 18,
+          "violations": [],
+          "measured": {
+            "count": 18,
+            "leftShare": 0.155,
+            "rightShare": 0.845
+          }
+        },
+        {
+          "id": "G24_PALETTE_LOCK",
+          "name": "Brand palette / theme hard lock",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 7,
+          "violations": [],
+          "measured": {
+            "count": 7,
+            "distinct_colours": 7,
+            "colours": [
+              "#1a1a1a",
+              "#203b70",
+              "#3d3d3d",
+              "#6f6f73",
+              "#a42365",
+              "#faf9fa",
+              "#ffffff"
+            ]
+          }
+        },
+        {
+          "id": "G25_CONTRAST",
+          "name": "Text contrast / legibility (WCAG AA)",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 16,
+          "violations": [],
+          "measured": {
+            "count": 16
+          }
+        },
+        {
+          "id": "G26_TYPE_SCALE",
+          "name": "Typographic scale conformance",
+          "status": "FAIL",
+          "required": true,
+          "executed": true,
+          "test_count": 6,
+          "violations": [
+            {
+              "kind": "off_scale_font_size",
+              "idx": 4,
+              "size": 48,
+              "nearest_token": 52,
+              "text": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قر"
+            },
+            {
+              "kind": "off_scale_font_size",
+              "idx": 5,
+              "size": 24,
+              "nearest_token": 26,
+              "text": "كيف يضمن المنهج أن المراحل تعمل كنظام واحد وليس كس"
+            },
+            {
+              "kind": "off_scale_font_size",
+              "idx": 7,
+              "size": 22,
+              "nearest_token": 21,
+              "text": "الاستكشاف"
+            },
+            {
+              "kind": "off_scale_font_size",
+              "idx": 9,
+              "size": 22,
+              "nearest_token": 21,
+              "text": "التقييم والقرار"
+            },
+            {
+              "kind": "off_scale_font_size",
+              "idx": 11,
+              "size": 22,
+              "nearest_token": 21,
+              "text": "التنفيذ"
+            },
+            {
+              "kind": "off_scale_font_size",
+              "idx": 13,
+              "size": 22,
+              "nearest_token": 21,
+              "text": "القياس والتحسين"
+            },
+            {
+              "kind": "off_scale_font_size",
+              "idx": 19,
+              "size": 20,
+              "nearest_token": 21,
+              "text": "الحوكمة وضمان الجودة تعبران جميع المراحل قبل بوابة"
+            }
+          ],
+          "measured": {
+            "count": 6,
+            "sizes": [
+              14,
+              18,
+              20,
+              22,
+              24,
+              48
+            ]
+          }
+        },
+        {
+          "id": "G27_BIDI_RUNS",
+          "name": "BiDi run order / numerals / LTR islands",
+          "status": "FAIL",
+          "required": true,
+          "executed": true,
+          "test_count": 16,
+          "violations": [
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 3,
+              "direction": "ltr",
+              "text": "منهجية التنفيذ"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 4,
+              "direction": "ltr",
+              "text": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية "
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 5,
+              "direction": "ltr",
+              "text": "كيف يضمن المنهج أن المراحل تعمل كنظام واحد وليس كسلسلة مهام "
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 7,
+              "direction": "ltr",
+              "text": "الاستكشاف"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 8,
+              "direction": "ltr",
+              "text": "١"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 9,
+              "direction": "ltr",
+              "text": "التقييم والقرار"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 10,
+              "direction": "ltr",
+              "text": "٢"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 11,
+              "direction": "ltr",
+              "text": "التنفيذ"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 12,
+              "direction": "ltr",
+              "text": "٣"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 13,
+              "direction": "ltr",
+              "text": "القياس والتحسين"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 14,
+              "direction": "ltr",
+              "text": "٤"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 19,
+              "direction": "ltr",
+              "text": "الحوكمة وضمان الجودة تعبران جميع المراحل قبل بوابة الاعتماد"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 22,
+              "direction": "ltr",
+              "text": "المخرج القابل للقبول:"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 23,
+              "direction": "ltr",
+              "text": "كل مرحلة تنتج قرارًا أو دليلًا قابلًا للمراجعة"
+            },
+            {
+              "kind": "arabic_not_rtl",
+              "idx": 24,
+              "direction": "ltr",
+              "text": "المقيّم يرى نظام تشغيل مغلقًا يمكن استمراره بعد انتهاء العقد"
+            }
+          ],
+          "measured": {
+            "count": 16,
+            "numeral_modes": [
+              "AR"
+            ]
+          }
+        },
+        {
+          "id": "G28_COBRAND",
+          "name": "Co-brand lockup geometry",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 2,
+          "violations": [],
+          "measured": {
+            "count": 2
+          }
+        },
+        {
+          "id": "G29_ASSET_INTEGRITY",
+          "name": "Asset resolution / logo authenticity",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 2,
+          "violations": [],
+          "measured": {
+            "count": 2
+          }
+        },
+        {
+          "id": "G30_CONTENT_PACK",
+          "name": "Page Content Pack completeness",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 5,
+          "violations": [],
+          "measured": {
+            "count": 5,
+            "slots_found": [
+              "evidence",
+              "implication",
+              "question",
+              "source",
+              "thesis"
+            ]
+          }
+        },
+        {
+          "id": "G31_EVIDENCE_TRACE",
+          "name": "Evidence traceability of factual claims",
+          "status": "PASS",
+          "required": true,
+          "executed": true,
+          "test_count": 5,
+          "violations": [],
+          "measured": {
+            "count": 5,
+            "numeric_claims": 0,
+            "evidence_anchors": 5
+          }
+        },
+        {
+          "id": "G32_ARTIFACT_TRUTH",
+          "name": "Artifact Truth V3",
+          "required": true,
+          "executed": true,
+          "test_count": 8,
+          "status": "PASS",
+          "violations": [],
+          "measured": {
+            "count": 8,
+            "score": 100.0,
+            "expected_nodes": 4,
+            "expected_edges": 4
+          }
+        },
+        {
+          "id": "G29_ASSET_PATH_PREFLIGHT",
+          "name": "Asset path preflight",
+          "required": true,
+          "executed": true,
+          "test_count": 2,
+          "status": "PASS",
+          "violations": [],
+          "measured": {
+            "count": 2,
+            "missing": 0
+          }
+        },
+        {
+          "id": "C9_PIXEL",
+          "name": "Final rendered pixel evidence",
+          "required": true,
+          "executed": true,
+          "test_count": 1,
+          "status": "FAIL",
+          "violations": [
+            {
+              "kind": "page_visually_underfilled",
+              "edge_density": 0.01139,
+              "floor": 0.03,
+              "note": "large areas carry no content; add evidence, not decoration"
+            }
+          ],
+          "measured": {
+            "count": 1,
+            "size": [
+              3840,
+              2160
+            ],
+            "dominant_luminance": 1.0,
+            "dominant_share": 0.887,
+            "ink_coverage": 0.0575,
+            "edge_density": 0.01139,
+            "dead_cells": 1
+          }
+        },
+        {
+          "id": "G34_CEQS",
+          "name": "Consulting Exhibit Quality Score",
+          "required": true,
+          "executed": true,
+          "test_count": 1,
+          "status": "FAIL",
+          "violations": [
+            {
+              "kind": "ceqs_below_floor",
+              "score": 87,
+              "floor": 90
+            }
+          ],
+          "measured": {
+            "score": 87,
+            "status": "FAIL",
+            "breakdown": {
+              "argument": 15,
+              "exhibit_synthesis": 15,
+              "artifact_integration": 15,
+              "evidence": 10,
+              "hierarchy": 10,
+              "visual_mass": 6,
+              "scanability": 4,
+              "reference_grammar": 5,
+              "brand": 2,
+              "originality": 5
+            }
+          }
+        }
+      ],
+      "ceqs": {
+        "score": 87,
+        "status": "FAIL",
+        "breakdown": {
+          "argument": 15,
+          "exhibit_synthesis": 15,
+          "artifact_integration": 15,
+          "evidence": 10,
+          "hierarchy": 10,
+          "visual_mass": 6,
+          "scanability": 4,
+          "reference_grammar": 5,
+          "brand": 2,
+          "originality": 5
+        }
+      },
+      "pixel_master": "certification/browser_negative/broken_bidi/UQA-7842CDD0A45EACB4_page_1.png",
+      "status": "FAIL",
+      "blocking_gates": [
+        "G13_TYPOGRAPHY",
+        "G26_TYPE_SCALE",
+        "G27_BIDI_RUNS",
+        "C9_PIXEL",
+        "G34_CEQS"
+      ]
+    }
+  ],
+  "deck": {
+    "anti_template": {
+      "gate": "G26_ANTI_TEMPLATE",
+      "required": true,
+      "test_count": 1,
+      "status": "PASS",
+      "violations": [],
+      "measured": {
+        "pages": 1,
+        "distinct_ratio": 1.0,
+        "shapes": [
+          {
+            "rows": 4,
+            "cols": 5,
+            "blocks": 6,
+            "nodes": 4,
+            "edges": 4,
+            "modal_size_count": 4
+          }
+        ]
+      },
+      "pairs": []
+    }
+  },
+  "stress": [],
+  "repair_safety": {
+    "status": "N_A",
+    "violations": []
+  },
+  "evidence_ledger_gate": {
+    "status": "PASS",
+    "violations": []
+  },
+  "stress_gate": {
+    "status": "PASS",
+    "violations": [],
+    "id": "C9_STRESS",
+    "required": false,
+    "executed": false,
+    "test_count": 0
+  }
+}

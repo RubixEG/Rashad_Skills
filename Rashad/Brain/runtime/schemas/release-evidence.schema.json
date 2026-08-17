@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "evidence_id",
+    "artifact_truth",
+    "ceqs",
+    "html_qa",
+    "pixel_qa",
+    "stress_qa",
+    "pdf_parity",
+    "pptx_parity",
+    "deck_qa",
+    "final_verdict"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string"
+    },
+    "artifact_truth": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "NOT_EXECUTED"
+      ]
+    },
+    "ceqs": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "NOT_EXECUTED"
+      ]
+    },
+    "html_qa": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "NOT_EXECUTED"
+      ]
+    },
+    "pixel_qa": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "NOT_EXECUTED"
+      ]
+    },
+    "stress_qa": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "NOT_EXECUTED"
+      ]
+    },
+    "pdf_parity": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "NOT_EXECUTED"
+      ]
+    },
+    "pptx_parity": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "NOT_EXECUTED"
+      ]
+    },
+    "deck_qa": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "NOT_EXECUTED"
+      ]
+    },
+    "final_verdict": {
+      "enum": [
+        "RELEASED",
+        "BLOCKED"
+      ]
+    }
+  }
+}

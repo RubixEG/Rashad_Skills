@@ -1,0 +1,17 @@
+{
+  "version": "6.2",
+  "verified_package_png_count": 8,
+  "png_assets": [
+    "08_BRAND_CURRENT/assets/rubix-accelerator-current-light.png",
+    "08_BRAND_CURRENT/assets/rubix-analytica-current-light.png",
+    "08_BRAND_CURRENT/assets/rubix-beyond-current-light.png",
+    "08_BRAND_CURRENT/assets/rubix-connect-current-light.png",
+    "08_BRAND_CURRENT/assets/rubix-consulting-current-light.png",
+    "08_BRAND_CURRENT/assets/rubix-master-current-light.png",
+    "08_BRAND_CURRENT/assets/rubix-official-device-current.png",
+    "08_BRAND_CURRENT/assets/rubix-studio-current-light.png"
+  ],
+  "font_binary_count": 0,
+  "svg_icon_binary_count": 0,
+  "note": "Client assets and licensed fonts are engagement/runtime inputs."
+}

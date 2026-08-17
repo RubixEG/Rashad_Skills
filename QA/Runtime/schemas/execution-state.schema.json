@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "state",
+      "page_id",
+      "evidence_id",
+      "input_hashes",
+      "output_hashes"
+    ],
+    "properties": {
+      "state": {
+        "type": "string"
+      },
+      "page_id": {
+        "type": "string"
+      },
+      "evidence_id": {
+        "type": "string"
+      },
+      "input_hashes": {
+        "type": "object"
+      },
+      "output_hashes": {
+        "type": "object"
+      }
+    },
+    "additionalProperties": true
+  }
+}

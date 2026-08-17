@@ -1,0 +1,15 @@
+{
+  "suite": "Rashad v7.1 Full Line Conflict Audit",
+  "status": "PASS",
+  "stats": {
+    "files_scanned": 1936,
+    "lines_scanned": 183327,
+    "bytes_scanned": 20992935,
+    "self_claim_files": 145,
+    "nonmanifest_self_claim_files": 97
+  },
+  "manifest_authorities": 45,
+  "p0_count": 0,
+  "p1_count": 0,
+  "findings": []
+}

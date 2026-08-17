@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M18",
+  "mutation": "late_font_load",
+  "expected": "invalidate QA and remeasure",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "3225ef40fe740065fcfbb881f57be5bb3f7d5b4948294a0964f145f29419a780",
+  "mutated_input_hash": "3225ef40fe740065fcfbb881f57be5bb3f7d5b4948294a0964f145f29419a780",
+  "measured_object_count": 1,
+  "changed": true
+}

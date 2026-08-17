@@ -1,0 +1,533 @@
+{
+  "suite": "Rashad v7.3 Council-Supervised Remediation Matrix",
+  "status": "PASS",
+  "finding_count": 49,
+  "closed": 48,
+  "external_prerequisite_enforced": 1,
+  "open_count": 0,
+  "open_p0_p1": 0,
+  "rule": "Implementer → Specialist Council → Adversarial Council → Engagement-File Acceptance. Code presence alone is not closure.",
+  "engagement_acceptance_status": "PASS",
+  "rows": [
+    {
+      "finding_id": "R1",
+      "severity": "P0",
+      "owner_council": "VISUAL_PRODUCTION_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "brain/production/composer.py",
+        "brain/production/renderer.py",
+        "brain/imagery_director.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R2",
+      "severity": "P0",
+      "owner_council": "ARTIFACT_BRAIN_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "ARTIFACT_BRAIN_REGRESSION_V7_3::IMAGE_LED_reachable_for_cover"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R3",
+      "severity": "P0",
+      "owner_council": "AUTHORITY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "82_V7_3_VISUAL_PRODUCTION_ORGAN_AND_COMPOSITION_INTELLIGENCE_LAW.md"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R4",
+      "severity": "P0",
+      "owner_council": "TOTAL_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "quality_targets",
+        "G39_DOMINANT_MASS"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "NEW-01",
+      "severity": "P0",
+      "owner_council": "DELIVERY_INTEGRITY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "product_geometry.pdf_model",
+        "ENGAGEMENT_ARTIFACT_ACCEPTANCE_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "NEW-02",
+      "severity": "P0",
+      "owner_council": "BRAND_TYPOGRAPHY_COUNCIL",
+      "status": "EXTERNAL_PREREQUISITE_ENFORCED",
+      "evidence": [
+        "font_preflight.py"
+      ],
+      "detail": "Brand font bytes are an environment prerequisite and are not embedded in the Skill; production blocks if absent."
+    },
+    {
+      "finding_id": "AB-01",
+      "severity": "P0",
+      "owner_council": "ARTIFACT_BRAIN_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "composition_spec.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AB-03",
+      "severity": "P0",
+      "owner_council": "VISUAL_DIVERGENCE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "VISUAL_PRODUCTION_V7_3_RESULTS",
+        "spec_divergence.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AB-04",
+      "severity": "P0",
+      "owner_council": "COMPOSITION_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "THRESHOLD_BINDING_AUDIT_V7_3",
+        "product_geometry.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-01",
+      "severity": "P0",
+      "owner_council": "TOTAL_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "gates_v26.py",
+        "visual_qa_core.py",
+        "ARABIC_VISIBLE_LANGUAGE_PURITY_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-02",
+      "severity": "P0",
+      "owner_council": "ENGAGEMENT_ACCEPTANCE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "ENGAGEMENT_ARTIFACT_ACCEPTANCE_V7_3 actual file hashes"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-03",
+      "severity": "P0",
+      "owner_council": "STRESS_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "STRESS_CONTRACT_PARITY_V7_3",
+        "stress_runner_final.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-05",
+      "severity": "P0",
+      "owner_council": "GEOMETRY_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "product_geometry.py",
+        "quality_floors_v7_3.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AR-01",
+      "severity": "P0",
+      "owner_council": "ARABIC_VISIBLE_LANGUAGE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "product_geometry.py",
+        "G36_VISIBLE_LANGUAGE_PURITY"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AR-02",
+      "severity": "P0",
+      "owner_council": "ARABIC_VISIBLE_LANGUAGE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "product_geometry.INTERNAL"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AR-03",
+      "severity": "P0",
+      "owner_council": "CERTIFICATION_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "FINAL_VERIFY.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AR-04",
+      "severity": "P0",
+      "owner_council": "ARABIC_PDF_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "searchable_pdf.py",
+        "VISUAL_PRODUCTION_V7_3_RESULTS"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AR-05",
+      "severity": "P0",
+      "owner_council": "QA_IMPLEMENTATION_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "detector_implementation_registry_v7_3.json",
+        "implementation_map()"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "E10",
+      "severity": "P1",
+      "owner_council": "DELIVERY_RUNTIME_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "GOVERNED_PRODUCTION_DELIVERY_V7_3 successful governed path"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R5",
+      "severity": "P1",
+      "owner_council": "ARTIFACT_BRAIN_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "ARTIFACT_BRAIN_REGRESSION_V7_3::rich_technical_problem_not_minimal_only"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R6",
+      "severity": "P1",
+      "owner_council": "HOST_NATIVE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "HostNativeProvider",
+        "GOVERNED_PRODUCTION_DELIVERY_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R7",
+      "severity": "P1",
+      "owner_council": "THRESHOLD_GOVERNANCE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "ARTIFACT_BRAIN_REGRESSION_V7_3::diagram_ratio_threshold_parity",
+        "ACTIVE_AUTHORITY_MANIFEST"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R8",
+      "severity": "P1",
+      "owner_council": "DELIVERY_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "delivery_gate.py",
+        "V7_2_USER_VISIBLE_DELIVERY_CERTIFICATION"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R9",
+      "severity": "P1",
+      "owner_council": "PRODUCTION_RUNTIME_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "artifact_delivery_orchestrator.py",
+        "GOVERNED_PRODUCTION_DELIVERY_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AB-05",
+      "severity": "P1",
+      "owner_council": "EXPERT_ROUTING_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "ARTIFACT_EXPERT_REACHABILITY_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AB-06",
+      "severity": "P1",
+      "owner_council": "IMAGERY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "artifact_brain.py",
+        "image_provider.py",
+        "imagery_director.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AB-07",
+      "severity": "P1",
+      "owner_council": "ART_DIRECTION_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "design_system_resolver.py",
+        "type_hierarchy_planner.py",
+        "style_memory.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AB-08",
+      "severity": "P1",
+      "owner_council": "CARD_DOMINANCE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "G18_CARD_TRUTH"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-04",
+      "severity": "P1",
+      "owner_council": "TOTAL_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "G16_CONNECTORS",
+        "G17_LABELS"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-06",
+      "severity": "P1",
+      "owner_council": "VISIBLE_LANGUAGE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "G36_VISIBLE_LANGUAGE_PURITY"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-07",
+      "severity": "P1",
+      "owner_council": "DELIVERY_INTEGRITY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "format-neutral product_geometry + engagement acceptance"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-08",
+      "severity": "P1",
+      "owner_council": "CONNECTOR_GEOMETRY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "G41_CONNECTOR_PATH_GEOMETRY"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AR-06",
+      "severity": "P1",
+      "owner_council": "BIDI_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "G27_BIDI_RUNS routed by unified_html_qa"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AR-07",
+      "severity": "P1",
+      "owner_council": "ARABIC_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "G35",
+        "G36"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AR-09",
+      "severity": "P1",
+      "owner_council": "COBRAND_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "G28_COBRAND",
+        "ARTIFACT_BRAIN_REGRESSION_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AR-08",
+      "severity": "P1",
+      "owner_council": "ARABIC_NUMERAL_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "G36_VISIBLE_LANGUAGE_PURITY"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "E12",
+      "severity": "P2",
+      "owner_council": "AUTHORITY_IDENTITY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "ARTIFACT_ENGINE_LOGICAL_ID_INDEX_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "E13",
+      "severity": "P2",
+      "owner_council": "VERSION_AUTHORITY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "VERSION.json",
+        "OS_STATUS.json",
+        "CURRENT_SKILL_STATUS.json",
+        "BRAIN_MANIFEST.json"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R10",
+      "severity": "P2",
+      "owner_council": "COBRAND_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "VISUAL_PRODUCTION_RECIPE_INDEX_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R11",
+      "severity": "P2",
+      "owner_council": "ARTIFACT_BRAIN_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "ARTIFACT_BRAIN_REGRESSION_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "R12",
+      "severity": "P2",
+      "owner_council": "AUTHORITY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "SKILL.md V7.3 Visual Production"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AB-09",
+      "severity": "P2",
+      "owner_council": "NEGATIVE_SPACE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "negative_space_budget.py",
+        "composition_spec.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AB-10",
+      "severity": "P2",
+      "owner_council": "REFERENCE_GRAMMAR_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "ARTIFACT_BRAIN_REGRESSION_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "AB-11",
+      "severity": "P2",
+      "owner_council": "VISUAL_MEMORY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "visual_memory.py",
+        "ARTIFACT_BRAIN_REGRESSION_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-09",
+      "severity": "P2",
+      "owner_council": "THRESHOLD_GOVERNANCE_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "THRESHOLD_BINDING_AUDIT_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-10",
+      "severity": "P2",
+      "owner_council": "QA_IMPLEMENTATION_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "detector_registry.py"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-11",
+      "severity": "P2",
+      "owner_council": "GEOMETRY_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "visual_qa_core.py G06"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "QA-12",
+      "severity": "P2",
+      "owner_council": "STRESS_QA_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "STRESS_CONTRACT_PARITY_V7_3"
+      ],
+      "detail": ""
+    },
+    {
+      "finding_id": "P2-DECK-CONTINUITY-ZERO-CALLERS",
+      "severity": "P2",
+      "owner_council": "DECK_CONTINUITY_COUNCIL",
+      "status": "CLOSED",
+      "evidence": [
+        "DECK_CONTINUITY_CERTIFICATION_V7_3",
+        "delivery_gate.py"
+      ],
+      "detail": ""
+    }
+  ]
+}

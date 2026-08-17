@@ -1,0 +1,6 @@
+PASS visible_title_block
+PASS visible_subsection_block
+PASS internal_id_pass
+PASS approved_default_pass
+PASS profitability_conditional
+PASS cfo_test_present

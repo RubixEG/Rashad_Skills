@@ -1,0 +1,160 @@
+{
+  "page_id": "P01",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "name": "Continuous Improvement Flywheel",
+      "dominant_form": "RING",
+      "reading_path": "RTL_SPINE",
+      "relation_carriers": [
+        {
+          "relation": "FLOWS_TO",
+          "spatial_encoding": "progression_path"
+        },
+        {
+          "relation": "APPROVES",
+          "spatial_encoding": "decision_gate"
+        },
+        {
+          "relation": "FEEDS_BACK",
+          "spatial_encoding": "closed_return_arc"
+        }
+      ],
+      "mass_plan": {
+        "dominant": 0.5,
+        "supporting": 0.32,
+        "implication": 0.12,
+        "source": 0.06
+      },
+      "reference_grammar_ids": [
+        "CRG-04",
+        "CRG-05"
+      ],
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة"
+    },
+    {
+      "id": "H2",
+      "name": "Closed Operating Loop",
+      "dominant_form": "RING",
+      "reading_path": "CENTER_OUT",
+      "relation_carriers": [
+        {
+          "relation": "FLOWS_TO",
+          "spatial_encoding": "transition"
+        },
+        {
+          "relation": "APPROVES",
+          "spatial_encoding": "choke_point"
+        },
+        {
+          "relation": "FEEDS_BACK",
+          "spatial_encoding": "ring"
+        }
+      ],
+      "mass_plan": {
+        "dominant": 0.44,
+        "supporting": 0.38,
+        "implication": 0.12,
+        "source": 0.06
+      },
+      "reference_grammar_ids": [
+        "CRG-04",
+        "CRG-05"
+      ],
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة"
+    },
+    {
+      "id": "H3",
+      "name": "Lifecycle Ring With Control Plane",
+      "dominant_form": "RING",
+      "reading_path": "TOP_DOWN_THEN_RTL",
+      "relation_carriers": [
+        {
+          "relation": "FLOWS_TO",
+          "spatial_encoding": "progression_path"
+        },
+        {
+          "relation": "APPROVES",
+          "spatial_encoding": "decision_gate"
+        },
+        {
+          "relation": "FEEDS_BACK",
+          "spatial_encoding": "closed_return_arc"
+        }
+      ],
+      "mass_plan": {
+        "dominant": 0.56,
+        "supporting": 0.26,
+        "implication": 0.12,
+        "source": 0.06
+      },
+      "reference_grammar_ids": [
+        "CRG-04",
+        "CRG-05"
+      ],
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة"
+    },
+    {
+      "id": "H4",
+      "name": "Feedback Operating System",
+      "dominant_form": "RING",
+      "reading_path": "RIGHT_FOCAL_TO_SYSTEM",
+      "relation_carriers": [
+        {
+          "relation": "FLOWS_TO",
+          "spatial_encoding": "transition"
+        },
+        {
+          "relation": "APPROVES",
+          "spatial_encoding": "choke_point"
+        },
+        {
+          "relation": "FEEDS_BACK",
+          "spatial_encoding": "ring"
+        }
+      ],
+      "mass_plan": {
+        "dominant": 0.48,
+        "supporting": 0.34,
+        "implication": 0.12,
+        "source": 0.06
+      },
+      "reference_grammar_ids": [
+        "CRG-04",
+        "CRG-05"
+      ],
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة"
+    },
+    {
+      "id": "H5",
+      "name": "Learning Cycle With Evidence Stations",
+      "dominant_form": "RING",
+      "reading_path": "LOOP_THEN_DECISION",
+      "relation_carriers": [
+        {
+          "relation": "FLOWS_TO",
+          "spatial_encoding": "progression_path"
+        },
+        {
+          "relation": "APPROVES",
+          "spatial_encoding": "decision_gate"
+        },
+        {
+          "relation": "FEEDS_BACK",
+          "spatial_encoding": "closed_return_arc"
+        }
+      ],
+      "mass_plan": {
+        "dominant": 0.52,
+        "supporting": 0.3,
+        "implication": 0.12,
+        "source": 0.06
+      },
+      "reference_grammar_ids": [
+        "CRG-04",
+        "CRG-05"
+      ],
+      "visual_thesis": "نحوّل دورة التنفيذ إلى نظام مترابط تحكمه بوابات قرار وتغذية راجعة"
+    }
+  ]
+}

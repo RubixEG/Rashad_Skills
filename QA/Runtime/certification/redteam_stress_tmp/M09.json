@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M09",
+  "mutation": "large_12_digit_SAR_value",
+  "expected": "metric containment",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "0feccff98d9d2f7ea07691f1c21a853bfab941d02e9e1887f89769a26e0443d3",
+  "mutated_input_hash": "0feccff98d9d2f7ea07691f1c21a853bfab941d02e9e1887f89769a26e0443d3",
+  "measured_object_count": 1,
+  "changed": true
+}

@@ -1,0 +1,15 @@
+{
+  "mutation_id": "M16",
+  "mutation": "DPR_1_2_3",
+  "expected": "stable geometry",
+  "status": "PASS",
+  "provenance_type": "METAMORPHIC_RUNNER",
+  "owner": "QA_STRESS_RUNTIME",
+  "runner": "stress_runner_final.py",
+  "input_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "before_hash": "a1a840d5e394de4d8a42b32ac25a646cca3ebaf07f38c039ea104823338aa6a7",
+  "after_hash": "fa4ef2a52bc52a557bd5079fe16bb1ae337876127ed06a4dd08c6e7e3160db55",
+  "mutated_input_hash": "fa4ef2a52bc52a557bd5079fe16bb1ae337876127ed06a4dd08c6e7e3160db55",
+  "measured_object_count": 1,
+  "changed": true
+}

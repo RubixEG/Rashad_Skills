@@ -1,0 +1,1406 @@
+{
+  "status": "PASS",
+  "case_count": 233,
+  "implemented": 233,
+  "unimplemented": [],
+  "rows": [
+    {
+      "case_id": "TXT-001",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-002",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-003",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-004",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-005",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-006",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-007",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-008",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-009",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-010",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-011",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-012",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-013",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-014",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-015",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-016",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-017",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-018",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-019",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-020",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-021",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-022",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-023",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-024",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TXT-025",
+      "detector": "DOM_TEXT_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TEXT"
+    },
+    {
+      "case_id": "TYP-001",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-002",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-003",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-004",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-005",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-006",
+      "detector": "COMPUTED_FONT_SIZE",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-007",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-008",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-009",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-010",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-011",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-012",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-013",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-014",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "TYP-015",
+      "detector": "FONT_AND_TEXT_RENDER_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_TYPOGRAPHY"
+    },
+    {
+      "case_id": "GEO-001",
+      "detector": "PEER_BBOX_COMPARISON",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-002",
+      "detector": "PEER_BBOX_COMPARISON",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-003",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-004",
+      "detector": "PEER_PADDING_COMPARISON",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-005",
+      "detector": "PEER_GAP_COMPARISON",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-006",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-007",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-008",
+      "detector": "PAIRWISE_VISIBLE_INTERSECTION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-009",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-010",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-011",
+      "detector": "CANVAS_BBOX_CONTAINMENT",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-012",
+      "detector": "VISIBLE_AREA_CHECK",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-013",
+      "detector": "COMPUTED_VISIBILITY_OPACITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-014",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-015",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-016",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-017",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-018",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-019",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-020",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-021",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-022",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-023",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-024",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "GEO-025",
+      "detector": "DOM_SCENE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_GEOMETRY"
+    },
+    {
+      "case_id": "EDG-001",
+      "detector": "EDGE_ENDPOINT_DISTANCE",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-002",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-003",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-004",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-005",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-006",
+      "detector": "PATH_TEXT_INTERSECTION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-007",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-008",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-009",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-010",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-011",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-012",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-013",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-014",
+      "detector": "EDGE_ENDPOINT_DISTANCE",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-015",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-016",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-017",
+      "detector": "EDGE_VISIBLE_GEOMETRY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-018",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-019",
+      "detector": "EDGE_CROSSING_COUNT",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "EDG-020",
+      "detector": "SVG_DOM_CONNECTOR_TOPOLOGY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_CONNECTOR"
+    },
+    {
+      "case_id": "RTL-001",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-002",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-003",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-004",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-005",
+      "detector": "PHYSICAL_SEQUENCE_COORDINATES",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-006",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-007",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-008",
+      "detector": "VISIBLE_TEXT_POLICY_SCAN",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-009",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-010",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-011",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-012",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-013",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-014",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-015",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-016",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-017",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "RTL-018",
+      "detector": "BIDI_PHYSICAL_ORDER",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_RTL"
+    },
+    {
+      "case_id": "IMG-001",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-002",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-003",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-004",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-005",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-006",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-007",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-008",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-009",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-010",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-011",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-012",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-013",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-014",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "IMG-015",
+      "detector": "IMAGE_ASSET_AND_COMPOSITION",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_IMAGE"
+    },
+    {
+      "case_id": "BRD-001",
+      "detector": "ASSET_HASH_MATCH",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-002",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-003",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-004",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-005",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-006",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-007",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-008",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-009",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-010",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-011",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-012",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-013",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-014",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "BRD-015",
+      "detector": "BRAND_TOKEN_AND_ASSET",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_BRAND"
+    },
+    {
+      "case_id": "EVD-001",
+      "detector": "CLAIM_EVIDENCE_JOIN",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-002",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-003",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-004",
+      "detector": "SOURCE_VALUE_EQUALITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-005",
+      "detector": "SOURCE_VALUE_EQUALITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-006",
+      "detector": "SOURCE_VALUE_EQUALITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-007",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-008",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-009",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-010",
+      "detector": "SOURCE_VALUE_EQUALITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-011",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-012",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-013",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-014",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-015",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-016",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-017",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-018",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-019",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "EVD-020",
+      "detector": "EVIDENCE_TRACEABILITY",
+      "mode": "IMPLEMENTED_SOURCE_VERIFICATION_CONTRACT",
+      "execution_owner": "QA_EVIDENCE"
+    },
+    {
+      "case_id": "ART-001",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-002",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-003",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-004",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-005",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-006",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-007",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-008",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-009",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-010",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-011",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-012",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-013",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-014",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-015",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-016",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-017",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-018",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-019",
+      "detector": "HYPOTHESIS_STRUCTURAL_DIVERGENCE",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-020",
+      "detector": "PAIRWISE_STRUCTURAL_DIVERGENCE",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-021",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-022",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-023",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-024",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "ART-025",
+      "detector": "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_ARTIFACT"
+    },
+    {
+      "case_id": "DECK-001",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-002",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-003",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-004",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-005",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-006",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-007",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-008",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-009",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-010",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-011",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-012",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-013",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-014",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "DECK-015",
+      "detector": "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW",
+      "mode": "IMPLEMENTED_INDEPENDENT_JUDGE_CONTRACT",
+      "execution_owner": "QA_DECK"
+    },
+    {
+      "case_id": "QAI-001",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-002",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-003",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-004",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-005",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-006",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-007",
+      "detector": "BEFORE_AFTER_FONT_METRICS",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-008",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-009",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-010",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-011",
+      "detector": "PROOF_PROVENANCE_GATE",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-012",
+      "detector": "MEASUREMENT_COUNT_GATE",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-013",
+      "detector": "MASTER_HASH_LINEAGE",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-014",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-015",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-016",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-017",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-018",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-019",
+      "detector": "QA_PROOF_AND_SIGNATURE_INTEGRITY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "QAI-020",
+      "detector": "STATE_AND_PROOF_DEPENDENCY",
+      "mode": "IMPLEMENTED_LOCAL_EXECUTABLE_CONTRACT",
+      "execution_owner": "QA_INTEGRITY"
+    },
+    {
+      "case_id": "STR-001",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-002",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-003",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-004",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-005",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-006",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-007",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-008",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-009",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-010",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-011",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-012",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-013",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-014",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-015",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-016",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-017",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-018",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-019",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    },
+    {
+      "case_id": "STR-020",
+      "detector": "METAMORPHIC_STRESS_RUNNER",
+      "mode": "IMPLEMENTED_METAMORPHIC_RUNNER",
+      "execution_owner": "QA_STRESS"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "registry_version": "1.0.0",
+  "principle": "Expertise availability does not imply knowledge readiness. Missing governed knowledge must propagate to downstream decisions.",
+  "status_enum": ["AVAILABLE_VERIFIED", "AVAILABLE_PARTIAL", "STRUCTURE_ONLY", "KNOWLEDGE_REQUIRED"],
+  "knowledge_packs": [
+    {"id":"KP-FIRM-CREDENTIALS","domain":"FIRM","status":"KNOWLEDGE_REQUIRED","blocks":["ELIGIBILITY_ASSERTION","CERTIFICATION_ASSERTION"]},
+    {"id":"KP-FIRM-CASE-STUDIES","domain":"FIRM","status":"KNOWLEDGE_REQUIRED","blocks":["SIMILAR_PROJECT_SCORE_ASSERTION","WIN_PROBABILITY_ASSERTION"]},
+    {"id":"KP-FIRM-CVS-CAPACITY","domain":"FIRM","status":"KNOWLEDGE_REQUIRED","blocks":["TEAM_READINESS_ASSERTION","RESOURCE_COMMITMENT_ASSERTION"]},
+    {"id":"KP-FIRM-RATES","domain":"FINANCIAL_COMMERCIAL","status":"KNOWLEDGE_REQUIRED","blocks":["FINAL_PRICE","MARGIN","LABOR_COST"]},
+    {"id":"KP-SA-PROCUREMENT","domain":"LEGAL_PROCUREMENT","status":"STRUCTURE_ONLY","blocks":["AUTHORITATIVE_LEGAL_INTERPRETATION"]},
+    {"id":"KP-CYBER-COMPLIANCE","domain":"CYBER","status":"AVAILABLE_PARTIAL","blocks":["CERTIFIED_CYBER_ARCHITECTURE"]},
+    {"id":"KP-TECH-ARCHITECTURE","domain":"TECHNOLOGY","status":"AVAILABLE_PARTIAL","blocks":["VENDOR_CERTIFIED_TARGET_ARCHITECTURE"]},
+    {"id":"KP-CLOUD-COST","domain":"CLOUD_FINOPS","status":"KNOWLEDGE_REQUIRED","blocks":["CLOUD_COST","FINOPS_COMMITMENT"]},
+    {"id":"KP-PROPOSAL-WIN-EVIDENCE","domain":"PROPOSAL_WIN","status":"AVAILABLE_PARTIAL","blocks":["CERTAIN_WIN_PROBABILITY"]},
+    {"id":"KP-SAP","domain":"SAP","status":"KNOWLEDGE_REQUIRED","blocks":["CERTIFIED_SAP_ARCHITECTURE"]},
+    {"id":"KP-SALESFORCE","domain":"SALESFORCE","status":"KNOWLEDGE_REQUIRED","blocks":["CERTIFIED_SALESFORCE_ARCHITECTURE"]},
+    {"id":"KP-ACCESSIBILITY-WCAG","domain":"ACCESSIBILITY","status":"STRUCTURE_ONLY","blocks":["CERTIFIED_ACCESSIBILITY_COMPLIANCE"]},
+    {"id":"KP-OT-ICS-SECURITY","domain":"OT_ICS","status":"KNOWLEDGE_REQUIRED","blocks":["CERTIFIED_OT_SECURITY_ARCHITECTURE"]}
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "schema": "RASHAD_INCIDENT_REGISTRY_V7_2_1",
+  "date": "2026-08-17",
+  "purpose": "Permanent regression coverage for repeated RFP Summary artifact-production incidents. A known incident may not be closed unless a machine-executable regression maps to it.",
+  "incidents": [
+    {
+      "id": "I01",
+      "name": "CONTENT_TO_PPTX_DIRECT_COMPOSER_BYPASS",
+      "severity": "P0",
+      "regression": [
+        "v7_1_delivery_red_team::no_artifact_execution_proof",
+        "v7_1_user_visible_delivery::same_state_user_visible_blocked"
+      ]
+    },
+    {
+      "id": "I02",
+      "name": "CONCEPT_WIREFRAME_MASQUERADES_AS_PRODUCTION_ARTIFACT",
+      "severity": "P0",
+      "regression": [
+        "v7_1_delivery_red_team::concept_wireframe_as_user_visible"
+      ]
+    },
+    {
+      "id": "I03",
+      "name": "ARTIFACT_EQUALS_DIAGRAM_SHAPE_ONLY_REPETITIVE_DECK",
+      "severity": "P0",
+      "regression": [
+        "v7_1_delivery_red_team::shape_only_template_deck",
+        "golden_redf::bad_incident_profile_blocked"
+      ]
+    },
+    {
+      "id": "I04",
+      "name": "POSITIONAL_H1_OR_CANDIDATE_ORDER_WINNER_BIAS",
+      "severity": "P0",
+      "regression": [
+        "artifact_brain_red_team::positional_selection_block",
+        "skill_red_team_v7_1::positional_h1_lock"
+      ]
+    },
+    {
+      "id": "I05",
+      "name": "FRAMEWORK_QA_MASQUERADES_AS_ACTUAL_PRODUCT_QA",
+      "severity": "P0",
+      "regression": [
+        "v7_1_delivery_red_team::framework_qa_substitution"
+      ]
+    },
+    {
+      "id": "I06",
+      "name": "USER_VISIBLE_DRAFT_WITHOUT_ACTUAL_PIXEL_PASS",
+      "severity": "P0",
+      "regression": [
+        "v7_1_delivery_red_team::no_pixel_review",
+        "v7_1_user_visible_delivery::no_pixel_user_visible_blocked"
+      ]
+    },
+    {
+      "id": "I07",
+      "name": "QA_REPORT_ONLY_WITHOUT_REPAIR_CLOSURE",
+      "severity": "P0",
+      "regression": [
+        "v7_1_delivery_red_team::failed_round_without_repair"
+      ]
+    },
+    {
+      "id": "I08",
+      "name": "STRATEGY_LABEL_WITHOUT_ACTUAL_NATIVE_OR_PIXEL_FORM",
+      "severity": "P0",
+      "regression": [
+        "v7_1_delivery_red_team::strategy_label_lies_about_actual_objects",
+        "v7_1_user_visible_delivery::image_led_without_image_blocked"
+      ]
+    },
+    {
+      "id": "I09",
+      "name": "STALE_CURRENT_VERSION_CERTIFICATION_OR_AUTHORITY_METADATA",
+      "severity": "P0",
+      "regression": [
+        "full_line_conflict_audit::current_version_binding",
+        "skill_red_team_v7_1::stale_current_route"
+      ]
+    },
+    {
+      "id": "I10",
+      "name": "ACTIVE_AUTHORITY_SEMANTICALLY_ALLOWS_PARTIAL_QA_USER_VISIBLE_ARTIFACT",
+      "severity": "P0",
+      "regression": [
+        "full_line_conflict_audit::forbid_partial_user_visible_semantics"
+      ]
+    },
+    {
+      "id": "I11",
+      "name": "RELATIONSHIP_GEOMETRY_ENGINE_REGAINS_VISUAL_DECISION_AUTHORITY",
+      "severity": "P0",
+      "regression": [
+        "full_line_conflict_audit::relationship_geometry_downstream_only"
+      ]
+    },
+    {
+      "id": "I12",
+      "name": "GOLDEN_REAL_RFP_NOT_EXECUTED_BEFORE_ARTIFACT_QA_RELEASE",
+      "severity": "P0",
+      "regression": [
+        "golden_redf::full_acceptance",
+        "final_verify::golden_suite_required"
+      ]
+    },
+    {
+      "id": "I13",
+      "name": "ARTIFACT_COMMUNICATION_STRATEGY_REGISTRY_RUNTIME_DRIFT",
+      "severity": "P0",
+      "regression": [
+        "a_to_z_relationship_audit::expert_universe_matches_runtime_strategies",
+        "final_package_red_team::artifact_strategy_registry_matches_runtime"
+      ]
+    },
+    {
+      "id": "I14",
+      "name": "FINAL_VERIFIER_ORCHESTRATION_PIPE_OR_LOG_DIRECTORY_RACE",
+      "severity": "P0",
+      "regression": [
+        "incident_regression_v7_1::final_verifier_orchestration_is_file_logged_locked_and_logdir_resilient"
+      ]
+    },
+    {
+      "id": "I15",
+      "name": "REGRESSION_OUTPUT_ACCUMULATION_DEGRADES_REPEAT_CERTIFICATION",
+      "severity": "P0",
+      "regression": [
+        "incident_regression_v7_1::regression_roots_cleaned_before_each_run"
+      ]
+    },
+    {
+      "id": "I16",
+      "name": "WRONG_ARTIFACT_HANDOFF_AFTER_QA",
+      "severity": "P0",
+      "regression": [
+        "handoff_lock_v7_2_1::exact_file_binding",
+        "incident_p0_wrong_artifact_handoff_20260817::real_bad_deck_blocked",
+        "final_verify::handoff_lock_and_i16_suites_required"
+      ]
+    }
+  ]
+}

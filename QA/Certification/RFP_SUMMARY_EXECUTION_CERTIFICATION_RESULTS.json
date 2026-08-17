@@ -1,0 +1,1212 @@
+{
+  "suite": "RFP Summary Execution Certification v7.0.2",
+  "status": "PASS",
+  "passed": 18,
+  "total": 18,
+  "checks": [
+    {
+      "name": "pack_mode_persistable_full",
+      "status": "PASS",
+      "detail": {
+        "source_pack_mode": "FULL_RFP_PACK",
+        "source_pack_mode_basis": {
+          "detected_categories": [
+            "BOQ",
+            "CONTRACT",
+            "CYBERSECURITY",
+            "EVALUATION",
+            "MAIN_BOOKLET",
+            "PAYMENT",
+            "QUALIFICATION",
+            "SCOPE",
+            "SUBMISSION",
+            "TEAM"
+          ],
+          "material_missing_sources": [],
+          "rationale": "Material annex categories are sufficiently represented for a full brief.",
+          "stricter_mode_applied": false
+        }
+      }
+    },
+    {
+      "name": "pack_mode_stricter_partial",
+      "status": "PASS",
+      "detail": {
+        "source_pack_mode": "PARTIAL_RFP_PACK",
+        "source_pack_mode_basis": {
+          "detected_categories": [
+            "BOQ",
+            "CONTRACT",
+            "EVALUATION",
+            "MAIN_BOOKLET",
+            "PAYMENT",
+            "QUALIFICATION",
+            "SCOPE",
+            "TEAM"
+          ],
+          "material_missing_sources": [
+            "Annex X"
+          ],
+          "rationale": "One or more material evidence categories or referenced material sources are absent; stricter partial-pack mode applies.",
+          "stricter_mode_applied": true
+        }
+      }
+    },
+    {
+      "name": "clarification_window_derived_open",
+      "status": "PASS",
+      "detail": {
+        "status": "OPEN",
+        "deadline_source_value": "2026-08-20",
+        "deadline_source_calendar": "GREGORIAN",
+        "deadline_source_refs": [
+          "SRC-1:p1"
+        ],
+        "deadline_normalized_gregorian": "2026-08-20T23:59:00+03:00",
+        "addendum_source_refs": [],
+        "evaluated_at": "2026-08-16T15:00:00+03:00",
+        "derivation_method": "VERIFIED_PROCUREMENT_PACK_DEADLINE",
+        "confidence": 1.0,
+        "conflict": false,
+        "conflict_notes": [],
+        "closed_routing": []
+      }
+    },
+    {
+      "name": "ingestion_schema_machine_complete",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "five_actual_low_fidelity_renders",
+      "status": "PASS",
+      "detail": [
+        {
+          "candidate_id": "H1",
+          "render_path": "/tmp/tmpnv8dz404/initial/H1.png",
+          "actual_render_hash": "2012653c88c5aba9dd982af002fa01c05990aad705887aa49d1b3bf6ada5e3c9",
+          "width": 1280,
+          "height": 720,
+          "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+        },
+        {
+          "candidate_id": "H2",
+          "render_path": "/tmp/tmpnv8dz404/initial/H2.png",
+          "actual_render_hash": "8cd12b3cba7a86cb2b0d5c86b19623b5590e755fef01bd35d99cc020b1986d69",
+          "width": 1280,
+          "height": 720,
+          "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+        },
+        {
+          "candidate_id": "H3",
+          "render_path": "/tmp/tmpnv8dz404/initial/H3.png",
+          "actual_render_hash": "71e33985efc5bfa66493de5d245cacea608e7ba4c9277ecbde8f84b7a5a5e95e",
+          "width": 1280,
+          "height": 720,
+          "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+        },
+        {
+          "candidate_id": "H4",
+          "render_path": "/tmp/tmpnv8dz404/initial/H4.png",
+          "actual_render_hash": "4ed29aaaa8c33c8605fe8f6ad7655bfce7e9ac3158c7cb47ad394863343f9399",
+          "width": 1280,
+          "height": 720,
+          "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+        },
+        {
+          "candidate_id": "H5",
+          "render_path": "/tmp/tmpnv8dz404/initial/H5.png",
+          "actual_render_hash": "be7fe1ebf5694fe9a7b045e28815d96b2e4b41cbff49503f22c4a7edb9c19354",
+          "width": 1280,
+          "height": 720,
+          "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+        }
+      ]
+    },
+    {
+      "name": "fifteen_step_machine_pipeline_passes",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "passed_steps": 15,
+        "total_steps": 15,
+        "first_non_pass": null,
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "PASS",
+            "detail": {
+              "packets": 1
+            }
+          },
+          "07": {
+            "status": "PASS",
+            "detail": {
+              "sessions": 1
+            }
+          },
+          "08": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "PASS",
+            "detail": {
+              "recommendation": "HOLD"
+            }
+          },
+          "15": {
+            "status": "PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "024fe0662796ecb7ba5f7c7e7207d13666489e4e5d00a2352b5ac1af842a17da"
+      }
+    },
+    {
+      "name": "missing_pack_mode_blocks_step3",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "passed_steps": 2,
+        "total_steps": 15,
+        "first_non_pass": "03",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "BLOCKED",
+            "reason": "INGESTION_MACHINE_STATE_INVALID",
+            "detail": {
+              "errors": [
+                "'source_pack_mode' is a required property"
+              ]
+            }
+          },
+          "04": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "05": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "07": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "08": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "c91bef0ae682fb303159d41bdf3726bc7c4ff425a0fcc756dc1ad42fa714c340"
+      }
+    },
+    {
+      "name": "missing_cognitive_packet_blocks_step6",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "passed_steps": 5,
+        "total_steps": 15,
+        "first_non_pass": "06",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "BLOCKED",
+            "reason": "COGNITIVE_PACKETS_MISSING_OR_INVALID",
+            "detail": {
+              "errors": [
+                {
+                  "page_id": "P08",
+                  "error": "MISSING"
+                }
+              ]
+            }
+          },
+          "07": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "08": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "78ab550fd3ab1eb65c3285c1e0cad69b45ae07ddfd91d5527061963a1cbdf637"
+      }
+    },
+    {
+      "name": "missing_independent_judge_blocks_step11",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "passed_steps": 10,
+        "total_steps": 15,
+        "first_non_pass": "11",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "PASS",
+            "detail": {
+              "packets": 1
+            }
+          },
+          "07": {
+            "status": "PASS",
+            "detail": {
+              "sessions": 1
+            }
+          },
+          "08": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "NOT_EXECUTED",
+            "reason": "INDEPENDENT_5_TO_9_VISUAL_SEARCH_INCOMPLETE",
+            "detail": {
+              "errors": [
+                {
+                  "page_id": "P08",
+                  "initial_judged": 0,
+                  "refined": 4,
+                  "distinct_refined": 4,
+                  "final": true
+                }
+              ]
+            }
+          },
+          "12": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "989f1155a5bd029cde09a9dd84cd66d0708851692e468cb656d1244d9e27f4b4"
+      }
+    },
+    {
+      "name": "invalid_machine_decision_blocks_step14",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "passed_steps": 13,
+        "total_steps": 15,
+        "first_non_pass": "14",
+        "steps": {
+          "01": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "02": {
+            "status": "PASS",
+            "detail": {
+              "language": "ar"
+            }
+          },
+          "03": {
+            "status": "PASS",
+            "detail": {
+              "pack_mode": "FULL_RFP_PACK",
+              "registers": 11,
+              "clarification_window": "OPEN"
+            }
+          },
+          "04": {
+            "status": "PASS",
+            "detail": {
+              "roles": 24
+            }
+          },
+          "05": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "06": {
+            "status": "PASS",
+            "detail": {
+              "packets": 1
+            }
+          },
+          "07": {
+            "status": "PASS",
+            "detail": {
+              "sessions": 1
+            }
+          },
+          "08": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "09": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "10": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "11": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "12": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "13": {
+            "status": "PASS",
+            "detail": {}
+          },
+          "14": {
+            "status": "BLOCKED",
+            "reason": "BID_DECISION_OBJECT_INVALID",
+            "detail": {
+              "errors": [
+                "[{'dimension': 'OPPORTUNITY_ATTRACTIVENESS', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'STRATEGIC_FIT', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'WIN_POSITION', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'DELIVERY_CONFIDENCE', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'TEAM_READINESS', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'EVIDENCE_READINESS', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'COMMERCIAL_PRICING_CONFIDENCE', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'SCHEDULE_PRESSURE', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'PROCUREMENT_MATURITY', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}] is too short",
+                "[{'dimension': 'OPPORTUNITY_ATTRACTIVENESS', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'STRATEGIC_FIT', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'WIN_POSITION', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'DELIVERY_CONFIDENCE', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'TEAM_READINESS', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'EVIDENCE_READINESS', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'COMMERCIAL_PRICING_CONFIDENCE', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'SCHEDULE_PRESSURE', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}, {'dimension': 'PROCUREMENT_MATURITY', 'assessment': 'MIXED', 'confidence': 0.7, 'rationale': 'Evidence supports a mixed assessment.', 'evidence_refs': [{'source_ref': 'SRC-1', 'locator': 'p.1'}]}] does not contain items matching the given schema"
+              ]
+            }
+          },
+          "15": {
+            "status": "NOT_EXECUTED",
+            "reason": "UPSTREAM_STEP_NOT_PASS",
+            "detail": {}
+          }
+        },
+        "execution_evidence_hash": "17878d59da6069ea632cfca24a29b47985e42b088b534b850bb5a448a6c90130"
+      }
+    },
+    {
+      "name": "executable_5_to_9_visual_search_orchestrator",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "page_id": "P08",
+        "hypotheses": [
+          {
+            "id": "H1",
+            "topology": "CHAIN",
+            "dominant_form": "SPINE",
+            "primitives": [
+              "SPINE"
+            ],
+            "reading_path": "RTL_SPINE",
+            "focal_point": "RIGHT",
+            "mass_plan": {
+              "dominant": 0.5,
+              "supporting": 0.26,
+              "implication": 0.12,
+              "source": 0.06
+            },
+            "artifact_truth_score": 100.0,
+            "visual_thesis": "Integrated system thesis",
+            "structural_signature": "SPINE|SPINE|RTL_SPINE|RIGHT"
+          },
+          {
+            "id": "H2",
+            "topology": "CHAIN",
+            "dominant_form": "LADDER",
+            "primitives": [
+              "LADDER",
+              "SPINE"
+            ],
+            "reading_path": "CENTER_OUT",
+            "focal_point": "CENTER",
+            "mass_plan": {
+              "dominant": 0.44,
+              "supporting": 0.32,
+              "implication": 0.12,
+              "source": 0.06
+            },
+            "artifact_truth_score": 100.0,
+            "visual_thesis": "Integrated system thesis",
+            "structural_signature": "LADDER|LADDER,SPINE|CENTER_OUT|CENTER"
+          },
+          {
+            "id": "H3",
+            "topology": "CHAIN",
+            "dominant_form": "FUNNEL",
+            "primitives": [
+              "FUNNEL",
+              "SPINE"
+            ],
+            "reading_path": "TOP_DOWN_THEN_RTL",
+            "focal_point": "TOP_RIGHT",
+            "mass_plan": {
+              "dominant": 0.56,
+              "supporting": 0.22,
+              "implication": 0.12,
+              "source": 0.06
+            },
+            "artifact_truth_score": 100.0,
+            "visual_thesis": "Integrated system thesis",
+            "structural_signature": "FUNNEL|FUNNEL,SPINE|TOP_DOWN_THEN_RTL|TOP_RIGHT"
+          },
+          {
+            "id": "H4",
+            "topology": "CHAIN",
+            "dominant_form": "RING",
+            "primitives": [
+              "RING",
+              "SPINE"
+            ],
+            "reading_path": "RIGHT_FOCAL_TO_SYSTEM",
+            "focal_point": "CENTER_RIGHT",
+            "mass_plan": {
+              "dominant": 0.48,
+              "supporting": 0.28,
+              "implication": 0.12,
+              "source": 0.06
+            },
+            "artifact_truth_score": 100.0,
+            "visual_thesis": "Integrated system thesis",
+            "structural_signature": "RING|RING,SPINE|RIGHT_FOCAL_TO_SYSTEM|CENTER_RIGHT"
+          },
+          {
+            "id": "H5",
+            "topology": "CHAIN",
+            "dominant_form": "STACK",
+            "primitives": [
+              "STACK"
+            ],
+            "reading_path": "LOOP_THEN_DECISION",
+            "focal_point": "CENTER",
+            "mass_plan": {
+              "dominant": 0.52,
+              "supporting": 0.24,
+              "implication": 0.12,
+              "source": 0.06
+            },
+            "artifact_truth_score": 100.0,
+            "visual_thesis": "Integrated system thesis",
+            "structural_signature": "STACK|STACK|LOOP_THEN_DECISION|CENTER"
+          }
+        ],
+        "renders": [
+          {
+            "candidate_id": "H1",
+            "render_path": "/tmp/tmpj46q4920/initial/H1.png",
+            "actual_render_hash": "d37685c2efb682931329ccdabeafcd1faa61f5aae5c90d1152ca73e577f32ea5",
+            "width": 1280,
+            "height": 720,
+            "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+          },
+          {
+            "candidate_id": "H2",
+            "render_path": "/tmp/tmpj46q4920/initial/H2.png",
+            "actual_render_hash": "fc36287968636c989e05b2f4a641e59dcc76af594c3c08e6bf844761bc436cce",
+            "width": 1280,
+            "height": 720,
+            "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+          },
+          {
+            "candidate_id": "H3",
+            "render_path": "/tmp/tmpj46q4920/initial/H3.png",
+            "actual_render_hash": "0e9fe99890c07ec2dec112b3ae113722ecc35e4c5fb81e7ef5d8d7ce9b3af7eb",
+            "width": 1280,
+            "height": 720,
+            "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+          },
+          {
+            "candidate_id": "H4",
+            "render_path": "/tmp/tmpj46q4920/initial/H4.png",
+            "actual_render_hash": "5d7e4255afb10a53a1b3281673731d6f75a1ae9144bec01d749ea3f66864c802",
+            "width": 1280,
+            "height": 720,
+            "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+          },
+          {
+            "candidate_id": "H5",
+            "render_path": "/tmp/tmpj46q4920/initial/H5.png",
+            "actual_render_hash": "b470eb1d55b7bd3e7ff076df4390994287a2a3d4fd595d75c154a3109e829052",
+            "width": 1280,
+            "height": 720,
+            "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+          }
+        ],
+        "initial_independent_judgments": [
+          {
+            "status": "PASS",
+            "candidate_id": "H1",
+            "independent": true,
+            "judge_invocation_id": "CERT-JUDGE-BB1E73B3D2914836",
+            "previous_response_id": null,
+            "score": 91.0,
+            "hard_blockers": [],
+            "evidence_refs": [
+              "SRC-1:p1"
+            ],
+            "actual_render_hash": "d37685c2efb682931329ccdabeafcd1faa61f5aae5c90d1152ca73e577f32ea5",
+            "raw": {
+              "status": "PASS",
+              "independent": true,
+              "judge_invocation_id": "CERT-JUDGE-BB1E73B3D2914836",
+              "previous_response_id": null,
+              "score": 91,
+              "hard_blockers": [],
+              "evidence_refs": [
+                "SRC-1:p1"
+              ],
+              "invocation_id": "INV-F59B482E8426491A",
+              "function": "INDEPENDENT_JUDGE",
+              "council_id": "C11_VISUAL_PERCEPTION_INFO_DESIGN",
+              "actor_id": "ACTOR-INDEPENDENT-VISUAL-JUDGE-371F8C081C354A66",
+              "isolated_context_id": "CTX-VISUAL-JUDGE-507833BE931A4B85",
+              "input_hash": "6c5b25c159be5cae7beb5a47b0e6c88d3fbcdf053d376a6dc6160b728b24e8c3"
+            }
+          },
+          {
+            "status": "PASS",
+            "candidate_id": "H2",
+            "independent": true,
+            "judge_invocation_id": "CERT-JUDGE-C72ECBC23D6E45A8",
+            "previous_response_id": null,
+            "score": 92.0,
+            "hard_blockers": [],
+            "evidence_refs": [
+              "SRC-1:p1"
+            ],
+            "actual_render_hash": "fc36287968636c989e05b2f4a641e59dcc76af594c3c08e6bf844761bc436cce",
+            "raw": {
+              "status": "PASS",
+              "independent": true,
+              "judge_invocation_id": "CERT-JUDGE-C72ECBC23D6E45A8",
+              "previous_response_id": null,
+              "score": 92,
+              "hard_blockers": [],
+              "evidence_refs": [
+                "SRC-1:p1"
+              ],
+              "invocation_id": "INV-3FB49DFB7C524AED",
+              "function": "INDEPENDENT_JUDGE",
+              "council_id": "C11_VISUAL_PERCEPTION_INFO_DESIGN",
+              "actor_id": "ACTOR-INDEPENDENT-VISUAL-JUDGE-2648189BADFF4B7D",
+              "isolated_context_id": "CTX-VISUAL-JUDGE-1A8AA54405F5480B",
+              "input_hash": "e30d93cdd30aa5e5aa9fa8419c7ade7d700e8b2026c2dacf1bf35f15c4fad3f7"
+            }
+          },
+          {
+            "status": "PASS",
+            "candidate_id": "H3",
+            "independent": true,
+            "judge_invocation_id": "CERT-JUDGE-2F528481ED424736",
+            "previous_response_id": null,
+            "score": 93.0,
+            "hard_blockers": [],
+            "evidence_refs": [
+              "SRC-1:p1"
+            ],
+            "actual_render_hash": "0e9fe99890c07ec2dec112b3ae113722ecc35e4c5fb81e7ef5d8d7ce9b3af7eb",
+            "raw": {
+              "status": "PASS",
+              "independent": true,
+              "judge_invocation_id": "CERT-JUDGE-2F528481ED424736",
+              "previous_response_id": null,
+              "score": 93,
+              "hard_blockers": [],
+              "evidence_refs": [
+                "SRC-1:p1"
+              ],
+              "invocation_id": "INV-706FD60ED9B94016",
+              "function": "INDEPENDENT_JUDGE",
+              "council_id": "C11_VISUAL_PERCEPTION_INFO_DESIGN",
+              "actor_id": "ACTOR-INDEPENDENT-VISUAL-JUDGE-FE7D3FF5BEA345AB",
+              "isolated_context_id": "CTX-VISUAL-JUDGE-5A2DA0121AA74D87",
+              "input_hash": "53d617171eb515a0d9628bc26335569c83d039dd56cad6aab7449c184043d7f0"
+            }
+          },
+          {
+            "status": "PASS",
+            "candidate_id": "H4",
+            "independent": true,
+            "judge_invocation_id": "CERT-JUDGE-24FBA9E24A3D474A",
+            "previous_response_id": null,
+            "score": 94.0,
+            "hard_blockers": [],
+            "evidence_refs": [
+              "SRC-1:p1"
+            ],
+            "actual_render_hash": "5d7e4255afb10a53a1b3281673731d6f75a1ae9144bec01d749ea3f66864c802",
+            "raw": {
+              "status": "PASS",
+              "independent": true,
+              "judge_invocation_id": "CERT-JUDGE-24FBA9E24A3D474A",
+              "previous_response_id": null,
+              "score": 94,
+              "hard_blockers": [],
+              "evidence_refs": [
+                "SRC-1:p1"
+              ],
+              "invocation_id": "INV-F8593E2A168740DD",
+              "function": "INDEPENDENT_JUDGE",
+              "council_id": "C11_VISUAL_PERCEPTION_INFO_DESIGN",
+              "actor_id": "ACTOR-INDEPENDENT-VISUAL-JUDGE-602E5CC74231456F",
+              "isolated_context_id": "CTX-VISUAL-JUDGE-8736B072330A4231",
+              "input_hash": "ebe643f181d15abe40ba2af6902a88b65c1c5701faea311d39d7f7bfcf98e434"
+            }
+          },
+          {
+            "status": "PASS",
+            "candidate_id": "H5",
+            "independent": true,
+            "judge_invocation_id": "CERT-JUDGE-EFEF6DD30FB0482A",
+            "previous_response_id": null,
+            "score": 95.0,
+            "hard_blockers": [],
+            "evidence_refs": [
+              "SRC-1:p1"
+            ],
+            "actual_render_hash": "b470eb1d55b7bd3e7ff076df4390994287a2a3d4fd595d75c154a3109e829052",
+            "raw": {
+              "status": "PASS",
+              "independent": true,
+              "judge_invocation_id": "CERT-JUDGE-EFEF6DD30FB0482A",
+              "previous_response_id": null,
+              "score": 95,
+              "hard_blockers": [],
+              "evidence_refs": [
+                "SRC-1:p1"
+              ],
+              "invocation_id": "INV-DEE442C85DF44703",
+              "function": "INDEPENDENT_JUDGE",
+              "council_id": "C11_VISUAL_PERCEPTION_INFO_DESIGN",
+              "actor_id": "ACTOR-INDEPENDENT-VISUAL-JUDGE-F73D6905FF0F4024",
+              "isolated_context_id": "CTX-VISUAL-JUDGE-20F739FA96BE4505",
+              "input_hash": "cc0b869a408bac48cc373f6c17169d1bd9215402ef24da13eb32045bbb790918"
+            }
+          }
+        ],
+        "top_2": [
+          "H5",
+          "H4"
+        ],
+        "mutations": [
+          {
+            "id": "M1",
+            "topology": "CHAIN",
+            "dominant_form": "STACK",
+            "primitives": [
+              "STACK"
+            ],
+            "reading_path": "CENTER_OUT",
+            "focal_point": "CENTER",
+            "mass_plan": {
+              "dominant": 0.56,
+              "supporting": 0.24,
+              "implication": 0.12,
+              "source": 0.06
+            },
+            "artifact_truth_score": 100.0,
+            "visual_thesis": "Integrated system thesis",
+            "structural_signature": "STACK|CENTER_OUT|CENTER|M1",
+            "parent_id": "H5"
+          },
+          {
+            "id": "M2",
+            "topology": "CHAIN",
+            "dominant_form": "STACK",
+            "primitives": [
+              "STACK"
+            ],
+            "reading_path": "RIGHT_FOCAL_TO_SYSTEM",
+            "focal_point": "CENTER",
+            "mass_plan": {
+              "dominant": 0.48,
+              "supporting": 0.24,
+              "implication": 0.12,
+              "source": 0.06
+            },
+            "artifact_truth_score": 100.0,
+            "visual_thesis": "Integrated system thesis",
+            "structural_signature": "STACK|RIGHT_FOCAL_TO_SYSTEM|CENTER|M2",
+            "parent_id": "H5"
+          },
+          {
+            "id": "M3",
+            "topology": "CHAIN",
+            "dominant_form": "RING",
+            "primitives": [
+              "RING",
+              "SPINE"
+            ],
+            "reading_path": "RIGHT_FOCAL_TO_SYSTEM",
+            "focal_point": "CENTER_RIGHT",
+            "mass_plan": {
+              "dominant": 0.52,
+              "supporting": 0.28,
+              "implication": 0.12,
+              "source": 0.06
+            },
+            "artifact_truth_score": 100.0,
+            "visual_thesis": "Integrated system thesis",
+            "structural_signature": "RING|RIGHT_FOCAL_TO_SYSTEM|CENTER_RIGHT|M3",
+            "parent_id": "H4"
+          },
+          {
+            "id": "M4",
+            "topology": "CHAIN",
+            "dominant_form": "RING",
+            "primitives": [
+              "RING",
+              "SPINE"
+            ],
+            "reading_path": "RTL_SPINE",
+            "focal_point": "CENTER",
+            "mass_plan": {
+              "dominant": 0.44,
+              "supporting": 0.28,
+              "implication": 0.12,
+              "source": 0.06
+            },
+            "artifact_truth_score": 100.0,
+            "visual_thesis": "Integrated system thesis",
+            "structural_signature": "RING|RTL_SPINE|CENTER|M4",
+            "parent_id": "H4"
+          }
+        ],
+        "refined_renders": [
+          {
+            "candidate_id": "M1",
+            "render_path": "/tmp/tmpj46q4920/refined/M1.png",
+            "actual_render_hash": "1e08dabb85a6506c087d97f854c23cc7217765921919d60f1e91b3f30a75c617",
+            "width": 1280,
+            "height": 720,
+            "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+          },
+          {
+            "candidate_id": "M2",
+            "render_path": "/tmp/tmpj46q4920/refined/M2.png",
+            "actual_render_hash": "7eec3229344b6d73fa63e594db658918fcfab44dd2a22ef5226c1095c92b2ba2",
+            "width": 1280,
+            "height": 720,
+            "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+          },
+          {
+            "candidate_id": "M3",
+            "render_path": "/tmp/tmpj46q4920/refined/M3.png",
+            "actual_render_hash": "c5f9b7b13681d4034b92d948a8238b5b715d2c25ae2af5a23f9fb76d6862eb95",
+            "width": 1280,
+            "height": 720,
+            "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+          },
+          {
+            "candidate_id": "M4",
+            "render_path": "/tmp/tmpj46q4920/refined/M4.png",
+            "actual_render_hash": "e211eed981da2f4a4f5fdfcc2a8a08964ffebae7b79b10d2fa346008453731ed",
+            "width": 1280,
+            "height": 720,
+            "render_kind": "DETERMINISTIC_LOW_FIDELITY_SEARCH_RENDER"
+          }
+        ],
+        "refined_independent_judgments": [
+          {
+            "status": "PASS",
+            "candidate_id": "M1",
+            "independent": true,
+            "judge_invocation_id": "CERT-JUDGE-27C6C18E1AA742DF",
+            "previous_response_id": null,
+            "score": 91.0,
+            "hard_blockers": [],
+            "evidence_refs": [
+              "SRC-1:p1"
+            ],
+            "actual_render_hash": "1e08dabb85a6506c087d97f854c23cc7217765921919d60f1e91b3f30a75c617",
+            "raw": {
+              "status": "PASS",
+              "independent": true,
+              "judge_invocation_id": "CERT-JUDGE-27C6C18E1AA742DF",
+              "previous_response_id": null,
+              "score": 91,
+              "hard_blockers": [],
+              "evidence_refs": [
+                "SRC-1:p1"
+              ],
+              "invocation_id": "INV-C5FD6B1462EB483D",
+              "function": "INDEPENDENT_JUDGE",
+              "council_id": "C11_VISUAL_PERCEPTION_INFO_DESIGN",
+              "actor_id": "ACTOR-INDEPENDENT-VISUAL-JUDGE-41392BB42DB94CB4",
+              "isolated_context_id": "CTX-VISUAL-JUDGE-CC6F3B59043445C9",
+              "input_hash": "e29d0af58704d50ec7fdb3e19f239c9dfb16a8f15366cdb8b592ab5a4e776ae8"
+            }
+          },
+          {
+            "status": "PASS",
+            "candidate_id": "M2",
+            "independent": true,
+            "judge_invocation_id": "CERT-JUDGE-9BF1A8976C92480A",
+            "previous_response_id": null,
+            "score": 92.0,
+            "hard_blockers": [],
+            "evidence_refs": [
+              "SRC-1:p1"
+            ],
+            "actual_render_hash": "7eec3229344b6d73fa63e594db658918fcfab44dd2a22ef5226c1095c92b2ba2",
+            "raw": {
+              "status": "PASS",
+              "independent": true,
+              "judge_invocation_id": "CERT-JUDGE-9BF1A8976C92480A",
+              "previous_response_id": null,
+              "score": 92,
+              "hard_blockers": [],
+              "evidence_refs": [
+                "SRC-1:p1"
+              ],
+              "invocation_id": "INV-E5FD1D2779854A70",
+              "function": "INDEPENDENT_JUDGE",
+              "council_id": "C11_VISUAL_PERCEPTION_INFO_DESIGN",
+              "actor_id": "ACTOR-INDEPENDENT-VISUAL-JUDGE-5A21C3CF94F54D0B",
+              "isolated_context_id": "CTX-VISUAL-JUDGE-AAA5F238388B439B",
+              "input_hash": "30722eeef32f1990e067d8ea0ce5ad3951ed71a7e1cb332188ddcff292ddacf0"
+            }
+          },
+          {
+            "status": "PASS",
+            "candidate_id": "M3",
+            "independent": true,
+            "judge_invocation_id": "CERT-JUDGE-E029D53A5A6C40B7",
+            "previous_response_id": null,
+            "score": 93.0,
+            "hard_blockers": [],
+            "evidence_refs": [
+              "SRC-1:p1"
+            ],
+            "actual_render_hash": "c5f9b7b13681d4034b92d948a8238b5b715d2c25ae2af5a23f9fb76d6862eb95",
+            "raw": {
+              "status": "PASS",
+              "independent": true,
+              "judge_invocation_id": "CERT-JUDGE-E029D53A5A6C40B7",
+              "previous_response_id": null,
+              "score": 93,
+              "hard_blockers": [],
+              "evidence_refs": [
+                "SRC-1:p1"
+              ],
+              "invocation_id": "INV-C4E00356BA634AE5",
+              "function": "INDEPENDENT_JUDGE",
+              "council_id": "C11_VISUAL_PERCEPTION_INFO_DESIGN",
+              "actor_id": "ACTOR-INDEPENDENT-VISUAL-JUDGE-8490D2DE56AE4DDC",
+              "isolated_context_id": "CTX-VISUAL-JUDGE-9F85DF25F1C1478E",
+              "input_hash": "ce767bd9cb0701bc6cfeb02a79ca4a84578ea0995e43eca1f2472b66c4d3a024"
+            }
+          },
+          {
+            "status": "PASS",
+            "candidate_id": "M4",
+            "independent": true,
+            "judge_invocation_id": "CERT-JUDGE-E9246A33C60C416B",
+            "previous_response_id": null,
+            "score": 94.0,
+            "hard_blockers": [],
+            "evidence_refs": [
+              "SRC-1:p1"
+            ],
+            "actual_render_hash": "e211eed981da2f4a4f5fdfcc2a8a08964ffebae7b79b10d2fa346008453731ed",
+            "raw": {
+              "status": "PASS",
+              "independent": true,
+              "judge_invocation_id": "CERT-JUDGE-E9246A33C60C416B",
+              "previous_response_id": null,
+              "score": 94,
+              "hard_blockers": [],
+              "evidence_refs": [
+                "SRC-1:p1"
+              ],
+              "invocation_id": "INV-71202E98ADB84387",
+              "function": "INDEPENDENT_JUDGE",
+              "council_id": "C11_VISUAL_PERCEPTION_INFO_DESIGN",
+              "actor_id": "ACTOR-INDEPENDENT-VISUAL-JUDGE-087E741A97614251",
+              "isolated_context_id": "CTX-VISUAL-JUDGE-3C7B2DC9BD96460E",
+              "input_hash": "e00ca89395ef3432276fe12937eea2b06e4513741228bf9c7a95afe5155f548d"
+            }
+          }
+        ],
+        "final_independent_judgment": {
+          "independent": true,
+          "judge_invocation_id": "CERT-FINAL-JUDGE-1CEB9FB04FF44C50",
+          "previous_response_id": null,
+          "winner_candidate_id": "M4",
+          "score": 97.0,
+          "hard_blockers": [],
+          "evidence_refs": [
+            "SRC-1:p1"
+          ],
+          "actual_render_hash": "e211eed981da2f4a4f5fdfcc2a8a08964ffebae7b79b10d2fa346008453731ed"
+        },
+        "winner": "M4",
+        "composition_count": 9,
+        "selection_status": "INDEPENDENT_FINAL_WINNER_LOCKED"
+      }
+    },
+    {
+      "name": "live_provider_adapter_fails_closed_unconfigured",
+      "status": "PASS",
+      "detail": {
+        "status": "NOT_EXECUTED",
+        "reason": "OPENAI_PROVIDER_NOT_CONFIGURED",
+        "invocation_id": "INV-932464BE8E5944A7",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22"
+      }
+    },
+    {
+      "name": "external_provider_injection_executable",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "output": {
+          "ok": true
+        },
+        "invocation_id": "INV-C9C0E967EEAE44CF",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22"
+      }
+    },
+    {
+      "name": "active_authority_no_stale_workflow_ref",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "active_authority_current_decision_schema",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "role_registry_current_decision_schema",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "workflow_requires_all_five_actual_renders",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "workflow_requires_5_to_9_search",
+      "status": "PASS",
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "suite": "Host-Native Brain Execution Certification",
+  "status": "PASS",
+  "passed": 16,
+  "total": 16,
+  "checks": [
+    {
+      "name": "explicit_host_native_selected_without_api",
+      "status": "PASS",
+      "detail": {
+        "mode": "HOST_NATIVE_MODE",
+        "reason": "EXPLICIT_HOST_NATIVE_MODE",
+        "host_bridge_available": false,
+        "api_provider_configured": false,
+        "explicit": true
+      }
+    },
+    {
+      "name": "auto_prefers_host_bridge",
+      "status": "PASS",
+      "detail": {
+        "mode": "HOST_NATIVE_MODE",
+        "reason": "AUTO_HOST_BRIDGE_AVAILABLE",
+        "host_bridge_available": true,
+        "api_provider_configured": false,
+        "explicit": false
+      }
+    },
+    {
+      "name": "auto_without_host_or_api_is_offline",
+      "status": "PASS",
+      "detail": {
+        "mode": "OFFLINE_VALIDATION_MODE",
+        "reason": "AUTO_NO_HOST_BRIDGE_OR_API_PROVIDER",
+        "host_bridge_available": false,
+        "api_provider_configured": false,
+        "explicit": false
+      }
+    },
+    {
+      "name": "host_native_without_bridge_returns_pending",
+      "status": "PASS",
+      "detail": {
+        "status": "BLOCKED",
+        "reason": "HOST_NATIVE_EXECUTION_PENDING"
+      }
+    },
+    {
+      "name": "pending_request_contains_exact_contract",
+      "status": "PASS",
+      "detail": [
+        {
+          "request_key": "a79560b2e2703fd25dcf58a2222b98efabd0faaf9daa2cdbd3571f2f98b131a5",
+          "host_session_id": "HOST-SESSION-CB9C2241FE3949D4",
+          "host_name": "HOST_MODEL",
+          "function": "PRODUCER",
+          "council_id": "C01_STRATEGIC_THESIS",
+          "actor_id": "ACTOR-PRODUCER-26026B91B3AB40D2",
+          "isolated_context_id": "CTX-PRODUCER-0D2AECB09D5B4FFE",
+          "previous_response_id": null,
+          "input_hash": "e814b8dfdbd9ede758af08271d469544afba6629a2d3d14e5589b2f70c427517",
+          "input_payload": {
+            "task": {
+              "task_id": "HN1",
+              "rfp_role": "STRATEGIC_READING",
+              "critical": true,
+              "rendered": false,
+              "evidence": [
+                {
+                  "id": "E1"
+                }
+              ]
+            },
+            "evidence": [
+              {
+                "id": "E1"
+              }
+            ],
+            "knowledge_readiness": {
+              "status": "READY",
+              "routed_expertise": [],
+              "blockers": [],
+              "principle": "EXPERTISE_AVAILABILITY_NE_KNOWLEDGE_READINESS"
+            },
+            "dynamic_working_council": {
+              "status": "PASS",
+              "council_type": "DYNAMIC_EXECUTABLE_EXPERT_COUNCIL",
+              "purpose": [
+                "GENERAL_PURSUIT"
+              ],
+              "actors": [
+                "SME-EVIDENCE",
+                "SIM-GOV-EVALUATOR",
+                "GOV-EVIDENCE",
+                "GOV-KNOWLEDGE-READINESS"
+              ],
+              "actor_count": 4,
+              "max_actors": 14,
+              "constitutional_councils_replaced": false,
+              "execution_required_for_active_claim": true,
+              "selection_reasons": {
+                "SME-EVIDENCE": [
+                  "CORE"
+                ],
+                "SIM-GOV-EVALUATOR": [
+                  "CORE"
+                ],
+                "GOV-EVIDENCE": [
+                  "CORE",
+                  "CRITICAL_GOVERNOR"
+                ],
+                "GOV-KNOWLEDGE-READINESS": [
+                  "CORE",
+                  "CRITICAL_GOVERNOR"
+                ]
+              }
+            },
+            "reasoning_pipelines": {
+              "selected": [],
+              "steps": {}
+            }
+          },
+          "required_response_contract": "RASHAD_HOST_NATIVE_RESPONSE_V1"
+        }
+      ]
+    },
+    {
+      "name": "host_native_brain_reaches_cognitive_lock",
+      "status": "PASS",
+      "detail": {
+        "status": "DRAFT_READY",
+        "reason": "ARTIFACT_RENDER_JUDGE_QA_RELEASE_STILL_REQUIRED"
+      }
+    },
+    {
+      "name": "host_native_experts_really_executed",
+      "status": "PASS",
+      "detail": [
+        "GOV-EVIDENCE",
+        "GOV-KNOWLEDGE-READINESS",
+        "SIM-GOV-EVALUATOR",
+        "SME-EVIDENCE"
+      ]
+    },
+    {
+      "name": "host_native_brain_execution_proof_recomputes",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "errors": [],
+        "coverage_recomputed": {
+          "status": "PASS",
+          "errors": [],
+          "executed_councils": [
+            "GOV-EVIDENCE",
+            "GOV-KNOWLEDGE-READINESS",
+            "SIM-GOV-EVALUATOR",
+            "SME-EVIDENCE"
+          ]
+        },
+        "expert_proof": {
+          "status": "PASS",
+          "errors": [],
+          "required": [
+            "SME-EVIDENCE",
+            "SIM-GOV-EVALUATOR",
+            "GOV-EVIDENCE",
+            "GOV-KNOWLEDGE-READINESS"
+          ],
+          "executed": [
+            "GOV-EVIDENCE",
+            "GOV-KNOWLEDGE-READINESS",
+            "SIM-GOV-EVALUATOR",
+            "SME-EVIDENCE"
+          ]
+        }
+      }
+    },
+    {
+      "name": "all_host_invocations_have_proof",
+      "status": "PASS",
+      "detail": 11
+    },
+    {
+      "name": "fake_host_pass_without_proof_blocked",
+      "status": "PASS",
+      "detail": {
+        "status": "NOT_EXECUTED",
+        "reason": "HOST_NATIVE_PROOF_INVALID",
+        "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+        "invocation_id": "INV-E74383C07C8A4081",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    },
+    {
+      "name": "host_bundle_exact_request_executes",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "host_native_proof": {
+          "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+          "host_session_id": "HS-BUNDLE",
+          "host_response_id": "RESP-BUNDLE-1",
+          "source": "HOST_NATIVE_MODEL_EXECUTION",
+          "independent_context": false
+        },
+        "output": {
+          "ok": true
+        },
+        "invocation_id": "RESP-BUNDLE-1",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+        "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+        "execution_mode": "HOST_NATIVE_MODE",
+        "provider": "HOST_NATIVE_MODEL",
+        "host_native": true
+      }
+    },
+    {
+      "name": "missing_bundle_response_is_pending_not_faked",
+      "status": "PASS",
+      "detail": {
+        "status": "HOST_NATIVE_PENDING",
+        "reason": "HOST_NATIVE_RESPONSE_REQUIRED",
+        "request_key": "61f100a3da35c228e397633ebae095721c8d6e9a62952235af3d9ec9ab89f918",
+        "host_session_id": "HS-BUNDLE",
+        "invocation_id": "HOST-PENDING-A11E93B95FC141BE",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+        "execution_mode": "HOST_NATIVE_MODE"
+      }
+    },
+    {
+      "name": "host_native_artifact_councils_execute",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "host_native_visual_search_reaches_independent_winner",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "winner": "M4",
+        "reason": null
+      }
+    },
+    {
+      "name": "host_native_visual_search_art_direction_executes",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "api_mode_unconfigured_fails_closed",
+      "status": "PASS",
+      "detail": {
+        "status": "NOT_EXECUTED",
+        "reason": "OPENAI_PROVIDER_NOT_CONFIGURED",
+        "invocation_id": "INV-62E5C2A666554376",
+        "function": "PRODUCER",
+        "council_id": "C01",
+        "actor_id": "A",
+        "isolated_context_id": "CTX",
+        "input_hash": "5041bf1f713df204784353e82f6a4a535931cb64f1f4b4a5aeaffcb720918b22",
+        "execution_mode": "API_PROVIDER_MODE"
+      }
+    }
+  ]
+}

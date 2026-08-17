@@ -1,0 +1,187 @@
+{
+  "schema": "RASHAD_QA_DETECTOR_IMPLEMENTATION_OVERLAY_V7_3",
+  "base_taxonomy_status": "SPECIFIED_NOT_IMPLEMENTED_IS_PRESERVED_AS_HISTORICAL_SPEC_TRUTH",
+  "rule": "A detector is runtime-implemented only when this overlay points to a real module/symbol and executable binding verification succeeds. A name string alone has zero implementation authority.",
+  "detectors": {
+    "ASSET_HASH_MATCH": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "BEFORE_AFTER_FONT_METRICS": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "BIDI_PHYSICAL_ORDER": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "BRAND_TOKEN_AND_ASSET": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/gates_v26.py",
+      "symbol": "inspect_v26"
+    },
+    "CANVAS_BBOX_CONTAINMENT": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "CLAIM_EVIDENCE_JOIN": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "COMPUTED_FONT_SIZE": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "COMPUTED_VISIBILITY_OPACITY": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "CROSS_DECK_STRUCTURAL_AND_INDEPENDENT_REVIEW": {
+      "mode": "INDEPENDENT_JUDGE",
+      "path": "qa_v4/detector_registry.py",
+      "symbol": "validate_case_evidence"
+    },
+    "DOM_SCENE_GEOMETRY": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "DOM_TEXT_GEOMETRY": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "EDGE_CROSSING_COUNT": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/gates_v26.py",
+      "symbol": "inspect_v26"
+    },
+    "EDGE_ENDPOINT_DISTANCE": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "EDGE_VISIBLE_GEOMETRY": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "EVIDENCE_TRACEABILITY": {
+      "mode": "SOURCE_VERIFICATION",
+      "path": "qa_v4/detector_registry.py",
+      "symbol": "validate_case_evidence"
+    },
+    "FONT_AND_TEXT_RENDER_METRICS": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "HYBRID_ARTIFACT_AND_INDEPENDENT_VISUAL_JUDGE": {
+      "mode": "INDEPENDENT_JUDGE",
+      "path": "qa_v4/detector_registry.py",
+      "symbol": "validate_case_evidence"
+    },
+    "HYPOTHESIS_STRUCTURAL_DIVERGENCE": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/composition_fingerprint.py",
+      "symbol": "evaluate"
+    },
+    "IMAGE_ASSET_AND_COMPOSITION": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/gates_v26.py",
+      "symbol": "inspect_v26"
+    },
+    "MASTER_HASH_LINEAGE": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "MEASUREMENT_COUNT_GATE": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "METAMORPHIC_STRESS_RUNNER": {
+      "mode": "METAMORPHIC",
+      "path": "qa_v4/stress_runner_final.py",
+      "symbol": "run_stress_matrix"
+    },
+    "PAIRWISE_STRUCTURAL_DIVERGENCE": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/composition_fingerprint.py",
+      "symbol": "evaluate"
+    },
+    "PAIRWISE_VISIBLE_INTERSECTION": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "PATH_TEXT_INTERSECTION": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/gates_v26.py",
+      "symbol": "inspect_v26"
+    },
+    "PEER_BBOX_COMPARISON": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "PEER_GAP_COMPARISON": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "PEER_PADDING_COMPARISON": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "PHYSICAL_SEQUENCE_COORDINATES": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "PROOF_PROVENANCE_GATE": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "QA_PROOF_AND_SIGNATURE_INTEGRITY": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "SOURCE_VALUE_EQUALITY": {
+      "mode": "SOURCE_VERIFICATION",
+      "path": "qa_v4/detector_registry.py",
+      "symbol": "validate_case_evidence"
+    },
+    "STATE_AND_PROOF_DEPENDENCY": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "SVG_DOM_CONNECTOR_TOPOLOGY": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "VISIBLE_AREA_CHECK": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/visual_qa_core.py",
+      "symbol": "inspect"
+    },
+    "VISIBLE_TEXT_POLICY_SCAN": {
+      "mode": "LOCAL_RUNTIME",
+      "path": "qa/gates_v26.py",
+      "symbol": "inspect_v26"
+    }
+  }
+}

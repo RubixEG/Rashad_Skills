@@ -1,0 +1,145 @@
+{
+  "suite": "Rashad v7.1 Incident Regression Registry",
+  "status": "FAIL",
+  "incident_count": 15,
+  "passed": 16,
+  "total": 17,
+  "tests": [
+    {
+      "name": "registry_unique_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "every_incident_has_regression_mapping",
+      "status": "PASS"
+    },
+    {
+      "name": "concept_wireframe_never_user_visible",
+      "status": "PASS"
+    },
+    {
+      "name": "missing_pixel_review_never_user_visible",
+      "status": "PASS"
+    },
+    {
+      "name": "repair_required_without_history_blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "shape_only_bad_redf_profile_blocked",
+      "status": "PASS",
+      "detail": [
+        "PPTX_STRUCTURAL_MONOTONY",
+        "PPTX_SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE",
+        "PPTX_EQUAL_CARD_GRID_OVERUSE"
+      ]
+    },
+    {
+      "name": "strategy_label_cannot_fake_actual_product_objects",
+      "status": "PASS",
+      "detail": [
+        "EXPECTED_PAGE_COUNT_MISMATCH",
+        "SLIDE_1_IMAGE_LED_WITHOUT_IMAGE",
+        "SLIDE_2_CHART_LED_WITHOUT_CHART",
+        "SLIDE_3_TABLE_LED_WITHOUT_TABLE_OR_GRID_PROOF",
+        "PPTX_STRUCTURAL_MONOTONY",
+        "PPTX_SHAPE_ONLY_ANALYTICAL_DECK_OVERUSE",
+        "PPTX_EQUAL_CARD_GRID_OVERUSE"
+      ]
+    },
+    {
+      "name": "direct_output_without_artifact_execution_blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "framework_qa_substitution_blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "current_manifest_v7_1",
+      "status": "FAIL"
+    },
+    {
+      "name": "current_decision_workflow_v7",
+      "status": "PASS"
+    },
+    {
+      "name": "current_artifact_delivery_workflow_v7_1",
+      "status": "PASS"
+    },
+    {
+      "name": "concept_internal_only_policy_locked",
+      "status": "PASS"
+    },
+    {
+      "name": "golden_acceptance_required",
+      "status": "PASS"
+    },
+    {
+      "name": "artifact_strategy_registry_matches_runtime",
+      "status": "PASS",
+      "detail": {
+        "runtime": [
+          "ARCHITECTURE_LED",
+          "BEFORE_AFTER",
+          "CAUSE_EFFECT",
+          "CHART_LED",
+          "COMPARISON_LED",
+          "CONTROL_TOWER_LED",
+          "DECISION_LED",
+          "EVIDENCE_LED",
+          "HYBRID_EXHIBIT",
+          "IMAGE_LED",
+          "JOURNEY_LED",
+          "MAP_LED",
+          "MATRIX_LED",
+          "NUMBER_LED",
+          "PORTFOLIO_LED",
+          "PROCESS_LED",
+          "QUESTION_LED",
+          "SCENARIO_LED",
+          "SCORECARD_LED",
+          "SEQUENCE_LED",
+          "STATEMENT_LED",
+          "SYSTEM_LED",
+          "TABLE_LED",
+          "TRADEOFF_LED"
+        ],
+        "registry": [
+          "ARCHITECTURE_LED",
+          "BEFORE_AFTER",
+          "CAUSE_EFFECT",
+          "CHART_LED",
+          "COMPARISON_LED",
+          "CONTROL_TOWER_LED",
+          "DECISION_LED",
+          "EVIDENCE_LED",
+          "HYBRID_EXHIBIT",
+          "IMAGE_LED",
+          "JOURNEY_LED",
+          "MAP_LED",
+          "MATRIX_LED",
+          "NUMBER_LED",
+          "PORTFOLIO_LED",
+          "PROCESS_LED",
+          "QUESTION_LED",
+          "SCENARIO_LED",
+          "SCORECARD_LED",
+          "SEQUENCE_LED",
+          "STATEMENT_LED",
+          "SYSTEM_LED",
+          "TABLE_LED",
+          "TRADEOFF_LED"
+        ]
+      }
+    },
+    {
+      "name": "final_verifier_orchestration_is_file_logged_locked_and_logdir_resilient",
+      "status": "PASS"
+    },
+    {
+      "name": "regression_roots_cleaned_before_each_run",
+      "status": "PASS"
+    }
+  ]
+}

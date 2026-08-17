@@ -1,0 +1,1183 @@
+{
+  "suite": "Rashad OS v7.3 Final Package Adversarial Red Team",
+  "status": "PASS",
+  "blocked": 79,
+  "total": 79,
+  "attacks": [
+    {
+      "attack": "A01_skill_version_split_brain_blocked",
+      "status": "PASS",
+      "detail": [
+        "7.3.0",
+        "7.3.0",
+        "7.3.0",
+        "7.3.0"
+      ]
+    },
+    {
+      "attack": "A02_brain_version_split_brain_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A03_artifact_version_split_brain_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A04_qa_version_current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A05_skill_version_md_current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A06_current_cert_harness_is_v73",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A07_current_redteam_is_v73",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A08_old_v702_harnesses_baseline_only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A09_protected_counts_exact",
+      "status": "PASS",
+      "detail": {
+        "prompts": 388,
+        "scopes": 96,
+        "mappings": 96
+      }
+    },
+    {
+      "attack": "A10_protected_hashes_exact",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "A11_global_authority_hashes_exact",
+      "status": "PASS",
+      "detail": {
+        "version": "7.3.0",
+        "bad": []
+      }
+    },
+    {
+      "attack": "A12_authority_binding_current_exact",
+      "status": "PASS",
+      "detail": {
+        "version": "7.3.0",
+        "bad": []
+      }
+    },
+    {
+      "attack": "A13_manifest_global_authorities_exist",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "A14_inherited_artifact_foundations_not_global",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B01_69_executable_brain_actors",
+      "status": "PASS",
+      "detail": 69
+    },
+    {
+      "attack": "B02_all_registered_actors_routable",
+      "status": "PASS",
+      "detail": {
+        "unreachable": [],
+        "unknown": []
+      }
+    },
+    {
+      "attack": "B03_ai_engineering_is_real_actor",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B04_ai_engineering_has_route",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B05_registered_not_execution_law_runtime",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B06_brain_recomputes_expert_execution_proof",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B07_brain_requires_cognitive_lock",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B08_expert_isolated_invocation_proof",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "B09_orchestrator_executes_expert_council",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C01_artifact_20_councils",
+      "status": "PASS",
+      "detail": 20
+    },
+    {
+      "attack": "C02_artifact_107_roles",
+      "status": "PASS",
+      "detail": 107
+    },
+    {
+      "attack": "C03_artifact_24_strategy_exact_parity",
+      "status": "PASS",
+      "detail": {
+        "runtime": 24,
+        "registry": 24
+      }
+    },
+    {
+      "attack": "C04_artifact_council_role_references_resolve",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "C05_artifact_councils_execute_isolated_ledgers",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C06_no_council_proof_no_production",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C07_concept_render_never_user_visible",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C08_actual_pixel_QA_required",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C09_repair_loop_required",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C10_exact_file_delivery_hash_binding",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C11_framework_QA_cannot_substitute",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C12_generic_equal_cards_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C13_shape_only_artifact_collapse_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C14_five_communication_strategies_not_geometry",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C15_exact_handoff_runtime_exists",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C16_image_led_logo_only_blocked",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "C17_handoff_incident_fixture_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q01_qa_14_councils",
+      "status": "PASS",
+      "detail": 14
+    },
+    {
+      "attack": "Q02_actual_pixel_council",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q03_simplicity_artifact_skeptic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q04_delivery_repair_council",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q05_golden_rfp_council",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "Q06_QA_cannot_emit_RELEASED",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "Q07_release_chair_only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "E01_brain_coherence_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E02_brain_stress_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E03_user_visible_delivery_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E04_golden_redf_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E05_incident_regression_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E06_full_line_conflict_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E07_A_to_Z_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E08_exact_handoff_certification_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "E09_real_wrong_handoff_incident_replay_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "P01_final_verify_v721_current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P02_final_verify_directory_inode_lock_file_logged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P03_regression_outputs_clean_each_run",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P04_no_nested_zip_packages",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "attack": "P05_no_pyc_cache",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P06_no_current_v71_execution_dependency",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P07_current_docs_v73_v35",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P08_no_pending_v72_finalization_status",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "P09_skill_manifest_current_v73",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN01_host_native_law_global",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN02_host_native_qa_law_global",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN03_three_execution_modes_exact",
+      "status": "PASS",
+      "detail": [
+        "HOST_NATIVE_MODE",
+        "API_PROVIDER_MODE",
+        "OFFLINE_VALIDATION_MODE"
+      ]
+    },
+    {
+      "attack": "HN04_brain_host_native_provider_runtime",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN05_qa_host_native_provider_runtime",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN06_host_native_proof_recomputed",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "HN07_release_preserves_external_independence",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "W01_decision_workflow_current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "W02_artifact_delivery_overlay_bound",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "W03_v72_brain_coherence_laws_global",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "attack": "V73_remediation_matrix_zero_open",
+      "status": "PASS",
+      "detail": {
+        "suite": "Rashad v7.3 Council-Supervised Remediation Matrix",
+        "status": "PASS",
+        "finding_count": 49,
+        "closed": 48,
+        "external_prerequisite_enforced": 1,
+        "open_count": 0,
+        "open_p0_p1": 0,
+        "rule": "Implementer → Specialist Council → Adversarial Council → Engagement-File Acceptance. Code presence alone is not closure.",
+        "engagement_acceptance_status": "PASS",
+        "rows": [
+          {
+            "finding_id": "R1",
+            "severity": "P0",
+            "owner_council": "VISUAL_PRODUCTION_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "brain/production/composer.py",
+              "brain/production/renderer.py",
+              "brain/imagery_director.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R2",
+            "severity": "P0",
+            "owner_council": "ARTIFACT_BRAIN_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "ARTIFACT_BRAIN_REGRESSION_V7_3::IMAGE_LED_reachable_for_cover"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R3",
+            "severity": "P0",
+            "owner_council": "AUTHORITY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "82_V7_3_VISUAL_PRODUCTION_ORGAN_AND_COMPOSITION_INTELLIGENCE_LAW.md"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R4",
+            "severity": "P0",
+            "owner_council": "TOTAL_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "quality_targets",
+              "G39_DOMINANT_MASS"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "NEW-01",
+            "severity": "P0",
+            "owner_council": "DELIVERY_INTEGRITY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "product_geometry.pdf_model",
+              "ENGAGEMENT_ARTIFACT_ACCEPTANCE_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "NEW-02",
+            "severity": "P0",
+            "owner_council": "BRAND_TYPOGRAPHY_COUNCIL",
+            "status": "EXTERNAL_PREREQUISITE_ENFORCED",
+            "evidence": [
+              "font_preflight.py"
+            ],
+            "detail": "Brand font bytes are an environment prerequisite and are not embedded in the Skill; production blocks if absent."
+          },
+          {
+            "finding_id": "AB-01",
+            "severity": "P0",
+            "owner_council": "ARTIFACT_BRAIN_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "composition_spec.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AB-03",
+            "severity": "P0",
+            "owner_council": "VISUAL_DIVERGENCE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "VISUAL_PRODUCTION_V7_3_RESULTS",
+              "spec_divergence.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AB-04",
+            "severity": "P0",
+            "owner_council": "COMPOSITION_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "THRESHOLD_BINDING_AUDIT_V7_3",
+              "product_geometry.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-01",
+            "severity": "P0",
+            "owner_council": "TOTAL_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "gates_v26.py",
+              "visual_qa_core.py",
+              "ARABIC_VISIBLE_LANGUAGE_PURITY_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-02",
+            "severity": "P0",
+            "owner_council": "ENGAGEMENT_ACCEPTANCE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "ENGAGEMENT_ARTIFACT_ACCEPTANCE_V7_3 actual file hashes"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-03",
+            "severity": "P0",
+            "owner_council": "STRESS_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "STRESS_CONTRACT_PARITY_V7_3",
+              "stress_runner_final.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-05",
+            "severity": "P0",
+            "owner_council": "GEOMETRY_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "product_geometry.py",
+              "quality_floors_v7_3.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AR-01",
+            "severity": "P0",
+            "owner_council": "ARABIC_VISIBLE_LANGUAGE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "product_geometry.py",
+              "G36_VISIBLE_LANGUAGE_PURITY"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AR-02",
+            "severity": "P0",
+            "owner_council": "ARABIC_VISIBLE_LANGUAGE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "product_geometry.INTERNAL"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AR-03",
+            "severity": "P0",
+            "owner_council": "CERTIFICATION_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "FINAL_VERIFY.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AR-04",
+            "severity": "P0",
+            "owner_council": "ARABIC_PDF_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "searchable_pdf.py",
+              "VISUAL_PRODUCTION_V7_3_RESULTS"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AR-05",
+            "severity": "P0",
+            "owner_council": "QA_IMPLEMENTATION_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "detector_implementation_registry_v7_3.json",
+              "implementation_map()"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "E10",
+            "severity": "P1",
+            "owner_council": "DELIVERY_RUNTIME_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "GOVERNED_PRODUCTION_DELIVERY_V7_3 successful governed path"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R5",
+            "severity": "P1",
+            "owner_council": "ARTIFACT_BRAIN_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "ARTIFACT_BRAIN_REGRESSION_V7_3::rich_technical_problem_not_minimal_only"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R6",
+            "severity": "P1",
+            "owner_council": "HOST_NATIVE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "HostNativeProvider",
+              "GOVERNED_PRODUCTION_DELIVERY_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R7",
+            "severity": "P1",
+            "owner_council": "THRESHOLD_GOVERNANCE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "ARTIFACT_BRAIN_REGRESSION_V7_3::diagram_ratio_threshold_parity",
+              "ACTIVE_AUTHORITY_MANIFEST"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R8",
+            "severity": "P1",
+            "owner_council": "DELIVERY_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "delivery_gate.py",
+              "V7_2_USER_VISIBLE_DELIVERY_CERTIFICATION"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R9",
+            "severity": "P1",
+            "owner_council": "PRODUCTION_RUNTIME_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "artifact_delivery_orchestrator.py",
+              "GOVERNED_PRODUCTION_DELIVERY_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AB-05",
+            "severity": "P1",
+            "owner_council": "EXPERT_ROUTING_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "ARTIFACT_EXPERT_REACHABILITY_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AB-06",
+            "severity": "P1",
+            "owner_council": "IMAGERY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "artifact_brain.py",
+              "image_provider.py",
+              "imagery_director.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AB-07",
+            "severity": "P1",
+            "owner_council": "ART_DIRECTION_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "design_system_resolver.py",
+              "type_hierarchy_planner.py",
+              "style_memory.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AB-08",
+            "severity": "P1",
+            "owner_council": "CARD_DOMINANCE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "G18_CARD_TRUTH"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-04",
+            "severity": "P1",
+            "owner_council": "TOTAL_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "G16_CONNECTORS",
+              "G17_LABELS"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-06",
+            "severity": "P1",
+            "owner_council": "VISIBLE_LANGUAGE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "G36_VISIBLE_LANGUAGE_PURITY"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-07",
+            "severity": "P1",
+            "owner_council": "DELIVERY_INTEGRITY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "format-neutral product_geometry + engagement acceptance"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-08",
+            "severity": "P1",
+            "owner_council": "CONNECTOR_GEOMETRY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "G41_CONNECTOR_PATH_GEOMETRY"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AR-06",
+            "severity": "P1",
+            "owner_council": "BIDI_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "G27_BIDI_RUNS routed by unified_html_qa"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AR-07",
+            "severity": "P1",
+            "owner_council": "ARABIC_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "G35",
+              "G36"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AR-09",
+            "severity": "P1",
+            "owner_council": "COBRAND_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "G28_COBRAND",
+              "ARTIFACT_BRAIN_REGRESSION_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AR-08",
+            "severity": "P1",
+            "owner_council": "ARABIC_NUMERAL_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "G36_VISIBLE_LANGUAGE_PURITY"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "E12",
+            "severity": "P2",
+            "owner_council": "AUTHORITY_IDENTITY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "ARTIFACT_ENGINE_LOGICAL_ID_INDEX_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "E13",
+            "severity": "P2",
+            "owner_council": "VERSION_AUTHORITY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "VERSION.json",
+              "OS_STATUS.json",
+              "CURRENT_SKILL_STATUS.json",
+              "BRAIN_MANIFEST.json"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R10",
+            "severity": "P2",
+            "owner_council": "COBRAND_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "VISUAL_PRODUCTION_RECIPE_INDEX_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R11",
+            "severity": "P2",
+            "owner_council": "ARTIFACT_BRAIN_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "ARTIFACT_BRAIN_REGRESSION_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "R12",
+            "severity": "P2",
+            "owner_council": "AUTHORITY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "SKILL.md V7.3 Visual Production"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AB-09",
+            "severity": "P2",
+            "owner_council": "NEGATIVE_SPACE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "negative_space_budget.py",
+              "composition_spec.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AB-10",
+            "severity": "P2",
+            "owner_council": "REFERENCE_GRAMMAR_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "ARTIFACT_BRAIN_REGRESSION_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "AB-11",
+            "severity": "P2",
+            "owner_council": "VISUAL_MEMORY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "visual_memory.py",
+              "ARTIFACT_BRAIN_REGRESSION_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-09",
+            "severity": "P2",
+            "owner_council": "THRESHOLD_GOVERNANCE_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "THRESHOLD_BINDING_AUDIT_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-10",
+            "severity": "P2",
+            "owner_council": "QA_IMPLEMENTATION_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "detector_registry.py"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-11",
+            "severity": "P2",
+            "owner_council": "GEOMETRY_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "visual_qa_core.py G06"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "QA-12",
+            "severity": "P2",
+            "owner_council": "STRESS_QA_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "STRESS_CONTRACT_PARITY_V7_3"
+            ],
+            "detail": ""
+          },
+          {
+            "finding_id": "P2-DECK-CONTINUITY-ZERO-CALLERS",
+            "severity": "P2",
+            "owner_council": "DECK_CONTINUITY_COUNCIL",
+            "status": "CLOSED",
+            "evidence": [
+              "DECK_CONTINUITY_CERTIFICATION_V7_3",
+              "delivery_gate.py"
+            ],
+            "detail": ""
+          }
+        ]
+      }
+    },
+    {
+      "attack": "V73_actual_engagement_acceptance_bound",
+      "status": "PASS",
+      "detail": [
+        {
+          "path": "/mnt/data/Rubix_RFP_Summary_PR-IC-2026-037_v10_V721 ChatGpt.pptx",
+          "name": "Rubix_RFP_Summary_PR-IC-2026-037_v10_V721 ChatGpt.pptx",
+          "sha256": "c246a472dafd3b07911afa73848b1d3f9eaba685d7260f403f505b79ea283084",
+          "bytes": 2532510,
+          "acceptance_status": "BLOCKED",
+          "page_count": 24,
+          "format": "PPTX",
+          "blockers": [
+            "DECK_DISTINCT_COMPOSITION_FLOOR_NOT_MET",
+            "PAGE_10::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_10::SAFE_AREA_VIOLATION",
+            "PAGE_11::SAFE_AREA_VIOLATION",
+            "PAGE_12::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_12::SAFE_AREA_VIOLATION",
+            "PAGE_13::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_13::SAFE_AREA_VIOLATION",
+            "PAGE_14::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_14::SAFE_AREA_VIOLATION",
+            "PAGE_15::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_15::SAFE_AREA_VIOLATION",
+            "PAGE_16::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_16::SAFE_AREA_VIOLATION",
+            "PAGE_17::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_17::SAFE_AREA_VIOLATION",
+            "PAGE_18::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_18::SAFE_AREA_VIOLATION",
+            "PAGE_19::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_19::SAFE_AREA_VIOLATION",
+            "PAGE_1::INTERNAL_OR_DEBUG_VOCABULARY:Rashad OS V7.2.1",
+            "PAGE_1::SAFE_AREA_VIOLATION",
+            "PAGE_1::WESTERN_NUMERAL_IN_ARABIC_NATURAL_LANGUAGE:إصدار تنفيذي وفق Rashad OS V7.2.1",
+            "PAGE_20::SAFE_AREA_VIOLATION",
+            "PAGE_21::SAFE_AREA_VIOLATION",
+            "PAGE_22::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_22::SAFE_AREA_VIOLATION",
+            "PAGE_23::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_23::SAFE_AREA_VIOLATION",
+            "PAGE_24::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_24::SAFE_AREA_VIOLATION",
+            "PAGE_2::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_2::SAFE_AREA_VIOLATION",
+            "PAGE_3::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_3::SAFE_AREA_VIOLATION",
+            "PAGE_4::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_4::SAFE_AREA_VIOLATION",
+            "PAGE_5::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_5::SAFE_AREA_VIOLATION",
+            "PAGE_6::SAFE_AREA_VIOLATION",
+            "PAGE_7::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_7::SAFE_AREA_VIOLATION",
+            "PAGE_8::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_8::SAFE_AREA_VIOLATION",
+            "PAGE_9::DOMINANT_MASS_BELOW_FLOOR",
+            "PAGE_9::SAFE_AREA_VIOLATION"
+          ],
+          "warnings": [],
+          "stats": {
+            "equal_card_pages": 0,
+            "shape_only_pages": 0,
+            "raster_only": false
+          },
+          "diversity": {
+            "distinct_ratio": 0.522,
+            "twin_pairs": [
+              {
+                "a": 3,
+                "b": 7,
+                "distance": 0.0429
+              },
+              {
+                "a": 4,
+                "b": 9,
+                "distance": 0.0648
+              },
+              {
+                "a": 4,
+                "b": 14,
+                "distance": 0.0495
+              },
+              {
+                "a": 4,
+                "b": 18,
+                "distance": 0.1187
+              },
+              {
+                "a": 4,
+                "b": 21,
+                "distance": 0.0354
+              },
+              {
+                "a": 4,
+                "b": 22,
+                "distance": 0.0804
+              },
+              {
+                "a": 5,
+                "b": 10,
+                "distance": 0.0648
+              },
+              {
+                "a": 5,
+                "b": 20,
+                "distance": 0.1133
+              },
+              {
+                "a": 6,
+                "b": 8,
+                "distance": 0.0895
+              },
+              {
+                "a": 6,
+                "b": 11,
+                "distance": 0.1196
+              },
+              {
+                "a": 7,
+                "b": 13,
+                "distance": 0.1121
+              },
+              {
+                "a": 8,
+                "b": 11,
+                "distance": 0.0462
+              },
+              {
+                "a": 8,
+                "b": 16,
+                "distance": 0.0774
+              },
+              {
+                "a": 9,
+                "b": 14,
+                "distance": 0.0493
+              },
+              {
+                "a": 9,
+                "b": 21,
+                "distance": 0.0729
+              },
+              {
+                "a": 9,
+                "b": 22,
+                "distance": 0.1031
+              },
+              {
+                "a": 10,
+                "b": 20,
+                "distance": 0.0938
+              },
+              {
+                "a": 11,
+                "b": 16,
+                "distance": 0.0664
+              },
+              {
+                "a": 14,
+                "b": 21,
+                "distance": 0.0401
+              },
+              {
+                "a": 14,
+                "b": 22,
+                "distance": 0.0709
+              },
+              {
+                "a": 14,
+                "b": 23,
+                "distance": 0.1176
+              },
+              {
+                "a": 15,
+                "b": 23,
+                "distance": 0.112
+              },
+              {
+                "a": 18,
+                "b": 21,
+                "distance": 0.1072
+              },
+              {
+                "a": 21,
+                "b": 22,
+                "distance": 0.087
+              },
+              {
+                "a": 22,
+                "b": 23,
+                "distance": 0.0974
+              }
+            ],
+            "twin_count": 25,
+            "tau": 0.12
+          },
+          "rule": "Engagement acceptance is measured on the actual supplied artifact bytes, never inferred from framework fixtures."
+        },
+        {
+          "path": "/mnt/data/Rubix_RFP_Summary_PR-IC-2026-037_v9 Claude Chat.pptx",
+          "name": "Rubix_RFP_Summary_PR-IC-2026-037_v9 Claude Chat.pptx",
+          "sha256": "e4116c3e497aab4a9b675950118d32bda03419fb16f039117a2fc688beda4988",
+          "bytes": 9062811,
+          "acceptance_status": "BLOCKED",
+          "page_count": 30,
+          "format": "PPTX",
+          "blockers": [
+            "RASTER_ONLY_PROJECTION_WITHOUT_HASH_BOUND_SEMANTIC_MASTER_PROOF"
+          ],
+          "warnings": [],
+          "stats": {
+            "equal_card_pages": 0,
+            "shape_only_pages": 0,
+            "raster_only": true
+          },
+          "diversity": {
+            "distinct_ratio": null,
+            "twin_pairs": [],
+            "twin_count": 0,
+            "tau": 0.12,
+            "status": "NOT_APPLICABLE_TO_RASTER_PROJECTION"
+          },
+          "rule": "Engagement acceptance is measured on the actual supplied artifact bytes, never inferred from framework fixtures."
+        }
+      ]
+    },
+    {
+      "attack": "V73_visual_production_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "attack": "V73_governed_positive_path_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "suite": "Rashad v7.2.1 Exact Artifact Handoff Lock Certification",
+  "status": "PASS",
+  "passed": 9,
+  "total": 9,
+  "results": [
+    {
+      "name": "matching_exact_file_certified",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "dossier_sha_mismatch_blocks",
+      "status": "PASS",
+      "detail": [
+        "DELIVERED_PPTX_SHA_MISMATCH_DOSSIER"
+      ]
+    },
+    {
+      "name": "deck_review_sha_mismatch_blocks",
+      "status": "PASS",
+      "detail": [
+        "DELIVERED_PPTX_SHA_MISMATCH_DECK_PIXEL_REVIEW"
+      ]
+    },
+    {
+      "name": "product_sha_mismatch_blocks",
+      "status": "PASS",
+      "detail": [
+        "DELIVERED_PPTX_SHA_MISMATCH_PRODUCT_INSPECTION"
+      ]
+    },
+    {
+      "name": "slide_count_mismatch_blocks",
+      "status": "PASS",
+      "detail": [
+        "DELIVERED_PPTX_PRODUCT_INSPECTION_NOT_PASS",
+        "DELIVERED_SLIDE_COUNT_MISMATCH_DOSSIER_PAGES",
+        "PIXEL_REVIEW_COUNT_MISMATCH_DELIVERED_SLIDES",
+        "PRODUCTION_RENDER_COUNT_MISMATCH_DELIVERED_SLIDES",
+        "PRODUCT_INSPECTION::RASTER_ONLY_PROJECTION_WITHOUT_HASH_BOUND_SEMANTIC_MASTER_PROOF"
+      ]
+    },
+    {
+      "name": "pixel_count_mismatch_blocks",
+      "status": "PASS",
+      "detail": [
+        "PIXEL_REVIEW_COUNT_MISMATCH_DELIVERED_SLIDES"
+      ]
+    },
+    {
+      "name": "production_render_count_mismatch_blocks",
+      "status": "PASS",
+      "detail": [
+        "PRODUCTION_RENDER_COUNT_MISMATCH_DELIVERED_SLIDES"
+      ]
+    },
+    {
+      "name": "certificate_reuse_wrong_bytes_blocks",
+      "status": "PASS",
+      "detail": [
+        "HANDOFF_CERTIFICATE_PPTX_SHA_MISMATCH"
+      ]
+    },
+    {
+      "name": "trace_different_page_count_blocks",
+      "status": "PASS",
+      "detail": [
+        "FINAL_TRACE_DESCRIBES_DIFFERENT_PAGE_COUNT_THAN_DELIVERED_FILE"
+      ]
+    }
+  ]
+}
